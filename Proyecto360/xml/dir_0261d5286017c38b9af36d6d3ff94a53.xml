@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="dir_0261d5286017c38b9af36d6d3ff94a53" kind="dir">
+    <compoundname>Assets/Scripts/Editor</compoundname>
+    <innerfile refid="_a_xC3_xB1adir_punto_8cs">AñadirPunto.cs</innerfile>
+    <innerfile refid="_botton_navigation_asigner_cont_8cs">BottonNavigationAsignerCont.cs</innerfile>
+    <innerfile refid="_cursor_changer_asigner_content_8cs">CursorChangerAsignerContent.cs</innerfile>
+    <innerfile refid="_generador_de_botones_desde_img_8cs">GeneradorDeBotonesDesdeImg.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Assets/Scripts/Editor/"/>
+  </compounddef>
+</doxygen>

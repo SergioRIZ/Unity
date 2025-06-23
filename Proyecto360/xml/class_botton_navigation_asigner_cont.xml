@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_botton_navigation_asigner_cont" kind="class" language="C#" prot="public">
+    <compoundname>BottonNavigationAsignerCont</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">EditorWindow</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_botton_navigation_asigner_cont_1a2797b36636850dc5fec21fb62245911d" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject BottonNavigationAsignerCont.parentContainer</definition>
+        <argsstring></argsstring>
+        <name>parentContainer</name>
+        <qualifiedname>BottonNavigationAsignerCont.parentContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Editor/BottonNavigationAsignerCont.cs" line="9" column="24" bodyfile="Assets/Scripts/Editor/BottonNavigationAsignerCont.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_botton_navigation_asigner_cont_1ab71927641f207710f51b7b6be8b873a1" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject BottonNavigationAsignerCont.contentObject</definition>
+        <argsstring></argsstring>
+        <name>contentObject</name>
+        <qualifiedname>BottonNavigationAsignerCont.contentObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Editor/BottonNavigationAsignerCont.cs" line="11" column="24" bodyfile="Assets/Scripts/Editor/BottonNavigationAsignerCont.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_botton_navigation_asigner_cont_1aee96ccb0a7d41e67a05e5bacd6239648" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject BottonNavigationAsignerCont.contentAndr</definition>
+        <argsstring></argsstring>
+        <name>contentAndr</name>
+        <qualifiedname>BottonNavigationAsignerCont.contentAndr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Editor/BottonNavigationAsignerCont.cs" line="13" column="24" bodyfile="Assets/Scripts/Editor/BottonNavigationAsignerCont.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_botton_navigation_asigner_cont_1aa63112f2901f734a821418374491ddc3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void BottonNavigationAsignerCont.ShowWindow</definition>
+        <argsstring>()</argsstring>
+        <name>ShowWindow</name>
+        <qualifiedname>BottonNavigationAsignerCont.ShowWindow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Editor/BottonNavigationAsignerCont.cs" line="17" column="24" bodyfile="Assets/Scripts/Editor/BottonNavigationAsignerCont.cs" bodystart="17" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_botton_navigation_asigner_cont_1ac891153dbb1019ecb48e86a77b6021f6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BottonNavigationAsignerCont.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <qualifiedname>BottonNavigationAsignerCont.OnGUI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Editor/BottonNavigationAsignerCont.cs" line="23" column="18" bodyfile="Assets/Scripts/Editor/BottonNavigationAsignerCont.cs" bodystart="23" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_botton_navigation_asigner_cont_1a5eb1d04aa4335754ad0083ad4e24bc6a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BottonNavigationAsignerCont.AssignContentToButtons</definition>
+        <argsstring>()</argsstring>
+        <name>AssignContentToButtons</name>
+        <qualifiedname>BottonNavigationAsignerCont.AssignContentToButtons</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Editor/BottonNavigationAsignerCont.cs" line="45" column="18" bodyfile="Assets/Scripts/Editor/BottonNavigationAsignerCont.cs" bodystart="45" bodyend="69"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BottonNavigationAsignerCont</label>
+        <link refid="class_botton_navigation_asigner_cont"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>EditorWindow</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BottonNavigationAsignerCont</label>
+        <link refid="class_botton_navigation_asigner_cont"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>EditorWindow</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/Editor/BottonNavigationAsignerCont.cs" line="6" column="7" bodyfile="Assets/Scripts/Editor/BottonNavigationAsignerCont.cs" bodystart="7" bodyend="70"/>
+    <listofallmembers>
+      <member refid="class_botton_navigation_asigner_cont_1a5eb1d04aa4335754ad0083ad4e24bc6a" prot="private" virt="non-virtual"><scope>BottonNavigationAsignerCont</scope><name>AssignContentToButtons</name></member>
+      <member refid="class_botton_navigation_asigner_cont_1aee96ccb0a7d41e67a05e5bacd6239648" prot="private" virt="non-virtual"><scope>BottonNavigationAsignerCont</scope><name>contentAndr</name></member>
+      <member refid="class_botton_navigation_asigner_cont_1ab71927641f207710f51b7b6be8b873a1" prot="private" virt="non-virtual"><scope>BottonNavigationAsignerCont</scope><name>contentObject</name></member>
+      <member refid="class_botton_navigation_asigner_cont_1ac891153dbb1019ecb48e86a77b6021f6" prot="private" virt="non-virtual"><scope>BottonNavigationAsignerCont</scope><name>OnGUI</name></member>
+      <member refid="class_botton_navigation_asigner_cont_1a2797b36636850dc5fec21fb62245911d" prot="private" virt="non-virtual"><scope>BottonNavigationAsignerCont</scope><name>parentContainer</name></member>
+      <member refid="class_botton_navigation_asigner_cont_1aa63112f2901f734a821418374491ddc3" prot="public" virt="non-virtual"><scope>BottonNavigationAsignerCont</scope><name>ShowWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

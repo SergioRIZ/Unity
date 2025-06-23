@@ -1,0 +1,151 @@
+\doxysection{Typewriter\+Effect Class Reference}
+\hypertarget{class_typewriter_effect}{}\label{class_typewriter_effect}\index{TypewriterEffect@{TypewriterEffect}}
+
+
+Efecto de máquina de escribir para mostrar texto letra por letra, con sonido y animaciones.  
+
+
+
+
+Inheritance diagram for Typewriter\+Effect\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=167pt]{class_typewriter_effect__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Typewriter\+Effect\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=167pt]{class_typewriter_effect__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+Text\+Mesh\+Pro\+UGUI \mbox{\hyperlink{class_typewriter_effect_ad9f470b2151666588b9929d6462fe336}{text\+Component}}
+\begin{DoxyCompactList}\small\item\em Componente de texto en pantalla donde se mostrará el efecto de máquina de escribir. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_typewriter_effect_a1e78f590ce0aab869dedeaa7a10672a9}{full\+Text}}
+\begin{DoxyCompactList}\small\item\em Texto completo que se va a escribir con el efecto. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_typewriter_effect_ad8407cbfa48ac5a2eae268ec120658e7}{delay}} = 0.\+03f
+\begin{DoxyCompactList}\small\item\em Retardo en segundos entre la aparición de cada letra. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_typewriter_effect_a1910306ba597a487b51caad03064c05d}{line\+Delay}} = 0.\+4f
+\begin{DoxyCompactList}\small\item\em Retardo adicional en segundos al hacer un salto de línea. \end{DoxyCompactList}\item 
+Audio\+Source \mbox{\hyperlink{class_typewriter_effect_a38388b5ae69315932b44cede8ff46c5a}{audio\+Source}}
+\begin{DoxyCompactList}\small\item\em Fuente de audio para reproducir sonidos de tecla. \end{DoxyCompactList}\item 
+Audio\+Clip \mbox{\hyperlink{class_typewriter_effect_a1099819e308a1e56573920b698586f52}{key\+Sound}}
+\begin{DoxyCompactList}\small\item\em Clip de sonido que se reproduce por cada tecla. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_typewriter_effect_a40f0ceefa464ecd6de62545d08ffa5ac}{sound\+Cooldown}} = 0.\+05f
+\begin{DoxyCompactList}\small\item\em Tiempo mínimo en segundos entre sonidos de tecla. \end{DoxyCompactList}\item 
+Text\+Mesh\+Pro\+UGUI \mbox{\hyperlink{class_typewriter_effect_ab480a006ffacf76a695aeb46489a74a0}{press\+Enter\+Text}}
+\begin{DoxyCompactList}\small\item\em Texto que aparece al final indicando "{}\+Presiona ENTER"{}. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_typewriter_effect_a9a855165e6ba32e8a92e3213f1566b19}{scene\+To\+Load}} = "{}Main\+Menu"{}
+\begin{DoxyCompactList}\small\item\em Nombre de la escena que se cargará al presionar ENTER. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Efecto de máquina de escribir para mostrar texto letra por letra, con sonido y animaciones. 
+
+\label{doc-variable-members}
+\Hypertarget{class_typewriter_effect_doc-variable-members}
+\doxysubsection{Field Documentation}
+\Hypertarget{class_typewriter_effect_a38388b5ae69315932b44cede8ff46c5a}\index{TypewriterEffect@{TypewriterEffect}!audioSource@{audioSource}}
+\index{audioSource@{audioSource}!TypewriterEffect@{TypewriterEffect}}
+\doxysubsubsection{\texorpdfstring{audioSource}{audioSource}}
+{\footnotesize\ttfamily \label{class_typewriter_effect_a38388b5ae69315932b44cede8ff46c5a} 
+Audio\+Source Typewriter\+Effect.\+audio\+Source}
+
+
+
+Fuente de audio para reproducir sonidos de tecla. 
+
+\Hypertarget{class_typewriter_effect_ad8407cbfa48ac5a2eae268ec120658e7}\index{TypewriterEffect@{TypewriterEffect}!delay@{delay}}
+\index{delay@{delay}!TypewriterEffect@{TypewriterEffect}}
+\doxysubsubsection{\texorpdfstring{delay}{delay}}
+{\footnotesize\ttfamily \label{class_typewriter_effect_ad8407cbfa48ac5a2eae268ec120658e7} 
+float Typewriter\+Effect.\+delay = 0.\+03f}
+
+
+
+Retardo en segundos entre la aparición de cada letra. 
+
+\Hypertarget{class_typewriter_effect_a1e78f590ce0aab869dedeaa7a10672a9}\index{TypewriterEffect@{TypewriterEffect}!fullText@{fullText}}
+\index{fullText@{fullText}!TypewriterEffect@{TypewriterEffect}}
+\doxysubsubsection{\texorpdfstring{fullText}{fullText}}
+{\footnotesize\ttfamily \label{class_typewriter_effect_a1e78f590ce0aab869dedeaa7a10672a9} 
+string Typewriter\+Effect.\+full\+Text}
+
+
+
+Texto completo que se va a escribir con el efecto. 
+
+\Hypertarget{class_typewriter_effect_a1099819e308a1e56573920b698586f52}\index{TypewriterEffect@{TypewriterEffect}!keySound@{keySound}}
+\index{keySound@{keySound}!TypewriterEffect@{TypewriterEffect}}
+\doxysubsubsection{\texorpdfstring{keySound}{keySound}}
+{\footnotesize\ttfamily \label{class_typewriter_effect_a1099819e308a1e56573920b698586f52} 
+Audio\+Clip Typewriter\+Effect.\+key\+Sound}
+
+
+
+Clip de sonido que se reproduce por cada tecla. 
+
+\Hypertarget{class_typewriter_effect_a1910306ba597a487b51caad03064c05d}\index{TypewriterEffect@{TypewriterEffect}!lineDelay@{lineDelay}}
+\index{lineDelay@{lineDelay}!TypewriterEffect@{TypewriterEffect}}
+\doxysubsubsection{\texorpdfstring{lineDelay}{lineDelay}}
+{\footnotesize\ttfamily \label{class_typewriter_effect_a1910306ba597a487b51caad03064c05d} 
+float Typewriter\+Effect.\+line\+Delay = 0.\+4f}
+
+
+
+Retardo adicional en segundos al hacer un salto de línea. 
+
+\Hypertarget{class_typewriter_effect_ab480a006ffacf76a695aeb46489a74a0}\index{TypewriterEffect@{TypewriterEffect}!pressEnterText@{pressEnterText}}
+\index{pressEnterText@{pressEnterText}!TypewriterEffect@{TypewriterEffect}}
+\doxysubsubsection{\texorpdfstring{pressEnterText}{pressEnterText}}
+{\footnotesize\ttfamily \label{class_typewriter_effect_ab480a006ffacf76a695aeb46489a74a0} 
+Text\+Mesh\+Pro\+UGUI Typewriter\+Effect.\+press\+Enter\+Text}
+
+
+
+Texto que aparece al final indicando "{}\+Presiona ENTER"{}. 
+
+\Hypertarget{class_typewriter_effect_a9a855165e6ba32e8a92e3213f1566b19}\index{TypewriterEffect@{TypewriterEffect}!sceneToLoad@{sceneToLoad}}
+\index{sceneToLoad@{sceneToLoad}!TypewriterEffect@{TypewriterEffect}}
+\doxysubsubsection{\texorpdfstring{sceneToLoad}{sceneToLoad}}
+{\footnotesize\ttfamily \label{class_typewriter_effect_a9a855165e6ba32e8a92e3213f1566b19} 
+string Typewriter\+Effect.\+scene\+To\+Load = "{}Main\+Menu"{}}
+
+
+
+Nombre de la escena que se cargará al presionar ENTER. 
+
+\Hypertarget{class_typewriter_effect_a40f0ceefa464ecd6de62545d08ffa5ac}\index{TypewriterEffect@{TypewriterEffect}!soundCooldown@{soundCooldown}}
+\index{soundCooldown@{soundCooldown}!TypewriterEffect@{TypewriterEffect}}
+\doxysubsubsection{\texorpdfstring{soundCooldown}{soundCooldown}}
+{\footnotesize\ttfamily \label{class_typewriter_effect_a40f0ceefa464ecd6de62545d08ffa5ac} 
+float Typewriter\+Effect.\+sound\+Cooldown = 0.\+05f}
+
+
+
+Tiempo mínimo en segundos entre sonidos de tecla. 
+
+\Hypertarget{class_typewriter_effect_ad9f470b2151666588b9929d6462fe336}\index{TypewriterEffect@{TypewriterEffect}!textComponent@{textComponent}}
+\index{textComponent@{textComponent}!TypewriterEffect@{TypewriterEffect}}
+\doxysubsubsection{\texorpdfstring{textComponent}{textComponent}}
+{\footnotesize\ttfamily \label{class_typewriter_effect_ad9f470b2151666588b9929d6462fe336} 
+Text\+Mesh\+Pro\+UGUI Typewriter\+Effect.\+text\+Component}
+
+
+
+Componente de texto en pantalla donde se mostrará el efecto de máquina de escribir. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+Scripts Creditos/\mbox{\hyperlink{_typewriter_effect_8cs}{Typewriter\+Effect.\+cs}}\end{DoxyCompactItemize}

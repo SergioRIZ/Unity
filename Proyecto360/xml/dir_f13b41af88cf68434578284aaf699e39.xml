@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="dir_f13b41af88cf68434578284aaf699e39" kind="dir">
+    <compoundname>Assets/Scripts</compoundname>
+    <innerdir refid="dir_0bf270a3dff40e62f0f506b27c955a6e">Assets/Scripts/Camera</innerdir>
+    <innerdir refid="dir_fc28fc3b482b6cb241a966e34533f912">Assets/Scripts/CarouselScript</innerdir>
+    <innerdir refid="dir_f50b2ee8e33bba503ea0fa6dcf33edfe">Assets/Scripts/Cursor</innerdir>
+    <innerdir refid="dir_0261d5286017c38b9af36d6d3ff94a53">Assets/Scripts/Editor</innerdir>
+    <innerdir refid="dir_e2676494dffcb413510315a21517f430">Assets/Scripts/MenuPrincipal</innerdir>
+    <innerdir refid="dir_28b1863bf0495ce07fcf38ab9e3ffd57">Assets/Scripts/Scripts Creditos</innerdir>
+    <innerdir refid="dir_4551a513239c569e354280dc49bfc55a">Assets/Scripts/Scripts Flechas</innerdir>
+    <innerdir refid="dir_d1ec86df2f99f2cd21d0d7dc8ca30d14">Assets/Scripts/ScriptsPuntosDeInteres</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Assets/Scripts/"/>
+  </compounddef>
+</doxygen>

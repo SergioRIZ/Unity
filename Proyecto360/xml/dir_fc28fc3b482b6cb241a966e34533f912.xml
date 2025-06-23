@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="dir_fc28fc3b482b6cb241a966e34533f912" kind="dir">
+    <compoundname>Assets/Scripts/CarouselScript</compoundname>
+    <innerfile refid="_btn_scroll_hide_8cs">BtnScrollHide.cs</innerfile>
+    <innerfile refid="_button_hover_effect_8cs">ButtonHoverEffect.cs</innerfile>
+    <innerfile refid="_canvas_text_selected_8cs">CanvasTextSelected.cs</innerfile>
+    <innerfile refid="_main_text_selected_8cs">MainTextSelected.cs</innerfile>
+    <innerfile refid="_material_transition_8cs">MaterialTransition.cs</innerfile>
+    <innerfile refid="_scene_controllers_8cs">SceneControllers.cs</innerfile>
+    <innerfile refid="_show_galery_android_8cs">ShowGaleryAndroid.cs</innerfile>
+    <innerfile refid="_show_handle_8cs">ShowHandle.cs</innerfile>
+    <innerfile refid="_show_selected_position_8cs">ShowSelectedPosition.cs</innerfile>
+    <innerfile refid="_sky_box_button_selected_8cs">SkyBoxButtonSelected.cs</innerfile>
+    <innerfile refid="_transition_scroll_bar_8cs">TransitionScrollBar.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Assets/Scripts/CarouselScript/"/>
+  </compounddef>
+</doxygen>

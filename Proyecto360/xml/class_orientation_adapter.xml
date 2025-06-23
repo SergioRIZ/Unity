@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_orientation_adapter" kind="class" language="C#" prot="public">
+    <compoundname>OrientationAdapter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_orientation_adapter_1a5340be7fc561bca99b0bec76ba42ef83" prot="private" static="no" mutable="no">
+        <type>RectTransform</type>
+        <definition>RectTransform OrientationAdapter.androidMainContent</definition>
+        <argsstring></argsstring>
+        <name>androidMainContent</name>
+        <qualifiedname>OrientationAdapter.androidMainContent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" line="10" column="28" bodyfile="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_orientation_adapter_1a0aea28b79361cfda9462a941ed4b2265" prot="private" static="no" mutable="no">
+        <type>RectTransform[]</type>
+        <definition>RectTransform [] OrientationAdapter.imageContainers</definition>
+        <argsstring></argsstring>
+        <name>imageContainers</name>
+        <qualifiedname>OrientationAdapter.imageContainers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" line="11" column="28" bodyfile="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_orientation_adapter_1a061cf81da1892aef78a54ac427a3a123" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 OrientationAdapter.portraitSize</definition>
+        <argsstring></argsstring>
+        <name>portraitSize</name>
+        <qualifiedname>OrientationAdapter.portraitSize</qualifiedname>
+        <initializer>= new Vector2(350, 170)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" line="14" column="22" bodyfile="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_orientation_adapter_1ae5a7f041b509d6a6e75061ca61c02eb8" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 OrientationAdapter.landscapeSize</definition>
+        <argsstring></argsstring>
+        <name>landscapeSize</name>
+        <qualifiedname>OrientationAdapter.landscapeSize</qualifiedname>
+        <initializer>= new Vector2(450, 225)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" line="15" column="22" bodyfile="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_orientation_adapter_1a9c60aea1a623a6b9e6230051e814effc" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 OrientationAdapter.portraitSpacing</definition>
+        <argsstring></argsstring>
+        <name>portraitSpacing</name>
+        <qualifiedname>OrientationAdapter.portraitSpacing</qualifiedname>
+        <initializer>= new Vector2(25, 25)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" line="16" column="22" bodyfile="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_orientation_adapter_1a293b52cc32a8d30b77e85406c1a5e492" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 OrientationAdapter.landscapeSpacing</definition>
+        <argsstring></argsstring>
+        <name>landscapeSpacing</name>
+        <qualifiedname>OrientationAdapter.landscapeSpacing</qualifiedname>
+        <initializer>= new Vector2(50, 15)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" line="17" column="22" bodyfile="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_orientation_adapter_1a7e16169fe2120cb33f076991b74e23aa" prot="private" static="no" mutable="no">
+        <type>RectTransform</type>
+        <definition>RectTransform OrientationAdapter.titleText</definition>
+        <argsstring></argsstring>
+        <name>titleText</name>
+        <qualifiedname>OrientationAdapter.titleText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" line="20" column="28" bodyfile="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_orientation_adapter_1a4d4dd81632c00ee2c274cbaf0436a2ae" prot="private" static="no" mutable="no">
+        <type>RectTransform</type>
+        <definition>RectTransform OrientationAdapter.contentLabel</definition>
+        <argsstring></argsstring>
+        <name>contentLabel</name>
+        <qualifiedname>OrientationAdapter.contentLabel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" line="21" column="28" bodyfile="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_orientation_adapter_1a0b2a9bf1b14bb21b03c25dd22a38f435" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float OrientationAdapter.portraitTopMargin</definition>
+        <argsstring></argsstring>
+        <name>portraitTopMargin</name>
+        <qualifiedname>OrientationAdapter.portraitTopMargin</qualifiedname>
+        <initializer>= 150f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" line="22" column="20" bodyfile="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_orientation_adapter_1a69797ab439dcd2859f18696a38064e25" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float OrientationAdapter.landscapeTopMargin</definition>
+        <argsstring></argsstring>
+        <name>landscapeTopMargin</name>
+        <qualifiedname>OrientationAdapter.landscapeTopMargin</qualifiedname>
+        <initializer>= 80f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" line="23" column="20" bodyfile="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_orientation_adapter_1a12ef8d89586cc2d39c8ab46ee4c57a23" prot="private" static="no" mutable="no">
+        <type>ScreenOrientation</type>
+        <definition>ScreenOrientation OrientationAdapter.currentOrientation</definition>
+        <argsstring></argsstring>
+        <name>currentOrientation</name>
+        <qualifiedname>OrientationAdapter.currentOrientation</qualifiedname>
+        <briefdescription>
+<para>Almacena la orientación actual de la pantalla. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" line="28" column="31" bodyfile="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_orientation_adapter_1a4b1563cecf433cbfd6892127f3fa4d48" prot="private" static="no" mutable="no">
+        <type>GridLayoutGroup</type>
+        <definition>GridLayoutGroup OrientationAdapter.gridLayout</definition>
+        <argsstring></argsstring>
+        <name>gridLayout</name>
+        <qualifiedname>OrientationAdapter.gridLayout</qualifiedname>
+        <briefdescription>
+<para>Referencia al componente GridLayoutGroup del contenido principal. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" line="33" column="29" bodyfile="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_orientation_adapter_1a2cccc8da7e7196b5ac8b63b4c6924f26" prot="private" static="no" mutable="no">
+        <type>ScrollRect</type>
+        <definition>ScrollRect OrientationAdapter.scrollRect</definition>
+        <argsstring></argsstring>
+        <name>scrollRect</name>
+        <qualifiedname>OrientationAdapter.scrollRect</qualifiedname>
+        <briefdescription>
+<para>Referencia al componente ScrollRect asociado al contenido principal. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" line="38" column="24" bodyfile="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_orientation_adapter_1a8a34d8249de726214f5c0cbfbb849994" prot="private" static="no" mutable="no">
+        <type>ContentSizeFitter</type>
+        <definition>ContentSizeFitter OrientationAdapter.contentSizeFitter</definition>
+        <argsstring></argsstring>
+        <name>contentSizeFitter</name>
+        <qualifiedname>OrientationAdapter.contentSizeFitter</qualifiedname>
+        <briefdescription>
+<para>Referencia al componente ContentSizeFitter del contenido principal. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" line="43" column="31" bodyfile="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_orientation_adapter_1af3a92535851710490f9d089758ae7eca" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OrientationAdapter.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>OrientationAdapter.Start</qualifiedname>
+        <briefdescription>
+<para>Inicializa referencias y aplica la configuración de orientación al iniciar. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" line="48" column="10" bodyfile="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" bodystart="48" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_orientation_adapter_1aaf353e3a50dd565f9f26590888143297" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OrientationAdapter.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>OrientationAdapter.Update</qualifiedname>
+        <briefdescription>
+<para>Detecta cambios de orientación y actualiza la UI si es necesario. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" line="65" column="10" bodyfile="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" bodystart="65" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_orientation_adapter_1ab62f9757175f3761dcde40734e6c2db8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OrientationAdapter.ApplyOrientationSettings</definition>
+        <argsstring>()</argsstring>
+        <name>ApplyOrientationSettings</name>
+        <qualifiedname>OrientationAdapter.ApplyOrientationSettings</qualifiedname>
+        <briefdescription>
+<para>Aplica configuraciones de UI según la orientación actual. Ajusta tamaños, posiciones y escalado de los elementos de la interfaz. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" line="79" column="10" bodyfile="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" bodystart="79" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_orientation_adapter_1af4a0276bf8598b0c4b404be8e50dfdba" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OrientationAdapter.AdjustCanvasScaler</definition>
+        <argsstring>()</argsstring>
+        <name>AdjustCanvasScaler</name>
+        <qualifiedname>OrientationAdapter.AdjustCanvasScaler</qualifiedname>
+        <briefdescription>
+<para>Ajusta el CanvasScaler para la orientación actual. Cambia la resolución de referencia y el modo de escalado. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" line="136" column="10" bodyfile="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" bodystart="136" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="class_orientation_adapter_1a5d4d50cd25552ceba3a6cfd79260ef35" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OrientationAdapter.ResetScrollPosition</definition>
+        <argsstring>()</argsstring>
+        <name>ResetScrollPosition</name>
+        <qualifiedname>OrientationAdapter.ResetScrollPosition</qualifiedname>
+        <briefdescription>
+<para>Restablece la posición del scroll al inicio. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" line="153" column="10" bodyfile="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" bodystart="153" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="class_orientation_adapter_1aae16099667f4a771e3095769066a53b5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool OrientationAdapter.IsLandscapeOrientation</definition>
+        <argsstring>()</argsstring>
+        <name>IsLandscapeOrientation</name>
+        <qualifiedname>OrientationAdapter.IsLandscapeOrientation</qualifiedname>
+        <briefdescription>
+<para>Comprueba si la orientación actual es horizontal. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True si la orientación es Landscape, false si es Portrait.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" line="175" column="10" bodyfile="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" bodystart="175" bodyend="179"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_orientation_adapter_1a019853f318d2e44d7d22ef8e1e3c22c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OrientationAdapter.ForceOrientationUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>ForceOrientationUpdate</name>
+        <qualifiedname>OrientationAdapter.ForceOrientationUpdate</qualifiedname>
+        <briefdescription>
+<para>Método para ajustar manualmente la orientación (útil para testing). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" line="165" column="17" bodyfile="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" bodystart="165" bodyend="169"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Script para adaptar la interfaz de usuario según la orientación de la pantalla. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>OrientationAdapter</label>
+        <link refid="class_orientation_adapter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>OrientationAdapter</label>
+        <link refid="class_orientation_adapter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" line="7" column="7" bodyfile="Assets/Scripts/MenuPrincipal/OrientationAdapter.cs" bodystart="8" bodyend="180"/>
+    <listofallmembers>
+      <member refid="class_orientation_adapter_1af4a0276bf8598b0c4b404be8e50dfdba" prot="private" virt="non-virtual"><scope>OrientationAdapter</scope><name>AdjustCanvasScaler</name></member>
+      <member refid="class_orientation_adapter_1a5340be7fc561bca99b0bec76ba42ef83" prot="private" virt="non-virtual"><scope>OrientationAdapter</scope><name>androidMainContent</name></member>
+      <member refid="class_orientation_adapter_1ab62f9757175f3761dcde40734e6c2db8" prot="private" virt="non-virtual"><scope>OrientationAdapter</scope><name>ApplyOrientationSettings</name></member>
+      <member refid="class_orientation_adapter_1a4d4dd81632c00ee2c274cbaf0436a2ae" prot="private" virt="non-virtual"><scope>OrientationAdapter</scope><name>contentLabel</name></member>
+      <member refid="class_orientation_adapter_1a8a34d8249de726214f5c0cbfbb849994" prot="private" virt="non-virtual"><scope>OrientationAdapter</scope><name>contentSizeFitter</name></member>
+      <member refid="class_orientation_adapter_1a12ef8d89586cc2d39c8ab46ee4c57a23" prot="private" virt="non-virtual"><scope>OrientationAdapter</scope><name>currentOrientation</name></member>
+      <member refid="class_orientation_adapter_1a019853f318d2e44d7d22ef8e1e3c22c4" prot="public" virt="non-virtual"><scope>OrientationAdapter</scope><name>ForceOrientationUpdate</name></member>
+      <member refid="class_orientation_adapter_1a4b1563cecf433cbfd6892127f3fa4d48" prot="private" virt="non-virtual"><scope>OrientationAdapter</scope><name>gridLayout</name></member>
+      <member refid="class_orientation_adapter_1a0aea28b79361cfda9462a941ed4b2265" prot="private" virt="non-virtual"><scope>OrientationAdapter</scope><name>imageContainers</name></member>
+      <member refid="class_orientation_adapter_1aae16099667f4a771e3095769066a53b5" prot="private" virt="non-virtual"><scope>OrientationAdapter</scope><name>IsLandscapeOrientation</name></member>
+      <member refid="class_orientation_adapter_1ae5a7f041b509d6a6e75061ca61c02eb8" prot="private" virt="non-virtual"><scope>OrientationAdapter</scope><name>landscapeSize</name></member>
+      <member refid="class_orientation_adapter_1a293b52cc32a8d30b77e85406c1a5e492" prot="private" virt="non-virtual"><scope>OrientationAdapter</scope><name>landscapeSpacing</name></member>
+      <member refid="class_orientation_adapter_1a69797ab439dcd2859f18696a38064e25" prot="private" virt="non-virtual"><scope>OrientationAdapter</scope><name>landscapeTopMargin</name></member>
+      <member refid="class_orientation_adapter_1a061cf81da1892aef78a54ac427a3a123" prot="private" virt="non-virtual"><scope>OrientationAdapter</scope><name>portraitSize</name></member>
+      <member refid="class_orientation_adapter_1a9c60aea1a623a6b9e6230051e814effc" prot="private" virt="non-virtual"><scope>OrientationAdapter</scope><name>portraitSpacing</name></member>
+      <member refid="class_orientation_adapter_1a0b2a9bf1b14bb21b03c25dd22a38f435" prot="private" virt="non-virtual"><scope>OrientationAdapter</scope><name>portraitTopMargin</name></member>
+      <member refid="class_orientation_adapter_1a5d4d50cd25552ceba3a6cfd79260ef35" prot="private" virt="non-virtual"><scope>OrientationAdapter</scope><name>ResetScrollPosition</name></member>
+      <member refid="class_orientation_adapter_1a2cccc8da7e7196b5ac8b63b4c6924f26" prot="private" virt="non-virtual"><scope>OrientationAdapter</scope><name>scrollRect</name></member>
+      <member refid="class_orientation_adapter_1af3a92535851710490f9d089758ae7eca" prot="private" virt="non-virtual"><scope>OrientationAdapter</scope><name>Start</name></member>
+      <member refid="class_orientation_adapter_1a7e16169fe2120cb33f076991b74e23aa" prot="private" virt="non-virtual"><scope>OrientationAdapter</scope><name>titleText</name></member>
+      <member refid="class_orientation_adapter_1aaf353e3a50dd565f9f26590888143297" prot="private" virt="non-virtual"><scope>OrientationAdapter</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

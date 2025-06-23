@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_mobile_controller" kind="class" language="C#" prot="public">
+    <compoundname>MobileController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_mobile_controller_1a5b7d48800f6b2294db876a20be3e86c5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MobileController.touchSensitivity</definition>
+        <argsstring></argsstring>
+        <name>touchSensitivity</name>
+        <qualifiedname>MobileController.touchSensitivity</qualifiedname>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+<para>Velocidad de swipe en dispositivos táctiles. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MobileController.cs" line="13" column="18" bodyfile="Assets/Scripts/Camera/MobileController.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mobile_controller_1a3ec0c77dec402a10c60c2c83e9ed0759" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MobileController.forceEnableTouchControls</definition>
+        <argsstring></argsstring>
+        <name>forceEnableTouchControls</name>
+        <qualifiedname>MobileController.forceEnableTouchControls</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Usar controles táctiles en todos los dispositivos, no solo en móviles. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MobileController.cs" line="19" column="17" bodyfile="Assets/Scripts/Camera/MobileController.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_mobile_controller_1a6c6aacb696aa784e7c5337e1989c58f0" prot="private" static="no" mutable="no">
+        <type><ref refid="class_camera_view" kindref="compound">CameraView</ref></type>
+        <definition>CameraView MobileController.parentController</definition>
+        <argsstring></argsstring>
+        <name>parentController</name>
+        <qualifiedname>MobileController.parentController</qualifiedname>
+        <briefdescription>
+<para>Referencia al controlador principal de la cámara. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MobileController.cs" line="24" column="24" bodyfile="Assets/Scripts/Camera/MobileController.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mobile_controller_1afcb2c08c888d8bf2814c779e00b14852" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 MobileController.touchLastPos</definition>
+        <argsstring></argsstring>
+        <name>touchLastPos</name>
+        <qualifiedname>MobileController.touchLastPos</qualifiedname>
+        <briefdescription>
+<para>Última posición registrada del toque. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MobileController.cs" line="29" column="21" bodyfile="Assets/Scripts/Camera/MobileController.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mobile_controller_1adaedc931835f72252591f23ddf97837c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MobileController.isTouching</definition>
+        <argsstring></argsstring>
+        <name>isTouching</name>
+        <qualifiedname>MobileController.isTouching</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Indica si actualmente hay un toque activo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MobileController.cs" line="34" column="18" bodyfile="Assets/Scripts/Camera/MobileController.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mobile_controller_1ad7fd6f43fb36a76fa9d3a9aa05803dbf" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MobileController.initialized</definition>
+        <argsstring></argsstring>
+        <name>initialized</name>
+        <qualifiedname>MobileController.initialized</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Indica si el controlador ha sido inicializado correctamente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MobileController.cs" line="39" column="18" bodyfile="Assets/Scripts/Camera/MobileController.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_mobile_controller_1a2360491d74cab931cdc0f53461694ab3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MobileController.Initialize</definition>
+        <argsstring>(CameraView controller)</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>MobileController.Initialize</qualifiedname>
+        <param>
+          <type><ref refid="class_camera_view" kindref="compound">CameraView</ref></type>
+          <declname>controller</declname>
+        </param>
+        <briefdescription>
+<para>Inicializa el controlador con una referencia al controlador principal. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controller</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>El controlador de cámara principal.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MobileController.cs" line="45" column="17" bodyfile="Assets/Scripts/Camera/MobileController.cs" bodystart="45" bodyend="49"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_mobile_controller_1a11ca6da45cc4846603e4089ea38e7517" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MobileController.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>MobileController.Update</qualifiedname>
+        <briefdescription>
+<para>Actualiza el estado del controlador cada frame. Procesa la entrada táctil si está inicializado y habilitado. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MobileController.cs" line="55" column="10" bodyfile="Assets/Scripts/Camera/MobileController.cs" bodystart="55" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mobile_controller_1a739bcfeeb9745966dd026e43363cd83e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MobileController.TouchControl</definition>
+        <argsstring>()</argsstring>
+        <name>TouchControl</name>
+        <qualifiedname>MobileController.TouchControl</qualifiedname>
+        <briefdescription>
+<para>Procesa la entrada táctil para la navegación. Solo maneja un toque (swipe) para rotar la cámara. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MobileController.cs" line="79" column="18" bodyfile="Assets/Scripts/Camera/MobileController.cs" bodystart="79" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mobile_controller_1a49468ef5c15d8d6e3ce2e7199883586c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MobileController.HandleTouchBegan</definition>
+        <argsstring>(Touch touch)</argsstring>
+        <name>HandleTouchBegan</name>
+        <qualifiedname>MobileController.HandleTouchBegan</qualifiedname>
+        <param>
+          <type>Touch</type>
+          <declname>touch</declname>
+        </param>
+        <briefdescription>
+<para>Maneja el inicio del toque. Guarda la posición inicial del toque y activa el estado de toque. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>touch</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Estructura Touch con la información del toque.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MobileController.cs" line="113" column="18" bodyfile="Assets/Scripts/Camera/MobileController.cs" bodystart="113" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mobile_controller_1a465a4215b1fc8c2a278cb45a59f8361e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MobileController.HandleTouchMoved</definition>
+        <argsstring>(Touch touch)</argsstring>
+        <name>HandleTouchMoved</name>
+        <qualifiedname>MobileController.HandleTouchMoved</qualifiedname>
+        <param>
+          <type>Touch</type>
+          <declname>touch</declname>
+        </param>
+        <briefdescription>
+<para>Maneja el movimiento del toque. Calcula la diferencia de posición y actualiza la rotación de la cámara. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>touch</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Estructura Touch con la información del toque.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MobileController.cs" line="124" column="18" bodyfile="Assets/Scripts/Camera/MobileController.cs" bodystart="124" bodyend="154"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Controlador que maneja la entrada táctil para dispositivos móviles. Permite rotar la cámara mediante gestos de swipe. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MobileController</label>
+        <link refid="class_mobile_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MobileController</label>
+        <link refid="class_mobile_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/Camera/MobileController.cs" line="7" column="7" bodyfile="Assets/Scripts/Camera/MobileController.cs" bodystart="8" bodyend="155"/>
+    <listofallmembers>
+      <member refid="class_mobile_controller_1a3ec0c77dec402a10c60c2c83e9ed0759" prot="public" virt="non-virtual"><scope>MobileController</scope><name>forceEnableTouchControls</name></member>
+      <member refid="class_mobile_controller_1a49468ef5c15d8d6e3ce2e7199883586c" prot="private" virt="non-virtual"><scope>MobileController</scope><name>HandleTouchBegan</name></member>
+      <member refid="class_mobile_controller_1a465a4215b1fc8c2a278cb45a59f8361e" prot="private" virt="non-virtual"><scope>MobileController</scope><name>HandleTouchMoved</name></member>
+      <member refid="class_mobile_controller_1a2360491d74cab931cdc0f53461694ab3" prot="public" virt="non-virtual"><scope>MobileController</scope><name>Initialize</name></member>
+      <member refid="class_mobile_controller_1ad7fd6f43fb36a76fa9d3a9aa05803dbf" prot="private" virt="non-virtual"><scope>MobileController</scope><name>initialized</name></member>
+      <member refid="class_mobile_controller_1adaedc931835f72252591f23ddf97837c" prot="private" virt="non-virtual"><scope>MobileController</scope><name>isTouching</name></member>
+      <member refid="class_mobile_controller_1a6c6aacb696aa784e7c5337e1989c58f0" prot="private" virt="non-virtual"><scope>MobileController</scope><name>parentController</name></member>
+      <member refid="class_mobile_controller_1a739bcfeeb9745966dd026e43363cd83e" prot="private" virt="non-virtual"><scope>MobileController</scope><name>TouchControl</name></member>
+      <member refid="class_mobile_controller_1afcb2c08c888d8bf2814c779e00b14852" prot="private" virt="non-virtual"><scope>MobileController</scope><name>touchLastPos</name></member>
+      <member refid="class_mobile_controller_1a5b7d48800f6b2294db876a20be3e86c5" prot="public" virt="non-virtual"><scope>MobileController</scope><name>touchSensitivity</name></member>
+      <member refid="class_mobile_controller_1a11ca6da45cc4846603e4089ea38e7517" prot="private" virt="non-virtual"><scope>MobileController</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

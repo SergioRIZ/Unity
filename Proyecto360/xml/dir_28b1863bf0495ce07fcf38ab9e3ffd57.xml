@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="dir_28b1863bf0495ce07fcf38ab9e3ffd57" kind="dir">
+    <compoundname>Assets/Scripts/Scripts Creditos</compoundname>
+    <innerfile refid="_fast_scroll_rect_8cs">FastScrollRect.cs</innerfile>
+    <innerfile refid="_link_opener_8cs">LinkOpener.cs</innerfile>
+    <innerfile refid="_scene_loader_8cs">SceneLoader.cs</innerfile>
+    <innerfile refid="_t_m_p___link_opener_8cs">TMP_LinkOpener.cs</innerfile>
+    <innerfile refid="_typewriter_effect_8cs">TypewriterEffect.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Assets/Scripts/Scripts Creditos/"/>
+  </compounddef>
+</doxygen>

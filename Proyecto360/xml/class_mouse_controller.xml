@@ -1,0 +1,520 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_mouse_controller" kind="class" language="C#" prot="public">
+    <compoundname>MouseController</compoundname>
+    <basecompoundref refid="class_input_controller" prot="public" virt="non-virtual">InputController</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_mouse_controller_1a00d6b167bd414ee1f2afcefaeed3216d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MouseController.controlButton</definition>
+        <argsstring></argsstring>
+        <name>controlButton</name>
+        <qualifiedname>MouseController.controlButton</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Botón del mouse para controlar la cámara (0=izquierdo, 1=derecho, 2=medio). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MouseController.cs" line="13" column="16" bodyfile="Assets/Scripts/Camera/MouseController.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mouse_controller_1a6cd7a321914d79600050d7b3539fe862" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MouseController.screenEdgeMargin</definition>
+        <argsstring></argsstring>
+        <name>screenEdgeMargin</name>
+        <qualifiedname>MouseController.screenEdgeMargin</qualifiedname>
+        <initializer>= 10f</initializer>
+        <briefdescription>
+<para>Margen de pantalla para detener el movimiento (en píxeles). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MouseController.cs" line="25" column="18" bodyfile="Assets/Scripts/Camera/MouseController.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mouse_controller_1ab8274aa00cd159bbe7ca8a82412a868e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MouseController.hideCursorWhileNavigating</definition>
+        <argsstring></argsstring>
+        <name>hideCursorWhileNavigating</name>
+        <qualifiedname>MouseController.hideCursorWhileNavigating</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Indica si se debe ocultar el cursor mientras se navega. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MouseController.cs" line="32" column="17" bodyfile="Assets/Scripts/Camera/MouseController.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mouse_controller_1a31202c79c21e93714e65c4dd59f3adfd" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MouseController.lockCursorToCenter</definition>
+        <argsstring></argsstring>
+        <name>lockCursorToCenter</name>
+        <qualifiedname>MouseController.lockCursorToCenter</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Indica si se debe bloquear el cursor en el centro de la pantalla durante la navegación. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MouseController.cs" line="38" column="17" bodyfile="Assets/Scripts/Camera/MouseController.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_mouse_controller_1a1e94b84d02c163c2974ff884c500396c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MouseController.sensitivityMultiplier</definition>
+        <argsstring></argsstring>
+        <name>sensitivityMultiplier</name>
+        <qualifiedname>MouseController.sensitivityMultiplier</qualifiedname>
+        <initializer>= 0.3f</initializer>
+        <briefdescription>
+<para>Multiplicador de sensibilidad del movimiento del mouse. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MouseController.cs" line="19" column="19" bodyfile="Assets/Scripts/Camera/MouseController.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mouse_controller_1ad4bcb82c3cccabe4726ef219163363e4" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 MouseController.lastMousePosition</definition>
+        <argsstring></argsstring>
+        <name>lastMousePosition</name>
+        <qualifiedname>MouseController.lastMousePosition</qualifiedname>
+        <briefdescription>
+<para>Última posición registrada del mouse. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MouseController.cs" line="43" column="21" bodyfile="Assets/Scripts/Camera/MouseController.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mouse_controller_1a440354a087ed643b0ecadd1aab97bd4f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MouseController.isDragging</definition>
+        <argsstring></argsstring>
+        <name>isDragging</name>
+        <qualifiedname>MouseController.isDragging</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Indica si el usuario está arrastrando con el mouse. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MouseController.cs" line="48" column="18" bodyfile="Assets/Scripts/Camera/MouseController.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mouse_controller_1a8d94146c641795b84955390dc841d9ad" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MouseController.avoidCameraRotation</definition>
+        <argsstring></argsstring>
+        <name>avoidCameraRotation</name>
+        <qualifiedname>MouseController.avoidCameraRotation</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Evita la rotación de la cámara en el primer frame tras iniciar el arrastre. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MouseController.cs" line="53" column="18" bodyfile="Assets/Scripts/Camera/MouseController.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mouse_controller_1a2572964ba3ad89a0324a8513b974c2a0" prot="private" static="no" mutable="no">
+        <type>Rect</type>
+        <definition>Rect MouseController.screenRect</definition>
+        <argsstring></argsstring>
+        <name>screenRect</name>
+        <qualifiedname>MouseController.screenRect</qualifiedname>
+        <briefdescription>
+<para>Rectángulo que representa los límites de la pantalla considerando el margen. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MouseController.cs" line="58" column="18" bodyfile="Assets/Scripts/Camera/MouseController.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mouse_controller_1a9f885e28982fd8b469b801e14bd0e210" prot="private" static="no" mutable="no">
+        <type>CursorLockMode</type>
+        <definition>CursorLockMode MouseController.originalLockMode</definition>
+        <argsstring></argsstring>
+        <name>originalLockMode</name>
+        <qualifiedname>MouseController.originalLockMode</qualifiedname>
+        <briefdescription>
+<para>Estado original del modo de bloqueo del cursor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MouseController.cs" line="63" column="28" bodyfile="Assets/Scripts/Camera/MouseController.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mouse_controller_1a23513b0896cdf889229338571cc5ddca" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MouseController.originalCursorVisibility</definition>
+        <argsstring></argsstring>
+        <name>originalCursorVisibility</name>
+        <qualifiedname>MouseController.originalCursorVisibility</qualifiedname>
+        <briefdescription>
+<para>Estado original de visibilidad del cursor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MouseController.cs" line="68" column="18" bodyfile="Assets/Scripts/Camera/MouseController.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mouse_controller_1a1c322880a769562af94cde7dd0486b55" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MouseController.cursorWasHidden</definition>
+        <argsstring></argsstring>
+        <name>cursorWasHidden</name>
+        <qualifiedname>MouseController.cursorWasHidden</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Indica si el cursor fue ocultado durante la navegación. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MouseController.cs" line="73" column="18" bodyfile="Assets/Scripts/Camera/MouseController.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_mouse_controller_1ae5d05c1123ea8c383e02a11adfa1a8c2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void MouseController.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>MouseController.Awake</qualifiedname>
+        <reimplements refid="class_input_controller_1a511313045ea3715e5204a11c7943af0c">Awake</reimplements>
+        <briefdescription>
+<para><para>Método llamado al inicializar el componente. No realiza ninguna acción por defecto; la inicialización se realiza desde <ref refid="class_camera_view" kindref="compound">CameraView</ref>.</para>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MouseController.cs" line="76" column="29" bodyfile="Assets/Scripts/Camera/MouseController.cs" bodystart="76" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mouse_controller_1a0a3db4b903f1cbcb3158142d47039de8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void MouseController.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>MouseController.Update</qualifiedname>
+        <reimplements refid="class_input_controller_1abbaab755554d4bc2b17a1fedb38c27ca">Update</reimplements>
+        <briefdescription>
+<para><para>Método de actualización llamado en cada frame. Verifica la inicialización antes de ejecutar la lógica de entrada. Las clases derivadas deben sobrescribir este método para implementar el control específico.</para>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MouseController.cs" line="87" column="29" bodyfile="Assets/Scripts/Camera/MouseController.cs" bodystart="87" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mouse_controller_1a44d0abc11a8c10e58f6602bcd01b1953" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void MouseController.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>MouseController.OnDisable</qualifiedname>
+        <reimplements refid="class_input_controller_1a3f12d6705ab69245aec44511673d873d">OnDisable</reimplements>
+        <briefdescription>
+<para><para>Método llamado cuando el componente se deshabilita. Proporciona un punto de extensión para limpieza en clases derivadas.</para>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MouseController.cs" line="305" column="29" bodyfile="Assets/Scripts/Camera/MouseController.cs" bodystart="305" bodyend="314"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mouse_controller_1a70e441428b58ae0879d784d81c2d8883" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void MouseController.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>MouseController.OnEnable</qualifiedname>
+        <reimplements refid="class_input_controller_1adc29d82c94846d7b33e1c2b81296dbef">OnEnable</reimplements>
+        <briefdescription>
+<para><para>Método llamado cuando el componente se habilita. Verifica la inicialización si aún no se ha realizado.</para>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MouseController.cs" line="317" column="29" bodyfile="Assets/Scripts/Camera/MouseController.cs" bodystart="317" bodyend="324"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_mouse_controller_1a10ce8e8cecc317386030958d79263343" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MouseController.UpdateScreenRect</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateScreenRect</name>
+        <qualifiedname>MouseController.UpdateScreenRect</qualifiedname>
+        <briefdescription>
+<para>Actualiza el rectángulo que representa los límites de la pantalla. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MouseController.cs" line="113" column="18" bodyfile="Assets/Scripts/Camera/MouseController.cs" bodystart="113" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mouse_controller_1a2dd971b559f4563bbeb01209ee852095" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MouseController.MouseControl</definition>
+        <argsstring>()</argsstring>
+        <name>MouseControl</name>
+        <qualifiedname>MouseController.MouseControl</qualifiedname>
+        <briefdescription>
+<para>Procesa la entrada del mouse para la navegación panorámica. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MouseController.cs" line="127" column="18" bodyfile="Assets/Scripts/Camera/MouseController.cs" bodystart="127" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mouse_controller_1af0a656957fd29086603194929319d2f0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2</type>
+        <definition>Vector2 MouseController.ClampToScreenEdge</definition>
+        <argsstring>(Vector2 position)</argsstring>
+        <name>ClampToScreenEdge</name>
+        <qualifiedname>MouseController.ClampToScreenEdge</qualifiedname>
+        <param>
+          <type>Vector2</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+<para>Limita una posición al borde de la pantalla más cercano. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>position</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Posición a limitar.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Posición ajustada dentro de los márgenes de la pantalla.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MouseController.cs" line="182" column="21" bodyfile="Assets/Scripts/Camera/MouseController.cs" bodystart="182" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mouse_controller_1aec52d43c536927e23802090e03eb3306" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MouseController.HandleMouseButtonDown</definition>
+        <argsstring>()</argsstring>
+        <name>HandleMouseButtonDown</name>
+        <qualifiedname>MouseController.HandleMouseButtonDown</qualifiedname>
+        <briefdescription>
+<para>Maneja el evento de presionar el botón del mouse. Inicializa el arrastre y gestiona el estado del cursor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MouseController.cs" line="194" column="18" bodyfile="Assets/Scripts/Camera/MouseController.cs" bodystart="194" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mouse_controller_1a98e35f0d2ccf21aed81248cfdc49ab0d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MouseController.HandleMouseMovement</definition>
+        <argsstring>()</argsstring>
+        <name>HandleMouseMovement</name>
+        <qualifiedname>MouseController.HandleMouseMovement</qualifiedname>
+        <briefdescription>
+<para>Maneja el movimiento del mouse durante el control. Calcula el desplazamiento y actualiza la rotación de la cámara. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MouseController.cs" line="222" column="18" bodyfile="Assets/Scripts/Camera/MouseController.cs" bodystart="222" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mouse_controller_1a3882e2df6ad28625c31505e282301381" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MouseController.HandleMouseButtonUp</definition>
+        <argsstring>()</argsstring>
+        <name>HandleMouseButtonUp</name>
+        <qualifiedname>MouseController.HandleMouseButtonUp</qualifiedname>
+        <briefdescription>
+<para>Maneja el evento de soltar el botón del mouse. Finaliza el arrastre y restaura el estado del cursor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MouseController.cs" line="285" column="18" bodyfile="Assets/Scripts/Camera/MouseController.cs" bodystart="285" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mouse_controller_1a5ba6ea7377ba3d6fa5cfd4e1e2ba6542" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MouseController.UnlockCursor</definition>
+        <argsstring>()</argsstring>
+        <name>UnlockCursor</name>
+        <qualifiedname>MouseController.UnlockCursor</qualifiedname>
+        <briefdescription>
+<para>Desbloquea el cursor y restaura su visibilidad. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MouseController.cs" line="297" column="18" bodyfile="Assets/Scripts/Camera/MouseController.cs" bodystart="297" bodyend="302"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_mouse_controller_1a15afc7be946ccc3a9c97bf250aecce33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MouseController.IgnoreNextMouseDelta</definition>
+        <argsstring>()</argsstring>
+        <name>IgnoreNextMouseDelta</name>
+        <qualifiedname>MouseController.IgnoreNextMouseDelta</qualifiedname>
+        <briefdescription>
+<para>Ignora el siguiente delta de movimiento del mouse para evitar saltos. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MouseController.cs" line="329" column="17" bodyfile="Assets/Scripts/Camera/MouseController.cs" bodystart="329" bodyend="332"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mouse_controller_1a46ad414f648fe501f93ddf9fe7cd8fc6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void MouseController.Initialize</definition>
+        <argsstring>(CameraView controller)</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>MouseController.Initialize</qualifiedname>
+        <reimplements refid="class_input_controller_1a6b2a5ac295a9397dbbbe61b2ad03c94a">Initialize</reimplements>
+        <param>
+          <type><ref refid="class_camera_view" kindref="compound">CameraView</ref></type>
+          <declname>controller</declname>
+        </param>
+        <briefdescription>
+<para>Inicializa el controlador con una referencia al controlador principal. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controller</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>El controlador de cámara principal.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/MouseController.cs" line="338" column="26" bodyfile="Assets/Scripts/Camera/MouseController.cs" bodystart="338" bodyend="345"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Controlador para la entrada de mouse en vista panorámica 360 con opciones para cursor visible/invisible y detección de límites de pantalla. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>InputController</label>
+        <link refid="class_input_controller"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>MouseController</label>
+        <link refid="class_mouse_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>CameraView</label>
+        <link refid="class_camera_view"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>InputController</label>
+        <link refid="class_input_controller"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>parentController</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>MouseController</label>
+        <link refid="class_mouse_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/Camera/MouseController.cs" line="7" column="7" bodyfile="Assets/Scripts/Camera/MouseController.cs" bodystart="8" bodyend="346"/>
+    <listofallmembers>
+      <member refid="class_mouse_controller_1a8d94146c641795b84955390dc841d9ad" prot="private" virt="non-virtual"><scope>MouseController</scope><name>avoidCameraRotation</name></member>
+      <member refid="class_mouse_controller_1ae5d05c1123ea8c383e02a11adfa1a8c2" prot="protected" virt="virtual"><scope>MouseController</scope><name>Awake</name></member>
+      <member refid="class_input_controller_1a8bbd09a74fac8deb62e4f8359cde1412" prot="protected" virt="virtual"><scope>MouseController</scope><name>CheckInitialization</name></member>
+      <member refid="class_mouse_controller_1af0a656957fd29086603194929319d2f0" prot="private" virt="non-virtual"><scope>MouseController</scope><name>ClampToScreenEdge</name></member>
+      <member refid="class_mouse_controller_1a00d6b167bd414ee1f2afcefaeed3216d" prot="public" virt="non-virtual"><scope>MouseController</scope><name>controlButton</name></member>
+      <member refid="class_mouse_controller_1a1c322880a769562af94cde7dd0486b55" prot="private" virt="non-virtual"><scope>MouseController</scope><name>cursorWasHidden</name></member>
+      <member refid="class_mouse_controller_1aec52d43c536927e23802090e03eb3306" prot="private" virt="non-virtual"><scope>MouseController</scope><name>HandleMouseButtonDown</name></member>
+      <member refid="class_mouse_controller_1a3882e2df6ad28625c31505e282301381" prot="private" virt="non-virtual"><scope>MouseController</scope><name>HandleMouseButtonUp</name></member>
+      <member refid="class_mouse_controller_1a98e35f0d2ccf21aed81248cfdc49ab0d" prot="private" virt="non-virtual"><scope>MouseController</scope><name>HandleMouseMovement</name></member>
+      <member refid="class_mouse_controller_1ab8274aa00cd159bbe7ca8a82412a868e" prot="public" virt="non-virtual"><scope>MouseController</scope><name>hideCursorWhileNavigating</name></member>
+      <member refid="class_mouse_controller_1a15afc7be946ccc3a9c97bf250aecce33" prot="public" virt="non-virtual"><scope>MouseController</scope><name>IgnoreNextMouseDelta</name></member>
+      <member refid="class_mouse_controller_1a46ad414f648fe501f93ddf9fe7cd8fc6" prot="public" virt="virtual"><scope>MouseController</scope><name>Initialize</name></member>
+      <member refid="class_mouse_controller_1a440354a087ed643b0ecadd1aab97bd4f" prot="private" virt="non-virtual"><scope>MouseController</scope><name>isDragging</name></member>
+      <member refid="class_input_controller_1af6e636754f4469382cc2d31045c8b2e6" prot="protected" virt="non-virtual"><scope>MouseController</scope><name>isInitialized</name></member>
+      <member refid="class_mouse_controller_1ad4bcb82c3cccabe4726ef219163363e4" prot="private" virt="non-virtual"><scope>MouseController</scope><name>lastMousePosition</name></member>
+      <member refid="class_mouse_controller_1a31202c79c21e93714e65c4dd59f3adfd" prot="public" virt="non-virtual"><scope>MouseController</scope><name>lockCursorToCenter</name></member>
+      <member refid="class_mouse_controller_1a2dd971b559f4563bbeb01209ee852095" prot="private" virt="non-virtual"><scope>MouseController</scope><name>MouseControl</name></member>
+      <member refid="class_mouse_controller_1a44d0abc11a8c10e58f6602bcd01b1953" prot="protected" virt="virtual"><scope>MouseController</scope><name>OnDisable</name></member>
+      <member refid="class_mouse_controller_1a70e441428b58ae0879d784d81c2d8883" prot="protected" virt="virtual"><scope>MouseController</scope><name>OnEnable</name></member>
+      <member refid="class_mouse_controller_1a23513b0896cdf889229338571cc5ddca" prot="private" virt="non-virtual"><scope>MouseController</scope><name>originalCursorVisibility</name></member>
+      <member refid="class_mouse_controller_1a9f885e28982fd8b469b801e14bd0e210" prot="private" virt="non-virtual"><scope>MouseController</scope><name>originalLockMode</name></member>
+      <member refid="class_input_controller_1aa76c145fa15228c6596c0be6a06dd7cc" prot="protected" virt="non-virtual"><scope>MouseController</scope><name>parentController</name></member>
+      <member refid="class_mouse_controller_1a6cd7a321914d79600050d7b3539fe862" prot="public" virt="non-virtual"><scope>MouseController</scope><name>screenEdgeMargin</name></member>
+      <member refid="class_mouse_controller_1a2572964ba3ad89a0324a8513b974c2a0" prot="private" virt="non-virtual"><scope>MouseController</scope><name>screenRect</name></member>
+      <member refid="class_mouse_controller_1a1e94b84d02c163c2974ff884c500396c" prot="private" virt="non-virtual"><scope>MouseController</scope><name>sensitivityMultiplier</name></member>
+      <member refid="class_input_controller_1a54852849a46ab1f2c17838cd46852f1c" prot="public" virt="virtual"><scope>MouseController</scope><name>SetEnabled</name></member>
+      <member refid="class_input_controller_1a4839ea55de6c2ea6e157f3e53175c514" prot="protected" virt="virtual"><scope>MouseController</scope><name>Start</name></member>
+      <member refid="class_mouse_controller_1a5ba6ea7377ba3d6fa5cfd4e1e2ba6542" prot="private" virt="non-virtual"><scope>MouseController</scope><name>UnlockCursor</name></member>
+      <member refid="class_mouse_controller_1a0a3db4b903f1cbcb3158142d47039de8" prot="protected" virt="virtual"><scope>MouseController</scope><name>Update</name></member>
+      <member refid="class_mouse_controller_1a10ce8e8cecc317386030958d79263343" prot="private" virt="non-virtual"><scope>MouseController</scope><name>UpdateScreenRect</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

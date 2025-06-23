@@ -1,0 +1,588 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_zoom_controller" kind="class" language="C#" prot="public">
+    <compoundname>ZoomController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_zoom_controller_1a8eed5bee94ac28f5f18b6979ced8eb8d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ZoomController.allowZoom</definition>
+        <argsstring></argsstring>
+        <name>allowZoom</name>
+        <qualifiedname>ZoomController.allowZoom</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>Permitir zoom con la rueda del mouse o pinch. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/ZoomController.cs" line="14" column="17" bodyfile="Assets/Scripts/Camera/ZoomController.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_zoom_controller_1a8aa4fdfdcc3a402176d00c802cdc917b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ZoomController.zoomSpeed</definition>
+        <argsstring></argsstring>
+        <name>zoomSpeed</name>
+        <qualifiedname>ZoomController.zoomSpeed</qualifiedname>
+        <initializer>= 30.0f</initializer>
+        <briefdescription>
+<para>Velocidad de zoom. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/ZoomController.cs" line="21" column="18" bodyfile="Assets/Scripts/Camera/ZoomController.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_zoom_controller_1a5e5ebdf53c03cd4a179c69c32f5617f8" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ZoomController.minFOV</definition>
+        <argsstring></argsstring>
+        <name>minFOV</name>
+        <qualifiedname>ZoomController.minFOV</qualifiedname>
+        <initializer>= 20.0f</initializer>
+        <briefdescription>
+<para>Rango de campo de visión (FOV) mínimo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/ZoomController.cs" line="28" column="18" bodyfile="Assets/Scripts/Camera/ZoomController.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_zoom_controller_1ab567b7081d6bb1e00ed914b7234b3b83" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ZoomController.maxFOV</definition>
+        <argsstring></argsstring>
+        <name>maxFOV</name>
+        <qualifiedname>ZoomController.maxFOV</qualifiedname>
+        <initializer>= 90.0f</initializer>
+        <briefdescription>
+<para>Rango de campo de visión (FOV) máximo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/ZoomController.cs" line="35" column="18" bodyfile="Assets/Scripts/Camera/ZoomController.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_zoom_controller_1a4597cde8028a1afdc005ad1a7d87a671" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ZoomController.keyZoomSpeed</definition>
+        <argsstring></argsstring>
+        <name>keyZoomSpeed</name>
+        <qualifiedname>ZoomController.keyZoomSpeed</qualifiedname>
+        <initializer>= 60.0f</initializer>
+        <briefdescription>
+<para>Velocidad de zoom con teclado. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/ZoomController.cs" line="43" column="18" bodyfile="Assets/Scripts/Camera/ZoomController.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_zoom_controller_1a21a007f429852918b78b34f2ab340721" prot="public" static="no" mutable="no">
+        <type>KeyCode</type>
+        <definition>KeyCode ZoomController.zoomInKey</definition>
+        <argsstring></argsstring>
+        <name>zoomInKey</name>
+        <qualifiedname>ZoomController.zoomInKey</qualifiedname>
+        <initializer>= KeyCode.Plus</initializer>
+        <briefdescription>
+<para>Tecla para acercar. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/ZoomController.cs" line="49" column="20" bodyfile="Assets/Scripts/Camera/ZoomController.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_zoom_controller_1aff71babc6d710de54b4c71b95196f3d2" prot="public" static="no" mutable="no">
+        <type>KeyCode</type>
+        <definition>KeyCode ZoomController.zoomInKeyAlt</definition>
+        <argsstring></argsstring>
+        <name>zoomInKeyAlt</name>
+        <qualifiedname>ZoomController.zoomInKeyAlt</qualifiedname>
+        <initializer>= KeyCode.KeypadPlus</initializer>
+        <briefdescription>
+<para>Tecla alternativa para acercar. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/ZoomController.cs" line="55" column="20" bodyfile="Assets/Scripts/Camera/ZoomController.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_zoom_controller_1a04241edda8733be50d344c98ea34ce0c" prot="public" static="no" mutable="no">
+        <type>KeyCode</type>
+        <definition>KeyCode ZoomController.zoomOutKey</definition>
+        <argsstring></argsstring>
+        <name>zoomOutKey</name>
+        <qualifiedname>ZoomController.zoomOutKey</qualifiedname>
+        <initializer>= KeyCode.Minus</initializer>
+        <briefdescription>
+<para>Tecla para alejar. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/ZoomController.cs" line="61" column="20" bodyfile="Assets/Scripts/Camera/ZoomController.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_zoom_controller_1aae227b961820b99f5ddffaa17269f773" prot="public" static="no" mutable="no">
+        <type>KeyCode</type>
+        <definition>KeyCode ZoomController.zoomOutKeyAlt</definition>
+        <argsstring></argsstring>
+        <name>zoomOutKeyAlt</name>
+        <qualifiedname>ZoomController.zoomOutKeyAlt</qualifiedname>
+        <initializer>= KeyCode.KeypadMinus</initializer>
+        <briefdescription>
+<para>Tecla alternativa para alejar. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/ZoomController.cs" line="67" column="20" bodyfile="Assets/Scripts/Camera/ZoomController.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_zoom_controller_1add4ad21a4b18c508a864d5236b142830" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ZoomController.usePageKeys</definition>
+        <argsstring></argsstring>
+        <name>usePageKeys</name>
+        <qualifiedname>ZoomController.usePageKeys</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>Usar también las teclas PageUp/PageDown. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/ZoomController.cs" line="73" column="17" bodyfile="Assets/Scripts/Camera/ZoomController.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_zoom_controller_1a97646101a94f5707e0c9e6398516329c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ZoomController.smoothSpeed</definition>
+        <argsstring></argsstring>
+        <name>smoothSpeed</name>
+        <qualifiedname>ZoomController.smoothSpeed</qualifiedname>
+        <initializer>= 15.0f</initializer>
+        <briefdescription>
+<para>Velocidad de interpolación para suavizado de zoom. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/ZoomController.cs" line="81" column="18" bodyfile="Assets/Scripts/Camera/ZoomController.cs" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_zoom_controller_1aa8b60c4abe38528faf8befc525bc80a7" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ZoomController.screenEdgeMargin</definition>
+        <argsstring></argsstring>
+        <name>screenEdgeMargin</name>
+        <qualifiedname>ZoomController.screenEdgeMargin</qualifiedname>
+        <initializer>= 10f</initializer>
+        <briefdescription>
+<para>Margen de pantalla para detener el zoom (en píxeles). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/ZoomController.cs" line="88" column="18" bodyfile="Assets/Scripts/Camera/ZoomController.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_zoom_controller_1a1ff1f64266e5ca18f48bb3498fd9c4ec" prot="private" static="no" mutable="no">
+        <type><ref refid="class_camera_view" kindref="compound">CameraView</ref></type>
+        <definition>CameraView ZoomController.parentController</definition>
+        <argsstring></argsstring>
+        <name>parentController</name>
+        <qualifiedname>ZoomController.parentController</qualifiedname>
+        <briefdescription>
+<para>Referencia al controlador principal de la cámara. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/ZoomController.cs" line="93" column="24" bodyfile="Assets/Scripts/Camera/ZoomController.cs" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_zoom_controller_1a686320b9c6c3b04733e021fced42aea3" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ZoomController.initialFOV</definition>
+        <argsstring></argsstring>
+        <name>initialFOV</name>
+        <qualifiedname>ZoomController.initialFOV</qualifiedname>
+        <briefdescription>
+<para>Valor inicial del campo de visión (FOV) de la cámara. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/ZoomController.cs" line="98" column="19" bodyfile="Assets/Scripts/Camera/ZoomController.cs" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_zoom_controller_1adde68d8a49ffd66d5012b7cae47838a0" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ZoomController.touchZoomLastDistance</definition>
+        <argsstring></argsstring>
+        <name>touchZoomLastDistance</name>
+        <qualifiedname>ZoomController.touchZoomLastDistance</qualifiedname>
+        <briefdescription>
+<para>Última distancia registrada entre dos toques para el zoom por pinch. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/ZoomController.cs" line="103" column="19" bodyfile="Assets/Scripts/Camera/ZoomController.cs" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_zoom_controller_1a06ac3bef8c54a35f97b91bfb0ae09b35" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ZoomController.initialized</definition>
+        <argsstring></argsstring>
+        <name>initialized</name>
+        <qualifiedname>ZoomController.initialized</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Indica si el controlador ha sido inicializado correctamente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/ZoomController.cs" line="108" column="18" bodyfile="Assets/Scripts/Camera/ZoomController.cs" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_zoom_controller_1ab0678aeca879105ea1c7577c6fe212cb" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ZoomController.targetFOV</definition>
+        <argsstring></argsstring>
+        <name>targetFOV</name>
+        <qualifiedname>ZoomController.targetFOV</qualifiedname>
+        <briefdescription>
+<para>Campo de visión objetivo al que se interpola la cámara. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/ZoomController.cs" line="120" column="19" bodyfile="Assets/Scripts/Camera/ZoomController.cs" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_zoom_controller_1adf9cd2bd3a15465e257af06224fa4067" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ZoomController.currentVelocity</definition>
+        <argsstring></argsstring>
+        <name>currentVelocity</name>
+        <qualifiedname>ZoomController.currentVelocity</qualifiedname>
+        <briefdescription>
+<para>Velocidad actual utilizada por SmoothDamp para el suavizado del FOV. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/ZoomController.cs" line="125" column="19" bodyfile="Assets/Scripts/Camera/ZoomController.cs" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_zoom_controller_1aa2a925699aa85d954b0a3d367bb35ee1" prot="private" static="no" mutable="no">
+        <type>Rect</type>
+        <definition>Rect ZoomController.screenRect</definition>
+        <argsstring></argsstring>
+        <name>screenRect</name>
+        <qualifiedname>ZoomController.screenRect</qualifiedname>
+        <briefdescription>
+<para>Rectángulo que representa los límites de la pantalla considerando el margen. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/ZoomController.cs" line="132" column="18" bodyfile="Assets/Scripts/Camera/ZoomController.cs" bodystart="132" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_zoom_controller_1a94035eb53c738b0e8aa3d6ee44590378" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float ZoomController.PINCH_SENSITIVITY_FACTOR</definition>
+        <argsstring></argsstring>
+        <name>PINCH_SENSITIVITY_FACTOR</name>
+        <qualifiedname>ZoomController.PINCH_SENSITIVITY_FACTOR</qualifiedname>
+        <initializer>= 0.03f</initializer>
+        <briefdescription>
+<para>Factor de sensibilidad para el zoom por pinch. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/ZoomController.cs" line="113" column="25" bodyfile="Assets/Scripts/Camera/ZoomController.cs" bodystart="113" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_zoom_controller_1a7e61b8a7c318d0c82f1b4ccc0e22b445" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ZoomController.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>ZoomController.Awake</qualifiedname>
+        <briefdescription>
+<para>Se ejecuta al inicializar el componente. Actualiza el rectángulo de la pantalla. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/ZoomController.cs" line="137" column="10" bodyfile="Assets/Scripts/Camera/ZoomController.cs" bodystart="137" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_zoom_controller_1a2d6923e29c132707c60ca5d51ba4459c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ZoomController.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>ZoomController.Update</qualifiedname>
+        <briefdescription>
+<para>Actualiza el estado del controlador cada frame. Gestiona el zoom según la plataforma y aplica el suavizado. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/ZoomController.cs" line="165" column="10" bodyfile="Assets/Scripts/Camera/ZoomController.cs" bodystart="165" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="class_zoom_controller_1a09505f4471253a98bbad90019d59e3aa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ZoomController.UpdateScreenRect</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateScreenRect</name>
+        <qualifiedname>ZoomController.UpdateScreenRect</qualifiedname>
+        <briefdescription>
+<para>Actualiza el rectángulo que representa los límites de la pantalla. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/ZoomController.cs" line="199" column="18" bodyfile="Assets/Scripts/Camera/ZoomController.cs" bodystart="199" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="class_zoom_controller_1a425c6f926edfd2429b6e2a4f25995fb8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ZoomController.IsMouseWithinScreen</definition>
+        <argsstring>()</argsstring>
+        <name>IsMouseWithinScreen</name>
+        <qualifiedname>ZoomController.IsMouseWithinScreen</qualifiedname>
+        <briefdescription>
+<para>Verifica si el cursor está dentro de los límites de la pantalla. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True si el cursor está dentro del área válida, false en caso contrario.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/ZoomController.cs" line="214" column="18" bodyfile="Assets/Scripts/Camera/ZoomController.cs" bodystart="214" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="class_zoom_controller_1add48e88faa3b43a7634fc06e33315340" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ZoomController.HandleMouseWheelZoom</definition>
+        <argsstring>()</argsstring>
+        <name>HandleMouseWheelZoom</name>
+        <qualifiedname>ZoomController.HandleMouseWheelZoom</qualifiedname>
+        <briefdescription>
+<para>Maneja el zoom mediante la rueda del mouse con efecto suavizado. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/ZoomController.cs" line="222" column="18" bodyfile="Assets/Scripts/Camera/ZoomController.cs" bodystart="222" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="class_zoom_controller_1a5770c4885c491189051c4c3b21d3b9f9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ZoomController.HandlePinchZoom</definition>
+        <argsstring>()</argsstring>
+        <name>HandlePinchZoom</name>
+        <qualifiedname>ZoomController.HandlePinchZoom</qualifiedname>
+        <briefdescription>
+<para>Maneja el zoom mediante pinch en dispositivos táctiles. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/ZoomController.cs" line="243" column="18" bodyfile="Assets/Scripts/Camera/ZoomController.cs" bodystart="243" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="function" id="class_zoom_controller_1a4c726289b3d3f8d98766910be13d9c5f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ZoomController.HandleKeyboardZoom</definition>
+        <argsstring>()</argsstring>
+        <name>HandleKeyboardZoom</name>
+        <qualifiedname>ZoomController.HandleKeyboardZoom</qualifiedname>
+        <briefdescription>
+<para>Gestiona el zoom mediante las teclas del teclado de forma suave. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/ZoomController.cs" line="284" column="18" bodyfile="Assets/Scripts/Camera/ZoomController.cs" bodystart="284" bodyend="309"/>
+      </memberdef>
+      <memberdef kind="function" id="class_zoom_controller_1a0f9f1c05cec4dcae33b5ab5ea3d33059" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ZoomController.SetTargetFOV</definition>
+        <argsstring>(float newTargetFOV)</argsstring>
+        <name>SetTargetFOV</name>
+        <qualifiedname>ZoomController.SetTargetFOV</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>newTargetFOV</declname>
+        </param>
+        <briefdescription>
+<para>Establece el FOV objetivo dentro de los límites permitidos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newTargetFOV</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>El nuevo FOV objetivo.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/ZoomController.cs" line="315" column="18" bodyfile="Assets/Scripts/Camera/ZoomController.cs" bodystart="315" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="function" id="class_zoom_controller_1ae0f283950719aaf5f080ace0d9da074b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ZoomController.ApplySmoothZoom</definition>
+        <argsstring>()</argsstring>
+        <name>ApplySmoothZoom</name>
+        <qualifiedname>ZoomController.ApplySmoothZoom</qualifiedname>
+        <briefdescription>
+<para>Aplica el zoom de forma suave usando interpolación. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/ZoomController.cs" line="323" column="18" bodyfile="Assets/Scripts/Camera/ZoomController.cs" bodystart="323" bodyend="341"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_zoom_controller_1a3a46a83264b8b69db9cb946b47d06dcf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ZoomController.Initialize</definition>
+        <argsstring>(CameraView controller)</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>ZoomController.Initialize</qualifiedname>
+        <param>
+          <type><ref refid="class_camera_view" kindref="compound">CameraView</ref></type>
+          <declname>controller</declname>
+        </param>
+        <briefdescription>
+<para>Inicializa el controlador con una referencia al controlador principal. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controller</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>El controlador de cámara principal.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/ZoomController.cs" line="146" column="17" bodyfile="Assets/Scripts/Camera/ZoomController.cs" bodystart="146" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="class_zoom_controller_1a667d664cd71d992806c2bbd32e6c71d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ZoomController.ResetZoom</definition>
+        <argsstring>()</argsstring>
+        <name>ResetZoom</name>
+        <qualifiedname>ZoomController.ResetZoom</qualifiedname>
+        <briefdescription>
+<para>Restablece el zoom al valor inicial de forma suave. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/ZoomController.cs" line="346" column="17" bodyfile="Assets/Scripts/Camera/ZoomController.cs" bodystart="346" bodyend="352"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Controlador para manejar el zoom de la cámara mediante rueda del mouse, pinch en dispositivos táctiles y teclas con movimiento fluido. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ZoomController</label>
+        <link refid="class_zoom_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ZoomController</label>
+        <link refid="class_zoom_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/Camera/ZoomController.cs" line="7" column="7" bodyfile="Assets/Scripts/Camera/ZoomController.cs" bodystart="8" bodyend="353"/>
+    <listofallmembers>
+      <member refid="class_zoom_controller_1a8eed5bee94ac28f5f18b6979ced8eb8d" prot="public" virt="non-virtual"><scope>ZoomController</scope><name>allowZoom</name></member>
+      <member refid="class_zoom_controller_1ae0f283950719aaf5f080ace0d9da074b" prot="private" virt="non-virtual"><scope>ZoomController</scope><name>ApplySmoothZoom</name></member>
+      <member refid="class_zoom_controller_1a7e61b8a7c318d0c82f1b4ccc0e22b445" prot="private" virt="non-virtual"><scope>ZoomController</scope><name>Awake</name></member>
+      <member refid="class_zoom_controller_1adf9cd2bd3a15465e257af06224fa4067" prot="private" virt="non-virtual"><scope>ZoomController</scope><name>currentVelocity</name></member>
+      <member refid="class_zoom_controller_1a4c726289b3d3f8d98766910be13d9c5f" prot="private" virt="non-virtual"><scope>ZoomController</scope><name>HandleKeyboardZoom</name></member>
+      <member refid="class_zoom_controller_1add48e88faa3b43a7634fc06e33315340" prot="private" virt="non-virtual"><scope>ZoomController</scope><name>HandleMouseWheelZoom</name></member>
+      <member refid="class_zoom_controller_1a5770c4885c491189051c4c3b21d3b9f9" prot="private" virt="non-virtual"><scope>ZoomController</scope><name>HandlePinchZoom</name></member>
+      <member refid="class_zoom_controller_1a686320b9c6c3b04733e021fced42aea3" prot="private" virt="non-virtual"><scope>ZoomController</scope><name>initialFOV</name></member>
+      <member refid="class_zoom_controller_1a3a46a83264b8b69db9cb946b47d06dcf" prot="public" virt="non-virtual"><scope>ZoomController</scope><name>Initialize</name></member>
+      <member refid="class_zoom_controller_1a06ac3bef8c54a35f97b91bfb0ae09b35" prot="private" virt="non-virtual"><scope>ZoomController</scope><name>initialized</name></member>
+      <member refid="class_zoom_controller_1a425c6f926edfd2429b6e2a4f25995fb8" prot="private" virt="non-virtual"><scope>ZoomController</scope><name>IsMouseWithinScreen</name></member>
+      <member refid="class_zoom_controller_1a4597cde8028a1afdc005ad1a7d87a671" prot="public" virt="non-virtual"><scope>ZoomController</scope><name>keyZoomSpeed</name></member>
+      <member refid="class_zoom_controller_1ab567b7081d6bb1e00ed914b7234b3b83" prot="public" virt="non-virtual"><scope>ZoomController</scope><name>maxFOV</name></member>
+      <member refid="class_zoom_controller_1a5e5ebdf53c03cd4a179c69c32f5617f8" prot="public" virt="non-virtual"><scope>ZoomController</scope><name>minFOV</name></member>
+      <member refid="class_zoom_controller_1a1ff1f64266e5ca18f48bb3498fd9c4ec" prot="private" virt="non-virtual"><scope>ZoomController</scope><name>parentController</name></member>
+      <member refid="class_zoom_controller_1a94035eb53c738b0e8aa3d6ee44590378" prot="private" virt="non-virtual"><scope>ZoomController</scope><name>PINCH_SENSITIVITY_FACTOR</name></member>
+      <member refid="class_zoom_controller_1a667d664cd71d992806c2bbd32e6c71d9" prot="public" virt="non-virtual"><scope>ZoomController</scope><name>ResetZoom</name></member>
+      <member refid="class_zoom_controller_1aa8b60c4abe38528faf8befc525bc80a7" prot="public" virt="non-virtual"><scope>ZoomController</scope><name>screenEdgeMargin</name></member>
+      <member refid="class_zoom_controller_1aa2a925699aa85d954b0a3d367bb35ee1" prot="private" virt="non-virtual"><scope>ZoomController</scope><name>screenRect</name></member>
+      <member refid="class_zoom_controller_1a0f9f1c05cec4dcae33b5ab5ea3d33059" prot="private" virt="non-virtual"><scope>ZoomController</scope><name>SetTargetFOV</name></member>
+      <member refid="class_zoom_controller_1a97646101a94f5707e0c9e6398516329c" prot="public" virt="non-virtual"><scope>ZoomController</scope><name>smoothSpeed</name></member>
+      <member refid="class_zoom_controller_1ab0678aeca879105ea1c7577c6fe212cb" prot="private" virt="non-virtual"><scope>ZoomController</scope><name>targetFOV</name></member>
+      <member refid="class_zoom_controller_1adde68d8a49ffd66d5012b7cae47838a0" prot="private" virt="non-virtual"><scope>ZoomController</scope><name>touchZoomLastDistance</name></member>
+      <member refid="class_zoom_controller_1a2d6923e29c132707c60ca5d51ba4459c" prot="private" virt="non-virtual"><scope>ZoomController</scope><name>Update</name></member>
+      <member refid="class_zoom_controller_1a09505f4471253a98bbad90019d59e3aa" prot="private" virt="non-virtual"><scope>ZoomController</scope><name>UpdateScreenRect</name></member>
+      <member refid="class_zoom_controller_1add4ad21a4b18c508a864d5236b142830" prot="public" virt="non-virtual"><scope>ZoomController</scope><name>usePageKeys</name></member>
+      <member refid="class_zoom_controller_1a21a007f429852918b78b34f2ab340721" prot="public" virt="non-virtual"><scope>ZoomController</scope><name>zoomInKey</name></member>
+      <member refid="class_zoom_controller_1aff71babc6d710de54b4c71b95196f3d2" prot="public" virt="non-virtual"><scope>ZoomController</scope><name>zoomInKeyAlt</name></member>
+      <member refid="class_zoom_controller_1a04241edda8733be50d344c98ea34ce0c" prot="public" virt="non-virtual"><scope>ZoomController</scope><name>zoomOutKey</name></member>
+      <member refid="class_zoom_controller_1aae227b961820b99f5ddffaa17269f773" prot="public" virt="non-virtual"><scope>ZoomController</scope><name>zoomOutKeyAlt</name></member>
+      <member refid="class_zoom_controller_1a8aa4fdfdcc3a402176d00c802cdc917b" prot="public" virt="non-virtual"><scope>ZoomController</scope><name>zoomSpeed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

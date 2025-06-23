@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_cursor_changer_menu" kind="class" language="C#" prot="public">
+    <compoundname>CursorChangerMenu</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerEnterHandler</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerExitHandler</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerClickHandler</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_cursor_changer_menu_1acb03f636c7cc79bf7ee75ac1510f5f36" prot="private" static="no" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D CursorChangerMenu.normalCursor</definition>
+        <argsstring></argsstring>
+        <name>normalCursor</name>
+        <qualifiedname>CursorChangerMenu.normalCursor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Cursor/CursorChangerMenu.cs" line="7" column="24" bodyfile="Assets/Scripts/Cursor/CursorChangerMenu.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_cursor_changer_menu_1af02fd3b14631e3c2c363cd648751c80a" prot="private" static="no" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D CursorChangerMenu.handCursor</definition>
+        <argsstring></argsstring>
+        <name>handCursor</name>
+        <qualifiedname>CursorChangerMenu.handCursor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Cursor/CursorChangerMenu.cs" line="8" column="24" bodyfile="Assets/Scripts/Cursor/CursorChangerMenu.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_cursor_changer_menu_1a11a5c5c08bc2d4440d002505af2cdc39" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 CursorChangerMenu.hotSpot</definition>
+        <argsstring></argsstring>
+        <name>hotSpot</name>
+        <qualifiedname>CursorChangerMenu.hotSpot</qualifiedname>
+        <initializer>= Vector2.zero</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Cursor/CursorChangerMenu.cs" line="9" column="22" bodyfile="Assets/Scripts/Cursor/CursorChangerMenu.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_cursor_changer_menu_1a070e4828c62688bad28711b7bb597d4f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CursorChangerMenu.isMouseOver</definition>
+        <argsstring></argsstring>
+        <name>isMouseOver</name>
+        <qualifiedname>CursorChangerMenu.isMouseOver</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Cursor/CursorChangerMenu.cs" line="11" column="18" bodyfile="Assets/Scripts/Cursor/CursorChangerMenu.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_cursor_changer_menu_1a47ce2dac0e8eb52a8d6e8783bba63b36" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CursorChangerMenu.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>CursorChangerMenu.Start</qualifiedname>
+        <briefdescription>
+<para>Inicializa el cursor al iniciar el componente, estableciéndolo en el cursor por defecto. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Cursor/CursorChangerMenu.cs" line="16" column="18" bodyfile="Assets/Scripts/Cursor/CursorChangerMenu.cs" bodystart="16" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_cursor_changer_menu_1a84d60bbdf4c31177625b06a6f97f7070" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CursorChangerMenu.OnPointerEnter</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerEnter</name>
+        <qualifiedname>CursorChangerMenu.OnPointerEnter</qualifiedname>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Cursor/CursorChangerMenu.cs" line="23" column="17" bodyfile="Assets/Scripts/Cursor/CursorChangerMenu.cs" bodystart="23" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cursor_changer_menu_1a1af08b429858d70aa18b12b0e3c61d1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CursorChangerMenu.OnPointerExit</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerExit</name>
+        <qualifiedname>CursorChangerMenu.OnPointerExit</qualifiedname>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Cursor/CursorChangerMenu.cs" line="30" column="17" bodyfile="Assets/Scripts/Cursor/CursorChangerMenu.cs" bodystart="30" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cursor_changer_menu_1abace0f6428310b589ed8f1cd801c8afb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CursorChangerMenu.OnPointerClick</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerClick</name>
+        <qualifiedname>CursorChangerMenu.OnPointerClick</qualifiedname>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Cursor/CursorChangerMenu.cs" line="37" column="17" bodyfile="Assets/Scripts/Cursor/CursorChangerMenu.cs" bodystart="37" bodyend="48"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CursorChangerMenu</label>
+        <link refid="class_cursor_changer_menu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>IPointerClickHandler</label>
+      </node>
+      <node id="3">
+        <label>IPointerEnterHandler</label>
+      </node>
+      <node id="4">
+        <label>IPointerExitHandler</label>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CursorChangerMenu</label>
+        <link refid="class_cursor_changer_menu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>IPointerClickHandler</label>
+      </node>
+      <node id="3">
+        <label>IPointerEnterHandler</label>
+      </node>
+      <node id="4">
+        <label>IPointerExitHandler</label>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/Cursor/CursorChangerMenu.cs" line="4" column="7" bodyfile="Assets/Scripts/Cursor/CursorChangerMenu.cs" bodystart="5" bodyend="49"/>
+    <listofallmembers>
+      <member refid="class_cursor_changer_menu_1af02fd3b14631e3c2c363cd648751c80a" prot="private" virt="non-virtual"><scope>CursorChangerMenu</scope><name>handCursor</name></member>
+      <member refid="class_cursor_changer_menu_1a11a5c5c08bc2d4440d002505af2cdc39" prot="private" virt="non-virtual"><scope>CursorChangerMenu</scope><name>hotSpot</name></member>
+      <member refid="class_cursor_changer_menu_1a070e4828c62688bad28711b7bb597d4f" prot="private" virt="non-virtual"><scope>CursorChangerMenu</scope><name>isMouseOver</name></member>
+      <member refid="class_cursor_changer_menu_1acb03f636c7cc79bf7ee75ac1510f5f36" prot="private" virt="non-virtual"><scope>CursorChangerMenu</scope><name>normalCursor</name></member>
+      <member refid="class_cursor_changer_menu_1abace0f6428310b589ed8f1cd801c8afb" prot="public" virt="non-virtual"><scope>CursorChangerMenu</scope><name>OnPointerClick</name></member>
+      <member refid="class_cursor_changer_menu_1a84d60bbdf4c31177625b06a6f97f7070" prot="public" virt="non-virtual"><scope>CursorChangerMenu</scope><name>OnPointerEnter</name></member>
+      <member refid="class_cursor_changer_menu_1a1af08b429858d70aa18b12b0e3c61d1c" prot="public" virt="non-virtual"><scope>CursorChangerMenu</scope><name>OnPointerExit</name></member>
+      <member refid="class_cursor_changer_menu_1a47ce2dac0e8eb52a8d6e8783bba63b36" prot="private" virt="non-virtual"><scope>CursorChangerMenu</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

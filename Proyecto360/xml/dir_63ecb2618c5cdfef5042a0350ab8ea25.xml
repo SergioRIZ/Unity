@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="dir_63ecb2618c5cdfef5042a0350ab8ea25" kind="dir">
+    <compoundname>Assets/Scripts/ScriptsPuntosDeInteres/Editor</compoundname>
+    <innerfile refid="_imagen_import_processor_8cs">ImagenImportProcessor.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Assets/Scripts/ScriptsPuntosDeInteres/Editor/"/>
+  </compounddef>
+</doxygen>

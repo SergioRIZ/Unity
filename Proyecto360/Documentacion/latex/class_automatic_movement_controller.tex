@@ -1,0 +1,228 @@
+\doxysection{Automatic\+Movement\+Controller Class Reference}
+\hypertarget{class_automatic_movement_controller}{}\label{class_automatic_movement_controller}\index{AutomaticMovementController@{AutomaticMovementController}}
+
+
+Controlador de movimiento automático para la cámara panorámica cuando el usuario está inactivo. Realiza un recorrido completo de 360° a una velocidad personalizable. Se detiene inmediatamente ante cualquier interacción del usuario. MODIFICADO\+: Inicia desactivado por defecto.  
+
+
+
+
+Inheritance diagram for Automatic\+Movement\+Controller\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=228pt]{class_automatic_movement_controller__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Automatic\+Movement\+Controller\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=228pt]{class_automatic_movement_controller__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_automatic_movement_controller_aed3142a3aef9781b4f61ac2f6d22aa0d}{Initialize}} (\mbox{\hyperlink{class_camera_view}{Camera\+View}} controller)
+\begin{DoxyCompactList}\small\item\em Inicializa el controlador con una referencia al controlador principal. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_automatic_movement_controller_a0e4df1db1866e056ebe889136741a4af}{Force\+Start\+Tour}} ()
+\begin{DoxyCompactList}\small\item\em Fuerza el inicio del movimiento automático (para llamadas desde otros scripts). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_automatic_movement_controller_ac95a92ad5127690e6947273ad5cf08a4}{Force\+Stop\+Tour}} ()
+\begin{DoxyCompactList}\small\item\em Fuerza la detención del movimiento automático (para llamadas desde otros scripts). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_automatic_movement_controller_adf602cd0d99eb911e54234adb5a02e4b}{On\+Point\+Of\+Interest\+Opened}} ()
+\begin{DoxyCompactList}\small\item\em Notifica al controlador que un punto de interés o video se ha activado. Detiene el movimiento automático si está activo. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_automatic_movement_controller_a4232d43bbd675bd4962339de383bb8eb}{On\+Point\+Of\+Interest\+Closed}} ()
+\begin{DoxyCompactList}\small\item\em Notifica al controlador que un punto de interés o video se ha cerrado. Reinicia el temporizador de inactividad. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_automatic_movement_controller_a818bc7d15671999ab70d8d523d7d7a78}{start\+Disabled}} = true
+\item 
+float \mbox{\hyperlink{class_automatic_movement_controller_a2938df54a7f23589fb8f94a671ec9d92}{inactivity\+Threshold}} = 3.\+0f
+\item 
+float \mbox{\hyperlink{class_automatic_movement_controller_a69926544b82e1fda534bc09d3ebf8f9c}{auto\+Rotation\+Speed}} = 20.\+0f
+\item 
+float \mbox{\hyperlink{class_automatic_movement_controller_acfbe17a0d47e0230ee5567c92c823329}{time\+For360\+Tour}} = 15.\+0f
+\item 
+bool \mbox{\hyperlink{class_automatic_movement_controller_aa39c1ca20d46cae90f3f120146a0fc27}{use\+Vertical\+Wave}} = true
+\item 
+float \mbox{\hyperlink{class_automatic_movement_controller_a188374d03341053a2143d99a0139004c}{vertical\+Wave\+Amplitude}} = 5.\+0f
+\item 
+float \mbox{\hyperlink{class_automatic_movement_controller_a5ecfb366c4a1910505afe4b02c64f351}{vertical\+Wave\+Frequency}} = 0.\+2f
+\item 
+bool \mbox{\hyperlink{class_automatic_movement_controller_a00f2aa145e76b91f870547f9bd565547}{disable\+During\+POI}} = true
+\item 
+float \mbox{\hyperlink{class_automatic_movement_controller_a59273bdcb79c077d89fb3d3589f748bd}{mouse\+Sensitivity}} = 0.\+001f
+\item 
+bool \mbox{\hyperlink{class_automatic_movement_controller_a863a266ea48c469e05bf066bb83ed5c2}{continue\+From\+User\+Position}} = true
+\item 
+bool \mbox{\hyperlink{class_automatic_movement_controller_a20c3d4b951eb8a76603543bf16a18932}{clockwise\+Rotation}} = true
+\item 
+float \mbox{\hyperlink{class_automatic_movement_controller_a3343c8ab695b04717058d44dd4bbb65a}{smooth\+Start\+Duration}} = 2.\+0f
+\item 
+bool \mbox{\hyperlink{class_automatic_movement_controller_ab790699e6a4fc10257c5a9cbb62546ff}{smooth\+Vertical\+Start}} = true
+\item 
+bool \mbox{\hyperlink{class_automatic_movement_controller_ab14dc67ce567ed7e0e9b796e5d49fb29}{debug\+Mode}} = false
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Controlador de movimiento automático para la cámara panorámica cuando el usuario está inactivo. Realiza un recorrido completo de 360° a una velocidad personalizable. Se detiene inmediatamente ante cualquier interacción del usuario. MODIFICADO\+: Inicia desactivado por defecto. 
+
+\label{doc-func-members}
+\Hypertarget{class_automatic_movement_controller_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_automatic_movement_controller_a0e4df1db1866e056ebe889136741a4af}\index{AutomaticMovementController@{AutomaticMovementController}!ForceStartTour@{ForceStartTour}}
+\index{ForceStartTour@{ForceStartTour}!AutomaticMovementController@{AutomaticMovementController}}
+\doxysubsubsection{\texorpdfstring{ForceStartTour()}{ForceStartTour()}}
+{\footnotesize\ttfamily \label{class_automatic_movement_controller_a0e4df1db1866e056ebe889136741a4af} 
+void Automatic\+Movement\+Controller.\+Force\+Start\+Tour (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Fuerza el inicio del movimiento automático (para llamadas desde otros scripts). 
+
+\Hypertarget{class_automatic_movement_controller_ac95a92ad5127690e6947273ad5cf08a4}\index{AutomaticMovementController@{AutomaticMovementController}!ForceStopTour@{ForceStopTour}}
+\index{ForceStopTour@{ForceStopTour}!AutomaticMovementController@{AutomaticMovementController}}
+\doxysubsubsection{\texorpdfstring{ForceStopTour()}{ForceStopTour()}}
+{\footnotesize\ttfamily \label{class_automatic_movement_controller_ac95a92ad5127690e6947273ad5cf08a4} 
+void Automatic\+Movement\+Controller.\+Force\+Stop\+Tour (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Fuerza la detención del movimiento automático (para llamadas desde otros scripts). 
+
+\Hypertarget{class_automatic_movement_controller_aed3142a3aef9781b4f61ac2f6d22aa0d}\index{AutomaticMovementController@{AutomaticMovementController}!Initialize@{Initialize}}
+\index{Initialize@{Initialize}!AutomaticMovementController@{AutomaticMovementController}}
+\doxysubsubsection{\texorpdfstring{Initialize()}{Initialize()}}
+{\footnotesize\ttfamily \label{class_automatic_movement_controller_aed3142a3aef9781b4f61ac2f6d22aa0d} 
+void Automatic\+Movement\+Controller.\+Initialize (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_camera_view}{Camera\+View}}}]{controller}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Inicializa el controlador con una referencia al controlador principal. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em controller} & El controlador de cámara principal.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_automatic_movement_controller_a4232d43bbd675bd4962339de383bb8eb}\index{AutomaticMovementController@{AutomaticMovementController}!OnPointOfInterestClosed@{OnPointOfInterestClosed}}
+\index{OnPointOfInterestClosed@{OnPointOfInterestClosed}!AutomaticMovementController@{AutomaticMovementController}}
+\doxysubsubsection{\texorpdfstring{OnPointOfInterestClosed()}{OnPointOfInterestClosed()}}
+{\footnotesize\ttfamily \label{class_automatic_movement_controller_a4232d43bbd675bd4962339de383bb8eb} 
+void Automatic\+Movement\+Controller.\+On\+Point\+Of\+Interest\+Closed (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Notifica al controlador que un punto de interés o video se ha cerrado. Reinicia el temporizador de inactividad. 
+
+\Hypertarget{class_automatic_movement_controller_adf602cd0d99eb911e54234adb5a02e4b}\index{AutomaticMovementController@{AutomaticMovementController}!OnPointOfInterestOpened@{OnPointOfInterestOpened}}
+\index{OnPointOfInterestOpened@{OnPointOfInterestOpened}!AutomaticMovementController@{AutomaticMovementController}}
+\doxysubsubsection{\texorpdfstring{OnPointOfInterestOpened()}{OnPointOfInterestOpened()}}
+{\footnotesize\ttfamily \label{class_automatic_movement_controller_adf602cd0d99eb911e54234adb5a02e4b} 
+void Automatic\+Movement\+Controller.\+On\+Point\+Of\+Interest\+Opened (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Notifica al controlador que un punto de interés o video se ha activado. Detiene el movimiento automático si está activo. 
+
+
+
+\label{doc-variable-members}
+\Hypertarget{class_automatic_movement_controller_doc-variable-members}
+\doxysubsection{Field Documentation}
+\Hypertarget{class_automatic_movement_controller_a69926544b82e1fda534bc09d3ebf8f9c}\index{AutomaticMovementController@{AutomaticMovementController}!autoRotationSpeed@{autoRotationSpeed}}
+\index{autoRotationSpeed@{autoRotationSpeed}!AutomaticMovementController@{AutomaticMovementController}}
+\doxysubsubsection{\texorpdfstring{autoRotationSpeed}{autoRotationSpeed}}
+{\footnotesize\ttfamily \label{class_automatic_movement_controller_a69926544b82e1fda534bc09d3ebf8f9c} 
+float Automatic\+Movement\+Controller.\+auto\+Rotation\+Speed = 20.\+0f}
+
+\Hypertarget{class_automatic_movement_controller_a20c3d4b951eb8a76603543bf16a18932}\index{AutomaticMovementController@{AutomaticMovementController}!clockwiseRotation@{clockwiseRotation}}
+\index{clockwiseRotation@{clockwiseRotation}!AutomaticMovementController@{AutomaticMovementController}}
+\doxysubsubsection{\texorpdfstring{clockwiseRotation}{clockwiseRotation}}
+{\footnotesize\ttfamily \label{class_automatic_movement_controller_a20c3d4b951eb8a76603543bf16a18932} 
+bool Automatic\+Movement\+Controller.\+clockwise\+Rotation = true}
+
+\Hypertarget{class_automatic_movement_controller_a863a266ea48c469e05bf066bb83ed5c2}\index{AutomaticMovementController@{AutomaticMovementController}!continueFromUserPosition@{continueFromUserPosition}}
+\index{continueFromUserPosition@{continueFromUserPosition}!AutomaticMovementController@{AutomaticMovementController}}
+\doxysubsubsection{\texorpdfstring{continueFromUserPosition}{continueFromUserPosition}}
+{\footnotesize\ttfamily \label{class_automatic_movement_controller_a863a266ea48c469e05bf066bb83ed5c2} 
+bool Automatic\+Movement\+Controller.\+continue\+From\+User\+Position = true}
+
+\Hypertarget{class_automatic_movement_controller_ab14dc67ce567ed7e0e9b796e5d49fb29}\index{AutomaticMovementController@{AutomaticMovementController}!debugMode@{debugMode}}
+\index{debugMode@{debugMode}!AutomaticMovementController@{AutomaticMovementController}}
+\doxysubsubsection{\texorpdfstring{debugMode}{debugMode}}
+{\footnotesize\ttfamily \label{class_automatic_movement_controller_ab14dc67ce567ed7e0e9b796e5d49fb29} 
+bool Automatic\+Movement\+Controller.\+debug\+Mode = false}
+
+\Hypertarget{class_automatic_movement_controller_a00f2aa145e76b91f870547f9bd565547}\index{AutomaticMovementController@{AutomaticMovementController}!disableDuringPOI@{disableDuringPOI}}
+\index{disableDuringPOI@{disableDuringPOI}!AutomaticMovementController@{AutomaticMovementController}}
+\doxysubsubsection{\texorpdfstring{disableDuringPOI}{disableDuringPOI}}
+{\footnotesize\ttfamily \label{class_automatic_movement_controller_a00f2aa145e76b91f870547f9bd565547} 
+bool Automatic\+Movement\+Controller.\+disable\+During\+POI = true}
+
+\Hypertarget{class_automatic_movement_controller_a2938df54a7f23589fb8f94a671ec9d92}\index{AutomaticMovementController@{AutomaticMovementController}!inactivityThreshold@{inactivityThreshold}}
+\index{inactivityThreshold@{inactivityThreshold}!AutomaticMovementController@{AutomaticMovementController}}
+\doxysubsubsection{\texorpdfstring{inactivityThreshold}{inactivityThreshold}}
+{\footnotesize\ttfamily \label{class_automatic_movement_controller_a2938df54a7f23589fb8f94a671ec9d92} 
+float Automatic\+Movement\+Controller.\+inactivity\+Threshold = 3.\+0f}
+
+\Hypertarget{class_automatic_movement_controller_a59273bdcb79c077d89fb3d3589f748bd}\index{AutomaticMovementController@{AutomaticMovementController}!mouseSensitivity@{mouseSensitivity}}
+\index{mouseSensitivity@{mouseSensitivity}!AutomaticMovementController@{AutomaticMovementController}}
+\doxysubsubsection{\texorpdfstring{mouseSensitivity}{mouseSensitivity}}
+{\footnotesize\ttfamily \label{class_automatic_movement_controller_a59273bdcb79c077d89fb3d3589f748bd} 
+float Automatic\+Movement\+Controller.\+mouse\+Sensitivity = 0.\+001f}
+
+\Hypertarget{class_automatic_movement_controller_a3343c8ab695b04717058d44dd4bbb65a}\index{AutomaticMovementController@{AutomaticMovementController}!smoothStartDuration@{smoothStartDuration}}
+\index{smoothStartDuration@{smoothStartDuration}!AutomaticMovementController@{AutomaticMovementController}}
+\doxysubsubsection{\texorpdfstring{smoothStartDuration}{smoothStartDuration}}
+{\footnotesize\ttfamily \label{class_automatic_movement_controller_a3343c8ab695b04717058d44dd4bbb65a} 
+float Automatic\+Movement\+Controller.\+smooth\+Start\+Duration = 2.\+0f}
+
+\Hypertarget{class_automatic_movement_controller_ab790699e6a4fc10257c5a9cbb62546ff}\index{AutomaticMovementController@{AutomaticMovementController}!smoothVerticalStart@{smoothVerticalStart}}
+\index{smoothVerticalStart@{smoothVerticalStart}!AutomaticMovementController@{AutomaticMovementController}}
+\doxysubsubsection{\texorpdfstring{smoothVerticalStart}{smoothVerticalStart}}
+{\footnotesize\ttfamily \label{class_automatic_movement_controller_ab790699e6a4fc10257c5a9cbb62546ff} 
+bool Automatic\+Movement\+Controller.\+smooth\+Vertical\+Start = true}
+
+\Hypertarget{class_automatic_movement_controller_a818bc7d15671999ab70d8d523d7d7a78}\index{AutomaticMovementController@{AutomaticMovementController}!startDisabled@{startDisabled}}
+\index{startDisabled@{startDisabled}!AutomaticMovementController@{AutomaticMovementController}}
+\doxysubsubsection{\texorpdfstring{startDisabled}{startDisabled}}
+{\footnotesize\ttfamily \label{class_automatic_movement_controller_a818bc7d15671999ab70d8d523d7d7a78} 
+bool Automatic\+Movement\+Controller.\+start\+Disabled = true}
+
+\Hypertarget{class_automatic_movement_controller_acfbe17a0d47e0230ee5567c92c823329}\index{AutomaticMovementController@{AutomaticMovementController}!timeFor360Tour@{timeFor360Tour}}
+\index{timeFor360Tour@{timeFor360Tour}!AutomaticMovementController@{AutomaticMovementController}}
+\doxysubsubsection{\texorpdfstring{timeFor360Tour}{timeFor360Tour}}
+{\footnotesize\ttfamily \label{class_automatic_movement_controller_acfbe17a0d47e0230ee5567c92c823329} 
+float Automatic\+Movement\+Controller.\+time\+For360\+Tour = 15.\+0f}
+
+\Hypertarget{class_automatic_movement_controller_aa39c1ca20d46cae90f3f120146a0fc27}\index{AutomaticMovementController@{AutomaticMovementController}!useVerticalWave@{useVerticalWave}}
+\index{useVerticalWave@{useVerticalWave}!AutomaticMovementController@{AutomaticMovementController}}
+\doxysubsubsection{\texorpdfstring{useVerticalWave}{useVerticalWave}}
+{\footnotesize\ttfamily \label{class_automatic_movement_controller_aa39c1ca20d46cae90f3f120146a0fc27} 
+bool Automatic\+Movement\+Controller.\+use\+Vertical\+Wave = true}
+
+\Hypertarget{class_automatic_movement_controller_a188374d03341053a2143d99a0139004c}\index{AutomaticMovementController@{AutomaticMovementController}!verticalWaveAmplitude@{verticalWaveAmplitude}}
+\index{verticalWaveAmplitude@{verticalWaveAmplitude}!AutomaticMovementController@{AutomaticMovementController}}
+\doxysubsubsection{\texorpdfstring{verticalWaveAmplitude}{verticalWaveAmplitude}}
+{\footnotesize\ttfamily \label{class_automatic_movement_controller_a188374d03341053a2143d99a0139004c} 
+float Automatic\+Movement\+Controller.\+vertical\+Wave\+Amplitude = 5.\+0f}
+
+\Hypertarget{class_automatic_movement_controller_a5ecfb366c4a1910505afe4b02c64f351}\index{AutomaticMovementController@{AutomaticMovementController}!verticalWaveFrequency@{verticalWaveFrequency}}
+\index{verticalWaveFrequency@{verticalWaveFrequency}!AutomaticMovementController@{AutomaticMovementController}}
+\doxysubsubsection{\texorpdfstring{verticalWaveFrequency}{verticalWaveFrequency}}
+{\footnotesize\ttfamily \label{class_automatic_movement_controller_a5ecfb366c4a1910505afe4b02c64f351} 
+float Automatic\+Movement\+Controller.\+vertical\+Wave\+Frequency = 0.\+2f}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+Camera/\mbox{\hyperlink{_automatic_movement_controller_8cs}{Automatic\+Movement\+Controller.\+cs}}\end{DoxyCompactItemize}

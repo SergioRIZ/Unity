@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_canvas_text_selected" kind="class" language="C#" prot="public">
+    <compoundname>CanvasTextSelected</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerEnterHandler</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerExitHandler</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_canvas_text_selected_1a24f00f75d6659b5b14d54313da2d462f" prot="private" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI CanvasTextSelected.tmpText</definition>
+        <argsstring></argsstring>
+        <name>tmpText</name>
+        <qualifiedname>CanvasTextSelected.tmpText</qualifiedname>
+        <briefdescription>
+<para>Referencia al componente TextMeshProUGUI del botón. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/CanvasTextSelected.cs" line="16" column="29" bodyfile="Assets/Scripts/CarouselScript/CanvasTextSelected.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_canvas_text_selected_1a729ddbb3ab29ba44f7ca7054d834d568" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CanvasTextSelected.isPermanentlyUnderlined</definition>
+        <argsstring></argsstring>
+        <name>isPermanentlyUnderlined</name>
+        <qualifiedname>CanvasTextSelected.isPermanentlyUnderlined</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Indica si el texto del botón está subrayado permanentemente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/CanvasTextSelected.cs" line="21" column="17" bodyfile="Assets/Scripts/CarouselScript/CanvasTextSelected.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_canvas_text_selected_1a2f85cc93e089aac91f11c4c3ada8e675" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CanvasTextSelected.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>CanvasTextSelected.Awake</qualifiedname>
+        <briefdescription>
+<para>Obtiene el componente TextMeshProUGUI hijo del botón. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/CanvasTextSelected.cs" line="26" column="18" bodyfile="Assets/Scripts/CarouselScript/CanvasTextSelected.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_canvas_text_selected_1a5aeab33bcc69d92ff350e77be5ec59e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CanvasTextSelected.OnPointerEnter</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerEnter</name>
+        <qualifiedname>CanvasTextSelected.OnPointerEnter</qualifiedname>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+<para>Evento que se ejecuta al pasar el ratón por encima del botón. Cambia el estilo del texto a subrayado si no está subrayado permanentemente. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eventData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Datos del evento del puntero.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/CanvasTextSelected.cs" line="36" column="17" bodyfile="Assets/Scripts/CarouselScript/CanvasTextSelected.cs" bodystart="36" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_canvas_text_selected_1a6be41c4ae54877ad9a18f55e23c4c9fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CanvasTextSelected.OnPointerExit</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerExit</name>
+        <qualifiedname>CanvasTextSelected.OnPointerExit</qualifiedname>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+<para>Evento que se ejecuta al salir el ratón del botón. Vuelve el estilo del texto al normal si no está subrayado permanentemente. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eventData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Datos del evento del puntero.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/CanvasTextSelected.cs" line="53" column="17" bodyfile="Assets/Scripts/CarouselScript/CanvasTextSelected.cs" bodystart="53" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_canvas_text_selected_1ae9bb6832f5ee76ad63a009cfd7d4822e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CanvasTextSelected.SetPermanentUnderline</definition>
+        <argsstring>(bool isUnderlined)</argsstring>
+        <name>SetPermanentUnderline</name>
+        <qualifiedname>CanvasTextSelected.SetPermanentUnderline</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>isUnderlined</declname>
+        </param>
+        <briefdescription>
+<para>Establece si el texto del botón debe estar subrayado permanentemente. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isUnderlined</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>True si debe estar subrayado permanentemente, false en caso contrario.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/CanvasTextSelected.cs" line="69" column="17" bodyfile="Assets/Scripts/CarouselScript/CanvasTextSelected.cs" bodystart="69" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_canvas_text_selected_1a6dc45fed06e4163e16cfdf91f4b17c6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CanvasTextSelected.IsPermanentlyUnderlined</definition>
+        <argsstring>()</argsstring>
+        <name>IsPermanentlyUnderlined</name>
+        <qualifiedname>CanvasTextSelected.IsPermanentlyUnderlined</qualifiedname>
+        <briefdescription>
+<para>Comprueba si el texto del botón está subrayado permanentemente. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True si está subrayado permanentemente, false en caso contrario.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/CanvasTextSelected.cs" line="91" column="17" bodyfile="Assets/Scripts/CarouselScript/CanvasTextSelected.cs" bodystart="91" bodyend="94"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Clase que gestiona el comportamiento del texto de un botón en un Canvas cuando el ratón interactúa con él. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CanvasTextSelected</label>
+        <link refid="class_canvas_text_selected"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IPointerEnterHandler</label>
+      </node>
+      <node id="4">
+        <label>IPointerExitHandler</label>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CanvasTextSelected</label>
+        <link refid="class_canvas_text_selected"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IPointerEnterHandler</label>
+      </node>
+      <node id="4">
+        <label>IPointerExitHandler</label>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/CarouselScript/CanvasTextSelected.cs" line="11" column="7" bodyfile="Assets/Scripts/CarouselScript/CanvasTextSelected.cs" bodystart="12" bodyend="95"/>
+    <listofallmembers>
+      <member refid="class_canvas_text_selected_1a2f85cc93e089aac91f11c4c3ada8e675" prot="private" virt="non-virtual"><scope>CanvasTextSelected</scope><name>Awake</name></member>
+      <member refid="class_canvas_text_selected_1a6dc45fed06e4163e16cfdf91f4b17c6b" prot="public" virt="non-virtual"><scope>CanvasTextSelected</scope><name>IsPermanentlyUnderlined</name></member>
+      <member refid="class_canvas_text_selected_1a729ddbb3ab29ba44f7ca7054d834d568" prot="public" virt="non-virtual"><scope>CanvasTextSelected</scope><name>isPermanentlyUnderlined</name></member>
+      <member refid="class_canvas_text_selected_1a5aeab33bcc69d92ff350e77be5ec59e9" prot="public" virt="non-virtual"><scope>CanvasTextSelected</scope><name>OnPointerEnter</name></member>
+      <member refid="class_canvas_text_selected_1a6be41c4ae54877ad9a18f55e23c4c9fd" prot="public" virt="non-virtual"><scope>CanvasTextSelected</scope><name>OnPointerExit</name></member>
+      <member refid="class_canvas_text_selected_1ae9bb6832f5ee76ad63a009cfd7d4822e" prot="public" virt="non-virtual"><scope>CanvasTextSelected</scope><name>SetPermanentUnderline</name></member>
+      <member refid="class_canvas_text_selected_1a24f00f75d6659b5b14d54313da2d462f" prot="private" virt="non-virtual"><scope>CanvasTextSelected</scope><name>tmpText</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

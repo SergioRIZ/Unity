@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_button_hover_effect" kind="class" language="C#" prot="public">
+    <compoundname>ButtonHoverEffect</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerEnterHandler</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerExitHandler</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_button_hover_effect_1ad2d69f8c94cb0fc6de11afda2468b35e" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ButtonHoverEffect.textObject</definition>
+        <argsstring></argsstring>
+        <name>textObject</name>
+        <qualifiedname>ButtonHoverEffect.textObject</qualifiedname>
+        <briefdescription>
+<para>El objeto de texto dentro del botón. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ButtonHoverEffect.cs" line="15" column="23" bodyfile="Assets/Scripts/CarouselScript/ButtonHoverEffect.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_button_hover_effect_1a1ea4ea9b0f59fa6862b4f516933b8dec" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ButtonHoverEffect.panelObject</definition>
+        <argsstring></argsstring>
+        <name>panelObject</name>
+        <qualifiedname>ButtonHoverEffect.panelObject</qualifiedname>
+        <briefdescription>
+<para>El panel que actúa como fondo del texto. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ButtonHoverEffect.cs" line="20" column="23" bodyfile="Assets/Scripts/CarouselScript/ButtonHoverEffect.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_button_hover_effect_1a99f875dab1263ab0d77c1a051fd61c5e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ButtonHoverEffect.delayTime</definition>
+        <argsstring></argsstring>
+        <name>delayTime</name>
+        <qualifiedname>ButtonHoverEffect.delayTime</qualifiedname>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+<para>Tiempo en segundos para activar los objetos después de que el ratón entre en el botón. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ButtonHoverEffect.cs" line="25" column="18" bodyfile="Assets/Scripts/CarouselScript/ButtonHoverEffect.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_button_hover_effect_1a391d210ec3725ef86588307778d80439" prot="public" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color ButtonHoverEffect.normalColor</definition>
+        <argsstring></argsstring>
+        <name>normalColor</name>
+        <qualifiedname>ButtonHoverEffect.normalColor</qualifiedname>
+        <initializer>= Color.white</initializer>
+        <briefdescription>
+<para>Color original del botón. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ButtonHoverEffect.cs" line="40" column="18" bodyfile="Assets/Scripts/CarouselScript/ButtonHoverEffect.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_button_hover_effect_1ac56b29ee2c554b97c66da347a131719c" prot="public" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color ButtonHoverEffect.hoverColor</definition>
+        <argsstring></argsstring>
+        <name>hoverColor</name>
+        <qualifiedname>ButtonHoverEffect.hoverColor</qualifiedname>
+        <initializer>= Color.blue</initializer>
+        <briefdescription>
+<para>Color del botón cuando el ratón está encima. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ButtonHoverEffect.cs" line="45" column="18" bodyfile="Assets/Scripts/CarouselScript/ButtonHoverEffect.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_button_hover_effect_1a803c6c926ca8299eed2263f90809f0a8" prot="private" static="no" mutable="no">
+        <type>Coroutine</type>
+        <definition>Coroutine ButtonHoverEffect.hoverCoroutine</definition>
+        <argsstring></argsstring>
+        <name>hoverCoroutine</name>
+        <qualifiedname>ButtonHoverEffect.hoverCoroutine</qualifiedname>
+        <briefdescription>
+<para>Coroutine para manejar el retraso en la activación de los objetos. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ButtonHoverEffect.cs" line="30" column="23" bodyfile="Assets/Scripts/CarouselScript/ButtonHoverEffect.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_button_hover_effect_1a883be8fc8201932347b3c5e39829881f" prot="private" static="no" mutable="no">
+        <type>Image</type>
+        <definition>Image ButtonHoverEffect.buttonImage</definition>
+        <argsstring></argsstring>
+        <name>buttonImage</name>
+        <qualifiedname>ButtonHoverEffect.buttonImage</qualifiedname>
+        <briefdescription>
+<para>El componente Image del botón. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ButtonHoverEffect.cs" line="35" column="19" bodyfile="Assets/Scripts/CarouselScript/ButtonHoverEffect.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_button_hover_effect_1a94f9ed9331982a72f70151c58e74e363" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ButtonHoverEffect.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>ButtonHoverEffect.Start</qualifiedname>
+        <briefdescription>
+<para>Inicializa el componente, configurando el color inicial del botón y desactivando los objetos asociados. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ButtonHoverEffect.cs" line="50" column="18" bodyfile="Assets/Scripts/CarouselScript/ButtonHoverEffect.cs" bodystart="50" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_button_hover_effect_1af92839bdebc6c76c6bc7f35c5ae30a2a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator ButtonHoverEffect.ActivateObjectsAfterDelay</definition>
+        <argsstring>()</argsstring>
+        <name>ActivateObjectsAfterDelay</name>
+        <qualifiedname>ButtonHoverEffect.ActivateObjectsAfterDelay</qualifiedname>
+        <briefdescription>
+<para>Coroutine que activa los objetos después de un retraso especificado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>IEnumerator para la Coroutine.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ButtonHoverEffect.cs" line="113" column="25" bodyfile="Assets/Scripts/CarouselScript/ButtonHoverEffect.cs" bodystart="113" bodyend="122"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_button_hover_effect_1ac8ebc1e1e644137b37bbd2eb5fb29e6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ButtonHoverEffect.OnPointerEnter</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerEnter</name>
+        <qualifiedname>ButtonHoverEffect.OnPointerEnter</qualifiedname>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+<para>Método llamado cuando el ratón entra en el área del botón. Cambia el color del botón y comienza una Coroutine para activar los objetos tras un retraso. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eventData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Datos del evento del puntero.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ButtonHoverEffect.cs" line="70" column="17" bodyfile="Assets/Scripts/CarouselScript/ButtonHoverEffect.cs" bodystart="70" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_button_hover_effect_1a69c4ea0b8046a66176805f5f44ff133b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ButtonHoverEffect.OnPointerExit</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerExit</name>
+        <qualifiedname>ButtonHoverEffect.OnPointerExit</qualifiedname>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+<para>Método llamado cuando el ratón sale del área del botón. Restaura el color original del botón y desactiva los objetos inmediatamente. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eventData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Datos del evento del puntero.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ButtonHoverEffect.cs" line="90" column="17" bodyfile="Assets/Scripts/CarouselScript/ButtonHoverEffect.cs" bodystart="90" bodyend="107"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Clase que gestiona los efectos de hover sobre un botón, incluyendo cambios de color y activación de objetos tras un retraso. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ButtonHoverEffect</label>
+        <link refid="class_button_hover_effect"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IPointerEnterHandler</label>
+      </node>
+      <node id="4">
+        <label>IPointerExitHandler</label>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ButtonHoverEffect</label>
+        <link refid="class_button_hover_effect"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IPointerEnterHandler</label>
+      </node>
+      <node id="4">
+        <label>IPointerExitHandler</label>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/CarouselScript/ButtonHoverEffect.cs" line="10" column="7" bodyfile="Assets/Scripts/CarouselScript/ButtonHoverEffect.cs" bodystart="11" bodyend="123"/>
+    <listofallmembers>
+      <member refid="class_button_hover_effect_1af92839bdebc6c76c6bc7f35c5ae30a2a" prot="private" virt="non-virtual"><scope>ButtonHoverEffect</scope><name>ActivateObjectsAfterDelay</name></member>
+      <member refid="class_button_hover_effect_1a883be8fc8201932347b3c5e39829881f" prot="private" virt="non-virtual"><scope>ButtonHoverEffect</scope><name>buttonImage</name></member>
+      <member refid="class_button_hover_effect_1a99f875dab1263ab0d77c1a051fd61c5e" prot="public" virt="non-virtual"><scope>ButtonHoverEffect</scope><name>delayTime</name></member>
+      <member refid="class_button_hover_effect_1ac56b29ee2c554b97c66da347a131719c" prot="public" virt="non-virtual"><scope>ButtonHoverEffect</scope><name>hoverColor</name></member>
+      <member refid="class_button_hover_effect_1a803c6c926ca8299eed2263f90809f0a8" prot="private" virt="non-virtual"><scope>ButtonHoverEffect</scope><name>hoverCoroutine</name></member>
+      <member refid="class_button_hover_effect_1a391d210ec3725ef86588307778d80439" prot="public" virt="non-virtual"><scope>ButtonHoverEffect</scope><name>normalColor</name></member>
+      <member refid="class_button_hover_effect_1ac8ebc1e1e644137b37bbd2eb5fb29e6b" prot="public" virt="non-virtual"><scope>ButtonHoverEffect</scope><name>OnPointerEnter</name></member>
+      <member refid="class_button_hover_effect_1a69c4ea0b8046a66176805f5f44ff133b" prot="public" virt="non-virtual"><scope>ButtonHoverEffect</scope><name>OnPointerExit</name></member>
+      <member refid="class_button_hover_effect_1a1ea4ea9b0f59fa6862b4f516933b8dec" prot="public" virt="non-virtual"><scope>ButtonHoverEffect</scope><name>panelObject</name></member>
+      <member refid="class_button_hover_effect_1a94f9ed9331982a72f70151c58e74e363" prot="private" virt="non-virtual"><scope>ButtonHoverEffect</scope><name>Start</name></member>
+      <member refid="class_button_hover_effect_1ad2d69f8c94cb0fc6de11afda2468b35e" prot="public" virt="non-virtual"><scope>ButtonHoverEffect</scope><name>textObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

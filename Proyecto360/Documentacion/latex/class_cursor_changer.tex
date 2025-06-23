@@ -1,0 +1,111 @@
+\doxysection{Cursor\+Changer Class Reference}
+\hypertarget{class_cursor_changer}{}\label{class_cursor_changer}\index{CursorChanger@{CursorChanger}}
+
+
+Controlador para cambiar la textura del cursor según el estado del botón y las transiciones del Skybox. Gestiona el cambio entre el cursor normal y el de mano, dependiendo de si el usuario puede interactuar con el carrusel.  
+
+
+
+
+Inheritance diagram for Cursor\+Changer\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_cursor_changer__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Cursor\+Changer\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_cursor_changer__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_cursor_changer_a36eb530236df7db198dbf6d39e572b90}{Initialize}} (Game\+Object content\+Object)
+\begin{DoxyCompactList}\small\item\em Inicializa el script con una referencia al objeto content. Permite la inicialización desde otro script si se crea dinámicamente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cursor_changer_a26ccf2f66ac054a05f375cb52762f74f}{On\+Pointer\+Enter}} (Pointer\+Event\+Data event\+Data)
+\begin{DoxyCompactList}\small\item\em Evento de Unity que se llama cuando el puntero entra en el área del botón. Marca que el puntero está sobre el botón y fuerza la reevaluación del cursor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cursor_changer_aa40d14fbf17c97b01733ea36f98efc61}{On\+Pointer\+Exit}} (Pointer\+Event\+Data event\+Data)
+\begin{DoxyCompactList}\small\item\em Evento de Unity que se llama cuando el puntero sale del área del botón. Restaura el cursor al estado normal y marca que el puntero ya no está sobre el botón. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cursor_changer_a77709cfdc1dc20a4deadbec10a4560da}{On\+Pointer\+Click}} (Pointer\+Event\+Data event\+Data)
+\begin{DoxyCompactList}\small\item\em Evento de Unity que se llama cuando se hace clic en el botón. Restaura el cursor al estado normal y, si corresponde, desactiva el estado de puntero sobre el botón. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Controlador para cambiar la textura del cursor según el estado del botón y las transiciones del Skybox. Gestiona el cambio entre el cursor normal y el de mano, dependiendo de si el usuario puede interactuar con el carrusel. 
+
+\label{doc-func-members}
+\Hypertarget{class_cursor_changer_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_cursor_changer_a36eb530236df7db198dbf6d39e572b90}\index{CursorChanger@{CursorChanger}!Initialize@{Initialize}}
+\index{Initialize@{Initialize}!CursorChanger@{CursorChanger}}
+\doxysubsubsection{\texorpdfstring{Initialize()}{Initialize()}}
+{\footnotesize\ttfamily \label{class_cursor_changer_a36eb530236df7db198dbf6d39e572b90} 
+void Cursor\+Changer.\+Initialize (\begin{DoxyParamCaption}\item[{Game\+Object}]{content\+Object}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Inicializa el script con una referencia al objeto content. Permite la inicialización desde otro script si se crea dinámicamente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em content\+Object} & Objeto que contiene el componente \doxylink{class_sky_box_button_selected}{Sky\+Box\+Button\+Selected}.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_cursor_changer_a77709cfdc1dc20a4deadbec10a4560da}\index{CursorChanger@{CursorChanger}!OnPointerClick@{OnPointerClick}}
+\index{OnPointerClick@{OnPointerClick}!CursorChanger@{CursorChanger}}
+\doxysubsubsection{\texorpdfstring{OnPointerClick()}{OnPointerClick()}}
+{\footnotesize\ttfamily \label{class_cursor_changer_a77709cfdc1dc20a4deadbec10a4560da} 
+void Cursor\+Changer.\+On\+Pointer\+Click (\begin{DoxyParamCaption}\item[{Pointer\+Event\+Data}]{event\+Data}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Evento de Unity que se llama cuando se hace clic en el botón. Restaura el cursor al estado normal y, si corresponde, desactiva el estado de puntero sobre el botón. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event\+Data} & Datos del evento de puntero.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_cursor_changer_a26ccf2f66ac054a05f375cb52762f74f}\index{CursorChanger@{CursorChanger}!OnPointerEnter@{OnPointerEnter}}
+\index{OnPointerEnter@{OnPointerEnter}!CursorChanger@{CursorChanger}}
+\doxysubsubsection{\texorpdfstring{OnPointerEnter()}{OnPointerEnter()}}
+{\footnotesize\ttfamily \label{class_cursor_changer_a26ccf2f66ac054a05f375cb52762f74f} 
+void Cursor\+Changer.\+On\+Pointer\+Enter (\begin{DoxyParamCaption}\item[{Pointer\+Event\+Data}]{event\+Data}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Evento de Unity que se llama cuando el puntero entra en el área del botón. Marca que el puntero está sobre el botón y fuerza la reevaluación del cursor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event\+Data} & Datos del evento de puntero.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_cursor_changer_aa40d14fbf17c97b01733ea36f98efc61}\index{CursorChanger@{CursorChanger}!OnPointerExit@{OnPointerExit}}
+\index{OnPointerExit@{OnPointerExit}!CursorChanger@{CursorChanger}}
+\doxysubsubsection{\texorpdfstring{OnPointerExit()}{OnPointerExit()}}
+{\footnotesize\ttfamily \label{class_cursor_changer_aa40d14fbf17c97b01733ea36f98efc61} 
+void Cursor\+Changer.\+On\+Pointer\+Exit (\begin{DoxyParamCaption}\item[{Pointer\+Event\+Data}]{event\+Data}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Evento de Unity que se llama cuando el puntero sale del área del botón. Restaura el cursor al estado normal y marca que el puntero ya no está sobre el botón. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event\+Data} & Datos del evento de puntero.\\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+Cursor/\mbox{\hyperlink{_cursor_changer_8cs}{Cursor\+Changer.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="dir_f50b2ee8e33bba503ea0fa6dcf33edfe" kind="dir">
+    <compoundname>Assets/Scripts/Cursor</compoundname>
+    <innerfile refid="_cursor_changer_8cs">CursorChanger.cs</innerfile>
+    <innerfile refid="_cursor_changer_menu_8cs">CursorChangerMenu.cs</innerfile>
+    <innerfile refid="_default_cursor_setter_8cs">DefaultCursorSetter.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Assets/Scripts/Cursor/"/>
+  </compounddef>
+</doxygen>

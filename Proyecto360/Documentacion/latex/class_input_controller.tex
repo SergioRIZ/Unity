@@ -1,0 +1,207 @@
+\doxysection{Input\+Controller Class Reference}
+\hypertarget{class_input_controller}{}\label{class_input_controller}\index{InputController@{InputController}}
+
+
+Clase base abstracta para todos los controladores de entrada de cámara. Proporciona lógica común de inicialización, verificación de estado y habilitación/deshabilitación. Las clases derivadas deben sobrescribir los métodos relevantes para implementar el control específico.  
+
+
+
+
+Inheritance diagram for Input\+Controller\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=167pt]{class_input_controller__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Input\+Controller\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=230pt]{class_input_controller__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_input_controller_a6b2a5ac295a9397dbbbe61b2ad03c94a}{Initialize}} (\mbox{\hyperlink{class_camera_view}{Camera\+View}} controller)
+\begin{DoxyCompactList}\small\item\em Inicializa el controlador con una referencia al controlador principal. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_input_controller_a54852849a46ab1f2c17838cd46852f1c}{Set\+Enabled}} (bool enabled)
+\begin{DoxyCompactList}\small\item\em Habilita o deshabilita este controlador de entrada. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool \mbox{\hyperlink{class_input_controller_a8bbd09a74fac8deb62e4f8359cde1412}{Check\+Initialization}} ()
+\begin{DoxyCompactList}\small\item\em Método de seguridad para verificar la inicialización del controlador. Si no está inicializado, intenta encontrar y asignar automáticamente un \doxylink{class_camera_view}{Camera\+View} en la escena. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_input_controller_a511313045ea3715e5204a11c7943af0c}{Awake}} ()
+\begin{DoxyCompactList}\small\item\em Método llamado al inicializar el componente. No realiza ninguna acción por defecto; la inicialización se realiza desde \doxylink{class_camera_view}{Camera\+View}. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_input_controller_a4839ea55de6c2ea6e157f3e53175c514}{Start}} ()
+\begin{DoxyCompactList}\small\item\em Método llamado al iniciar el componente. Verifica la inicialización en caso de que no se haya llamado a \doxylink{class_input_controller_a6b2a5ac295a9397dbbbe61b2ad03c94a}{Initialize(\+Camera\+View)}. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_input_controller_adc29d82c94846d7b33e1c2b81296dbef}{On\+Enable}} ()
+\begin{DoxyCompactList}\small\item\em Método llamado cuando el componente se habilita. Verifica la inicialización si aún no se ha realizado. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_input_controller_abbaab755554d4bc2b17a1fedb38c27ca}{Update}} ()
+\begin{DoxyCompactList}\small\item\em Método de actualización llamado en cada frame. Verifica la inicialización antes de ejecutar la lógica de entrada. Las clases derivadas deben sobrescribir este método para implementar el control específico. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_input_controller_a3f12d6705ab69245aec44511673d873d}{On\+Disable}} ()
+\begin{DoxyCompactList}\small\item\em Método llamado cuando el componente se deshabilita. Proporciona un punto de extensión para limpieza en clases derivadas. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_camera_view}{Camera\+View}} \mbox{\hyperlink{class_input_controller_aa76c145fa15228c6596c0be6a06dd7cc}{parent\+Controller}}
+\begin{DoxyCompactList}\small\item\em Referencia al controlador principal de la cámara. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_input_controller_af6e636754f4469382cc2d31045c8b2e6}{is\+Initialized}} = false
+\begin{DoxyCompactList}\small\item\em Indica si el controlador ha sido inicializado correctamente. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clase base abstracta para todos los controladores de entrada de cámara. Proporciona lógica común de inicialización, verificación de estado y habilitación/deshabilitación. Las clases derivadas deben sobrescribir los métodos relevantes para implementar el control específico. 
+
+\label{doc-func-members}
+\Hypertarget{class_input_controller_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_input_controller_a511313045ea3715e5204a11c7943af0c}\index{InputController@{InputController}!Awake@{Awake}}
+\index{Awake@{Awake}!InputController@{InputController}}
+\doxysubsubsection{\texorpdfstring{Awake()}{Awake()}}
+{\footnotesize\ttfamily \label{class_input_controller_a511313045ea3715e5204a11c7943af0c} 
+virtual void Input\+Controller.\+Awake (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Método llamado al inicializar el componente. No realiza ninguna acción por defecto; la inicialización se realiza desde \doxylink{class_camera_view}{Camera\+View}. 
+
+
+
+Reimplemented in \mbox{\hyperlink{class_mouse_controller_ae5d05c1123ea8c383e02a11adfa1a8c2}{Mouse\+Controller}}.
+
+\Hypertarget{class_input_controller_a8bbd09a74fac8deb62e4f8359cde1412}\index{InputController@{InputController}!CheckInitialization@{CheckInitialization}}
+\index{CheckInitialization@{CheckInitialization}!InputController@{InputController}}
+\doxysubsubsection{\texorpdfstring{CheckInitialization()}{CheckInitialization()}}
+{\footnotesize\ttfamily \label{class_input_controller_a8bbd09a74fac8deb62e4f8359cde1412} 
+virtual bool Input\+Controller.\+Check\+Initialization (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Método de seguridad para verificar la inicialización del controlador. Si no está inicializado, intenta encontrar y asignar automáticamente un \doxylink{class_camera_view}{Camera\+View} en la escena. 
+
+\begin{DoxyReturn}{Returns}
+True si la inicialización es correcta o se ha realizado correctamente; false si no se pudo inicializar.
+\end{DoxyReturn}
+\Hypertarget{class_input_controller_a6b2a5ac295a9397dbbbe61b2ad03c94a}\index{InputController@{InputController}!Initialize@{Initialize}}
+\index{Initialize@{Initialize}!InputController@{InputController}}
+\doxysubsubsection{\texorpdfstring{Initialize()}{Initialize()}}
+{\footnotesize\ttfamily \label{class_input_controller_a6b2a5ac295a9397dbbbe61b2ad03c94a} 
+virtual void Input\+Controller.\+Initialize (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_camera_view}{Camera\+View}}}]{controller}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Inicializa el controlador con una referencia al controlador principal. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em controller} & El controlador de cámara principal.\\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{class_mouse_controller_a46ad414f648fe501f93ddf9fe7cd8fc6}{Mouse\+Controller}}.
+
+\Hypertarget{class_input_controller_a3f12d6705ab69245aec44511673d873d}\index{InputController@{InputController}!OnDisable@{OnDisable}}
+\index{OnDisable@{OnDisable}!InputController@{InputController}}
+\doxysubsubsection{\texorpdfstring{OnDisable()}{OnDisable()}}
+{\footnotesize\ttfamily \label{class_input_controller_a3f12d6705ab69245aec44511673d873d} 
+virtual void Input\+Controller.\+On\+Disable (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Método llamado cuando el componente se deshabilita. Proporciona un punto de extensión para limpieza en clases derivadas. 
+
+
+
+Reimplemented in \mbox{\hyperlink{class_mouse_controller_a44d0abc11a8c10e58f6602bcd01b1953}{Mouse\+Controller}}.
+
+\Hypertarget{class_input_controller_adc29d82c94846d7b33e1c2b81296dbef}\index{InputController@{InputController}!OnEnable@{OnEnable}}
+\index{OnEnable@{OnEnable}!InputController@{InputController}}
+\doxysubsubsection{\texorpdfstring{OnEnable()}{OnEnable()}}
+{\footnotesize\ttfamily \label{class_input_controller_adc29d82c94846d7b33e1c2b81296dbef} 
+virtual void Input\+Controller.\+On\+Enable (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Método llamado cuando el componente se habilita. Verifica la inicialización si aún no se ha realizado. 
+
+
+
+Reimplemented in \mbox{\hyperlink{class_mouse_controller_a70e441428b58ae0879d784d81c2d8883}{Mouse\+Controller}}.
+
+\Hypertarget{class_input_controller_a54852849a46ab1f2c17838cd46852f1c}\index{InputController@{InputController}!SetEnabled@{SetEnabled}}
+\index{SetEnabled@{SetEnabled}!InputController@{InputController}}
+\doxysubsubsection{\texorpdfstring{SetEnabled()}{SetEnabled()}}
+{\footnotesize\ttfamily \label{class_input_controller_a54852849a46ab1f2c17838cd46852f1c} 
+virtual void Input\+Controller.\+Set\+Enabled (\begin{DoxyParamCaption}\item[{bool}]{enabled}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Habilita o deshabilita este controlador de entrada. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em enabled} & Si el controlador debe estar habilitado.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_input_controller_a4839ea55de6c2ea6e157f3e53175c514}\index{InputController@{InputController}!Start@{Start}}
+\index{Start@{Start}!InputController@{InputController}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily \label{class_input_controller_a4839ea55de6c2ea6e157f3e53175c514} 
+virtual void Input\+Controller.\+Start (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Método llamado al iniciar el componente. Verifica la inicialización en caso de que no se haya llamado a \doxylink{class_input_controller_a6b2a5ac295a9397dbbbe61b2ad03c94a}{Initialize(\+Camera\+View)}. 
+
+\Hypertarget{class_input_controller_abbaab755554d4bc2b17a1fedb38c27ca}\index{InputController@{InputController}!Update@{Update}}
+\index{Update@{Update}!InputController@{InputController}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily \label{class_input_controller_abbaab755554d4bc2b17a1fedb38c27ca} 
+virtual void Input\+Controller.\+Update (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Método de actualización llamado en cada frame. Verifica la inicialización antes de ejecutar la lógica de entrada. Las clases derivadas deben sobrescribir este método para implementar el control específico. 
+
+
+
+Reimplemented in \mbox{\hyperlink{class_mouse_controller_a0a3db4b903f1cbcb3158142d47039de8}{Mouse\+Controller}}.
+
+
+
+\label{doc-variable-members}
+\Hypertarget{class_input_controller_doc-variable-members}
+\doxysubsection{Field Documentation}
+\Hypertarget{class_input_controller_af6e636754f4469382cc2d31045c8b2e6}\index{InputController@{InputController}!isInitialized@{isInitialized}}
+\index{isInitialized@{isInitialized}!InputController@{InputController}}
+\doxysubsubsection{\texorpdfstring{isInitialized}{isInitialized}}
+{\footnotesize\ttfamily \label{class_input_controller_af6e636754f4469382cc2d31045c8b2e6} 
+bool Input\+Controller.\+is\+Initialized = false\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Indica si el controlador ha sido inicializado correctamente. 
+
+\Hypertarget{class_input_controller_aa76c145fa15228c6596c0be6a06dd7cc}\index{InputController@{InputController}!parentController@{parentController}}
+\index{parentController@{parentController}!InputController@{InputController}}
+\doxysubsubsection{\texorpdfstring{parentController}{parentController}}
+{\footnotesize\ttfamily \label{class_input_controller_aa76c145fa15228c6596c0be6a06dd7cc} 
+\mbox{\hyperlink{class_camera_view}{Camera\+View}} Input\+Controller.\+parent\+Controller\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Referencia al controlador principal de la cámara. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+Camera/\mbox{\hyperlink{_input_controllers_8cs}{Input\+Controllers.\+cs}}\end{DoxyCompactItemize}

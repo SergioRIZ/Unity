@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_sky_box_button_selected" kind="class" language="C#" prot="public">
+    <compoundname>SkyBoxButtonSelected</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sky_box_button_selected_1a83762e678e28064698314f34ab7cbf3e" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string SkyBoxButtonSelected.currentTextureName</definition>
+        <argsstring></argsstring>
+        <name>currentTextureName</name>
+        <qualifiedname>SkyBoxButtonSelected.currentTextureName</qualifiedname>
+        <briefdescription>
+<para>Nombre de la textura actual del Skybox. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/SkyBoxButtonSelected.cs" line="15" column="20" bodyfile="Assets/Scripts/CarouselScript/SkyBoxButtonSelected.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sky_box_button_selected_1a6c3f4824f34f5643ce677efbf319056e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SkyBoxButtonSelected.isWaitingForDelay</definition>
+        <argsstring></argsstring>
+        <name>isWaitingForDelay</name>
+        <qualifiedname>SkyBoxButtonSelected.isWaitingForDelay</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Bandera para evitar múltiples ejecuciones mientras se espera un retraso. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/SkyBoxButtonSelected.cs" line="20" column="18" bodyfile="Assets/Scripts/CarouselScript/SkyBoxButtonSelected.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sky_box_button_selected_1a01cfa7762bfa76920ae7c0cde1af7312" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform SkyBoxButtonSelected.canvasGroupParent</definition>
+        <argsstring></argsstring>
+        <name>canvasGroupParent</name>
+        <qualifiedname>SkyBoxButtonSelected.canvasGroupParent</qualifiedname>
+        <briefdescription>
+<para>Contenedor de los grupos de canvas que se activan/desactivan según la textura seleccionada. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/SkyBoxButtonSelected.cs" line="25" column="24" bodyfile="Assets/Scripts/CarouselScript/SkyBoxButtonSelected.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sky_box_button_selected_1a4261494eb1bcce39a2b3c6b56bb52f48" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color SkyBoxButtonSelected.nombreDavante</definition>
+        <argsstring></argsstring>
+        <name>nombreDavante</name>
+        <qualifiedname>SkyBoxButtonSelected.nombreDavante</qualifiedname>
+        <initializer>= Color.blue</initializer>
+        <briefdescription>
+<para>Color que se aplica al nombre del botón seleccionado. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/SkyBoxButtonSelected.cs" line="35" column="20" bodyfile="Assets/Scripts/CarouselScript/SkyBoxButtonSelected.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_sky_box_button_selected_1a1bc6960daf1a44f922c93ea34008bfc4" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SkyBoxButtonSelected.carruselListo</definition>
+        <argsstring></argsstring>
+        <name>carruselListo</name>
+        <qualifiedname>SkyBoxButtonSelected.carruselListo</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Indica si el carrusel está listo para interactuar. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/SkyBoxButtonSelected.cs" line="30" column="17" bodyfile="Assets/Scripts/CarouselScript/SkyBoxButtonSelected.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sky_box_button_selected_1a089a9e652330706214727083d088b110" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SkyBoxButtonSelected.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>SkyBoxButtonSelected.Start</qualifiedname>
+        <briefdescription>
+<para>Inicializa el componente al iniciar la escena. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/SkyBoxButtonSelected.cs" line="40" column="10" bodyfile="Assets/Scripts/CarouselScript/SkyBoxButtonSelected.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sky_box_button_selected_1afd3b7f5849224de2e45a7923dbb4c084" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator SkyBoxButtonSelected.InitializeSkyboxAfterFrame</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeSkyboxAfterFrame</name>
+        <qualifiedname>SkyBoxButtonSelected.InitializeSkyboxAfterFrame</qualifiedname>
+        <briefdescription>
+<para>Corrutina que espera un frame para asegurar que la escena esté cargada antes de inicializar el Skybox. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>IEnumerator para la corrutina.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/SkyBoxButtonSelected.cs" line="73" column="25" bodyfile="Assets/Scripts/CarouselScript/SkyBoxButtonSelected.cs" bodystart="73" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sky_box_button_selected_1aab839267205b2acc9632de901988888c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator SkyBoxButtonSelected.ApplyEffectAndWait</definition>
+        <argsstring>()</argsstring>
+        <name>ApplyEffectAndWait</name>
+        <qualifiedname>SkyBoxButtonSelected.ApplyEffectAndWait</qualifiedname>
+        <briefdescription>
+<para>Corrutina que aplica efectos visuales al botón seleccionado y espera un retraso antes de permitir otra selección. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>IEnumerator para la corrutina.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/SkyBoxButtonSelected.cs" line="111" column="25" bodyfile="Assets/Scripts/CarouselScript/SkyBoxButtonSelected.cs" bodystart="111" bodyend="218"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sky_box_button_selected_1adb3cf8647aa0b08e60b0b8bf7a0def20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SkyBoxButtonSelected.Bandera</definition>
+        <argsstring>()</argsstring>
+        <name>Bandera</name>
+        <qualifiedname>SkyBoxButtonSelected.Bandera</qualifiedname>
+        <briefdescription>
+<para>Devuelve una bandera que indica si el objeto está activo en la jerarquía. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True si el objeto NO está activo en la jerarquía, false si está activo.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/SkyBoxButtonSelected.cs" line="49" column="17" bodyfile="Assets/Scripts/CarouselScript/SkyBoxButtonSelected.cs" bodystart="49" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sky_box_button_selected_1a00f2d6c1712a9f8a8627eba21d166231" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SkyBoxButtonSelected.InitializeCarouselRender</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeCarouselRender</name>
+        <qualifiedname>SkyBoxButtonSelected.InitializeCarouselRender</qualifiedname>
+        <briefdescription>
+<para>Inicializa el renderizado del carrusel y resalta el Skybox actual tras un frame. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/SkyBoxButtonSelected.cs" line="64" column="17" bodyfile="Assets/Scripts/CarouselScript/SkyBoxButtonSelected.cs" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sky_box_button_selected_1a7b6a21f47357c0b24bdb3bfeb9efac23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SkyBoxButtonSelected.HighlightCurrentSkyboxButton</definition>
+        <argsstring>()</argsstring>
+        <name>HighlightCurrentSkyboxButton</name>
+        <qualifiedname>SkyBoxButtonSelected.HighlightCurrentSkyboxButton</qualifiedname>
+        <briefdescription>
+<para>Resalta el botón correspondiente al Skybox actual y activa el canvas correspondiente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/SkyBoxButtonSelected.cs" line="89" column="17" bodyfile="Assets/Scripts/CarouselScript/SkyBoxButtonSelected.cs" bodystart="89" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sky_box_button_selected_1aeecc536eaafc1bac17f2affbf37da75b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SkyBoxButtonSelected.OnSkyboxChanged</definition>
+        <argsstring>(string newTextureName)</argsstring>
+        <name>OnSkyboxChanged</name>
+        <qualifiedname>SkyBoxButtonSelected.OnSkyboxChanged</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>newTextureName</declname>
+        </param>
+        <briefdescription>
+<para>Método que se llama desde el SceneManager para actualizar el nombre de la textura actual. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newTextureName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>El nuevo nombre de la textura del Skybox.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/SkyBoxButtonSelected.cs" line="224" column="17" bodyfile="Assets/Scripts/CarouselScript/SkyBoxButtonSelected.cs" bodystart="224" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sky_box_button_selected_1ae9f025fe75419cdbc93c15f251fe3009" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SkyBoxButtonSelected.ActivateMatchingCanvasOnly</definition>
+        <argsstring>()</argsstring>
+        <name>ActivateMatchingCanvasOnly</name>
+        <qualifiedname>SkyBoxButtonSelected.ActivateMatchingCanvasOnly</qualifiedname>
+        <briefdescription>
+<para>Activa únicamente el canvas cuyo nombre coincide con la textura actual del Skybox y gestiona la activación de los botones internos. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/SkyBoxButtonSelected.cs" line="234" column="17" bodyfile="Assets/Scripts/CarouselScript/SkyBoxButtonSelected.cs" bodystart="234" bodyend="267"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Clase que gestiona la selección de botones en un carrusel de Skybox, aplicando efectos visuales y activando el canvas correspondiente. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SkyBoxButtonSelected</label>
+        <link refid="class_sky_box_button_selected"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SkyBoxButtonSelected</label>
+        <link refid="class_sky_box_button_selected"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/CarouselScript/SkyBoxButtonSelected.cs" line="10" column="7" bodyfile="Assets/Scripts/CarouselScript/SkyBoxButtonSelected.cs" bodystart="11" bodyend="268"/>
+    <listofallmembers>
+      <member refid="class_sky_box_button_selected_1ae9f025fe75419cdbc93c15f251fe3009" prot="public" virt="non-virtual"><scope>SkyBoxButtonSelected</scope><name>ActivateMatchingCanvasOnly</name></member>
+      <member refid="class_sky_box_button_selected_1aab839267205b2acc9632de901988888c" prot="private" virt="non-virtual"><scope>SkyBoxButtonSelected</scope><name>ApplyEffectAndWait</name></member>
+      <member refid="class_sky_box_button_selected_1adb3cf8647aa0b08e60b0b8bf7a0def20" prot="public" virt="non-virtual"><scope>SkyBoxButtonSelected</scope><name>Bandera</name></member>
+      <member refid="class_sky_box_button_selected_1a01cfa7762bfa76920ae7c0cde1af7312" prot="private" virt="non-virtual"><scope>SkyBoxButtonSelected</scope><name>canvasGroupParent</name></member>
+      <member refid="class_sky_box_button_selected_1a1bc6960daf1a44f922c93ea34008bfc4" prot="public" virt="non-virtual"><scope>SkyBoxButtonSelected</scope><name>carruselListo</name></member>
+      <member refid="class_sky_box_button_selected_1a83762e678e28064698314f34ab7cbf3e" prot="private" virt="non-virtual"><scope>SkyBoxButtonSelected</scope><name>currentTextureName</name></member>
+      <member refid="class_sky_box_button_selected_1a7b6a21f47357c0b24bdb3bfeb9efac23" prot="public" virt="non-virtual"><scope>SkyBoxButtonSelected</scope><name>HighlightCurrentSkyboxButton</name></member>
+      <member refid="class_sky_box_button_selected_1a00f2d6c1712a9f8a8627eba21d166231" prot="public" virt="non-virtual"><scope>SkyBoxButtonSelected</scope><name>InitializeCarouselRender</name></member>
+      <member refid="class_sky_box_button_selected_1afd3b7f5849224de2e45a7923dbb4c084" prot="private" virt="non-virtual"><scope>SkyBoxButtonSelected</scope><name>InitializeSkyboxAfterFrame</name></member>
+      <member refid="class_sky_box_button_selected_1a6c3f4824f34f5643ce677efbf319056e" prot="private" virt="non-virtual"><scope>SkyBoxButtonSelected</scope><name>isWaitingForDelay</name></member>
+      <member refid="class_sky_box_button_selected_1a4261494eb1bcce39a2b3c6b56bb52f48" prot="private" virt="non-virtual"><scope>SkyBoxButtonSelected</scope><name>nombreDavante</name></member>
+      <member refid="class_sky_box_button_selected_1aeecc536eaafc1bac17f2affbf37da75b" prot="public" virt="non-virtual"><scope>SkyBoxButtonSelected</scope><name>OnSkyboxChanged</name></member>
+      <member refid="class_sky_box_button_selected_1a089a9e652330706214727083d088b110" prot="private" virt="non-virtual"><scope>SkyBoxButtonSelected</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

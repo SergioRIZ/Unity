@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_panel_video_controller_con_subtitulos_1_1_subtitle_entry" kind="class" language="C#" prot="private">
+    <compoundname>PanelVideoControllerConSubtitulos::SubtitleEntry</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1_1_subtitle_entry_1a0ef2e797f1d13503e1afaa131c0db577" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PanelVideoControllerConSubtitulos.SubtitleEntry.index</definition>
+        <argsstring></argsstring>
+        <name>index</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.SubtitleEntry.index</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="73" column="20" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1_1_subtitle_entry_1aef32c1c133ff30d68fad222fc49b066b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double PanelVideoControllerConSubtitulos.SubtitleEntry.startTime</definition>
+        <argsstring></argsstring>
+        <name>startTime</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.SubtitleEntry.startTime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="74" column="23" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1_1_subtitle_entry_1ab3f31c739daa33a65fbd48727cc2d06f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double PanelVideoControllerConSubtitulos.SubtitleEntry.endTime</definition>
+        <argsstring></argsstring>
+        <name>endTime</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.SubtitleEntry.endTime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="75" column="23" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1_1_subtitle_entry_1ad7de0b19492dd56903a4b092a9db65ad" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string PanelVideoControllerConSubtitulos.SubtitleEntry.text</definition>
+        <argsstring></argsstring>
+        <name>text</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.SubtitleEntry.text</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="76" column="23" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="71" column="12" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="72" bodyend="77"/>
+    <listofallmembers>
+      <member refid="class_panel_video_controller_con_subtitulos_1_1_subtitle_entry_1ab3f31c739daa33a65fbd48727cc2d06f" prot="public" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos::SubtitleEntry</scope><name>endTime</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1_1_subtitle_entry_1a0ef2e797f1d13503e1afaa131c0db577" prot="public" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos::SubtitleEntry</scope><name>index</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1_1_subtitle_entry_1aef32c1c133ff30d68fad222fc49b066b" prot="public" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos::SubtitleEntry</scope><name>startTime</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1_1_subtitle_entry_1ad7de0b19492dd56903a4b092a9db65ad" prot="public" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos::SubtitleEntry</scope><name>text</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

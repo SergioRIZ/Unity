@@ -1,0 +1,875 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_panel_video_controller_con_subtitulos" kind="class" language="C#" prot="public">
+    <compoundname>PanelVideoControllerConSubtitulos</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <innerclass refid="class_panel_video_controller_con_subtitulos_1_1_subtitle_entry" prot="private">PanelVideoControllerConSubtitulos::SubtitleEntry</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1ab783d9af3c19a168018d85f3baf0b45c" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject PanelVideoControllerConSubtitulos.panelContenedor</definition>
+        <argsstring></argsstring>
+        <name>panelContenedor</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.panelContenedor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="23" column="25" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1a9bcb1233b2585cf533d6b2e5dec4d01a" prot="private" static="no" mutable="no">
+        <type>RawImage</type>
+        <definition>RawImage PanelVideoControllerConSubtitulos.videoDisplay</definition>
+        <argsstring></argsstring>
+        <name>videoDisplay</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.videoDisplay</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="24" column="23" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1a68fa1787820f20985745f6aee76d054a" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button PanelVideoControllerConSubtitulos.botonCerrar</definition>
+        <argsstring></argsstring>
+        <name>botonCerrar</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.botonCerrar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="25" column="21" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1a6e8e9f79e9a5a791cb8e5666f1ffd83d" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button PanelVideoControllerConSubtitulos.botonPlay</definition>
+        <argsstring></argsstring>
+        <name>botonPlay</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.botonPlay</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="26" column="21" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1a5f54c7823a5156dea8b1845196a1f17d" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button PanelVideoControllerConSubtitulos.botonPause</definition>
+        <argsstring></argsstring>
+        <name>botonPause</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.botonPause</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="27" column="21" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1a91d1f2fed1593bf0a18beb67b0792bcb" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button PanelVideoControllerConSubtitulos.botonAdelantar</definition>
+        <argsstring></argsstring>
+        <name>botonAdelantar</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.botonAdelantar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="28" column="21" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1a5ff7bf8229965b3ea1890c6888081102" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button PanelVideoControllerConSubtitulos.botonRetroceder</definition>
+        <argsstring></argsstring>
+        <name>botonRetroceder</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.botonRetroceder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="29" column="21" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1a24c0e3878881d8adf25ad486d64ea033" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button PanelVideoControllerConSubtitulos.botonSubtitulos</definition>
+        <argsstring></argsstring>
+        <name>botonSubtitulos</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.botonSubtitulos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="30" column="21" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1a76615c1697064139bef8d6ab583ab901" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PanelVideoControllerConSubtitulos.margenBotonCerrar</definition>
+        <argsstring></argsstring>
+        <name>margenBotonCerrar</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.margenBotonCerrar</qualifiedname>
+        <initializer>= 20f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="31" column="20" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1a53818d6bb0e4899fa3226d49157fbf36" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PanelVideoControllerConSubtitulos.espacioEntreControles</definition>
+        <argsstring></argsstring>
+        <name>espacioEntreControles</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.espacioEntreControles</qualifiedname>
+        <initializer>= 10f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="35" column="20" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1a22291ad701287bf267d5273359b90d97" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PanelVideoControllerConSubtitulos.yOffsetControlesInferiores</definition>
+        <argsstring></argsstring>
+        <name>yOffsetControlesInferiores</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.yOffsetControlesInferiores</qualifiedname>
+        <initializer>= 30f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="36" column="20" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1ae1ecf178d9bc133c0c0442d9e549573f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PanelVideoControllerConSubtitulos.segundosAdelantar</definition>
+        <argsstring></argsstring>
+        <name>segundosAdelantar</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.segundosAdelantar</qualifiedname>
+        <initializer>= 5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="39" column="20" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1a9317d146b562146ad0484d87af987cc9" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PanelVideoControllerConSubtitulos.segundosRetroceder</definition>
+        <argsstring></argsstring>
+        <name>segundosRetroceder</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.segundosRetroceder</qualifiedname>
+        <initializer>= 5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="40" column="20" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1a3b47fa7cc0284b59bd1c5d3e8efd0e39" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PanelVideoControllerConSubtitulos.duracionFade</definition>
+        <argsstring></argsstring>
+        <name>duracionFade</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.duracionFade</qualifiedname>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="43" column="20" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1ab45185348bba4eb197a40c52295ad0d6" prot="private" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI PanelVideoControllerConSubtitulos.subtitulosText</definition>
+        <argsstring></argsstring>
+        <name>subtitulosText</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.subtitulosText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="46" column="30" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1afa8eea8140d360593de5d40382db6f8e" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color PanelVideoControllerConSubtitulos.colorBotonSubtitulosActivo</definition>
+        <argsstring></argsstring>
+        <name>colorBotonSubtitulosActivo</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.colorBotonSubtitulosActivo</qualifiedname>
+        <initializer>= Color.green</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="47" column="20" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1a5a7e9378905a3ff6271c727cf2020afe" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color PanelVideoControllerConSubtitulos.colorBotonSubtitulosInactivo</definition>
+        <argsstring></argsstring>
+        <name>colorBotonSubtitulosInactivo</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.colorBotonSubtitulosInactivo</qualifiedname>
+        <initializer>= Color.white</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="48" column="20" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1aed3169242c9368ad53511ca310926256" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sound_controller" kindref="compound">SoundController</ref></type>
+        <definition>SoundController PanelVideoControllerConSubtitulos.soundController</definition>
+        <argsstring></argsstring>
+        <name>soundController</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.soundController</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="51" column="30" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1a008899ac0ab2fa92d5a404a1cd2655f5" prot="private" static="no" mutable="no">
+        <type>VideoPlayer</type>
+        <definition>VideoPlayer PanelVideoControllerConSubtitulos.videoPlayer</definition>
+        <argsstring></argsstring>
+        <name>videoPlayer</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.videoPlayer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="53" column="25" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1a32d97b6d9cc4f34186ce4633b32b2d47" prot="private" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource PanelVideoControllerConSubtitulos.audioSource</definition>
+        <argsstring></argsstring>
+        <name>audioSource</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.audioSource</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="54" column="25" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1ace2c7932175484141812248be98373f9" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PanelVideoControllerConSubtitulos.forceClosedState</definition>
+        <argsstring></argsstring>
+        <name>forceClosedState</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.forceClosedState</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="55" column="18" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1a1a0e367112cb9ae213bf35ab12ade6af" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PanelVideoControllerConSubtitulos.materialChanged</definition>
+        <argsstring></argsstring>
+        <name>materialChanged</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.materialChanged</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="56" column="18" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1ade0ae1d272b7febbbe4d30a080d96914" prot="private" static="no" mutable="no">
+        <type>RenderTexture</type>
+        <definition>RenderTexture PanelVideoControllerConSubtitulos.videoRenderTexture</definition>
+        <argsstring></argsstring>
+        <name>videoRenderTexture</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.videoRenderTexture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="57" column="27" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1ab88f545cfc5bd8175d98934c87171f58" prot="private" static="no" mutable="no">
+        <type>CanvasGroup</type>
+        <definition>CanvasGroup PanelVideoControllerConSubtitulos.canvasGroup</definition>
+        <argsstring></argsstring>
+        <name>canvasGroup</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.canvasGroup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="59" column="25" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1a5fbae6c1fe9c8e81cfa9f06b2cd6dbba" prot="private" static="no" mutable="no">
+        <type>Coroutine</type>
+        <definition>Coroutine PanelVideoControllerConSubtitulos.fadeCoroutine</definition>
+        <argsstring></argsstring>
+        <name>fadeCoroutine</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.fadeCoroutine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="60" column="23" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1a7aee0a5720afa95bd1d39774c2520191" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PanelVideoControllerConSubtitulos.subtitulosActivos</definition>
+        <argsstring></argsstring>
+        <name>subtitulosActivos</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.subtitulosActivos</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="62" column="18" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1a63646dd058d881f5ebdc7c7e45a580dc" prot="private" static="no" mutable="no">
+        <type>List&lt; SubtitleEntry &gt;</type>
+        <definition>List&lt;SubtitleEntry&gt; PanelVideoControllerConSubtitulos.subtitulos</definition>
+        <argsstring></argsstring>
+        <name>subtitulos</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.subtitulos</qualifiedname>
+        <initializer>= new List&lt;SubtitleEntry&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="63" column="18" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1a3f0db41b183716266c3167e1e11c8d1c" prot="private" static="no" mutable="no">
+        <type>Coroutine</type>
+        <definition>Coroutine PanelVideoControllerConSubtitulos.subtitleCoroutine</definition>
+        <argsstring></argsstring>
+        <name>subtitleCoroutine</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.subtitleCoroutine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="64" column="23" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1a2ed69aff3a5ea364f527c0398222a258" prot="private" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material PanelVideoControllerConSubtitulos.lastSkybox</definition>
+        <argsstring></argsstring>
+        <name>lastSkybox</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.lastSkybox</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="66" column="22" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1a0581644a64d6efd0dd555109a72505a2" prot="private" static="no" mutable="no">
+        <type><ref refid="class_camera_view" kindref="compound">CameraView</ref></type>
+        <definition>CameraView PanelVideoControllerConSubtitulos.cameraView</definition>
+        <argsstring></argsstring>
+        <name>cameraView</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.cameraView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="68" column="24" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_video_controller_con_subtitulos_1a069541ad6521bdc3cfc717ecea1dcfeb" prot="private" static="no" mutable="no">
+        <type><ref refid="class_automatic_movement_controller" kindref="compound">AutomaticMovementController</ref></type>
+        <definition>AutomaticMovementController PanelVideoControllerConSubtitulos.autoCamera</definition>
+        <argsstring></argsstring>
+        <name>autoCamera</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.autoCamera</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="69" column="41" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_panel_video_controller_con_subtitulos_1a4bb5b0e8b25c332863f2eed42e930055" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PanelVideoControllerConSubtitulos.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="79" column="10" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="79" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_panel_video_controller_con_subtitulos_1a45f276875be49a4954a70dd340b2fda4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PanelVideoControllerConSubtitulos.SetupVideoRenderTexture</definition>
+        <argsstring>()</argsstring>
+        <name>SetupVideoRenderTexture</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.SetupVideoRenderTexture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="115" column="14" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="115" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="class_panel_video_controller_con_subtitulos_1a0898cf5282a238d4f90665a90adf2c38" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PanelVideoControllerConSubtitulos.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="143" column="10" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="143" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="class_panel_video_controller_con_subtitulos_1ab83d57aa30051ec3d192813aca8ee6fd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PanelVideoControllerConSubtitulos.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="184" column="6" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="184" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="class_panel_video_controller_con_subtitulos_1a373128ce24fe09f131954ffc9bd66b88" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator PanelVideoControllerConSubtitulos.EsperarYReproducir</definition>
+        <argsstring>()</argsstring>
+        <name>EsperarYReproducir</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.EsperarYReproducir</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="248" column="25" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="248" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="function" id="class_panel_video_controller_con_subtitulos_1a9123811c54ee3e9de66d5180abcf7a0a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PanelVideoControllerConSubtitulos.StartFade</definition>
+        <argsstring>(float from, float to)</argsstring>
+        <name>StartFade</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.StartFade</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="429" column="18" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="429" bodyend="441"/>
+      </memberdef>
+      <memberdef kind="function" id="class_panel_video_controller_con_subtitulos_1acc00f7480019fd2063d1f7f672691f6e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator PanelVideoControllerConSubtitulos.FadePanel</definition>
+        <argsstring>(float startAlpha, float endAlpha)</argsstring>
+        <name>FadePanel</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.FadePanel</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>startAlpha</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>endAlpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="443" column="25" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="443" bodyend="474"/>
+      </memberdef>
+      <memberdef kind="function" id="class_panel_video_controller_con_subtitulos_1a62f357ecb03d0b2f6c948e90cd8e00a3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PanelVideoControllerConSubtitulos.AjustarPosicionControles</definition>
+        <argsstring>()</argsstring>
+        <name>AjustarPosicionControles</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.AjustarPosicionControles</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="477" column="18" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="477" bodyend="543"/>
+      </memberdef>
+      <memberdef kind="function" id="class_panel_video_controller_con_subtitulos_1add2998accab97634e0ebc47067d1cee5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PanelVideoControllerConSubtitulos.ConfigurarBotonSubtitulos</definition>
+        <argsstring>()</argsstring>
+        <name>ConfigurarBotonSubtitulos</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.ConfigurarBotonSubtitulos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="546" column="18" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="546" bodyend="567"/>
+      </memberdef>
+      <memberdef kind="function" id="class_panel_video_controller_con_subtitulos_1ad2b60db68c76a45aca5081350cfc57d9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator PanelVideoControllerConSubtitulos.MostrarSubtitulos</definition>
+        <argsstring>()</argsstring>
+        <name>MostrarSubtitulos</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.MostrarSubtitulos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="605" column="25" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="605" bodyend="645"/>
+      </memberdef>
+      <memberdef kind="function" id="class_panel_video_controller_con_subtitulos_1a137ddb5f09cd29748d6ece766cc5f964" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator PanelVideoControllerConSubtitulos.LoadSubtitleAssetWebGL</definition>
+        <argsstring>(string videoNameWithoutExtension)</argsstring>
+        <name>LoadSubtitleAssetWebGL</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.LoadSubtitleAssetWebGL</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>videoNameWithoutExtension</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="648" column="25" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="648" bodyend="715"/>
+      </memberdef>
+      <memberdef kind="function" id="class_panel_video_controller_con_subtitulos_1a1dcea17468242e726bcc4ca818673368" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PanelVideoControllerConSubtitulos.CargarSubtitulos</definition>
+        <argsstring>(string nombreVideo)</argsstring>
+        <name>CargarSubtitulos</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.CargarSubtitulos</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nombreVideo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="720" column="18" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="720" bodyend="758"/>
+      </memberdef>
+      <memberdef kind="function" id="class_panel_video_controller_con_subtitulos_1a2467712d0e1beb00721607c48c946fae" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PanelVideoControllerConSubtitulos.ParsearArchivoSRT</definition>
+        <argsstring>(string contenido)</argsstring>
+        <name>ParsearArchivoSRT</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.ParsearArchivoSRT</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>contenido</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="761" column="18" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="761" bodyend="827"/>
+      </memberdef>
+      <memberdef kind="function" id="class_panel_video_controller_con_subtitulos_1a0635bf57bb40fe47841be38bfab5415e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double PanelVideoControllerConSubtitulos.TimeToSeconds</definition>
+        <argsstring>(string timeString)</argsstring>
+        <name>TimeToSeconds</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.TimeToSeconds</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>timeString</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="830" column="16" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="830" bodyend="852"/>
+      </memberdef>
+      <memberdef kind="function" id="class_panel_video_controller_con_subtitulos_1a48efa4fd8155a3ccc14d354659253f42" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PanelVideoControllerConSubtitulos.OnVideoPlayerPrepared</definition>
+        <argsstring>(VideoPlayer source)</argsstring>
+        <name>OnVideoPlayerPrepared</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.OnVideoPlayerPrepared</qualifiedname>
+        <param>
+          <type>VideoPlayer</type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="854" column="18" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="854" bodyend="858"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_panel_video_controller_con_subtitulos_1a2f59d22299d35f6ce234834766048971" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PanelVideoControllerConSubtitulos.MostrarPanelDesdeRuta</definition>
+        <argsstring>(string videoUrl)</argsstring>
+        <name>MostrarPanelDesdeRuta</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.MostrarPanelDesdeRuta</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>videoUrl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="191" column="17" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="191" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="class_panel_video_controller_con_subtitulos_1ab1914f0ad8ef9f7a9d16ee5e006ea848" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PanelVideoControllerConSubtitulos.CerrarPanel</definition>
+        <argsstring>()</argsstring>
+        <name>CerrarPanel</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.CerrarPanel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="308" column="17" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="308" bodyend="371"/>
+      </memberdef>
+      <memberdef kind="function" id="class_panel_video_controller_con_subtitulos_1a847b87eb5f4fd7c0e3049c69552eb358" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PanelVideoControllerConSubtitulos.ApagarPanel</definition>
+        <argsstring>()</argsstring>
+        <name>ApagarPanel</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.ApagarPanel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="374" column="17" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="374" bodyend="395"/>
+      </memberdef>
+      <memberdef kind="function" id="class_panel_video_controller_con_subtitulos_1a66c432fa231ba7e1a2cb5540191098c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PanelVideoControllerConSubtitulos.AdelantarVideo</definition>
+        <argsstring>()</argsstring>
+        <name>AdelantarVideo</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.AdelantarVideo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="398" column="17" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="398" bodyend="411"/>
+      </memberdef>
+      <memberdef kind="function" id="class_panel_video_controller_con_subtitulos_1a7fa94a6afe628e5a68692eff6c1442fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PanelVideoControllerConSubtitulos.RetrocederVideo</definition>
+        <argsstring>()</argsstring>
+        <name>RetrocederVideo</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.RetrocederVideo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="414" column="17" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="414" bodyend="427"/>
+      </memberdef>
+      <memberdef kind="function" id="class_panel_video_controller_con_subtitulos_1a116d3fe0ba2fe0eeb55207b716e76673" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PanelVideoControllerConSubtitulos.ToggleSubtitulos</definition>
+        <argsstring>()</argsstring>
+        <name>ToggleSubtitulos</name>
+        <qualifiedname>PanelVideoControllerConSubtitulos.ToggleSubtitulos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="570" column="17" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="570" bodyend="602"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PanelVideoControllerConSubtitulos</label>
+        <link refid="class_panel_video_controller_con_subtitulos"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PanelVideoControllerConSubtitulos</label>
+        <link refid="class_panel_video_controller_con_subtitulos"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" line="20" column="7" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs" bodystart="21" bodyend="859"/>
+    <listofallmembers>
+      <member refid="class_panel_video_controller_con_subtitulos_1a66c432fa231ba7e1a2cb5540191098c4" prot="public" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>AdelantarVideo</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a62f357ecb03d0b2f6c948e90cd8e00a3" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>AjustarPosicionControles</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a847b87eb5f4fd7c0e3049c69552eb358" prot="public" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>ApagarPanel</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a32d97b6d9cc4f34186ce4633b32b2d47" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>audioSource</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a069541ad6521bdc3cfc717ecea1dcfeb" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>autoCamera</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a4bb5b0e8b25c332863f2eed42e930055" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>Awake</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a91d1f2fed1593bf0a18beb67b0792bcb" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>botonAdelantar</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a68fa1787820f20985745f6aee76d054a" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>botonCerrar</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a5f54c7823a5156dea8b1845196a1f17d" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>botonPause</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a6e8e9f79e9a5a791cb8e5666f1ffd83d" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>botonPlay</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a5ff7bf8229965b3ea1890c6888081102" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>botonRetroceder</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a24c0e3878881d8adf25ad486d64ea033" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>botonSubtitulos</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a0581644a64d6efd0dd555109a72505a2" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>cameraView</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1ab88f545cfc5bd8175d98934c87171f58" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>canvasGroup</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a1dcea17468242e726bcc4ca818673368" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>CargarSubtitulos</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1ab1914f0ad8ef9f7a9d16ee5e006ea848" prot="public" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>CerrarPanel</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1afa8eea8140d360593de5d40382db6f8e" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>colorBotonSubtitulosActivo</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a5a7e9378905a3ff6271c727cf2020afe" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>colorBotonSubtitulosInactivo</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1add2998accab97634e0ebc47067d1cee5" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>ConfigurarBotonSubtitulos</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a3b47fa7cc0284b59bd1c5d3e8efd0e39" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>duracionFade</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a53818d6bb0e4899fa3226d49157fbf36" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>espacioEntreControles</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a373128ce24fe09f131954ffc9bd66b88" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>EsperarYReproducir</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a5fbae6c1fe9c8e81cfa9f06b2cd6dbba" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>fadeCoroutine</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1acc00f7480019fd2063d1f7f672691f6e" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>FadePanel</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1ace2c7932175484141812248be98373f9" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>forceClosedState</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a2ed69aff3a5ea364f527c0398222a258" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>lastSkybox</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a137ddb5f09cd29748d6ece766cc5f964" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>LoadSubtitleAssetWebGL</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a76615c1697064139bef8d6ab583ab901" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>margenBotonCerrar</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a1a0e367112cb9ae213bf35ab12ade6af" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>materialChanged</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a2f59d22299d35f6ce234834766048971" prot="public" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>MostrarPanelDesdeRuta</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1ad2b60db68c76a45aca5081350cfc57d9" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>MostrarSubtitulos</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a48efa4fd8155a3ccc14d354659253f42" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>OnVideoPlayerPrepared</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1ab783d9af3c19a168018d85f3baf0b45c" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>panelContenedor</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a2467712d0e1beb00721607c48c946fae" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>ParsearArchivoSRT</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a7fa94a6afe628e5a68692eff6c1442fe" prot="public" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>RetrocederVideo</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1ae1ecf178d9bc133c0c0442d9e549573f" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>segundosAdelantar</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a9317d146b562146ad0484d87af987cc9" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>segundosRetroceder</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a45f276875be49a4954a70dd340b2fda4" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>SetupVideoRenderTexture</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1aed3169242c9368ad53511ca310926256" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>soundController</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a0898cf5282a238d4f90665a90adf2c38" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>Start</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a9123811c54ee3e9de66d5180abcf7a0a" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>StartFade</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a3f0db41b183716266c3167e1e11c8d1c" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>subtitleCoroutine</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a63646dd058d881f5ebdc7c7e45a580dc" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>subtitulos</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a7aee0a5720afa95bd1d39774c2520191" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>subtitulosActivos</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1ab45185348bba4eb197a40c52295ad0d6" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>subtitulosText</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a0635bf57bb40fe47841be38bfab5415e" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>TimeToSeconds</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a116d3fe0ba2fe0eeb55207b716e76673" prot="public" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>ToggleSubtitulos</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1ab83d57aa30051ec3d192813aca8ee6fd" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>Update</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a9bcb1233b2585cf533d6b2e5dec4d01a" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>videoDisplay</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a008899ac0ab2fa92d5a404a1cd2655f5" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>videoPlayer</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1ade0ae1d272b7febbbe4d30a080d96914" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>videoRenderTexture</name></member>
+      <member refid="class_panel_video_controller_con_subtitulos_1a22291ad701287bf267d5273359b90d97" prot="private" virt="non-virtual"><scope>PanelVideoControllerConSubtitulos</scope><name>yOffsetControlesInferiores</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

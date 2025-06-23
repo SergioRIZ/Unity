@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_scroll_creditos" kind="class" language="C#" prot="public">
+    <compoundname>ScrollCreditos</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_scroll_creditos_1a115c0cc63e8c11d1e1c1a7dc8a129769" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ScrollCreditos.velocidad</definition>
+        <argsstring></argsstring>
+        <name>velocidad</name>
+        <qualifiedname>ScrollCreditos.velocidad</qualifiedname>
+        <initializer>= 30f</initializer>
+        <briefdescription>
+<para>Velocidad a la que el texto se desplaza hacia arriba (unidades por segundo). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/TextoCreditos.cs" line="11" column="18" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/TextoCreditos.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_scroll_creditos_1aa9ae68a9b245ec68bced05545d509dc9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScrollCreditos.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>ScrollCreditos.Update</qualifiedname>
+        <briefdescription>
+<para>Actualiza la posición del texto cada frame, moviéndolo hacia arriba según la velocidad establecida. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/TextoCreditos.cs" line="16" column="10" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/TextoCreditos.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Controla el desplazamiento vertical del texto de créditos en pantalla. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ScrollCreditos</label>
+        <link refid="class_scroll_creditos"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ScrollCreditos</label>
+        <link refid="class_scroll_creditos"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/ScriptsPuntosDeInteres/TextoCreditos.cs" line="6" column="7" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/TextoCreditos.cs" bodystart="7" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_scroll_creditos_1aa9ae68a9b245ec68bced05545d509dc9" prot="private" virt="non-virtual"><scope>ScrollCreditos</scope><name>Update</name></member>
+      <member refid="class_scroll_creditos_1a115c0cc63e8c11d1e1c1a7dc8a129769" prot="public" virt="non-virtual"><scope>ScrollCreditos</scope><name>velocidad</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

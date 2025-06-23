@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_animated_button_1_1_vibration_settings" kind="class" language="C#" prot="public">
+    <compoundname>AnimatedButton::VibrationSettings</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_animated_button_1_1_vibration_settings_1ae0eae61716d2f1c6e7d0d200f0600f31" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AnimatedButton.VibrationSettings.enableVibration</definition>
+        <argsstring></argsstring>
+        <name>enableVibration</name>
+        <qualifiedname>AnimatedButton.VibrationSettings.enableVibration</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Indica si la vibración está activada. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/AnimatedButton.cs" line="49" column="21" bodyfile="Assets/Scripts/Scripts Flechas/AnimatedButton.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_animated_button_1_1_vibration_settings_1a66d98434e4a7b222c8954522a813c750" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AnimatedButton.VibrationSettings.vibrationAmount</definition>
+        <argsstring></argsstring>
+        <name>vibrationAmount</name>
+        <qualifiedname>AnimatedButton.VibrationSettings.vibrationAmount</qualifiedname>
+        <initializer>= 2f</initializer>
+        <briefdescription>
+<para>Intensidad de la vibración. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/AnimatedButton.cs" line="52" column="22" bodyfile="Assets/Scripts/Scripts Flechas/AnimatedButton.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_animated_button_1_1_vibration_settings_1a20761682cbd83767183de24d4f391bb1" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AnimatedButton.VibrationSettings.vibrationSpeed</definition>
+        <argsstring></argsstring>
+        <name>vibrationSpeed</name>
+        <qualifiedname>AnimatedButton.VibrationSettings.vibrationSpeed</qualifiedname>
+        <initializer>= 20f</initializer>
+        <briefdescription>
+<para>Velocidad de la vibración (no implementada). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/AnimatedButton.cs" line="55" column="22" bodyfile="Assets/Scripts/Scripts Flechas/AnimatedButton.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Configuración de vibración. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Assets/Scripts/Scripts Flechas/AnimatedButton.cs" line="46" column="11" bodyfile="Assets/Scripts/Scripts Flechas/AnimatedButton.cs" bodystart="47" bodyend="56"/>
+    <listofallmembers>
+      <member refid="class_animated_button_1_1_vibration_settings_1ae0eae61716d2f1c6e7d0d200f0600f31" prot="public" virt="non-virtual"><scope>AnimatedButton::VibrationSettings</scope><name>enableVibration</name></member>
+      <member refid="class_animated_button_1_1_vibration_settings_1a66d98434e4a7b222c8954522a813c750" prot="public" virt="non-virtual"><scope>AnimatedButton::VibrationSettings</scope><name>vibrationAmount</name></member>
+      <member refid="class_animated_button_1_1_vibration_settings_1a20761682cbd83767183de24d4f391bb1" prot="public" virt="non-virtual"><scope>AnimatedButton::VibrationSettings</scope><name>vibrationSpeed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

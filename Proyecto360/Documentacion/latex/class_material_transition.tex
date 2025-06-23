@@ -1,0 +1,223 @@
+\doxysection{Material\+Transition Class Reference}
+\hypertarget{class_material_transition}{}\label{class_material_transition}\index{MaterialTransition@{MaterialTransition}}
+
+
+Clase que gestiona las transiciones de materiales del Skybox, incluyendo efectos de fade y zoom.  
+
+
+
+
+Inheritance diagram for Material\+Transition\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=173pt]{class_material_transition__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Material\+Transition\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=173pt]{class_material_transition__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_material_transition_a83b0292e8b95ec3aaf9b433b60977899}{Fade\+To}} (Texture new\+Texture)
+\begin{DoxyCompactList}\small\item\em Inicia una transición de fade hacia una nueva textura de Skybox. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_material_transition_abd2807e65fec6d3b0e03ae4e832ecabf}{Start\+Transition}} (Texture skybox\+Texture)
+\begin{DoxyCompactList}\small\item\em Inicia una transición combinada de zoom y fade hacia una nueva textura de Skybox. \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_panel_video_controller_con_subtitulos}{Panel\+Video\+Controller\+Con\+Subtitulos}} $>$ \mbox{\hyperlink{class_material_transition_aea238828be154c64c53910e625554f6e}{Find\+All\+Video\+Panels}} ()
+\begin{DoxyCompactList}\small\item\em Busca todas las referencias a scripts \doxylink{class_panel_video_controller_con_subtitulos}{Panel\+Video\+Controller\+Con\+Subtitulos} en los grupos activos. \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_panel_imagen_controller}{Panel\+Imagen\+Controller}} $>$ \mbox{\hyperlink{class_material_transition_a3cc2d2e446b15713fadadf257864aaa7}{Find\+All\+Image\+Panels}} ()
+\begin{DoxyCompactList}\small\item\em Busca todas las referencias a scripts \doxylink{class_panel_imagen_controller}{Panel\+Imagen\+Controller} en los grupos activos. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_material_transition_ae70a745e1ebd147dc19e973b6be34cf8}{Apagar\+Todos\+Los\+Paneles}} ()
+\begin{DoxyCompactList}\small\item\em Apaga todos los paneles de video e imagen antes de realizar la transición. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_material_transition_a02598db48fc7e2426c0a338ab2397b61}{is\+Fading}} = false
+\begin{DoxyCompactList}\small\item\em Indica si actualmente se está realizando una transición. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_material_transition_a8d4b8e507a1b720ff8702d2af8681760}{fade\+Duration}} = 2f
+\begin{DoxyCompactList}\small\item\em Duración de la transición de fade en segundos. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_material_transition_a920e577cb7cafe1e4a1e1d74e549a0a8}{zoom\+Distance}} = 3f
+\begin{DoxyCompactList}\small\item\em Distancia de zoom en unidades. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_material_transition_aa40ceadda82ae849f4fbfe19696fb8ad}{zoom\+Speed}} = 1f
+\begin{DoxyCompactList}\small\item\em Velocidad del zoom. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_material_transition_a6009852cadeccf8a8cf03e6d34644d1c}{zoom\+FOV}} = 30f
+\begin{DoxyCompactList}\small\item\em Campo de visión (FOV) durante el zoom. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_material_transition_af04dd6b0657ac26de4cd4e0fe7c7193d}{zoom\+Duration}} = 1f
+\begin{DoxyCompactList}\small\item\em Duración del zoom en segundos. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_material_transition_a1e3def44adc06dbd7459ab5063706274}{fade\+Duration\+With\+Zoom}} = 1.\+5f
+\begin{DoxyCompactList}\small\item\em Duración del fade combinado con el zoom en segundos. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_material_transition_a463421dfdb79c02016de8f52d17ac19f}{flag\+Btn\+Carousel}} = true
+\begin{DoxyCompactList}\small\item\em Bandera para habilitar o deshabilitar los botones del carrusel. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clase que gestiona las transiciones de materiales del Skybox, incluyendo efectos de fade y zoom. 
+
+\label{doc-func-members}
+\Hypertarget{class_material_transition_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_material_transition_ae70a745e1ebd147dc19e973b6be34cf8}\index{MaterialTransition@{MaterialTransition}!ApagarTodosLosPaneles@{ApagarTodosLosPaneles}}
+\index{ApagarTodosLosPaneles@{ApagarTodosLosPaneles}!MaterialTransition@{MaterialTransition}}
+\doxysubsubsection{\texorpdfstring{ApagarTodosLosPaneles()}{ApagarTodosLosPaneles()}}
+{\footnotesize\ttfamily \label{class_material_transition_ae70a745e1ebd147dc19e973b6be34cf8} 
+void Material\+Transition.\+Apagar\+Todos\+Los\+Paneles (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Apaga todos los paneles de video e imagen antes de realizar la transición. 
+
+\Hypertarget{class_material_transition_a83b0292e8b95ec3aaf9b433b60977899}\index{MaterialTransition@{MaterialTransition}!FadeTo@{FadeTo}}
+\index{FadeTo@{FadeTo}!MaterialTransition@{MaterialTransition}}
+\doxysubsubsection{\texorpdfstring{FadeTo()}{FadeTo()}}
+{\footnotesize\ttfamily \label{class_material_transition_a83b0292e8b95ec3aaf9b433b60977899} 
+void Material\+Transition.\+Fade\+To (\begin{DoxyParamCaption}\item[{Texture}]{new\+Texture}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Inicia una transición de fade hacia una nueva textura de Skybox. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Texture} & La nueva textura hacia la que se realizará la transición.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_material_transition_a3cc2d2e446b15713fadadf257864aaa7}\index{MaterialTransition@{MaterialTransition}!FindAllImagePanels@{FindAllImagePanels}}
+\index{FindAllImagePanels@{FindAllImagePanels}!MaterialTransition@{MaterialTransition}}
+\doxysubsubsection{\texorpdfstring{FindAllImagePanels()}{FindAllImagePanels()}}
+{\footnotesize\ttfamily \label{class_material_transition_a3cc2d2e446b15713fadadf257864aaa7} 
+List$<$ \mbox{\hyperlink{class_panel_imagen_controller}{Panel\+Imagen\+Controller}} $>$ Material\+Transition.\+Find\+All\+Image\+Panels (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Busca todas las referencias a scripts \doxylink{class_panel_imagen_controller}{Panel\+Imagen\+Controller} en los grupos activos. 
+
+\begin{DoxyReturn}{Returns}
+Lista de referencias a \doxylink{class_panel_imagen_controller}{Panel\+Imagen\+Controller}.
+\end{DoxyReturn}
+\Hypertarget{class_material_transition_aea238828be154c64c53910e625554f6e}\index{MaterialTransition@{MaterialTransition}!FindAllVideoPanels@{FindAllVideoPanels}}
+\index{FindAllVideoPanels@{FindAllVideoPanels}!MaterialTransition@{MaterialTransition}}
+\doxysubsubsection{\texorpdfstring{FindAllVideoPanels()}{FindAllVideoPanels()}}
+{\footnotesize\ttfamily \label{class_material_transition_aea238828be154c64c53910e625554f6e} 
+List$<$ \mbox{\hyperlink{class_panel_video_controller_con_subtitulos}{Panel\+Video\+Controller\+Con\+Subtitulos}} $>$ Material\+Transition.\+Find\+All\+Video\+Panels (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Busca todas las referencias a scripts \doxylink{class_panel_video_controller_con_subtitulos}{Panel\+Video\+Controller\+Con\+Subtitulos} en los grupos activos. 
+
+\begin{DoxyReturn}{Returns}
+Lista de referencias a \doxylink{class_panel_video_controller_con_subtitulos}{Panel\+Video\+Controller\+Con\+Subtitulos}.
+\end{DoxyReturn}
+\Hypertarget{class_material_transition_abd2807e65fec6d3b0e03ae4e832ecabf}\index{MaterialTransition@{MaterialTransition}!StartTransition@{StartTransition}}
+\index{StartTransition@{StartTransition}!MaterialTransition@{MaterialTransition}}
+\doxysubsubsection{\texorpdfstring{StartTransition()}{StartTransition()}}
+{\footnotesize\ttfamily \label{class_material_transition_abd2807e65fec6d3b0e03ae4e832ecabf} 
+void Material\+Transition.\+Start\+Transition (\begin{DoxyParamCaption}\item[{Texture}]{skybox\+Texture}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Inicia una transición combinada de zoom y fade hacia una nueva textura de Skybox. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em skybox\+Texture} & La nueva textura hacia la que se realizará la transición.\\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-variable-members}
+\Hypertarget{class_material_transition_doc-variable-members}
+\doxysubsection{Field Documentation}
+\Hypertarget{class_material_transition_a8d4b8e507a1b720ff8702d2af8681760}\index{MaterialTransition@{MaterialTransition}!fadeDuration@{fadeDuration}}
+\index{fadeDuration@{fadeDuration}!MaterialTransition@{MaterialTransition}}
+\doxysubsubsection{\texorpdfstring{fadeDuration}{fadeDuration}}
+{\footnotesize\ttfamily \label{class_material_transition_a8d4b8e507a1b720ff8702d2af8681760} 
+float Material\+Transition.\+fade\+Duration = 2f}
+
+
+
+Duración de la transición de fade en segundos. 
+
+\Hypertarget{class_material_transition_a1e3def44adc06dbd7459ab5063706274}\index{MaterialTransition@{MaterialTransition}!fadeDurationWithZoom@{fadeDurationWithZoom}}
+\index{fadeDurationWithZoom@{fadeDurationWithZoom}!MaterialTransition@{MaterialTransition}}
+\doxysubsubsection{\texorpdfstring{fadeDurationWithZoom}{fadeDurationWithZoom}}
+{\footnotesize\ttfamily \label{class_material_transition_a1e3def44adc06dbd7459ab5063706274} 
+float Material\+Transition.\+fade\+Duration\+With\+Zoom = 1.\+5f}
+
+
+
+Duración del fade combinado con el zoom en segundos. 
+
+\Hypertarget{class_material_transition_a463421dfdb79c02016de8f52d17ac19f}\index{MaterialTransition@{MaterialTransition}!flagBtnCarousel@{flagBtnCarousel}}
+\index{flagBtnCarousel@{flagBtnCarousel}!MaterialTransition@{MaterialTransition}}
+\doxysubsubsection{\texorpdfstring{flagBtnCarousel}{flagBtnCarousel}}
+{\footnotesize\ttfamily \label{class_material_transition_a463421dfdb79c02016de8f52d17ac19f} 
+bool Material\+Transition.\+flag\+Btn\+Carousel = true}
+
+
+
+Bandera para habilitar o deshabilitar los botones del carrusel. 
+
+\Hypertarget{class_material_transition_a02598db48fc7e2426c0a338ab2397b61}\index{MaterialTransition@{MaterialTransition}!isFading@{isFading}}
+\index{isFading@{isFading}!MaterialTransition@{MaterialTransition}}
+\doxysubsubsection{\texorpdfstring{isFading}{isFading}}
+{\footnotesize\ttfamily \label{class_material_transition_a02598db48fc7e2426c0a338ab2397b61} 
+bool Material\+Transition.\+is\+Fading = false}
+
+
+
+Indica si actualmente se está realizando una transición. 
+
+\Hypertarget{class_material_transition_a920e577cb7cafe1e4a1e1d74e549a0a8}\index{MaterialTransition@{MaterialTransition}!zoomDistance@{zoomDistance}}
+\index{zoomDistance@{zoomDistance}!MaterialTransition@{MaterialTransition}}
+\doxysubsubsection{\texorpdfstring{zoomDistance}{zoomDistance}}
+{\footnotesize\ttfamily \label{class_material_transition_a920e577cb7cafe1e4a1e1d74e549a0a8} 
+float Material\+Transition.\+zoom\+Distance = 3f}
+
+
+
+Distancia de zoom en unidades. 
+
+\Hypertarget{class_material_transition_af04dd6b0657ac26de4cd4e0fe7c7193d}\index{MaterialTransition@{MaterialTransition}!zoomDuration@{zoomDuration}}
+\index{zoomDuration@{zoomDuration}!MaterialTransition@{MaterialTransition}}
+\doxysubsubsection{\texorpdfstring{zoomDuration}{zoomDuration}}
+{\footnotesize\ttfamily \label{class_material_transition_af04dd6b0657ac26de4cd4e0fe7c7193d} 
+float Material\+Transition.\+zoom\+Duration = 1f}
+
+
+
+Duración del zoom en segundos. 
+
+\Hypertarget{class_material_transition_a6009852cadeccf8a8cf03e6d34644d1c}\index{MaterialTransition@{MaterialTransition}!zoomFOV@{zoomFOV}}
+\index{zoomFOV@{zoomFOV}!MaterialTransition@{MaterialTransition}}
+\doxysubsubsection{\texorpdfstring{zoomFOV}{zoomFOV}}
+{\footnotesize\ttfamily \label{class_material_transition_a6009852cadeccf8a8cf03e6d34644d1c} 
+float Material\+Transition.\+zoom\+FOV = 30f}
+
+
+
+Campo de visión (FOV) durante el zoom. 
+
+\Hypertarget{class_material_transition_aa40ceadda82ae849f4fbfe19696fb8ad}\index{MaterialTransition@{MaterialTransition}!zoomSpeed@{zoomSpeed}}
+\index{zoomSpeed@{zoomSpeed}!MaterialTransition@{MaterialTransition}}
+\doxysubsubsection{\texorpdfstring{zoomSpeed}{zoomSpeed}}
+{\footnotesize\ttfamily \label{class_material_transition_aa40ceadda82ae849f4fbfe19696fb8ad} 
+float Material\+Transition.\+zoom\+Speed = 1f}
+
+
+
+Velocidad del zoom. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+Carousel\+Script/\mbox{\hyperlink{_material_transition_8cs}{Material\+Transition.\+cs}}\end{DoxyCompactItemize}

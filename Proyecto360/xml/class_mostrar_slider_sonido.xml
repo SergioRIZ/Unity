@@ -1,0 +1,339 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_mostrar_slider_sonido" kind="class" language="C#" prot="public">
+    <compoundname>MostrarSliderSonido</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerEnterHandler</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerExitHandler</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_mostrar_slider_sonido_1a9c4ae4811556335bcd3be20ac66d0a0a" prot="public" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource MostrarSliderSonido.audioAmbiente</definition>
+        <argsstring></argsstring>
+        <name>audioAmbiente</name>
+        <qualifiedname>MostrarSliderSonido.audioAmbiente</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/MotrarSliderSonido.cs" line="8" column="24" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/MotrarSliderSonido.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mostrar_slider_sonido_1ab183703262e8e980a5b67fc6e689263a" prot="public" static="no" mutable="no">
+        <type>Slider</type>
+        <definition>Slider MostrarSliderSonido.sliderVolumen</definition>
+        <argsstring></argsstring>
+        <name>sliderVolumen</name>
+        <qualifiedname>MostrarSliderSonido.sliderVolumen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/MotrarSliderSonido.cs" line="9" column="19" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/MotrarSliderSonido.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mostrar_slider_sonido_1aa73ea7a902e9cea6d9c4b1cd9ea9bafe" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject MostrarSliderSonido.iconoSonido</definition>
+        <argsstring></argsstring>
+        <name>iconoSonido</name>
+        <qualifiedname>MostrarSliderSonido.iconoSonido</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/MotrarSliderSonido.cs" line="10" column="23" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/MotrarSliderSonido.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mostrar_slider_sonido_1a992ae9581cc17e3a2d384f38faf51cda" prot="public" static="no" mutable="no">
+        <type>Sprite</type>
+        <definition>Sprite MostrarSliderSonido.iconoConSonido</definition>
+        <argsstring></argsstring>
+        <name>iconoConSonido</name>
+        <qualifiedname>MostrarSliderSonido.iconoConSonido</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/MotrarSliderSonido.cs" line="11" column="19" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/MotrarSliderSonido.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mostrar_slider_sonido_1af25b0b9d790683781d6e216e84b156e6" prot="public" static="no" mutable="no">
+        <type>Sprite</type>
+        <definition>Sprite MostrarSliderSonido.iconoSinSonido</definition>
+        <argsstring></argsstring>
+        <name>iconoSinSonido</name>
+        <qualifiedname>MostrarSliderSonido.iconoSinSonido</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/MotrarSliderSonido.cs" line="12" column="19" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/MotrarSliderSonido.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_mostrar_slider_sonido_1a5608a9cba13a62cc1799c35463f1cf15" prot="private" static="no" mutable="no">
+        <type>Coroutine</type>
+        <definition>Coroutine MostrarSliderSonido.ocultarSliderCoroutine</definition>
+        <argsstring></argsstring>
+        <name>ocultarSliderCoroutine</name>
+        <qualifiedname>MostrarSliderSonido.ocultarSliderCoroutine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/MotrarSliderSonido.cs" line="13" column="23" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/MotrarSliderSonido.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mostrar_slider_sonido_1ab75a53e6b3e7a2374731134084a2fbc4" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MostrarSliderSonido.musicaPausada</definition>
+        <argsstring></argsstring>
+        <name>musicaPausada</name>
+        <qualifiedname>MostrarSliderSonido.musicaPausada</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/MotrarSliderSonido.cs" line="15" column="18" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/MotrarSliderSonido.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_mostrar_slider_sonido_1ab69137d6940b0dbbd61a4cde61cdea02" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MostrarSliderSonido.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>MostrarSliderSonido.Start</qualifiedname>
+        <briefdescription>
+<para>Inicializa el volumen global y del AudioSource, configura el slider y actualiza el icono de sonido. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/MotrarSliderSonido.cs" line="20" column="10" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/MotrarSliderSonido.cs" bodystart="20" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mostrar_slider_sonido_1a17d55a8f7f50858925dc91859967639a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator MostrarSliderSonido.EsperarYOcultarSlider</definition>
+        <argsstring>()</argsstring>
+        <name>EsperarYOcultarSlider</name>
+        <qualifiedname>MostrarSliderSonido.EsperarYOcultarSlider</qualifiedname>
+        <briefdescription>
+<para>Corrutina que espera un tiempo antes de ocultar el slider de volumen. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>IEnumerator para la corrutina.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/MotrarSliderSonido.cs" line="65" column="17" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/MotrarSliderSonido.cs" bodystart="65" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mostrar_slider_sonido_1aa7fb9a62f9b17391517ceeae505e5732" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MostrarSliderSonido.CambiarVolumen</definition>
+        <argsstring>(float valor)</argsstring>
+        <name>CambiarVolumen</name>
+        <qualifiedname>MostrarSliderSonido.CambiarVolumen</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>valor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/MotrarSliderSonido.cs" line="71" column="10" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/MotrarSliderSonido.cs" bodystart="71" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mostrar_slider_sonido_1aaf921055c419944bdcf8034cc8b29753" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MostrarSliderSonido.ActualizarIcono</definition>
+        <argsstring>(float volumen)</argsstring>
+        <name>ActualizarIcono</name>
+        <qualifiedname>MostrarSliderSonido.ActualizarIcono</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>volumen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/MotrarSliderSonido.cs" line="90" column="10" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/MotrarSliderSonido.cs" bodystart="90" bodyend="97"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_mostrar_slider_sonido_1a22000e1e069b1586c29789f4092ca6f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MostrarSliderSonido.OnPointerEnter</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerEnter</name>
+        <qualifiedname>MostrarSliderSonido.OnPointerEnter</qualifiedname>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+<para>Muestra el slider de volumen cuando el puntero entra en el área del icono. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eventData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Datos del evento de puntero.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/MotrarSliderSonido.cs" line="41" column="17" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/MotrarSliderSonido.cs" bodystart="41" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mostrar_slider_sonido_1a006921ec048e2d6773fb61cb2d679db9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MostrarSliderSonido.OnPointerExit</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerExit</name>
+        <qualifiedname>MostrarSliderSonido.OnPointerExit</qualifiedname>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+<para>Inicia la corrutina para ocultar el slider de volumen cuando el puntero sale del área del icono. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eventData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Datos del evento de puntero.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/MotrarSliderSonido.cs" line="53" column="17" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/MotrarSliderSonido.cs" bodystart="53" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mostrar_slider_sonido_1ac9a21e42c66cef808d7de869443ab9ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MostrarSliderSonido.SilenciarAmbiente</definition>
+        <argsstring>(bool silenciar)</argsstring>
+        <name>SilenciarAmbiente</name>
+        <qualifiedname>MostrarSliderSonido.SilenciarAmbiente</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>silenciar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/MotrarSliderSonido.cs" line="99" column="17" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/MotrarSliderSonido.cs" bodystart="99" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mostrar_slider_sonido_1ad275ab38748eb755b9d8d8624d529512" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MostrarSliderSonido.AlternarMusica</definition>
+        <argsstring>()</argsstring>
+        <name>AlternarMusica</name>
+        <qualifiedname>MostrarSliderSonido.AlternarMusica</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/MotrarSliderSonido.cs" line="116" column="17" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/MotrarSliderSonido.cs" bodystart="116" bodyend="132"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>IPointerEnterHandler</label>
+      </node>
+      <node id="4">
+        <label>IPointerExitHandler</label>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>MostrarSliderSonido</label>
+        <link refid="class_mostrar_slider_sonido"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>IPointerEnterHandler</label>
+      </node>
+      <node id="4">
+        <label>IPointerExitHandler</label>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>MostrarSliderSonido</label>
+        <link refid="class_mostrar_slider_sonido"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/ScriptsPuntosDeInteres/MotrarSliderSonido.cs" line="6" column="7" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/MotrarSliderSonido.cs" bodystart="7" bodyend="133"/>
+    <listofallmembers>
+      <member refid="class_mostrar_slider_sonido_1aaf921055c419944bdcf8034cc8b29753" prot="private" virt="non-virtual"><scope>MostrarSliderSonido</scope><name>ActualizarIcono</name></member>
+      <member refid="class_mostrar_slider_sonido_1ad275ab38748eb755b9d8d8624d529512" prot="public" virt="non-virtual"><scope>MostrarSliderSonido</scope><name>AlternarMusica</name></member>
+      <member refid="class_mostrar_slider_sonido_1a9c4ae4811556335bcd3be20ac66d0a0a" prot="public" virt="non-virtual"><scope>MostrarSliderSonido</scope><name>audioAmbiente</name></member>
+      <member refid="class_mostrar_slider_sonido_1aa7fb9a62f9b17391517ceeae505e5732" prot="private" virt="non-virtual"><scope>MostrarSliderSonido</scope><name>CambiarVolumen</name></member>
+      <member refid="class_mostrar_slider_sonido_1a17d55a8f7f50858925dc91859967639a" prot="private" virt="non-virtual"><scope>MostrarSliderSonido</scope><name>EsperarYOcultarSlider</name></member>
+      <member refid="class_mostrar_slider_sonido_1a992ae9581cc17e3a2d384f38faf51cda" prot="public" virt="non-virtual"><scope>MostrarSliderSonido</scope><name>iconoConSonido</name></member>
+      <member refid="class_mostrar_slider_sonido_1af25b0b9d790683781d6e216e84b156e6" prot="public" virt="non-virtual"><scope>MostrarSliderSonido</scope><name>iconoSinSonido</name></member>
+      <member refid="class_mostrar_slider_sonido_1aa73ea7a902e9cea6d9c4b1cd9ea9bafe" prot="public" virt="non-virtual"><scope>MostrarSliderSonido</scope><name>iconoSonido</name></member>
+      <member refid="class_mostrar_slider_sonido_1ab75a53e6b3e7a2374731134084a2fbc4" prot="private" virt="non-virtual"><scope>MostrarSliderSonido</scope><name>musicaPausada</name></member>
+      <member refid="class_mostrar_slider_sonido_1a5608a9cba13a62cc1799c35463f1cf15" prot="private" virt="non-virtual"><scope>MostrarSliderSonido</scope><name>ocultarSliderCoroutine</name></member>
+      <member refid="class_mostrar_slider_sonido_1a22000e1e069b1586c29789f4092ca6f0" prot="public" virt="non-virtual"><scope>MostrarSliderSonido</scope><name>OnPointerEnter</name></member>
+      <member refid="class_mostrar_slider_sonido_1a006921ec048e2d6773fb61cb2d679db9" prot="public" virt="non-virtual"><scope>MostrarSliderSonido</scope><name>OnPointerExit</name></member>
+      <member refid="class_mostrar_slider_sonido_1ac9a21e42c66cef808d7de869443ab9ca" prot="public" virt="non-virtual"><scope>MostrarSliderSonido</scope><name>SilenciarAmbiente</name></member>
+      <member refid="class_mostrar_slider_sonido_1ab183703262e8e980a5b67fc6e689263a" prot="public" virt="non-virtual"><scope>MostrarSliderSonido</scope><name>sliderVolumen</name></member>
+      <member refid="class_mostrar_slider_sonido_1ab69137d6940b0dbbd61a4cde61cdea02" prot="private" virt="non-virtual"><scope>MostrarSliderSonido</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

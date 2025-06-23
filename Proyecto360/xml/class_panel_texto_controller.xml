@@ -1,0 +1,483 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_panel_texto_controller" kind="class" language="C#" prot="public">
+    <compoundname>PanelTextoController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_panel_texto_controller_1a07e3a236f3008526561d47809f36a528" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject PanelTextoController.panelFondoTextoObjeto</definition>
+        <argsstring></argsstring>
+        <name>panelFondoTextoObjeto</name>
+        <qualifiedname>PanelTextoController.panelFondoTextoObjeto</qualifiedname>
+        <briefdescription>
+<para>Objeto que representa el fondo del panel (para color, etc.). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" line="16" column="25" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_texto_controller_1ae3ca33402669c1a927bd03a1a52d2b68" prot="private" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI PanelTextoController.textoMostrado</definition>
+        <argsstring></argsstring>
+        <name>textoMostrado</name>
+        <qualifiedname>PanelTextoController.textoMostrado</qualifiedname>
+        <briefdescription>
+<para>El componente TextMeshProUGUI que mostrará el texto. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" line="21" column="30" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_texto_controller_1af3de0bc63b5c0cdab0750b3635275929" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button PanelTextoController.botonCerrar</definition>
+        <argsstring></argsstring>
+        <name>botonCerrar</name>
+        <qualifiedname>PanelTextoController.botonCerrar</qualifiedname>
+        <briefdescription>
+<para>El botón para cerrar el panel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" line="26" column="21" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_texto_controller_1a907837d18694ef6596466b97ff916a59" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color PanelTextoController.colorFondo</definition>
+        <argsstring></argsstring>
+        <name>colorFondo</name>
+        <qualifiedname>PanelTextoController.colorFondo</qualifiedname>
+        <initializer>= new Color(0, 0, 0, 0.8f)</initializer>
+        <briefdescription>
+<para>Color del fondo del panel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" line="32" column="20" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_texto_controller_1addb6ceb0a9f88a2d7354cdf1066bb640" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PanelTextoController.margenBotonCerrar</definition>
+        <argsstring></argsstring>
+        <name>margenBotonCerrar</name>
+        <qualifiedname>PanelTextoController.margenBotonCerrar</qualifiedname>
+        <initializer>= 20f</initializer>
+        <briefdescription>
+<para>Margen del botón de cerrar respecto al borde del panel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" line="37" column="20" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_texto_controller_1a73c8417378761182f3ac8b76d490a7e1" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PanelTextoController.duracionFade</definition>
+        <argsstring></argsstring>
+        <name>duracionFade</name>
+        <qualifiedname>PanelTextoController.duracionFade</qualifiedname>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+<para>Duración de la animación de fade-in y fade-out en segundos. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" line="44" column="20" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_texto_controller_1a0a75109d776de4e8e499e0c6ee3239c0" prot="private" static="no" mutable="no">
+        <type>CanvasGroup</type>
+        <definition>CanvasGroup PanelTextoController.canvasGroup</definition>
+        <argsstring></argsstring>
+        <name>canvasGroup</name>
+        <qualifiedname>PanelTextoController.canvasGroup</qualifiedname>
+        <briefdescription>
+<para>Componente CanvasGroup utilizado para manejar la visibilidad y la interactividad del panel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" line="50" column="25" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_texto_controller_1ab0d9c99b41029f1c26f620322880aaba" prot="private" static="no" mutable="no">
+        <type>Coroutine</type>
+        <definition>Coroutine PanelTextoController.fadeCoroutine</definition>
+        <argsstring></argsstring>
+        <name>fadeCoroutine</name>
+        <qualifiedname>PanelTextoController.fadeCoroutine</qualifiedname>
+        <briefdescription>
+<para>Referencia a la corrutina activa de fade. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" line="55" column="23" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_texto_controller_1a54af69dc05ab21c393d71f6fc6096375" prot="private" static="no" mutable="no">
+        <type><ref refid="class_camera_view" kindref="compound">CameraView</ref></type>
+        <definition>CameraView PanelTextoController.cameraView</definition>
+        <argsstring></argsstring>
+        <name>cameraView</name>
+        <qualifiedname>PanelTextoController.cameraView</qualifiedname>
+        <briefdescription>
+<para>Referencia al controlador de la cámara principal. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" line="60" column="24" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_panel_texto_controller_1a97fd300caf55c87e9a64443845cfcc50" prot="private" static="no" mutable="no">
+        <type><ref refid="class_automatic_movement_controller" kindref="compound">AutomaticMovementController</ref></type>
+        <definition>AutomaticMovementController PanelTextoController.autoCamera</definition>
+        <argsstring></argsstring>
+        <name>autoCamera</name>
+        <qualifiedname>PanelTextoController.autoCamera</qualifiedname>
+        <briefdescription>
+<para>Referencia al controlador de movimiento automático. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" line="65" column="41" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_panel_texto_controller_1abeea9bd615c52be6336a725d5194fb6e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PanelTextoController.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>PanelTextoController.Awake</qualifiedname>
+        <briefdescription>
+<para>Inicializa las referencias y configura el estado inicial del panel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" line="70" column="10" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" bodystart="70" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_panel_texto_controller_1a37bc2693015aab4de8383ebd87d877a0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PanelTextoController.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>PanelTextoController.OnEnable</qualifiedname>
+        <briefdescription>
+<para>Configura la apariencia del panel y ajusta su diseño al activarse. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" line="141" column="10" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" bodystart="141" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="class_panel_texto_controller_1a71695b26f27138e10f9d314dd0060bc3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PanelTextoController.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>PanelTextoController.OnDisable</qualifiedname>
+        <briefdescription>
+<para>Resetea el estado del panel al desactivarse. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" line="154" column="10" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" bodystart="154" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="class_panel_texto_controller_1a0a08ef42aaa36efc138b5f6a4d33fad0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator PanelTextoController.ForceRebuildLayouts</definition>
+        <argsstring>()</argsstring>
+        <name>ForceRebuildLayouts</name>
+        <qualifiedname>PanelTextoController.ForceRebuildLayouts</qualifiedname>
+        <briefdescription>
+<para>Corrutina para forzar la reconstrucción de los layouts de UI. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>IEnumerator para la corrutina.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" line="174" column="25" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" bodystart="174" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="class_panel_texto_controller_1a01a62f35b69baf8c3f8b59cebe144713" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PanelTextoController.ConfigurarAparienciaPanel</definition>
+        <argsstring>()</argsstring>
+        <name>ConfigurarAparienciaPanel</name>
+        <qualifiedname>PanelTextoController.ConfigurarAparienciaPanel</qualifiedname>
+        <briefdescription>
+<para>Configura el color del fondo del panel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" line="196" column="18" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" bodystart="196" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="class_panel_texto_controller_1a334482ba8ddb9d5b8b8a29b21c3b8668" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PanelTextoController.AjustarPosicionBotonCerrar</definition>
+        <argsstring>()</argsstring>
+        <name>AjustarPosicionBotonCerrar</name>
+        <qualifiedname>PanelTextoController.AjustarPosicionBotonCerrar</qualifiedname>
+        <briefdescription>
+<para>Ajusta la posición del botón de cerrar en el panel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" line="211" column="18" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" bodystart="211" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="class_panel_texto_controller_1a3af1898f474662df699af97884017f7f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PanelTextoController.StartFade</definition>
+        <argsstring>(float from, float to)</argsstring>
+        <name>StartFade</name>
+        <qualifiedname>PanelTextoController.StartFade</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+<para>Inicia o detiene la corrutina de fade para el panel. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Alpha inicial.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Alpha final.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" line="225" column="18" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" bodystart="225" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="class_panel_texto_controller_1a257209f2cbd21ea3701ca6cb72510f2a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator PanelTextoController.FadePanel</definition>
+        <argsstring>(float startAlpha, float endAlpha)</argsstring>
+        <name>FadePanel</name>
+        <qualifiedname>PanelTextoController.FadePanel</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>startAlpha</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>endAlpha</declname>
+        </param>
+        <briefdescription>
+<para>Corrutina que maneja la animación de fade-in y fade-out del panel. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>startAlpha</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Alpha inicial.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>endAlpha</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Alpha final.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>IEnumerator para la animación de fade.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" line="247" column="25" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" bodystart="247" bodyend="283"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_panel_texto_controller_1a136a4c933199f43f5d401ca311159878" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PanelTextoController.MostrarPanel</definition>
+        <argsstring>()</argsstring>
+        <name>MostrarPanel</name>
+        <qualifiedname>PanelTextoController.MostrarPanel</qualifiedname>
+        <briefdescription>
+<para>Muestra el panel con una animación de fade-in. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" line="95" column="17" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" bodystart="95" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_panel_texto_controller_1a9d843d2d177797c34c812429c6fbe457" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PanelTextoController.CerrarPanel</definition>
+        <argsstring>()</argsstring>
+        <name>CerrarPanel</name>
+        <qualifiedname>PanelTextoController.CerrarPanel</qualifiedname>
+        <briefdescription>
+<para>Cierra el panel con una animación de fade-out. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" line="120" column="17" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" bodystart="120" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_panel_texto_controller_1ac327397827fda37df8986b58cefe439f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PanelTextoController.SetColorFondo</definition>
+        <argsstring>(Color nuevoColor)</argsstring>
+        <name>SetColorFondo</name>
+        <qualifiedname>PanelTextoController.SetColorFondo</qualifiedname>
+        <param>
+          <type>Color</type>
+          <declname>nuevoColor</declname>
+        </param>
+        <briefdescription>
+<para>Cambia el color del fondo del panel. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nuevoColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nuevo color a aplicar.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" line="289" column="17" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" bodystart="289" bodyend="296"/>
+      </memberdef>
+      <memberdef kind="function" id="class_panel_texto_controller_1aee0f552629bcfa63754d7b7f07d7ef8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PanelTextoController.SetMargenBotonCerrar</definition>
+        <argsstring>(float nuevoMargen)</argsstring>
+        <name>SetMargenBotonCerrar</name>
+        <qualifiedname>PanelTextoController.SetMargenBotonCerrar</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>nuevoMargen</declname>
+        </param>
+        <briefdescription>
+<para>Cambia el margen del botón de cerrar. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nuevoMargen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nuevo margen a aplicar.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" line="302" column="17" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" bodystart="302" bodyend="309"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Controlador para manejar la visualización y animación de un panel de texto en la interfaz de usuario. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PanelTextoController</label>
+        <link refid="class_panel_texto_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PanelTextoController</label>
+        <link refid="class_panel_texto_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" line="10" column="7" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs" bodystart="11" bodyend="310"/>
+    <listofallmembers>
+      <member refid="class_panel_texto_controller_1a334482ba8ddb9d5b8b8a29b21c3b8668" prot="private" virt="non-virtual"><scope>PanelTextoController</scope><name>AjustarPosicionBotonCerrar</name></member>
+      <member refid="class_panel_texto_controller_1a97fd300caf55c87e9a64443845cfcc50" prot="private" virt="non-virtual"><scope>PanelTextoController</scope><name>autoCamera</name></member>
+      <member refid="class_panel_texto_controller_1abeea9bd615c52be6336a725d5194fb6e" prot="private" virt="non-virtual"><scope>PanelTextoController</scope><name>Awake</name></member>
+      <member refid="class_panel_texto_controller_1af3de0bc63b5c0cdab0750b3635275929" prot="private" virt="non-virtual"><scope>PanelTextoController</scope><name>botonCerrar</name></member>
+      <member refid="class_panel_texto_controller_1a54af69dc05ab21c393d71f6fc6096375" prot="private" virt="non-virtual"><scope>PanelTextoController</scope><name>cameraView</name></member>
+      <member refid="class_panel_texto_controller_1a0a75109d776de4e8e499e0c6ee3239c0" prot="private" virt="non-virtual"><scope>PanelTextoController</scope><name>canvasGroup</name></member>
+      <member refid="class_panel_texto_controller_1a9d843d2d177797c34c812429c6fbe457" prot="public" virt="non-virtual"><scope>PanelTextoController</scope><name>CerrarPanel</name></member>
+      <member refid="class_panel_texto_controller_1a907837d18694ef6596466b97ff916a59" prot="private" virt="non-virtual"><scope>PanelTextoController</scope><name>colorFondo</name></member>
+      <member refid="class_panel_texto_controller_1a01a62f35b69baf8c3f8b59cebe144713" prot="private" virt="non-virtual"><scope>PanelTextoController</scope><name>ConfigurarAparienciaPanel</name></member>
+      <member refid="class_panel_texto_controller_1a73c8417378761182f3ac8b76d490a7e1" prot="private" virt="non-virtual"><scope>PanelTextoController</scope><name>duracionFade</name></member>
+      <member refid="class_panel_texto_controller_1ab0d9c99b41029f1c26f620322880aaba" prot="private" virt="non-virtual"><scope>PanelTextoController</scope><name>fadeCoroutine</name></member>
+      <member refid="class_panel_texto_controller_1a257209f2cbd21ea3701ca6cb72510f2a" prot="private" virt="non-virtual"><scope>PanelTextoController</scope><name>FadePanel</name></member>
+      <member refid="class_panel_texto_controller_1a0a08ef42aaa36efc138b5f6a4d33fad0" prot="private" virt="non-virtual"><scope>PanelTextoController</scope><name>ForceRebuildLayouts</name></member>
+      <member refid="class_panel_texto_controller_1addb6ceb0a9f88a2d7354cdf1066bb640" prot="private" virt="non-virtual"><scope>PanelTextoController</scope><name>margenBotonCerrar</name></member>
+      <member refid="class_panel_texto_controller_1a136a4c933199f43f5d401ca311159878" prot="public" virt="non-virtual"><scope>PanelTextoController</scope><name>MostrarPanel</name></member>
+      <member refid="class_panel_texto_controller_1a71695b26f27138e10f9d314dd0060bc3" prot="private" virt="non-virtual"><scope>PanelTextoController</scope><name>OnDisable</name></member>
+      <member refid="class_panel_texto_controller_1a37bc2693015aab4de8383ebd87d877a0" prot="private" virt="non-virtual"><scope>PanelTextoController</scope><name>OnEnable</name></member>
+      <member refid="class_panel_texto_controller_1a07e3a236f3008526561d47809f36a528" prot="private" virt="non-virtual"><scope>PanelTextoController</scope><name>panelFondoTextoObjeto</name></member>
+      <member refid="class_panel_texto_controller_1ac327397827fda37df8986b58cefe439f" prot="public" virt="non-virtual"><scope>PanelTextoController</scope><name>SetColorFondo</name></member>
+      <member refid="class_panel_texto_controller_1aee0f552629bcfa63754d7b7f07d7ef8c" prot="public" virt="non-virtual"><scope>PanelTextoController</scope><name>SetMargenBotonCerrar</name></member>
+      <member refid="class_panel_texto_controller_1a3af1898f474662df699af97884017f7f" prot="private" virt="non-virtual"><scope>PanelTextoController</scope><name>StartFade</name></member>
+      <member refid="class_panel_texto_controller_1ae3ca33402669c1a927bd03a1a52d2b68" prot="private" virt="non-virtual"><scope>PanelTextoController</scope><name>textoMostrado</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,97 @@
+\doxysection{Main\+Text\+Selected Class Reference}
+\hypertarget{class_main_text_selected}{}\label{class_main_text_selected}\index{MainTextSelected@{MainTextSelected}}
+
+
+Clase que gestiona el comportamiento visual del texto principal de un botón en un carrusel, permitiendo subrayar el texto al interactuar con el puntero y controlar si el subrayado es permanente. Implementa las interfaces IPointer\+Enter\+Handler y IPointer\+Exit\+Handler para detectar eventos del puntero.  
+
+
+
+
+Inheritance diagram for Main\+Text\+Selected\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_main_text_selected__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Main\+Text\+Selected\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_main_text_selected__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_main_text_selected_a72a729cebf325df01e62ef9e951599f4}{On\+Pointer\+Enter}} (Pointer\+Event\+Data event\+Data)
+\begin{DoxyCompactList}\small\item\em Se ejecuta cuando el puntero entra en el área del botón. Si el subrayado no es permanente, activa el texto. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_main_text_selected_aaf4cabfebe626d4f6d17d1cd1baf1d6c}{On\+Pointer\+Exit}} (Pointer\+Event\+Data event\+Data)
+\begin{DoxyCompactList}\small\item\em Se ejecuta cuando el puntero sale del área del botón. Si el subrayado no es permanente, desactiva el texto. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_main_text_selected_a627ba9521cf8217554df635ed61b0ff4}{is\+Permanently\+Underlined}} = false
+\begin{DoxyCompactList}\small\item\em Indica si el texto del botón debe permanecer subrayado de forma permanente. Si es {\ttfamily true}, el subrayado no se modifica al interactuar con el puntero. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clase que gestiona el comportamiento visual del texto principal de un botón en un carrusel, permitiendo subrayar el texto al interactuar con el puntero y controlar si el subrayado es permanente. Implementa las interfaces IPointer\+Enter\+Handler y IPointer\+Exit\+Handler para detectar eventos del puntero. 
+
+\label{doc-func-members}
+\Hypertarget{class_main_text_selected_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_main_text_selected_a72a729cebf325df01e62ef9e951599f4}\index{MainTextSelected@{MainTextSelected}!OnPointerEnter@{OnPointerEnter}}
+\index{OnPointerEnter@{OnPointerEnter}!MainTextSelected@{MainTextSelected}}
+\doxysubsubsection{\texorpdfstring{OnPointerEnter()}{OnPointerEnter()}}
+{\footnotesize\ttfamily \label{class_main_text_selected_a72a729cebf325df01e62ef9e951599f4} 
+void Main\+Text\+Selected.\+On\+Pointer\+Enter (\begin{DoxyParamCaption}\item[{Pointer\+Event\+Data}]{event\+Data}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Se ejecuta cuando el puntero entra en el área del botón. Si el subrayado no es permanente, activa el texto. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event\+Data} & Datos del evento del puntero.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_main_text_selected_aaf4cabfebe626d4f6d17d1cd1baf1d6c}\index{MainTextSelected@{MainTextSelected}!OnPointerExit@{OnPointerExit}}
+\index{OnPointerExit@{OnPointerExit}!MainTextSelected@{MainTextSelected}}
+\doxysubsubsection{\texorpdfstring{OnPointerExit()}{OnPointerExit()}}
+{\footnotesize\ttfamily \label{class_main_text_selected_aaf4cabfebe626d4f6d17d1cd1baf1d6c} 
+void Main\+Text\+Selected.\+On\+Pointer\+Exit (\begin{DoxyParamCaption}\item[{Pointer\+Event\+Data}]{event\+Data}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Se ejecuta cuando el puntero sale del área del botón. Si el subrayado no es permanente, desactiva el texto. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event\+Data} & Datos del evento del puntero.\\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-variable-members}
+\Hypertarget{class_main_text_selected_doc-variable-members}
+\doxysubsection{Field Documentation}
+\Hypertarget{class_main_text_selected_a627ba9521cf8217554df635ed61b0ff4}\index{MainTextSelected@{MainTextSelected}!isPermanentlyUnderlined@{isPermanentlyUnderlined}}
+\index{isPermanentlyUnderlined@{isPermanentlyUnderlined}!MainTextSelected@{MainTextSelected}}
+\doxysubsubsection{\texorpdfstring{isPermanentlyUnderlined}{isPermanentlyUnderlined}}
+{\footnotesize\ttfamily \label{class_main_text_selected_a627ba9521cf8217554df635ed61b0ff4} 
+bool Main\+Text\+Selected.\+is\+Permanently\+Underlined = false}
+
+
+
+Indica si el texto del botón debe permanecer subrayado de forma permanente. Si es {\ttfamily true}, el subrayado no se modifica al interactuar con el puntero. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+Carousel\+Script/\mbox{\hyperlink{_main_text_selected_8cs}{Main\+Text\+Selected.\+cs}}\end{DoxyCompactItemize}

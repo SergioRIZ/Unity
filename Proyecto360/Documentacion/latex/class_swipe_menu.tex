@@ -1,0 +1,141 @@
+\doxysection{Swipe\+Menu Class Reference}
+\hypertarget{class_swipe_menu}{}\label{class_swipe_menu}\index{SwipeMenu@{SwipeMenu}}
+
+
+Clase que gestiona un menú deslizante con botones, permitiendo la navegación mediante swipe o botones, adaptando la escala y visibilidad de los elementos según la plataforma y la orientación de la pantalla.  
+
+
+
+
+Inheritance diagram for Swipe\+Menu\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{class_swipe_menu__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Swipe\+Menu\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{class_swipe_menu__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_swipe_menu_a8a022b5c2b15c21d8245555a41f33342}{Move\+Left}} ()
+\begin{DoxyCompactList}\small\item\em Mueve el scroll una posición hacia la izquierda, centrando el botón anterior (o el último si está en el primero). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_swipe_menu_ab53e166b3ac6c8691cd51a4cfc41aedd}{Move\+Right}} ()
+\begin{DoxyCompactList}\small\item\em Mueve el scroll una posición hacia la derecha, centrando el botón siguiente (o el primero si está en el último). \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_swipe_menu_a8a282f4b13223184c229d2bc08b91be8}{Is\+Button\+Centered}} (int index)
+\begin{DoxyCompactList}\small\item\em Comprueba si un botón está centrado actualmente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_swipe_menu_afb38fb1304e9de3ea92861fe1f5a611f}{Center\+Button}} (int index)
+\begin{DoxyCompactList}\small\item\em Centra el botón indicado por su índice, desplazando el scroll suavemente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_swipe_menu_a471a51469b7ee2c133ab6ef2584ebe3d}{Update\+Layout\+For\+Orientation}} (bool is\+Landscape)
+\begin{DoxyCompactList}\small\item\em Actualiza el layout del menú y sus elementos según la orientación de la pantalla. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object \mbox{\hyperlink{class_swipe_menu_acf5225289ac9878ab19fd6312a4ebdae}{scrollbar}}
+\begin{DoxyCompactList}\small\item\em Referencia al objeto Scrollbar que controla el desplazamiento del menú. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clase que gestiona un menú deslizante con botones, permitiendo la navegación mediante swipe o botones, adaptando la escala y visibilidad de los elementos según la plataforma y la orientación de la pantalla. 
+
+\label{doc-func-members}
+\Hypertarget{class_swipe_menu_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_swipe_menu_afb38fb1304e9de3ea92861fe1f5a611f}\index{SwipeMenu@{SwipeMenu}!CenterButton@{CenterButton}}
+\index{CenterButton@{CenterButton}!SwipeMenu@{SwipeMenu}}
+\doxysubsubsection{\texorpdfstring{CenterButton()}{CenterButton()}}
+{\footnotesize\ttfamily \label{class_swipe_menu_afb38fb1304e9de3ea92861fe1f5a611f} 
+void Swipe\+Menu.\+Center\+Button (\begin{DoxyParamCaption}\item[{int}]{index}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Centra el botón indicado por su índice, desplazando el scroll suavemente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & Índice del botón a centrar.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_swipe_menu_a8a282f4b13223184c229d2bc08b91be8}\index{SwipeMenu@{SwipeMenu}!IsButtonCentered@{IsButtonCentered}}
+\index{IsButtonCentered@{IsButtonCentered}!SwipeMenu@{SwipeMenu}}
+\doxysubsubsection{\texorpdfstring{IsButtonCentered()}{IsButtonCentered()}}
+{\footnotesize\ttfamily \label{class_swipe_menu_a8a282f4b13223184c229d2bc08b91be8} 
+bool Swipe\+Menu.\+Is\+Button\+Centered (\begin{DoxyParamCaption}\item[{int}]{index}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Comprueba si un botón está centrado actualmente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & Índice del botón a comprobar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True si el botón está centrado, false en caso contrario.
+\end{DoxyReturn}
+\Hypertarget{class_swipe_menu_a8a022b5c2b15c21d8245555a41f33342}\index{SwipeMenu@{SwipeMenu}!MoveLeft@{MoveLeft}}
+\index{MoveLeft@{MoveLeft}!SwipeMenu@{SwipeMenu}}
+\doxysubsubsection{\texorpdfstring{MoveLeft()}{MoveLeft()}}
+{\footnotesize\ttfamily \label{class_swipe_menu_a8a022b5c2b15c21d8245555a41f33342} 
+void Swipe\+Menu.\+Move\+Left (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Mueve el scroll una posición hacia la izquierda, centrando el botón anterior (o el último si está en el primero). 
+
+\Hypertarget{class_swipe_menu_ab53e166b3ac6c8691cd51a4cfc41aedd}\index{SwipeMenu@{SwipeMenu}!MoveRight@{MoveRight}}
+\index{MoveRight@{MoveRight}!SwipeMenu@{SwipeMenu}}
+\doxysubsubsection{\texorpdfstring{MoveRight()}{MoveRight()}}
+{\footnotesize\ttfamily \label{class_swipe_menu_ab53e166b3ac6c8691cd51a4cfc41aedd} 
+void Swipe\+Menu.\+Move\+Right (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Mueve el scroll una posición hacia la derecha, centrando el botón siguiente (o el primero si está en el último). 
+
+\Hypertarget{class_swipe_menu_a471a51469b7ee2c133ab6ef2584ebe3d}\index{SwipeMenu@{SwipeMenu}!UpdateLayoutForOrientation@{UpdateLayoutForOrientation}}
+\index{UpdateLayoutForOrientation@{UpdateLayoutForOrientation}!SwipeMenu@{SwipeMenu}}
+\doxysubsubsection{\texorpdfstring{UpdateLayoutForOrientation()}{UpdateLayoutForOrientation()}}
+{\footnotesize\ttfamily \label{class_swipe_menu_a471a51469b7ee2c133ab6ef2584ebe3d} 
+void Swipe\+Menu.\+Update\+Layout\+For\+Orientation (\begin{DoxyParamCaption}\item[{bool}]{is\+Landscape}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Actualiza el layout del menú y sus elementos según la orientación de la pantalla. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em is\+Landscape} & Indica si la orientación es horizontal.\\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-variable-members}
+\Hypertarget{class_swipe_menu_doc-variable-members}
+\doxysubsection{Field Documentation}
+\Hypertarget{class_swipe_menu_acf5225289ac9878ab19fd6312a4ebdae}\index{SwipeMenu@{SwipeMenu}!scrollbar@{scrollbar}}
+\index{scrollbar@{scrollbar}!SwipeMenu@{SwipeMenu}}
+\doxysubsubsection{\texorpdfstring{scrollbar}{scrollbar}}
+{\footnotesize\ttfamily \label{class_swipe_menu_acf5225289ac9878ab19fd6312a4ebdae} 
+Game\+Object Swipe\+Menu.\+scrollbar}
+
+
+
+Referencia al objeto Scrollbar que controla el desplazamiento del menú. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+Menu\+Principal/\mbox{\hyperlink{_swipe_menu_8cs}{Swipe\+Menu.\+cs}}\end{DoxyCompactItemize}

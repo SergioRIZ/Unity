@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_show_selected_position" kind="class" language="C#" prot="public">
+    <compoundname>ShowSelectedPosition</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_show_selected_position_1a11a3640d24c4368be1da1b1b342c76eb" prot="private" static="no" mutable="no">
+        <type>Scrollbar</type>
+        <definition>Scrollbar ShowSelectedPosition.scrollbar</definition>
+        <argsstring></argsstring>
+        <name>scrollbar</name>
+        <qualifiedname>ShowSelectedPosition.scrollbar</qualifiedname>
+        <briefdescription>
+<para>Componente Scrollbar que se utilizará para desplazar la vista. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ShowSelectedPosition.cs" line="15" column="24" bodyfile="Assets/Scripts/CarouselScript/ShowSelectedPosition.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_show_selected_position_1a6784b048875ad4fad2f5f4c1a5a03a87" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; string, int &gt;</type>
+        <definition>Dictionary&lt;string, int&gt; ShowSelectedPosition.buttonNameToIndex</definition>
+        <argsstring></argsstring>
+        <name>buttonNameToIndex</name>
+        <qualifiedname>ShowSelectedPosition.buttonNameToIndex</qualifiedname>
+        <initializer>= new Dictionary&lt;string, int&gt;()</initializer>
+        <briefdescription>
+<para>Diccionario que relaciona el texto del botón con su posición en el índice. La clave es el texto del botón y el valor es el índice del botón dentro de los hijos del objeto. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ShowSelectedPosition.cs" line="21" column="24" bodyfile="Assets/Scripts/CarouselScript/ShowSelectedPosition.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_show_selected_position_1addb679e86a97838768a20506136e131e" prot="private" static="no" mutable="no">
+        <type>Coroutine</type>
+        <definition>Coroutine ShowSelectedPosition.currentScrollCoroutine</definition>
+        <argsstring></argsstring>
+        <name>currentScrollCoroutine</name>
+        <qualifiedname>ShowSelectedPosition.currentScrollCoroutine</qualifiedname>
+        <briefdescription>
+<para>Corrutina actualmente activa para centrar el Scrollbar, si existe. Se utiliza para evitar que varias corrutinas se ejecuten simultáneamente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ShowSelectedPosition.cs" line="27" column="23" bodyfile="Assets/Scripts/CarouselScript/ShowSelectedPosition.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_show_selected_position_1a56307e6190d45a83a130f4497674c5ac" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShowSelectedPosition.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>ShowSelectedPosition.Start</qualifiedname>
+        <briefdescription>
+<para>Inicializa el diccionario de nombres de botones a índices al inicio. Recorre todos los hijos del objeto y almacena el texto de cada botón junto con su índice. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ShowSelectedPosition.cs" line="33" column="10" bodyfile="Assets/Scripts/CarouselScript/ShowSelectedPosition.cs" bodystart="33" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_show_selected_position_1a6e576312bd2f3da7d8d93ddf8654d068" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator ShowSelectedPosition.SmoothScrollTo</definition>
+        <argsstring>(float target)</argsstring>
+        <name>SmoothScrollTo</name>
+        <qualifiedname>ShowSelectedPosition.SmoothScrollTo</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+<para>Corrutina que mueve el Scrollbar suavemente hacia el valor objetivo. Realiza una interpolación lineal entre el valor actual y el objetivo durante un tiempo determinado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>target</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Valor objetivo del Scrollbar.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>IEnumerator para la corrutina.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ShowSelectedPosition.cs" line="83" column="25" bodyfile="Assets/Scripts/CarouselScript/ShowSelectedPosition.cs" bodystart="83" bodyend="110"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_show_selected_position_1ad3007b26438e1d17e13da7174cc19937" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShowSelectedPosition.CenterOnButton</definition>
+        <argsstring>(string buttonName)</argsstring>
+        <name>CenterOnButton</name>
+        <qualifiedname>ShowSelectedPosition.CenterOnButton</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>buttonName</declname>
+        </param>
+        <briefdescription>
+<para>Centra el Scrollbar en el botón especificado por su nombre. Si ya hay una corrutina de desplazamiento activa, la detiene antes de iniciar una nueva. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>buttonName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nombre del botón en el que se desea centrar el Scrollbar.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ShowSelectedPosition.cs" line="60" column="17" bodyfile="Assets/Scripts/CarouselScript/ShowSelectedPosition.cs" bodystart="60" bodyend="75"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Clase que gestiona la posición seleccionada en un Scrollbar y centra el Scrollbar en el botón correspondiente. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ShowSelectedPosition</label>
+        <link refid="class_show_selected_position"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ShowSelectedPosition</label>
+        <link refid="class_show_selected_position"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/CarouselScript/ShowSelectedPosition.cs" line="10" column="7" bodyfile="Assets/Scripts/CarouselScript/ShowSelectedPosition.cs" bodystart="11" bodyend="111"/>
+    <listofallmembers>
+      <member refid="class_show_selected_position_1a6784b048875ad4fad2f5f4c1a5a03a87" prot="private" virt="non-virtual"><scope>ShowSelectedPosition</scope><name>buttonNameToIndex</name></member>
+      <member refid="class_show_selected_position_1ad3007b26438e1d17e13da7174cc19937" prot="public" virt="non-virtual"><scope>ShowSelectedPosition</scope><name>CenterOnButton</name></member>
+      <member refid="class_show_selected_position_1addb679e86a97838768a20506136e131e" prot="private" virt="non-virtual"><scope>ShowSelectedPosition</scope><name>currentScrollCoroutine</name></member>
+      <member refid="class_show_selected_position_1a11a3640d24c4368be1da1b1b342c76eb" prot="private" virt="non-virtual"><scope>ShowSelectedPosition</scope><name>scrollbar</name></member>
+      <member refid="class_show_selected_position_1a6e576312bd2f3da7d8d93ddf8654d068" prot="private" virt="non-virtual"><scope>ShowSelectedPosition</scope><name>SmoothScrollTo</name></member>
+      <member refid="class_show_selected_position_1a56307e6190d45a83a130f4497674c5ac" prot="private" virt="non-virtual"><scope>ShowSelectedPosition</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

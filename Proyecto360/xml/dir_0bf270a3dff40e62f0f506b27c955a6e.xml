@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="dir_0bf270a3dff40e62f0f506b27c955a6e" kind="dir">
+    <compoundname>Assets/Scripts/Camera</compoundname>
+    <innerfile refid="_auto_camera_toggle_controller_8cs">AutoCameraToggleController.cs</innerfile>
+    <innerfile refid="_automatic_movement_controller_8cs">AutomaticMovementController.cs</innerfile>
+    <innerfile refid="_camera_view_8cs">CameraView.cs</innerfile>
+    <innerfile refid="_input_controllers_8cs">InputControllers.cs</innerfile>
+    <innerfile refid="_keyboard_controller_8cs">KeyboardController.cs</innerfile>
+    <innerfile refid="_mobile_controller_8cs">MobileController.cs</innerfile>
+    <innerfile refid="_mouse_controller_8cs">MouseController.cs</innerfile>
+    <innerfile refid="_rotation_notifier_8cs">RotationNotifier.cs</innerfile>
+    <innerfile refid="_stop_movement_panel_8cs">StopMovementPanel.cs</innerfile>
+    <innerfile refid="_stop_zoom_8cs">StopZoom.cs</innerfile>
+    <innerfile refid="_zoom_controller_8cs">ZoomController.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Assets/Scripts/Camera/"/>
+  </compounddef>
+</doxygen>

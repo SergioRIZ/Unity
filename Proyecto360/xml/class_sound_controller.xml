@@ -1,0 +1,433 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_sound_controller" kind="class" language="C#" prot="public">
+    <compoundname>SoundController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sound_controller_1a855efcde1f46370786f3f8b06c734f0c" prot="private" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource SoundController.ambientSound</definition>
+        <argsstring></argsstring>
+        <name>ambientSound</name>
+        <qualifiedname>SoundController.ambientSound</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" line="11" column="26" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sound_controller_1aa7bf551b1ad2a4868cecd5a4ef53c27d" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button SoundController.soundButton</definition>
+        <argsstring></argsstring>
+        <name>soundButton</name>
+        <qualifiedname>SoundController.soundButton</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" line="12" column="21" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sound_controller_1a722c2ef6db3ecfae261368d48696974e" prot="private" static="no" mutable="no">
+        <type>Slider</type>
+        <definition>Slider SoundController.volumeSlider</definition>
+        <argsstring></argsstring>
+        <name>volumeSlider</name>
+        <qualifiedname>SoundController.volumeSlider</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" line="13" column="21" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sound_controller_1af8065dbb1905d9b42c9b9ab1f2ae4c31" prot="private" static="no" mutable="no">
+        <type>Sprite</type>
+        <definition>Sprite SoundController.soundOnSprite</definition>
+        <argsstring></argsstring>
+        <name>soundOnSprite</name>
+        <qualifiedname>SoundController.soundOnSprite</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" line="16" column="21" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sound_controller_1aafb7466186d5596b4ae0df90f8aa1a81" prot="private" static="no" mutable="no">
+        <type>Sprite</type>
+        <definition>Sprite SoundController.soundOffSprite</definition>
+        <argsstring></argsstring>
+        <name>soundOffSprite</name>
+        <qualifiedname>SoundController.soundOffSprite</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" line="17" column="21" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sound_controller_1a0cb5d8b113c4e633b292222673d9a160" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SoundController.guardarSonido</definition>
+        <argsstring></argsstring>
+        <name>guardarSonido</name>
+        <qualifiedname>SoundController.guardarSonido</qualifiedname>
+        <initializer>= 0.2f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" line="19" column="19" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sound_controller_1a3c5724cc75e0296283e701971470bea2" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SoundController.guardarVolumenVideo</definition>
+        <argsstring></argsstring>
+        <name>guardarVolumenVideo</name>
+        <qualifiedname>SoundController.guardarVolumenVideo</qualifiedname>
+        <initializer>= 0.2f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" line="20" column="19" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sound_controller_1a714b0eff178e6d80a62e904f9b191a87" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SoundController.previousAmbientVolume</definition>
+        <argsstring></argsstring>
+        <name>previousAmbientVolume</name>
+        <qualifiedname>SoundController.previousAmbientVolume</qualifiedname>
+        <initializer>= 0.2f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" line="21" column="19" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sound_controller_1a5e5231416cd1de26ffd508b008d16e91" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SoundController.previousVideoVolume</definition>
+        <argsstring></argsstring>
+        <name>previousVideoVolume</name>
+        <qualifiedname>SoundController.previousVideoVolume</qualifiedname>
+        <initializer>= 0.2f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" line="22" column="19" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sound_controller_1ad54f6373d29fa9a4efee0d1f0917acdc" prot="private" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource SoundController.currentControlledAudio</definition>
+        <argsstring></argsstring>
+        <name>currentControlledAudio</name>
+        <qualifiedname>SoundController.currentControlledAudio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" line="23" column="25" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sound_controller_1a8b7b43a52c98b6f5918b860d14338bfc" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SoundController.isVideoAudioActive</definition>
+        <argsstring></argsstring>
+        <name>isVideoAudioActive</name>
+        <qualifiedname>SoundController.isVideoAudioActive</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" line="24" column="18" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sound_controller_1ae3e580fa00166503b544aacb3a615ccf" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SoundController.isChangingFromCode</definition>
+        <argsstring></argsstring>
+        <name>isChangingFromCode</name>
+        <qualifiedname>SoundController.isChangingFromCode</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" line="27" column="18" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_sound_controller_1a003455dc7a5b714329989a979e89c1b9" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string SoundController.MuteKey</definition>
+        <argsstring></argsstring>
+        <name>MuteKey</name>
+        <qualifiedname>SoundController.MuteKey</qualifiedname>
+        <initializer>= &quot;IsMuted&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" line="25" column="26" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sound_controller_1a2470ea82de72035f182334b5d5f8486e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SoundController.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>SoundController.Start</qualifiedname>
+        <briefdescription>
+<para>Inicializa el controlador de sonido, asignando eventos y configurando el estado inicial. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" line="32" column="10" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" bodystart="32" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sound_controller_1af29e3ef3a4ebd9292fdcac24d6c3c339" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SoundController.ChangeVolume</definition>
+        <argsstring>(float volume)</argsstring>
+        <name>ChangeVolume</name>
+        <qualifiedname>SoundController.ChangeVolume</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+<para>Cambia el volumen según el valor del slider. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>volume</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nuevo valor de volumen a establecer.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" line="55" column="10" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" bodystart="55" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sound_controller_1a2eb0dd13f02905166c1b7fb6f3338dcc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SoundController.ToggleMute</definition>
+        <argsstring>()</argsstring>
+        <name>ToggleMute</name>
+        <qualifiedname>SoundController.ToggleMute</qualifiedname>
+        <briefdescription>
+<para>Alterna entre silenciar y restaurar el volumen del audio actualmente controlado. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" line="87" column="10" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" bodystart="87" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sound_controller_1a9bdde5e8c4fedb079d4fd48d9663c8be" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SoundController.UpdateButtonIcon</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateButtonIcon</name>
+        <qualifiedname>SoundController.UpdateButtonIcon</qualifiedname>
+        <briefdescription>
+<para>Cambia el ícono del botón según si hay sonido o está en mute. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" line="151" column="10" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" bodystart="151" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sound_controller_1a1683886a27cf0b5cdb7174539f93c8ba" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SoundController.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>SoundController.OnEnable</qualifiedname>
+        <briefdescription>
+<para>Carga el volumen guardado y el estado de mute al habilitar el objeto. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" line="235" column="10" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" bodystart="235" bodyend="268"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sound_controller_1ac13cc145dd7a5b1c5e97bc8410a76c7e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SoundController.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>SoundController.OnDisable</qualifiedname>
+        <briefdescription>
+<para>Guarda el volumen actual y el estado de mute cuando se desactiva el objeto. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" line="273" column="10" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" bodystart="273" bodyend="279"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sound_controller_1a3ac0cf275550e81cdb88dfe284d6314a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SoundController.SetControlledAudioSource</definition>
+        <argsstring>(AudioSource audioSource)</argsstring>
+        <name>SetControlledAudioSource</name>
+        <qualifiedname>SoundController.SetControlledAudioSource</qualifiedname>
+        <param>
+          <type>AudioSource</type>
+          <declname>audioSource</declname>
+        </param>
+        <briefdescription>
+<para>Cambia la fuente de audio controlada (ambiental o video). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>audioSource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>La nueva fuente de audio a controlar.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" line="162" column="17" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" bodystart="162" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sound_controller_1a71c609c10e7b39e1290fa99cdbeeea9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SoundController.PauseAmbientSound</definition>
+        <argsstring>(AudioSource videoAudioSource)</argsstring>
+        <name>PauseAmbientSound</name>
+        <qualifiedname>SoundController.PauseAmbientSound</qualifiedname>
+        <param>
+          <type>AudioSource</type>
+          <declname>videoAudioSource</declname>
+        </param>
+        <briefdescription>
+<para>Pausa el sonido ambiental y activa el del video. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>videoAudioSource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Fuente de audio del video a activar.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" line="213" column="17" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" bodystart="213" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sound_controller_1a7cfb255fe62501834c12969b6a5ff803" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SoundController.ResumeAmbientSound</definition>
+        <argsstring>()</argsstring>
+        <name>ResumeAmbientSound</name>
+        <qualifiedname>SoundController.ResumeAmbientSound</qualifiedname>
+        <briefdescription>
+<para>Restaura el audio ambiente como principal. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" line="227" column="17" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" bodystart="227" bodyend="230"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Controlador para gestionar el sonido ambiental y de video, así como la interfaz de usuario asociada. Permite silenciar/restaurar el sonido, ajustar el volumen y alternar entre fuentes de audio. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SoundController</label>
+        <link refid="class_sound_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SoundController</label>
+        <link refid="class_sound_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" line="8" column="7" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs" bodystart="9" bodyend="280"/>
+    <listofallmembers>
+      <member refid="class_sound_controller_1a855efcde1f46370786f3f8b06c734f0c" prot="private" virt="non-virtual"><scope>SoundController</scope><name>ambientSound</name></member>
+      <member refid="class_sound_controller_1af29e3ef3a4ebd9292fdcac24d6c3c339" prot="private" virt="non-virtual"><scope>SoundController</scope><name>ChangeVolume</name></member>
+      <member refid="class_sound_controller_1ad54f6373d29fa9a4efee0d1f0917acdc" prot="private" virt="non-virtual"><scope>SoundController</scope><name>currentControlledAudio</name></member>
+      <member refid="class_sound_controller_1a0cb5d8b113c4e633b292222673d9a160" prot="private" virt="non-virtual"><scope>SoundController</scope><name>guardarSonido</name></member>
+      <member refid="class_sound_controller_1a3c5724cc75e0296283e701971470bea2" prot="private" virt="non-virtual"><scope>SoundController</scope><name>guardarVolumenVideo</name></member>
+      <member refid="class_sound_controller_1ae3e580fa00166503b544aacb3a615ccf" prot="private" virt="non-virtual"><scope>SoundController</scope><name>isChangingFromCode</name></member>
+      <member refid="class_sound_controller_1a8b7b43a52c98b6f5918b860d14338bfc" prot="private" virt="non-virtual"><scope>SoundController</scope><name>isVideoAudioActive</name></member>
+      <member refid="class_sound_controller_1a003455dc7a5b714329989a979e89c1b9" prot="private" virt="non-virtual"><scope>SoundController</scope><name>MuteKey</name></member>
+      <member refid="class_sound_controller_1ac13cc145dd7a5b1c5e97bc8410a76c7e" prot="private" virt="non-virtual"><scope>SoundController</scope><name>OnDisable</name></member>
+      <member refid="class_sound_controller_1a1683886a27cf0b5cdb7174539f93c8ba" prot="private" virt="non-virtual"><scope>SoundController</scope><name>OnEnable</name></member>
+      <member refid="class_sound_controller_1a71c609c10e7b39e1290fa99cdbeeea9c" prot="public" virt="non-virtual"><scope>SoundController</scope><name>PauseAmbientSound</name></member>
+      <member refid="class_sound_controller_1a714b0eff178e6d80a62e904f9b191a87" prot="private" virt="non-virtual"><scope>SoundController</scope><name>previousAmbientVolume</name></member>
+      <member refid="class_sound_controller_1a5e5231416cd1de26ffd508b008d16e91" prot="private" virt="non-virtual"><scope>SoundController</scope><name>previousVideoVolume</name></member>
+      <member refid="class_sound_controller_1a7cfb255fe62501834c12969b6a5ff803" prot="public" virt="non-virtual"><scope>SoundController</scope><name>ResumeAmbientSound</name></member>
+      <member refid="class_sound_controller_1a3ac0cf275550e81cdb88dfe284d6314a" prot="public" virt="non-virtual"><scope>SoundController</scope><name>SetControlledAudioSource</name></member>
+      <member refid="class_sound_controller_1aa7bf551b1ad2a4868cecd5a4ef53c27d" prot="private" virt="non-virtual"><scope>SoundController</scope><name>soundButton</name></member>
+      <member refid="class_sound_controller_1aafb7466186d5596b4ae0df90f8aa1a81" prot="private" virt="non-virtual"><scope>SoundController</scope><name>soundOffSprite</name></member>
+      <member refid="class_sound_controller_1af8065dbb1905d9b42c9b9ab1f2ae4c31" prot="private" virt="non-virtual"><scope>SoundController</scope><name>soundOnSprite</name></member>
+      <member refid="class_sound_controller_1a2470ea82de72035f182334b5d5f8486e" prot="private" virt="non-virtual"><scope>SoundController</scope><name>Start</name></member>
+      <member refid="class_sound_controller_1a2eb0dd13f02905166c1b7fb6f3338dcc" prot="private" virt="non-virtual"><scope>SoundController</scope><name>ToggleMute</name></member>
+      <member refid="class_sound_controller_1a9bdde5e8c4fedb079d4fd48d9663c8be" prot="private" virt="non-virtual"><scope>SoundController</scope><name>UpdateButtonIcon</name></member>
+      <member refid="class_sound_controller_1a722c2ef6db3ecfae261368d48696974e" prot="private" virt="non-virtual"><scope>SoundController</scope><name>volumeSlider</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,325 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_scene_controllers" kind="class" language="C#" prot="public">
+    <compoundname>SceneControllers</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_scene_controllers_1a89a8237cbd91ebeddad7ecb776a7f292" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string SceneControllers.imagesFolder</definition>
+        <argsstring></argsstring>
+        <name>imagesFolder</name>
+        <qualifiedname>SceneControllers.imagesFolder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/SceneControllers.cs" line="18" column="20" bodyfile="Assets/Scripts/CarouselScript/SceneControllers.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_controllers_1a431007be3318172ba007a69131d02655" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject SceneControllers.androidCanvas</definition>
+        <argsstring></argsstring>
+        <name>androidCanvas</name>
+        <qualifiedname>SceneControllers.androidCanvas</qualifiedname>
+        <briefdescription>
+<para>Contenedor de botones para la interfaz de Android. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/SceneControllers.cs" line="28" column="25" bodyfile="Assets/Scripts/CarouselScript/SceneControllers.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_controllers_1a240daa058bfca596847858e760a13def" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject SceneControllers.pcCanvas</definition>
+        <argsstring></argsstring>
+        <name>pcCanvas</name>
+        <qualifiedname>SceneControllers.pcCanvas</qualifiedname>
+        <briefdescription>
+<para>Contenedor de botones para la interfaz de PC. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/SceneControllers.cs" line="33" column="25" bodyfile="Assets/Scripts/CarouselScript/SceneControllers.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_controllers_1ac78c23d87bfb666e077196f5b140d71b" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject SceneControllers.botonPrefab</definition>
+        <argsstring></argsstring>
+        <name>botonPrefab</name>
+        <qualifiedname>SceneControllers.botonPrefab</qualifiedname>
+        <briefdescription>
+<para>Prefab del botón que se instanciará dinámicamente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/SceneControllers.cs" line="38" column="25" bodyfile="Assets/Scripts/CarouselScript/SceneControllers.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_controllers_1a1435053769d4b0e1e04c01947da39d9d" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject SceneControllers.contentView</definition>
+        <argsstring></argsstring>
+        <name>contentView</name>
+        <qualifiedname>SceneControllers.contentView</qualifiedname>
+        <briefdescription>
+<para>Contenedor donde se agregarán los botones según la plataforma. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/SceneControllers.cs" line="43" column="24" bodyfile="Assets/Scripts/CarouselScript/SceneControllers.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_controllers_1aec663cefd5b881bd3f4944da3c9769df" prot="private" static="no" mutable="no">
+        <type><ref refid="class_material_transition" kindref="compound">MaterialTransition</ref></type>
+        <definition>MaterialTransition SceneControllers.skyboxFader</definition>
+        <argsstring></argsstring>
+        <name>skyboxFader</name>
+        <qualifiedname>SceneControllers.skyboxFader</qualifiedname>
+        <briefdescription>
+<para>Componente encargado de realizar transiciones de materiales en el skybox. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/SceneControllers.cs" line="48" column="32" bodyfile="Assets/Scripts/CarouselScript/SceneControllers.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_controllers_1a62798facc5bf145b36bf387fc56fc68f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_show_galery_android" kindref="compound">ShowGaleryAndroid</ref></type>
+        <definition>ShowGaleryAndroid SceneControllers.showGaleryAndroid</definition>
+        <argsstring></argsstring>
+        <name>showGaleryAndroid</name>
+        <qualifiedname>SceneControllers.showGaleryAndroid</qualifiedname>
+        <briefdescription>
+<para>Referencia al controlador de galería para Android. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/SceneControllers.cs" line="53" column="31" bodyfile="Assets/Scripts/CarouselScript/SceneControllers.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_controllers_1a40f61230ee5d4bd5868ce959a4ae4d1c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_camera_view" kindref="compound">CameraView</ref></type>
+        <definition>CameraView SceneControllers.cameraView</definition>
+        <argsstring></argsstring>
+        <name>cameraView</name>
+        <qualifiedname>SceneControllers.cameraView</qualifiedname>
+        <briefdescription>
+<para>Referencia al controlador de la cámara principal. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/SceneControllers.cs" line="58" column="24" bodyfile="Assets/Scripts/CarouselScript/SceneControllers.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_scene_controllers_1a5256f78af337be3d94ed05eec63eddd6" prot="public" static="no" mutable="no">
+        <type>List&lt; Texture &gt;</type>
+        <definition>List&lt;Texture&gt; SceneControllers.views</definition>
+        <argsstring></argsstring>
+        <name>views</name>
+        <qualifiedname>SceneControllers.views</qualifiedname>
+        <briefdescription>
+<para>Lista de texturas precargadas para las vistas del skybox. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/SceneControllers.cs" line="23" column="17" bodyfile="Assets/Scripts/CarouselScript/SceneControllers.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_scene_controllers_1a36dcd02aa57dfb6ee459566e162b3a19" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneControllers.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>SceneControllers.Awake</qualifiedname>
+        <briefdescription>
+<para>Método llamado al inicializar el script. Configura la plataforma, carga imágenes y prepara el skybox. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/SceneControllers.cs" line="65" column="10" bodyfile="Assets/Scripts/CarouselScript/SceneControllers.cs" bodystart="65" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_controllers_1a188a021acb928867031e2757b819dc91" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneControllers.CreateImageButton</definition>
+        <argsstring>(string fileName, Texture2D texture)</argsstring>
+        <name>CreateImageButton</name>
+        <qualifiedname>SceneControllers.CreateImageButton</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type>Texture2D</type>
+          <declname>texture</declname>
+        </param>
+        <briefdescription>
+<para>Crea un botón de imagen en la interfaz de usuario para seleccionar una vista del skybox. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nombre del archivo de la textura.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>texture</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Textura a mostrar en el botón.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/SceneControllers.cs" line="128" column="10" bodyfile="Assets/Scripts/CarouselScript/SceneControllers.cs" bodystart="128" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_controllers_1ad371710d23854f3cea528d9d803b26f5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneControllers.OnButtonClicked</definition>
+        <argsstring>(string fileName)</argsstring>
+        <name>OnButtonClicked</name>
+        <qualifiedname>SceneControllers.OnButtonClicked</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+<para>Evento que se ejecuta al hacer clic en un botón. Cambia el skybox a la textura seleccionada. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nombre del archivo de la textura seleccionada.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/SceneControllers.cs" line="165" column="10" bodyfile="Assets/Scripts/CarouselScript/SceneControllers.cs" bodystart="165" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_controllers_1a119a2def8e9d21577609c83db91e557b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator SceneControllers.DelayedFadeToFirstView</definition>
+        <argsstring>()</argsstring>
+        <name>DelayedFadeToFirstView</name>
+        <qualifiedname>SceneControllers.DelayedFadeToFirstView</qualifiedname>
+        <briefdescription>
+<para>Corrutina que espera un frame antes de realizar la primera transición de skybox. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>IEnumerator para la corrutina.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/SceneControllers.cs" line="223" column="25" bodyfile="Assets/Scripts/CarouselScript/SceneControllers.cs" bodystart="223" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_controllers_1a21e7321a44216a62c3356a784dea109e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string SceneControllers.NormalizeTextureName</definition>
+        <argsstring>(string name)</argsstring>
+        <name>NormalizeTextureName</name>
+        <qualifiedname>SceneControllers.NormalizeTextureName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Normaliza el nombre de la textura para su uso en la interfaz. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nombre original de la textura.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Nombre normalizado de la textura.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/SceneControllers.cs" line="242" column="12" bodyfile="Assets/Scripts/CarouselScript/SceneControllers.cs" bodystart="242" bodyend="251"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Controlador principal para gestionar la lógica de la escena, incluyendo la carga de imágenes, creación de botones y transiciones de skybox. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SceneControllers</label>
+        <link refid="class_scene_controllers"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SceneControllers</label>
+        <link refid="class_scene_controllers"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/CarouselScript/SceneControllers.cs" line="15" column="7" bodyfile="Assets/Scripts/CarouselScript/SceneControllers.cs" bodystart="16" bodyend="252"/>
+    <listofallmembers>
+      <member refid="class_scene_controllers_1a431007be3318172ba007a69131d02655" prot="private" virt="non-virtual"><scope>SceneControllers</scope><name>androidCanvas</name></member>
+      <member refid="class_scene_controllers_1a36dcd02aa57dfb6ee459566e162b3a19" prot="private" virt="non-virtual"><scope>SceneControllers</scope><name>Awake</name></member>
+      <member refid="class_scene_controllers_1ac78c23d87bfb666e077196f5b140d71b" prot="private" virt="non-virtual"><scope>SceneControllers</scope><name>botonPrefab</name></member>
+      <member refid="class_scene_controllers_1a40f61230ee5d4bd5868ce959a4ae4d1c" prot="private" virt="non-virtual"><scope>SceneControllers</scope><name>cameraView</name></member>
+      <member refid="class_scene_controllers_1a1435053769d4b0e1e04c01947da39d9d" prot="private" virt="non-virtual"><scope>SceneControllers</scope><name>contentView</name></member>
+      <member refid="class_scene_controllers_1a188a021acb928867031e2757b819dc91" prot="private" virt="non-virtual"><scope>SceneControllers</scope><name>CreateImageButton</name></member>
+      <member refid="class_scene_controllers_1a119a2def8e9d21577609c83db91e557b" prot="private" virt="non-virtual"><scope>SceneControllers</scope><name>DelayedFadeToFirstView</name></member>
+      <member refid="class_scene_controllers_1a89a8237cbd91ebeddad7ecb776a7f292" prot="private" virt="non-virtual"><scope>SceneControllers</scope><name>imagesFolder</name></member>
+      <member refid="class_scene_controllers_1a21e7321a44216a62c3356a784dea109e" prot="private" virt="non-virtual"><scope>SceneControllers</scope><name>NormalizeTextureName</name></member>
+      <member refid="class_scene_controllers_1ad371710d23854f3cea528d9d803b26f5" prot="private" virt="non-virtual"><scope>SceneControllers</scope><name>OnButtonClicked</name></member>
+      <member refid="class_scene_controllers_1a240daa058bfca596847858e760a13def" prot="private" virt="non-virtual"><scope>SceneControllers</scope><name>pcCanvas</name></member>
+      <member refid="class_scene_controllers_1a62798facc5bf145b36bf387fc56fc68f" prot="private" virt="non-virtual"><scope>SceneControllers</scope><name>showGaleryAndroid</name></member>
+      <member refid="class_scene_controllers_1aec663cefd5b881bd3f4944da3c9769df" prot="private" virt="non-virtual"><scope>SceneControllers</scope><name>skyboxFader</name></member>
+      <member refid="class_scene_controllers_1a5256f78af337be3d94ed05eec63eddd6" prot="public" virt="non-virtual"><scope>SceneControllers</scope><name>views</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,635 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_swipe_menu" kind="class" language="C#" prot="public">
+    <compoundname>SwipeMenu</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_swipe_menu_1acf5225289ac9878ab19fd6312a4ebdae" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject SwipeMenu.scrollbar</definition>
+        <argsstring></argsstring>
+        <name>scrollbar</name>
+        <qualifiedname>SwipeMenu.scrollbar</qualifiedname>
+        <briefdescription>
+<para>Referencia al objeto Scrollbar que controla el desplazamiento del menú. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" line="17" column="23" bodyfile="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_swipe_menu_1a7d74997fd2c17c9958fec024bd4368bb" prot="private" static="no" mutable="no">
+        <type><ref refid="class_main_script" kindref="compound">MainScript</ref></type>
+        <definition>MainScript SwipeMenu.mainScript</definition>
+        <argsstring></argsstring>
+        <name>mainScript</name>
+        <qualifiedname>SwipeMenu.mainScript</qualifiedname>
+        <briefdescription>
+<para>Referencia al script principal que gestiona el menú principal. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" line="22" column="25" bodyfile="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_swipe_menu_1aef36367d732a335cf5d58ae9c873456a" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 SwipeMenu.pcScale</definition>
+        <argsstring></argsstring>
+        <name>pcScale</name>
+        <qualifiedname>SwipeMenu.pcScale</qualifiedname>
+        <initializer>= new Vector2(1.0f, 1.0f)</initializer>
+        <briefdescription>
+<para>Escala de los botones activos en PC/WebGL. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" line="28" column="22" bodyfile="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_swipe_menu_1accde17b3e04493989dcc2eaffd52c8a5" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 SwipeMenu.pcScaleInactive</definition>
+        <argsstring></argsstring>
+        <name>pcScaleInactive</name>
+        <qualifiedname>SwipeMenu.pcScaleInactive</qualifiedname>
+        <initializer>= new Vector2(0.8f, 0.8f)</initializer>
+        <briefdescription>
+<para>Escala de los botones inactivos en PC/WebGL. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" line="32" column="22" bodyfile="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_swipe_menu_1ab87aa329b5bbab31a2ccb8d5f3f832ce" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 SwipeMenu.androidScale</definition>
+        <argsstring></argsstring>
+        <name>androidScale</name>
+        <qualifiedname>SwipeMenu.androidScale</qualifiedname>
+        <initializer>= new Vector2(2.5f, 2.5f)</initializer>
+        <briefdescription>
+<para>Escala de los botones activos en Android (vertical). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" line="36" column="22" bodyfile="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_swipe_menu_1a0375a528f244703cc4215e1e8a645e12" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 SwipeMenu.androidScaleInactive</definition>
+        <argsstring></argsstring>
+        <name>androidScaleInactive</name>
+        <qualifiedname>SwipeMenu.androidScaleInactive</qualifiedname>
+        <initializer>= new Vector2(2.2f, 2.2f)</initializer>
+        <briefdescription>
+<para>Escala de los botones inactivos en Android (vertical). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" line="40" column="22" bodyfile="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_swipe_menu_1a213a1247b41393b3e21bf78ba12c971f" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 SwipeMenu.androidLandscapeScale</definition>
+        <argsstring></argsstring>
+        <name>androidLandscapeScale</name>
+        <qualifiedname>SwipeMenu.androidLandscapeScale</qualifiedname>
+        <initializer>= new Vector2(1.0f, 1.0f)</initializer>
+        <briefdescription>
+<para>Escala de los botones activos en Android (horizontal). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" line="44" column="22" bodyfile="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_swipe_menu_1a3f64f8e6337b1814b6a358899a9c01cd" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 SwipeMenu.androidLandscapeScaleInactive</definition>
+        <argsstring></argsstring>
+        <name>androidLandscapeScaleInactive</name>
+        <qualifiedname>SwipeMenu.androidLandscapeScaleInactive</qualifiedname>
+        <initializer>= new Vector2(0.8f, 0.8f)</initializer>
+        <briefdescription>
+<para>Escala de los botones inactivos en Android (horizontal). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" line="48" column="22" bodyfile="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_swipe_menu_1a759f9d234af37b9bd11debbd9406ff2b" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SwipeMenu.transitionSpeed</definition>
+        <argsstring></argsstring>
+        <name>transitionSpeed</name>
+        <qualifiedname>SwipeMenu.transitionSpeed</qualifiedname>
+        <initializer>= 0.1f</initializer>
+        <briefdescription>
+<para>Velocidad de transición para las animaciones de escala y scroll. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" line="53" column="20" bodyfile="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_swipe_menu_1aa4293184581bc7cdb1b8eb7bb47221fb" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SwipeMenu.scroll_pos</definition>
+        <argsstring></argsstring>
+        <name>scroll_pos</name>
+        <qualifiedname>SwipeMenu.scroll_pos</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Posición actual del scroll (valor entre 0 y 1). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" line="58" column="19" bodyfile="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_swipe_menu_1a7861f7ccc63133322b5c66f806abe3c8" prot="private" static="no" mutable="no">
+        <type>float[]</type>
+        <definition>float [] SwipeMenu.pos</definition>
+        <argsstring></argsstring>
+        <name>pos</name>
+        <qualifiedname>SwipeMenu.pos</qualifiedname>
+        <briefdescription>
+<para>Array de posiciones objetivo para cada botón en el menú. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" line="63" column="19" bodyfile="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_swipe_menu_1ae8d5410091cc16a9dd39776b613bde55" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SwipeMenu.currentIndex</definition>
+        <argsstring></argsstring>
+        <name>currentIndex</name>
+        <qualifiedname>SwipeMenu.currentIndex</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Índice del botón actualmente centrado. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" line="68" column="17" bodyfile="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_swipe_menu_1aa89c7ab3da1a23025049bbaadfb66b10" prot="private" static="no" mutable="no">
+        <type>Coroutine</type>
+        <definition>Coroutine SwipeMenu.scrollCoroutine</definition>
+        <argsstring></argsstring>
+        <name>scrollCoroutine</name>
+        <qualifiedname>SwipeMenu.scrollCoroutine</qualifiedname>
+        <briefdescription>
+<para>Referencia a la corrutina activa de desplazamiento suave. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" line="73" column="23" bodyfile="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_swipe_menu_1adb69f24e401855e00440e0dd9cf44e3a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SwipeMenu.isLandscapeMode</definition>
+        <argsstring></argsstring>
+        <name>isLandscapeMode</name>
+        <qualifiedname>SwipeMenu.isLandscapeMode</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Indica si la orientación actual es horizontal (landscape). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" line="78" column="18" bodyfile="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_swipe_menu_1af15c677ea23ef03faeecd3743c48e1b0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SwipeMenu.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>SwipeMenu.Update</qualifiedname>
+        <briefdescription>
+<para>Actualiza el estado del menú cada frame: orientación, posiciones, entrada y efectos visuales. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" line="83" column="10" bodyfile="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" bodystart="83" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_swipe_menu_1abdc5b2960b2e8ec51559f243446bca09" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SwipeMenu.UpdatePositions</definition>
+        <argsstring>()</argsstring>
+        <name>UpdatePositions</name>
+        <qualifiedname>SwipeMenu.UpdatePositions</qualifiedname>
+        <briefdescription>
+<para>Actualiza las posiciones de los botones en el menú, calculando su valor de scroll objetivo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" line="101" column="10" bodyfile="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" bodystart="101" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_swipe_menu_1abf29152f01bac707af91dbe0c8d1a40b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SwipeMenu.HandleInput</definition>
+        <argsstring>()</argsstring>
+        <name>HandleInput</name>
+        <qualifiedname>SwipeMenu.HandleInput</qualifiedname>
+        <briefdescription>
+<para>Maneja la entrada del usuario para el scroll: arrastre con ratón/táctil o centrado automático. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" line="115" column="10" bodyfile="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" bodystart="115" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_swipe_menu_1a3675331c94606bb303f300236724b560" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SwipeMenu.ApplyVisualEffects</definition>
+        <argsstring>()</argsstring>
+        <name>ApplyVisualEffects</name>
+        <qualifiedname>SwipeMenu.ApplyVisualEffects</qualifiedname>
+        <briefdescription>
+<para>Aplica efectos visuales a los botones: escalado y visibilidad del texto según el estado y la plataforma. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" line="140" column="10" bodyfile="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" bodystart="140" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_swipe_menu_1a9487bc9047425b81c28031994f4a93d7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2</type>
+        <definition>Vector2 SwipeMenu.GetTargetScale</definition>
+        <argsstring>(bool isCentered)</argsstring>
+        <name>GetTargetScale</name>
+        <qualifiedname>SwipeMenu.GetTargetScale</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>isCentered</declname>
+        </param>
+        <briefdescription>
+<para>Obtiene la escala objetivo para un botón según la plataforma, orientación y si está centrado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isCentered</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Indica si el botón está centrado.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Escala objetivo como Vector2.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" line="172" column="13" bodyfile="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" bodystart="172" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="class_swipe_menu_1a908469301b3466a21fc3a6f191343103" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator SwipeMenu.SmoothScrollTo</definition>
+        <argsstring>(float target, float speed=0.25f)</argsstring>
+        <name>SmoothScrollTo</name>
+        <qualifiedname>SwipeMenu.SmoothScrollTo</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>speed</declname>
+          <defval>0.25f</defval>
+        </param>
+        <briefdescription>
+<para>Corrutina que realiza un desplazamiento suave del scroll hasta la posición objetivo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>target</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Valor objetivo del scroll (0-1).</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>speed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Velocidad de interpolación.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>IEnumerator para la corrutina.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" line="253" column="25" bodyfile="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" bodystart="253" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="class_swipe_menu_1adcb3a3682f2a2d755015ba7e2e7a169c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SwipeMenu.UpdateChildElements</definition>
+        <argsstring>(bool isLandscape)</argsstring>
+        <name>UpdateChildElements</name>
+        <qualifiedname>SwipeMenu.UpdateChildElements</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>isLandscape</declname>
+        </param>
+        <briefdescription>
+<para>Actualiza los elementos hijos del menú (botones) para adaptarlos a la orientación actual. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isLandscape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Indica si la orientación es horizontal.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" line="300" column="18" bodyfile="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" bodystart="300" bodyend="324"/>
+      </memberdef>
+      <memberdef kind="function" id="class_swipe_menu_1af588648ec4a028ec1c9d331c725c541b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SwipeMenu.ScaleChildImages</definition>
+        <argsstring>(RectTransform parent, bool isLandscape)</argsstring>
+        <name>ScaleChildImages</name>
+        <qualifiedname>SwipeMenu.ScaleChildImages</qualifiedname>
+        <param>
+          <type>RectTransform</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isLandscape</declname>
+        </param>
+        <briefdescription>
+<para>Escala las imágenes hijas de un elemento del menú según la orientación. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>RectTransform del elemento padre.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>isLandscape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Indica si la orientación es horizontal.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" line="331" column="18" bodyfile="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" bodystart="331" bodyend="343"/>
+      </memberdef>
+      <memberdef kind="function" id="class_swipe_menu_1aa1ac52dfcb5818f3df86bac058d234ff" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SwipeMenu.IsLandscapeOrientation</definition>
+        <argsstring>()</argsstring>
+        <name>IsLandscapeOrientation</name>
+        <qualifiedname>SwipeMenu.IsLandscapeOrientation</qualifiedname>
+        <briefdescription>
+<para>Comprueba si la orientación actual de la pantalla es horizontal (landscape). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True si la orientación es horizontal, false si es vertical.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" line="349" column="18" bodyfile="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" bodystart="349" bodyend="353"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_swipe_menu_1a8a022b5c2b15c21d8245555a41f33342" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SwipeMenu.MoveLeft</definition>
+        <argsstring>()</argsstring>
+        <name>MoveLeft</name>
+        <qualifiedname>SwipeMenu.MoveLeft</qualifiedname>
+        <briefdescription>
+<para>Mueve el scroll una posición hacia la izquierda, centrando el botón anterior (o el último si está en el primero). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" line="198" column="17" bodyfile="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" bodystart="198" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="class_swipe_menu_1ab53e166b3ac6c8691cd51a4cfc41aedd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SwipeMenu.MoveRight</definition>
+        <argsstring>()</argsstring>
+        <name>MoveRight</name>
+        <qualifiedname>SwipeMenu.MoveRight</qualifiedname>
+        <briefdescription>
+<para>Mueve el scroll una posición hacia la derecha, centrando el botón siguiente (o el primero si está en el último). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" line="211" column="17" bodyfile="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" bodystart="211" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="class_swipe_menu_1a8a282f4b13223184c229d2bc08b91be8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SwipeMenu.IsButtonCentered</definition>
+        <argsstring>(int index)</argsstring>
+        <name>IsButtonCentered</name>
+        <qualifiedname>SwipeMenu.IsButtonCentered</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Comprueba si un botón está centrado actualmente. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Índice del botón a comprobar.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True si el botón está centrado, false en caso contrario.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" line="226" column="17" bodyfile="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" bodystart="226" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="class_swipe_menu_1afb38fb1304e9de3ea92861fe1f5a611f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SwipeMenu.CenterButton</definition>
+        <argsstring>(int index)</argsstring>
+        <name>CenterButton</name>
+        <qualifiedname>SwipeMenu.CenterButton</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Centra el botón indicado por su índice, desplazando el scroll suavemente. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Índice del botón a centrar.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" line="235" column="17" bodyfile="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" bodystart="235" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="class_swipe_menu_1a471a51469b7ee2c133ab6ef2584ebe3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SwipeMenu.UpdateLayoutForOrientation</definition>
+        <argsstring>(bool isLandscape)</argsstring>
+        <name>UpdateLayoutForOrientation</name>
+        <qualifiedname>SwipeMenu.UpdateLayoutForOrientation</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>isLandscape</declname>
+        </param>
+        <briefdescription>
+<para>Actualiza el layout del menú y sus elementos según la orientación de la pantalla. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isLandscape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Indica si la orientación es horizontal.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" line="273" column="17" bodyfile="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" bodystart="273" bodyend="294"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Clase que gestiona un menú deslizante con botones, permitiendo la navegación mediante swipe o botones, adaptando la escala y visibilidad de los elementos según la plataforma y la orientación de la pantalla. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SwipeMenu</label>
+        <link refid="class_swipe_menu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SwipeMenu</label>
+        <link refid="class_swipe_menu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" line="11" column="7" bodyfile="Assets/Scripts/MenuPrincipal/SwipeMenu.cs" bodystart="12" bodyend="354"/>
+    <listofallmembers>
+      <member refid="class_swipe_menu_1a213a1247b41393b3e21bf78ba12c971f" prot="private" virt="non-virtual"><scope>SwipeMenu</scope><name>androidLandscapeScale</name></member>
+      <member refid="class_swipe_menu_1a3f64f8e6337b1814b6a358899a9c01cd" prot="private" virt="non-virtual"><scope>SwipeMenu</scope><name>androidLandscapeScaleInactive</name></member>
+      <member refid="class_swipe_menu_1ab87aa329b5bbab31a2ccb8d5f3f832ce" prot="private" virt="non-virtual"><scope>SwipeMenu</scope><name>androidScale</name></member>
+      <member refid="class_swipe_menu_1a0375a528f244703cc4215e1e8a645e12" prot="private" virt="non-virtual"><scope>SwipeMenu</scope><name>androidScaleInactive</name></member>
+      <member refid="class_swipe_menu_1a3675331c94606bb303f300236724b560" prot="private" virt="non-virtual"><scope>SwipeMenu</scope><name>ApplyVisualEffects</name></member>
+      <member refid="class_swipe_menu_1afb38fb1304e9de3ea92861fe1f5a611f" prot="public" virt="non-virtual"><scope>SwipeMenu</scope><name>CenterButton</name></member>
+      <member refid="class_swipe_menu_1ae8d5410091cc16a9dd39776b613bde55" prot="private" virt="non-virtual"><scope>SwipeMenu</scope><name>currentIndex</name></member>
+      <member refid="class_swipe_menu_1a9487bc9047425b81c28031994f4a93d7" prot="private" virt="non-virtual"><scope>SwipeMenu</scope><name>GetTargetScale</name></member>
+      <member refid="class_swipe_menu_1abf29152f01bac707af91dbe0c8d1a40b" prot="private" virt="non-virtual"><scope>SwipeMenu</scope><name>HandleInput</name></member>
+      <member refid="class_swipe_menu_1a8a282f4b13223184c229d2bc08b91be8" prot="public" virt="non-virtual"><scope>SwipeMenu</scope><name>IsButtonCentered</name></member>
+      <member refid="class_swipe_menu_1adb69f24e401855e00440e0dd9cf44e3a" prot="private" virt="non-virtual"><scope>SwipeMenu</scope><name>isLandscapeMode</name></member>
+      <member refid="class_swipe_menu_1aa1ac52dfcb5818f3df86bac058d234ff" prot="private" virt="non-virtual"><scope>SwipeMenu</scope><name>IsLandscapeOrientation</name></member>
+      <member refid="class_swipe_menu_1a7d74997fd2c17c9958fec024bd4368bb" prot="private" virt="non-virtual"><scope>SwipeMenu</scope><name>mainScript</name></member>
+      <member refid="class_swipe_menu_1a8a022b5c2b15c21d8245555a41f33342" prot="public" virt="non-virtual"><scope>SwipeMenu</scope><name>MoveLeft</name></member>
+      <member refid="class_swipe_menu_1ab53e166b3ac6c8691cd51a4cfc41aedd" prot="public" virt="non-virtual"><scope>SwipeMenu</scope><name>MoveRight</name></member>
+      <member refid="class_swipe_menu_1aef36367d732a335cf5d58ae9c873456a" prot="private" virt="non-virtual"><scope>SwipeMenu</scope><name>pcScale</name></member>
+      <member refid="class_swipe_menu_1accde17b3e04493989dcc2eaffd52c8a5" prot="private" virt="non-virtual"><scope>SwipeMenu</scope><name>pcScaleInactive</name></member>
+      <member refid="class_swipe_menu_1a7861f7ccc63133322b5c66f806abe3c8" prot="private" virt="non-virtual"><scope>SwipeMenu</scope><name>pos</name></member>
+      <member refid="class_swipe_menu_1af588648ec4a028ec1c9d331c725c541b" prot="private" virt="non-virtual"><scope>SwipeMenu</scope><name>ScaleChildImages</name></member>
+      <member refid="class_swipe_menu_1aa4293184581bc7cdb1b8eb7bb47221fb" prot="private" virt="non-virtual"><scope>SwipeMenu</scope><name>scroll_pos</name></member>
+      <member refid="class_swipe_menu_1acf5225289ac9878ab19fd6312a4ebdae" prot="public" virt="non-virtual"><scope>SwipeMenu</scope><name>scrollbar</name></member>
+      <member refid="class_swipe_menu_1aa89c7ab3da1a23025049bbaadfb66b10" prot="private" virt="non-virtual"><scope>SwipeMenu</scope><name>scrollCoroutine</name></member>
+      <member refid="class_swipe_menu_1a908469301b3466a21fc3a6f191343103" prot="private" virt="non-virtual"><scope>SwipeMenu</scope><name>SmoothScrollTo</name></member>
+      <member refid="class_swipe_menu_1a759f9d234af37b9bd11debbd9406ff2b" prot="private" virt="non-virtual"><scope>SwipeMenu</scope><name>transitionSpeed</name></member>
+      <member refid="class_swipe_menu_1af15c677ea23ef03faeecd3743c48e1b0" prot="private" virt="non-virtual"><scope>SwipeMenu</scope><name>Update</name></member>
+      <member refid="class_swipe_menu_1adcb3a3682f2a2d755015ba7e2e7a169c" prot="private" virt="non-virtual"><scope>SwipeMenu</scope><name>UpdateChildElements</name></member>
+      <member refid="class_swipe_menu_1a471a51469b7ee2c133ab6ef2584ebe3d" prot="public" virt="non-virtual"><scope>SwipeMenu</scope><name>UpdateLayoutForOrientation</name></member>
+      <member refid="class_swipe_menu_1abdc5b2960b2e8ec51559f243446bca09" prot="private" virt="non-virtual"><scope>SwipeMenu</scope><name>UpdatePositions</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

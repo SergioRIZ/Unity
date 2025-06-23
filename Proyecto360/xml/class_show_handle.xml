@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_show_handle" kind="class" language="C#" prot="public">
+    <compoundname>ShowHandle</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerEnterHandler</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerExitHandler</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_show_handle_1a553f236e2a5605a51296da8b67bedaff" prot="public" static="no" mutable="no">
+        <type>Scrollbar</type>
+        <definition>Scrollbar ShowHandle.scrollbar</definition>
+        <argsstring></argsstring>
+        <name>scrollbar</name>
+        <qualifiedname>ShowHandle.scrollbar</qualifiedname>
+        <briefdescription>
+<para>Referencia al componente Scrollbar asignado desde el inspector. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ShowHandle.cs" line="16" column="22" bodyfile="Assets/Scripts/CarouselScript/ShowHandle.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_show_handle_1af48e0b03bc876ecbe273432b12b9a9c8" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ShowHandle.handle</definition>
+        <argsstring></argsstring>
+        <name>handle</name>
+        <qualifiedname>ShowHandle.handle</qualifiedname>
+        <briefdescription>
+<para>Referencia al objeto del handle del Scrollbar. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ShowHandle.cs" line="21" column="24" bodyfile="Assets/Scripts/CarouselScript/ShowHandle.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_show_handle_1a873ee21af5bff7d2e8c71923ac2fd488" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShowHandle.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>ShowHandle.Start</qualifiedname>
+        <briefdescription>
+<para>Método llamado al inicio. Busca el componente Scrollbar en el objeto actual y oculta el handle si está presente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ShowHandle.cs" line="27" column="18" bodyfile="Assets/Scripts/CarouselScript/ShowHandle.cs" bodystart="27" bodyend="39"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_show_handle_1a85fe8ca5d5363cdbaf4ff1366b18d879" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShowHandle.OnPointerEnter</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerEnter</name>
+        <qualifiedname>ShowHandle.OnPointerEnter</qualifiedname>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+<para>Método llamado cuando el puntero entra en el área del Scrollbar. Activa la visibilidad del handle. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eventData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Datos del evento del puntero.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ShowHandle.cs" line="46" column="17" bodyfile="Assets/Scripts/CarouselScript/ShowHandle.cs" bodystart="46" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_show_handle_1ad062dbb1106d447303f23ddb630fc5a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShowHandle.OnPointerExit</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerExit</name>
+        <qualifiedname>ShowHandle.OnPointerExit</qualifiedname>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+<para>Método llamado cuando el puntero sale del área del Scrollbar. Desactiva la visibilidad del handle. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eventData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Datos del evento del puntero.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ShowHandle.cs" line="59" column="17" bodyfile="Assets/Scripts/CarouselScript/ShowHandle.cs" bodystart="59" bodyend="65"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Clase que controla la visibilidad del handle de un Scrollbar cuando el puntero entra o sale del área del Scrollbar. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>IPointerEnterHandler</label>
+      </node>
+      <node id="4">
+        <label>IPointerExitHandler</label>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ShowHandle</label>
+        <link refid="class_show_handle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>IPointerEnterHandler</label>
+      </node>
+      <node id="4">
+        <label>IPointerExitHandler</label>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ShowHandle</label>
+        <link refid="class_show_handle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/CarouselScript/ShowHandle.cs" line="11" column="7" bodyfile="Assets/Scripts/CarouselScript/ShowHandle.cs" bodystart="12" bodyend="66"/>
+    <listofallmembers>
+      <member refid="class_show_handle_1af48e0b03bc876ecbe273432b12b9a9c8" prot="private" virt="non-virtual"><scope>ShowHandle</scope><name>handle</name></member>
+      <member refid="class_show_handle_1a85fe8ca5d5363cdbaf4ff1366b18d879" prot="public" virt="non-virtual"><scope>ShowHandle</scope><name>OnPointerEnter</name></member>
+      <member refid="class_show_handle_1ad062dbb1106d447303f23ddb630fc5a3" prot="public" virt="non-virtual"><scope>ShowHandle</scope><name>OnPointerExit</name></member>
+      <member refid="class_show_handle_1a553f236e2a5605a51296da8b67bedaff" prot="public" virt="non-virtual"><scope>ShowHandle</scope><name>scrollbar</name></member>
+      <member refid="class_show_handle_1a873ee21af5bff7d2e8c71923ac2fd488" prot="private" virt="non-virtual"><scope>ShowHandle</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

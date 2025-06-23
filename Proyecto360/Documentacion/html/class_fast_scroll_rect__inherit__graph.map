@@ -1,0 +1,7 @@
+<map id="FastScrollRect" name="FastScrollRect">
+<area shape="rect" id="Node000001" title="Permite un desplazamiento vertical más rápido en un ScrollRect al usar la rueda del ratón." alt="" coords="72,80,180,107"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,117,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,42,117,78,113,81,80,45"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="141,5,245,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="173,45,140,81,136,78,169,42"/>
+</map>

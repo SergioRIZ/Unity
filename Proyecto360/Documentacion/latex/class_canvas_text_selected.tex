@@ -1,0 +1,129 @@
+\doxysection{Canvas\+Text\+Selected Class Reference}
+\hypertarget{class_canvas_text_selected}{}\label{class_canvas_text_selected}\index{CanvasTextSelected@{CanvasTextSelected}}
+
+
+Clase que gestiona el comportamiento del texto de un botón en un Canvas cuando el ratón interactúa con él.  
+
+
+
+
+Inheritance diagram for Canvas\+Text\+Selected\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_canvas_text_selected__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Canvas\+Text\+Selected\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_canvas_text_selected__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_canvas_text_selected_a5aeab33bcc69d92ff350e77be5ec59e9}{On\+Pointer\+Enter}} (Pointer\+Event\+Data event\+Data)
+\begin{DoxyCompactList}\small\item\em Evento que se ejecuta al pasar el ratón por encima del botón. Cambia el estilo del texto a subrayado si no está subrayado permanentemente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_canvas_text_selected_a6be41c4ae54877ad9a18f55e23c4c9fd}{On\+Pointer\+Exit}} (Pointer\+Event\+Data event\+Data)
+\begin{DoxyCompactList}\small\item\em Evento que se ejecuta al salir el ratón del botón. Vuelve el estilo del texto al normal si no está subrayado permanentemente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_canvas_text_selected_ae9bb6832f5ee76ad63a009cfd7d4822e}{Set\+Permanent\+Underline}} (bool is\+Underlined)
+\begin{DoxyCompactList}\small\item\em Establece si el texto del botón debe estar subrayado permanentemente. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_canvas_text_selected_a6dc45fed06e4163e16cfdf91f4b17c6b}{Is\+Permanently\+Underlined}} ()
+\begin{DoxyCompactList}\small\item\em Comprueba si el texto del botón está subrayado permanentemente. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_canvas_text_selected_a729ddbb3ab29ba44f7ca7054d834d568}{is\+Permanently\+Underlined}} = false
+\begin{DoxyCompactList}\small\item\em Indica si el texto del botón está subrayado permanentemente. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clase que gestiona el comportamiento del texto de un botón en un Canvas cuando el ratón interactúa con él. 
+
+\label{doc-func-members}
+\Hypertarget{class_canvas_text_selected_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_canvas_text_selected_a6dc45fed06e4163e16cfdf91f4b17c6b}\index{CanvasTextSelected@{CanvasTextSelected}!IsPermanentlyUnderlined@{IsPermanentlyUnderlined}}
+\index{IsPermanentlyUnderlined@{IsPermanentlyUnderlined}!CanvasTextSelected@{CanvasTextSelected}}
+\doxysubsubsection{\texorpdfstring{IsPermanentlyUnderlined()}{IsPermanentlyUnderlined()}}
+{\footnotesize\ttfamily \label{class_canvas_text_selected_a6dc45fed06e4163e16cfdf91f4b17c6b} 
+bool Canvas\+Text\+Selected.\+Is\+Permanently\+Underlined (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Comprueba si el texto del botón está subrayado permanentemente. 
+
+\begin{DoxyReturn}{Returns}
+True si está subrayado permanentemente, false en caso contrario.
+\end{DoxyReturn}
+\Hypertarget{class_canvas_text_selected_a5aeab33bcc69d92ff350e77be5ec59e9}\index{CanvasTextSelected@{CanvasTextSelected}!OnPointerEnter@{OnPointerEnter}}
+\index{OnPointerEnter@{OnPointerEnter}!CanvasTextSelected@{CanvasTextSelected}}
+\doxysubsubsection{\texorpdfstring{OnPointerEnter()}{OnPointerEnter()}}
+{\footnotesize\ttfamily \label{class_canvas_text_selected_a5aeab33bcc69d92ff350e77be5ec59e9} 
+void Canvas\+Text\+Selected.\+On\+Pointer\+Enter (\begin{DoxyParamCaption}\item[{Pointer\+Event\+Data}]{event\+Data}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Evento que se ejecuta al pasar el ratón por encima del botón. Cambia el estilo del texto a subrayado si no está subrayado permanentemente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event\+Data} & Datos del evento del puntero.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_canvas_text_selected_a6be41c4ae54877ad9a18f55e23c4c9fd}\index{CanvasTextSelected@{CanvasTextSelected}!OnPointerExit@{OnPointerExit}}
+\index{OnPointerExit@{OnPointerExit}!CanvasTextSelected@{CanvasTextSelected}}
+\doxysubsubsection{\texorpdfstring{OnPointerExit()}{OnPointerExit()}}
+{\footnotesize\ttfamily \label{class_canvas_text_selected_a6be41c4ae54877ad9a18f55e23c4c9fd} 
+void Canvas\+Text\+Selected.\+On\+Pointer\+Exit (\begin{DoxyParamCaption}\item[{Pointer\+Event\+Data}]{event\+Data}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Evento que se ejecuta al salir el ratón del botón. Vuelve el estilo del texto al normal si no está subrayado permanentemente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event\+Data} & Datos del evento del puntero.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_canvas_text_selected_ae9bb6832f5ee76ad63a009cfd7d4822e}\index{CanvasTextSelected@{CanvasTextSelected}!SetPermanentUnderline@{SetPermanentUnderline}}
+\index{SetPermanentUnderline@{SetPermanentUnderline}!CanvasTextSelected@{CanvasTextSelected}}
+\doxysubsubsection{\texorpdfstring{SetPermanentUnderline()}{SetPermanentUnderline()}}
+{\footnotesize\ttfamily \label{class_canvas_text_selected_ae9bb6832f5ee76ad63a009cfd7d4822e} 
+void Canvas\+Text\+Selected.\+Set\+Permanent\+Underline (\begin{DoxyParamCaption}\item[{bool}]{is\+Underlined}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Establece si el texto del botón debe estar subrayado permanentemente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em is\+Underlined} & True si debe estar subrayado permanentemente, false en caso contrario.\\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-variable-members}
+\Hypertarget{class_canvas_text_selected_doc-variable-members}
+\doxysubsection{Field Documentation}
+\Hypertarget{class_canvas_text_selected_a729ddbb3ab29ba44f7ca7054d834d568}\index{CanvasTextSelected@{CanvasTextSelected}!isPermanentlyUnderlined@{isPermanentlyUnderlined}}
+\index{isPermanentlyUnderlined@{isPermanentlyUnderlined}!CanvasTextSelected@{CanvasTextSelected}}
+\doxysubsubsection{\texorpdfstring{isPermanentlyUnderlined}{isPermanentlyUnderlined}}
+{\footnotesize\ttfamily \label{class_canvas_text_selected_a729ddbb3ab29ba44f7ca7054d834d568} 
+bool Canvas\+Text\+Selected.\+is\+Permanently\+Underlined = false}
+
+
+
+Indica si el texto del botón está subrayado permanentemente. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+Carousel\+Script/\mbox{\hyperlink{_canvas_text_selected_8cs}{Canvas\+Text\+Selected.\+cs}}\end{DoxyCompactItemize}

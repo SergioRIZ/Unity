@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_start_controller" kind="class" language="C#" prot="public">
+    <compoundname>StartController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_start_controller_1a2bdd57dc77b42e122a9770b5aca5dbcf" prot="private" static="no" mutable="no">
+        <type>GameObject[]</type>
+        <definition>GameObject [] StartController.objetoActivo</definition>
+        <argsstring></argsstring>
+        <name>objetoActivo</name>
+        <qualifiedname>StartController.objetoActivo</qualifiedname>
+        <briefdescription>
+<para>Arreglo de objetos Canvas que serán desactivados al inicio. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/StartController.cs" line="15" column="17" bodyfile="Assets/Scripts/Scripts Flechas/StartController.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_start_controller_1a7226488284778ea0c4d59d25d7dbab49" prot="private" static="no" mutable="no">
+        <type>GameObject[]</type>
+        <definition>GameObject [] StartController.arrayCanvas</definition>
+        <argsstring></argsstring>
+        <name>arrayCanvas</name>
+        <qualifiedname>StartController.arrayCanvas</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/StartController.cs" line="16" column="17" bodyfile="Assets/Scripts/Scripts Flechas/StartController.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_start_controller_1a1cdb5acaa2a0ad55f38b6c133dc52a77" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void StartController.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>StartController.Start</qualifiedname>
+        <briefdescription>
+<para>Método llamado automáticamente por Unity al iniciar el ciclo de vida del script. Activa todos los objetos especificados en objetoActivo y desactiva todos los objetos en arrayCanvas. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/StartController.cs" line="22" column="10" bodyfile="Assets/Scripts/Scripts Flechas/StartController.cs" bodystart="22" bodyend="35"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Controlador para gestionar el comportamiento inicial de los elementos del juego. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>StartController</label>
+        <link refid="class_start_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>StartController</label>
+        <link refid="class_start_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/Scripts Flechas/StartController.cs" line="8" column="7" bodyfile="Assets/Scripts/Scripts Flechas/StartController.cs" bodystart="9" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_start_controller_1a7226488284778ea0c4d59d25d7dbab49" prot="private" virt="non-virtual"><scope>StartController</scope><name>arrayCanvas</name></member>
+      <member refid="class_start_controller_1a2bdd57dc77b42e122a9770b5aca5dbcf" prot="private" virt="non-virtual"><scope>StartController</scope><name>objetoActivo</name></member>
+      <member refid="class_start_controller_1a1cdb5acaa2a0ad55f38b6c133dc52a77" prot="private" virt="non-virtual"><scope>StartController</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,263 @@
+\doxysection{Camera\+View Class Reference}
+\hypertarget{class_camera_view}{}\label{class_camera_view}\index{CameraView@{CameraView}}
+
+
+Controlador principal de la cámara que coordina los distintos tipos de entradas para la navegación panorámica 360.  
+
+
+
+
+Inheritance diagram for Camera\+View\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{class_camera_view__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Camera\+View\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{class_camera_view__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_camera_view_a6d5a03fb5fb4a419176e6947eabcf9c1}{Reset\+View}} ()
+\begin{DoxyCompactList}\small\item\em Resetea la rotación de la cámara a su estado inicial y reinicia el zoom. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_camera_view_a0dd3dfeb41302a8d9d995f65cbdeb525}{Rotate\+Camera\+To\+Look\+At}} (Vector3 target\+Position)
+\begin{DoxyCompactList}\small\item\em Rota la cámara suavemente para mirar hacia una posición objetivo. \end{DoxyCompactList}\item 
+Vector3 \mbox{\hyperlink{class_camera_view_a8f92dc7e854c88ce30d675baccc5e723}{Find\+Punto}} ()
+\begin{DoxyCompactList}\small\item\em Busca y devuelve la posición del objeto "{}\+Punto"{} dentro del grupo de flechas activo. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{class_camera_view_ad303989fc5be7ad30a221b607171fe6b}{horizontal\+Speed}} = 2.\+0f
+\item 
+float \mbox{\hyperlink{class_camera_view_a5e6f6f87b96d61c2147cdd6cb5d085a9}{vertical\+Speed}} = 2.\+0f
+\item 
+float \mbox{\hyperlink{class_camera_view_a033900562c8ceb10fce20fd611ee5a20}{vertical\+Limit}} = 80.\+0f
+\item 
+float \mbox{\hyperlink{class_camera_view_aef1acf986a1cd5108cc0175136ec91f4}{smooth\+Speed}} = 0.\+5f
+\item 
+bool \mbox{\hyperlink{class_camera_view_a5dc210b73a6ea2a7e736d898abc62d87}{hide\+Cursor\+While\+Navigating}} = true
+\item 
+bool \mbox{\hyperlink{class_camera_view_aaacabab0992c2e85ed28c787a8fafcd0}{auto\+Detect\+Platform}} = true
+\item 
+bool \mbox{\hyperlink{class_camera_view_a5285b6f806e03349bc27fdb9dbcf51c0}{force\+Mobile\+Mode}} = false
+\item 
+bool \mbox{\hyperlink{class_camera_view_a9ad9e6f2f8eb432ebc075e869430a449}{is\+Centered}} = false
+\begin{DoxyCompactList}\small\item\em Indica si la cámara está centrada en un objetivo. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_camera_view_ac931be44c0c62a6ac14db20361480c7c}{Is\+Mobile\+Platform}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Indica si la plataforma actual es móvil. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_camera_view_a885fa8228429155f6f352f5027e9f524}{XRotation}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Rotación X actual de la cámara. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_camera_view_ad828b42767638010de60d6c2328dfe09}{YRotation}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Rotación Y actual de la cámara. \end{DoxyCompactList}\item 
+Quaternion \mbox{\hyperlink{class_camera_view_af00517411e2975b816c79611929bdefc}{Target\+Rotation}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Rotación objetivo de la cámara. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_camera_view_a374b0dc234bd8e146e64814a830164d8}{Is\+Transitioning}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Indica si la cámara está en transición de rotación. \end{DoxyCompactList}\item 
+Camera \mbox{\hyperlink{class_camera_view_a8f7540a3bc2423feeaac12d8466dbaf6}{Main\+Camera}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Referencia a la cámara principal. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+Action$<$ Vector3 $>$ \mbox{\hyperlink{class_camera_view_ad20e8e457262f90534039c0cb0456685}{On\+Rotation\+Changed}}
+\begin{DoxyCompactList}\small\item\em Evento que se dispara cuando la rotación de la cámara cambia. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Controlador principal de la cámara que coordina los distintos tipos de entradas para la navegación panorámica 360. 
+
+\label{doc-func-members}
+\Hypertarget{class_camera_view_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_camera_view_a8f92dc7e854c88ce30d675baccc5e723}\index{CameraView@{CameraView}!FindPunto@{FindPunto}}
+\index{FindPunto@{FindPunto}!CameraView@{CameraView}}
+\doxysubsubsection{\texorpdfstring{FindPunto()}{FindPunto()}}
+{\footnotesize\ttfamily \label{class_camera_view_a8f92dc7e854c88ce30d675baccc5e723} 
+Vector3 Camera\+View.\+Find\+Punto (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Busca y devuelve la posición del objeto "{}\+Punto"{} dentro del grupo de flechas activo. 
+
+\begin{DoxyReturn}{Returns}
+Posición del objeto "{}\+Punto"{} en el grupo activo.
+\end{DoxyReturn}
+\Hypertarget{class_camera_view_a6d5a03fb5fb4a419176e6947eabcf9c1}\index{CameraView@{CameraView}!ResetView@{ResetView}}
+\index{ResetView@{ResetView}!CameraView@{CameraView}}
+\doxysubsubsection{\texorpdfstring{ResetView()}{ResetView()}}
+{\footnotesize\ttfamily \label{class_camera_view_a6d5a03fb5fb4a419176e6947eabcf9c1} 
+void Camera\+View.\+Reset\+View (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Resetea la rotación de la cámara a su estado inicial y reinicia el zoom. 
+
+\Hypertarget{class_camera_view_a0dd3dfeb41302a8d9d995f65cbdeb525}\index{CameraView@{CameraView}!RotateCameraToLookAt@{RotateCameraToLookAt}}
+\index{RotateCameraToLookAt@{RotateCameraToLookAt}!CameraView@{CameraView}}
+\doxysubsubsection{\texorpdfstring{RotateCameraToLookAt()}{RotateCameraToLookAt()}}
+{\footnotesize\ttfamily \label{class_camera_view_a0dd3dfeb41302a8d9d995f65cbdeb525} 
+void Camera\+View.\+Rotate\+Camera\+To\+Look\+At (\begin{DoxyParamCaption}\item[{Vector3}]{target\+Position}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Rota la cámara suavemente para mirar hacia una posición objetivo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em target\+Position} & Posición a la que mirar.\\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-variable-members}
+\Hypertarget{class_camera_view_doc-variable-members}
+\doxysubsection{Field Documentation}
+\Hypertarget{class_camera_view_aaacabab0992c2e85ed28c787a8fafcd0}\index{CameraView@{CameraView}!autoDetectPlatform@{autoDetectPlatform}}
+\index{autoDetectPlatform@{autoDetectPlatform}!CameraView@{CameraView}}
+\doxysubsubsection{\texorpdfstring{autoDetectPlatform}{autoDetectPlatform}}
+{\footnotesize\ttfamily \label{class_camera_view_aaacabab0992c2e85ed28c787a8fafcd0} 
+bool Camera\+View.\+auto\+Detect\+Platform = true}
+
+\Hypertarget{class_camera_view_a5285b6f806e03349bc27fdb9dbcf51c0}\index{CameraView@{CameraView}!forceMobileMode@{forceMobileMode}}
+\index{forceMobileMode@{forceMobileMode}!CameraView@{CameraView}}
+\doxysubsubsection{\texorpdfstring{forceMobileMode}{forceMobileMode}}
+{\footnotesize\ttfamily \label{class_camera_view_a5285b6f806e03349bc27fdb9dbcf51c0} 
+bool Camera\+View.\+force\+Mobile\+Mode = false}
+
+\Hypertarget{class_camera_view_a5dc210b73a6ea2a7e736d898abc62d87}\index{CameraView@{CameraView}!hideCursorWhileNavigating@{hideCursorWhileNavigating}}
+\index{hideCursorWhileNavigating@{hideCursorWhileNavigating}!CameraView@{CameraView}}
+\doxysubsubsection{\texorpdfstring{hideCursorWhileNavigating}{hideCursorWhileNavigating}}
+{\footnotesize\ttfamily \label{class_camera_view_a5dc210b73a6ea2a7e736d898abc62d87} 
+bool Camera\+View.\+hide\+Cursor\+While\+Navigating = true}
+
+\Hypertarget{class_camera_view_ad303989fc5be7ad30a221b607171fe6b}\index{CameraView@{CameraView}!horizontalSpeed@{horizontalSpeed}}
+\index{horizontalSpeed@{horizontalSpeed}!CameraView@{CameraView}}
+\doxysubsubsection{\texorpdfstring{horizontalSpeed}{horizontalSpeed}}
+{\footnotesize\ttfamily \label{class_camera_view_ad303989fc5be7ad30a221b607171fe6b} 
+float Camera\+View.\+horizontal\+Speed = 2.\+0f}
+
+\Hypertarget{class_camera_view_a9ad9e6f2f8eb432ebc075e869430a449}\index{CameraView@{CameraView}!isCentered@{isCentered}}
+\index{isCentered@{isCentered}!CameraView@{CameraView}}
+\doxysubsubsection{\texorpdfstring{isCentered}{isCentered}}
+{\footnotesize\ttfamily \label{class_camera_view_a9ad9e6f2f8eb432ebc075e869430a449} 
+bool Camera\+View.\+is\+Centered = false}
+
+
+
+Indica si la cámara está centrada en un objetivo. 
+
+\Hypertarget{class_camera_view_aef1acf986a1cd5108cc0175136ec91f4}\index{CameraView@{CameraView}!smoothSpeed@{smoothSpeed}}
+\index{smoothSpeed@{smoothSpeed}!CameraView@{CameraView}}
+\doxysubsubsection{\texorpdfstring{smoothSpeed}{smoothSpeed}}
+{\footnotesize\ttfamily \label{class_camera_view_aef1acf986a1cd5108cc0175136ec91f4} 
+float Camera\+View.\+smooth\+Speed = 0.\+5f}
+
+\Hypertarget{class_camera_view_a033900562c8ceb10fce20fd611ee5a20}\index{CameraView@{CameraView}!verticalLimit@{verticalLimit}}
+\index{verticalLimit@{verticalLimit}!CameraView@{CameraView}}
+\doxysubsubsection{\texorpdfstring{verticalLimit}{verticalLimit}}
+{\footnotesize\ttfamily \label{class_camera_view_a033900562c8ceb10fce20fd611ee5a20} 
+float Camera\+View.\+vertical\+Limit = 80.\+0f}
+
+\Hypertarget{class_camera_view_a5e6f6f87b96d61c2147cdd6cb5d085a9}\index{CameraView@{CameraView}!verticalSpeed@{verticalSpeed}}
+\index{verticalSpeed@{verticalSpeed}!CameraView@{CameraView}}
+\doxysubsubsection{\texorpdfstring{verticalSpeed}{verticalSpeed}}
+{\footnotesize\ttfamily \label{class_camera_view_a5e6f6f87b96d61c2147cdd6cb5d085a9} 
+float Camera\+View.\+vertical\+Speed = 2.\+0f}
+
+
+
+\label{doc-property-members}
+\Hypertarget{class_camera_view_doc-property-members}
+\doxysubsection{Property Documentation}
+\Hypertarget{class_camera_view_ac931be44c0c62a6ac14db20361480c7c}\index{CameraView@{CameraView}!IsMobilePlatform@{IsMobilePlatform}}
+\index{IsMobilePlatform@{IsMobilePlatform}!CameraView@{CameraView}}
+\doxysubsubsection{\texorpdfstring{IsMobilePlatform}{IsMobilePlatform}}
+{\footnotesize\ttfamily \label{class_camera_view_ac931be44c0c62a6ac14db20361480c7c} 
+bool Camera\+View.\+Is\+Mobile\+Platform\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Indica si la plataforma actual es móvil. 
+
+\Hypertarget{class_camera_view_a374b0dc234bd8e146e64814a830164d8}\index{CameraView@{CameraView}!IsTransitioning@{IsTransitioning}}
+\index{IsTransitioning@{IsTransitioning}!CameraView@{CameraView}}
+\doxysubsubsection{\texorpdfstring{IsTransitioning}{IsTransitioning}}
+{\footnotesize\ttfamily \label{class_camera_view_a374b0dc234bd8e146e64814a830164d8} 
+bool Camera\+View.\+Is\+Transitioning\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Indica si la cámara está en transición de rotación. 
+
+\Hypertarget{class_camera_view_a8f7540a3bc2423feeaac12d8466dbaf6}\index{CameraView@{CameraView}!MainCamera@{MainCamera}}
+\index{MainCamera@{MainCamera}!CameraView@{CameraView}}
+\doxysubsubsection{\texorpdfstring{MainCamera}{MainCamera}}
+{\footnotesize\ttfamily \label{class_camera_view_a8f7540a3bc2423feeaac12d8466dbaf6} 
+Camera Camera\+View.\+Main\+Camera\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Referencia a la cámara principal. 
+
+\Hypertarget{class_camera_view_af00517411e2975b816c79611929bdefc}\index{CameraView@{CameraView}!TargetRotation@{TargetRotation}}
+\index{TargetRotation@{TargetRotation}!CameraView@{CameraView}}
+\doxysubsubsection{\texorpdfstring{TargetRotation}{TargetRotation}}
+{\footnotesize\ttfamily \label{class_camera_view_af00517411e2975b816c79611929bdefc} 
+Quaternion Camera\+View.\+Target\+Rotation\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Rotación objetivo de la cámara. 
+
+\Hypertarget{class_camera_view_a885fa8228429155f6f352f5027e9f524}\index{CameraView@{CameraView}!XRotation@{XRotation}}
+\index{XRotation@{XRotation}!CameraView@{CameraView}}
+\doxysubsubsection{\texorpdfstring{XRotation}{XRotation}}
+{\footnotesize\ttfamily \label{class_camera_view_a885fa8228429155f6f352f5027e9f524} 
+float Camera\+View.\+XRotation\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Rotación X actual de la cámara. 
+
+\Hypertarget{class_camera_view_ad828b42767638010de60d6c2328dfe09}\index{CameraView@{CameraView}!YRotation@{YRotation}}
+\index{YRotation@{YRotation}!CameraView@{CameraView}}
+\doxysubsubsection{\texorpdfstring{YRotation}{YRotation}}
+{\footnotesize\ttfamily \label{class_camera_view_ad828b42767638010de60d6c2328dfe09} 
+float Camera\+View.\+YRotation\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Rotación Y actual de la cámara. 
+
+
+
+\label{doc-event-members}
+\Hypertarget{class_camera_view_doc-event-members}
+\doxysubsection{Event Documentation}
+\Hypertarget{class_camera_view_ad20e8e457262f90534039c0cb0456685}\index{CameraView@{CameraView}!OnRotationChanged@{OnRotationChanged}}
+\index{OnRotationChanged@{OnRotationChanged}!CameraView@{CameraView}}
+\doxysubsubsection{\texorpdfstring{OnRotationChanged}{OnRotationChanged}}
+{\footnotesize\ttfamily \label{class_camera_view_ad20e8e457262f90534039c0cb0456685} 
+Action$<$Vector3$>$ Camera\+View.\+On\+Rotation\+Changed}
+
+
+
+Evento que se dispara cuando la rotación de la cámara cambia. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+Camera/\mbox{\hyperlink{_camera_view_8cs}{Camera\+View.\+cs}}\end{DoxyCompactItemize}

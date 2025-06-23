@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="_rotator_8cs" kind="file" language="C#">
+    <compoundname>Rotator.cs</compoundname>
+    <innerclass refid="class_rotator" prot="public">Rotator</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_rotator" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_rotator" kindref="compound">Rotator</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>[Tooltip(</highlight><highlight class="stringliteral">&quot;Velocidad<sp/>de<sp/>rotación<sp/>en<sp/>grados<sp/>por<sp/>segundo.&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_rotator_1a48d4cc4483562723f80a525772022862" kindref="member">rotationSpeed</ref><sp/>=<sp/>10f;<sp/></highlight><highlight class="comment">//<sp/>Puedes<sp/>ajustar<sp/>la<sp/>velocidad<sp/>en<sp/>el<sp/>Inspector.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>[Tooltip(</highlight><highlight class="stringliteral">&quot;Eje<sp/>alrededor<sp/>del<sp/>cual<sp/>el<sp/>objeto<sp/>rotará.&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Vector3<sp/><ref refid="class_rotator_1ab4a3a2be406fa1f344a1b5ba294b99ba" kindref="member">rotationAxis</ref><sp/>=<sp/>Vector3.up;<sp/></highlight><highlight class="comment">//<sp/>Por<sp/>defecto,<sp/>rota<sp/>alrededor<sp/>del<sp/>eje<sp/>Y<sp/>(hacia<sp/>arriba).</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Update()</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Rota<sp/>el<sp/>objeto<sp/>en<sp/>cada<sp/>frame.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Time.deltaTime<sp/>asegura<sp/>que<sp/>la<sp/>rotación<sp/>sea<sp/>suave<sp/>y<sp/>dependa<sp/>del<sp/>tiempo,<sp/>no<sp/>de<sp/>los<sp/>frames.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>transform.Rotate(<ref refid="class_rotator_1ab4a3a2be406fa1f344a1b5ba294b99ba" kindref="member">rotationAxis</ref>,<sp/><ref refid="class_rotator_1a48d4cc4483562723f80a525772022862" kindref="member">rotationSpeed</ref><sp/>*<sp/>Time.deltaTime);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Assets/Scripts/ScriptsPuntosDeInteres/Rotator.cs"/>
+  </compounddef>
+</doxygen>

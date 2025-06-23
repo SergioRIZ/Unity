@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_cursor_changer_asigner_content" kind="class" language="C#" prot="public">
+    <compoundname>CursorChangerAsignerContent</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">EditorWindow</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_cursor_changer_asigner_content_1afb513503fd179a68b07c773985514b3c" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject CursorChangerAsignerContent.parentContainer</definition>
+        <argsstring></argsstring>
+        <name>parentContainer</name>
+        <qualifiedname>CursorChangerAsignerContent.parentContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Editor/CursorChangerAsignerContent.cs" line="10" column="24" bodyfile="Assets/Scripts/Editor/CursorChangerAsignerContent.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_cursor_changer_asigner_content_1aab516af589f30a9ab1b94c1a157b7c71" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject CursorChangerAsignerContent.contentObject</definition>
+        <argsstring></argsstring>
+        <name>contentObject</name>
+        <qualifiedname>CursorChangerAsignerContent.contentObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Editor/CursorChangerAsignerContent.cs" line="12" column="24" bodyfile="Assets/Scripts/Editor/CursorChangerAsignerContent.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_cursor_changer_asigner_content_1aefea865d917a4c9031b6180d3fe73d7a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void CursorChangerAsignerContent.ShowWindow</definition>
+        <argsstring>()</argsstring>
+        <name>ShowWindow</name>
+        <qualifiedname>CursorChangerAsignerContent.ShowWindow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Editor/CursorChangerAsignerContent.cs" line="16" column="24" bodyfile="Assets/Scripts/Editor/CursorChangerAsignerContent.cs" bodystart="16" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_cursor_changer_asigner_content_1acca677410a53bf1ce4f71f2954eef30f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CursorChangerAsignerContent.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <qualifiedname>CursorChangerAsignerContent.OnGUI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Editor/CursorChangerAsignerContent.cs" line="22" column="18" bodyfile="Assets/Scripts/Editor/CursorChangerAsignerContent.cs" bodystart="22" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cursor_changer_asigner_content_1aea7547dd2f836cd22e20a0cbd8cb579f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CursorChangerAsignerContent.AssignContentToButtons</definition>
+        <argsstring>()</argsstring>
+        <name>AssignContentToButtons</name>
+        <qualifiedname>CursorChangerAsignerContent.AssignContentToButtons</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Editor/CursorChangerAsignerContent.cs" line="43" column="18" bodyfile="Assets/Scripts/Editor/CursorChangerAsignerContent.cs" bodystart="43" bodyend="73"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CursorChangerAsignerContent</label>
+        <link refid="class_cursor_changer_asigner_content"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>EditorWindow</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CursorChangerAsignerContent</label>
+        <link refid="class_cursor_changer_asigner_content"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>EditorWindow</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/Editor/CursorChangerAsignerContent.cs" line="7" column="7" bodyfile="Assets/Scripts/Editor/CursorChangerAsignerContent.cs" bodystart="8" bodyend="74"/>
+    <listofallmembers>
+      <member refid="class_cursor_changer_asigner_content_1aea7547dd2f836cd22e20a0cbd8cb579f" prot="private" virt="non-virtual"><scope>CursorChangerAsignerContent</scope><name>AssignContentToButtons</name></member>
+      <member refid="class_cursor_changer_asigner_content_1aab516af589f30a9ab1b94c1a157b7c71" prot="private" virt="non-virtual"><scope>CursorChangerAsignerContent</scope><name>contentObject</name></member>
+      <member refid="class_cursor_changer_asigner_content_1acca677410a53bf1ce4f71f2954eef30f" prot="private" virt="non-virtual"><scope>CursorChangerAsignerContent</scope><name>OnGUI</name></member>
+      <member refid="class_cursor_changer_asigner_content_1afb513503fd179a68b07c773985514b3c" prot="private" virt="non-virtual"><scope>CursorChangerAsignerContent</scope><name>parentContainer</name></member>
+      <member refid="class_cursor_changer_asigner_content_1aefea865d917a4c9031b6180d3fe73d7a" prot="public" virt="non-virtual"><scope>CursorChangerAsignerContent</scope><name>ShowWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

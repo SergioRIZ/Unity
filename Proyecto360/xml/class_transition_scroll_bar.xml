@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_transition_scroll_bar" kind="class" language="C#" prot="public">
+    <compoundname>TransitionScrollBar</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerEnterHandler</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerExitHandler</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_transition_scroll_bar_1aee9b59f37f1369e4c54e5c3f69502c40" prot="public" static="no" mutable="no">
+        <type>Scrollbar</type>
+        <definition>Scrollbar TransitionScrollBar.scrollbar</definition>
+        <argsstring></argsstring>
+        <name>scrollbar</name>
+        <qualifiedname>TransitionScrollBar.scrollbar</qualifiedname>
+        <briefdescription>
+<para>Referencia al componente Scrollbar (se puede asignar desde el Inspector). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/TransitionScrollBar.cs" line="16" column="22" bodyfile="Assets/Scripts/CarouselScript/TransitionScrollBar.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_transition_scroll_bar_1a0de4c24ff7d85aa1fb1cd65c7efa5076" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TransitionScrollBar.fadeDuration</definition>
+        <argsstring></argsstring>
+        <name>fadeDuration</name>
+        <qualifiedname>TransitionScrollBar.fadeDuration</qualifiedname>
+        <initializer>= 0.3f</initializer>
+        <briefdescription>
+<para>Duración de la animación de desvanecimiento (fade) en segundos. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/TransitionScrollBar.cs" line="21" column="18" bodyfile="Assets/Scripts/CarouselScript/TransitionScrollBar.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_transition_scroll_bar_1acd4bcf22fe3a37402fc0e0a41414cab7" prot="private" static="no" mutable="no">
+        <type>CanvasGroup</type>
+        <definition>CanvasGroup TransitionScrollBar.handleCanvasGroup</definition>
+        <argsstring></argsstring>
+        <name>handleCanvasGroup</name>
+        <qualifiedname>TransitionScrollBar.handleCanvasGroup</qualifiedname>
+        <briefdescription>
+<para>Referencia al CanvasGroup del handle del Scrollbar, usada para controlar la opacidad. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/TransitionScrollBar.cs" line="26" column="25" bodyfile="Assets/Scripts/CarouselScript/TransitionScrollBar.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_transition_scroll_bar_1a8fe4a7be5e96596da8044eb37a6d2060" prot="private" static="no" mutable="no">
+        <type>Coroutine</type>
+        <definition>Coroutine TransitionScrollBar.fadeCoroutine</definition>
+        <argsstring></argsstring>
+        <name>fadeCoroutine</name>
+        <qualifiedname>TransitionScrollBar.fadeCoroutine</qualifiedname>
+        <briefdescription>
+<para>Referencia a una corrutina en ejecución, para evitar que se solapen varias fades. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/TransitionScrollBar.cs" line="31" column="23" bodyfile="Assets/Scripts/CarouselScript/TransitionScrollBar.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_transition_scroll_bar_1a5b659a87bfe6b554f80741adfa6cbbec" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TransitionScrollBar.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>TransitionScrollBar.Start</qualifiedname>
+        <briefdescription>
+<para>Inicializa las referencias necesarias y configura el estado inicial del handle. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/TransitionScrollBar.cs" line="36" column="18" bodyfile="Assets/Scripts/CarouselScript/TransitionScrollBar.cs" bodystart="36" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_transition_scroll_bar_1ad223f15276f15c05e69e2e05fc866810" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TransitionScrollBar.StartFade</definition>
+        <argsstring>(float targetAlpha)</argsstring>
+        <name>StartFade</name>
+        <qualifiedname>TransitionScrollBar.StartFade</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>targetAlpha</declname>
+        </param>
+        <briefdescription>
+<para>Maneja la lógica de comenzar la animación de fade. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>targetAlpha</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Valor objetivo de opacidad (alpha).</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/TransitionScrollBar.cs" line="83" column="18" bodyfile="Assets/Scripts/CarouselScript/TransitionScrollBar.cs" bodystart="83" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_transition_scroll_bar_1a65b938243a31116c1b3a29ba51cc644f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator TransitionScrollBar.FadeTo</definition>
+        <argsstring>(float targetAlpha)</argsstring>
+        <name>FadeTo</name>
+        <qualifiedname>TransitionScrollBar.FadeTo</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>targetAlpha</declname>
+        </param>
+        <briefdescription>
+<para>Corrutina que hace la transición suave de alpha. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>targetAlpha</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Valor objetivo de opacidad (alpha).</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Enumerador para la corrutina.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/TransitionScrollBar.cs" line="100" column="25" bodyfile="Assets/Scripts/CarouselScript/TransitionScrollBar.cs" bodystart="100" bodyend="123"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_transition_scroll_bar_1aca0356175fbef0121e526f054c226a3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TransitionScrollBar.OnPointerEnter</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerEnter</name>
+        <qualifiedname>TransitionScrollBar.OnPointerEnter</qualifiedname>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+<para>Se llama automáticamente cuando el mouse entra en el área del objeto (hover). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eventData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Datos del evento del puntero.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/TransitionScrollBar.cs" line="65" column="17" bodyfile="Assets/Scripts/CarouselScript/TransitionScrollBar.cs" bodystart="65" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_transition_scroll_bar_1a27afe41d6394a6d948f68f01bb206f32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TransitionScrollBar.OnPointerExit</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerExit</name>
+        <qualifiedname>TransitionScrollBar.OnPointerExit</qualifiedname>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+<para>Se llama automáticamente cuando el mouse sale del área del objeto. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eventData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Datos del evento del puntero.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/TransitionScrollBar.cs" line="74" column="17" bodyfile="Assets/Scripts/CarouselScript/TransitionScrollBar.cs" bodystart="74" bodyend="77"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Esta clase controla el efecto de aparición/desaparición suave del handle de un scrollbar cuando el mouse entra o sale del área del ScrollView. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>IPointerEnterHandler</label>
+      </node>
+      <node id="4">
+        <label>IPointerExitHandler</label>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TransitionScrollBar</label>
+        <link refid="class_transition_scroll_bar"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>IPointerEnterHandler</label>
+      </node>
+      <node id="4">
+        <label>IPointerExitHandler</label>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TransitionScrollBar</label>
+        <link refid="class_transition_scroll_bar"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/CarouselScript/TransitionScrollBar.cs" line="11" column="7" bodyfile="Assets/Scripts/CarouselScript/TransitionScrollBar.cs" bodystart="12" bodyend="124"/>
+    <listofallmembers>
+      <member refid="class_transition_scroll_bar_1a8fe4a7be5e96596da8044eb37a6d2060" prot="private" virt="non-virtual"><scope>TransitionScrollBar</scope><name>fadeCoroutine</name></member>
+      <member refid="class_transition_scroll_bar_1a0de4c24ff7d85aa1fb1cd65c7efa5076" prot="public" virt="non-virtual"><scope>TransitionScrollBar</scope><name>fadeDuration</name></member>
+      <member refid="class_transition_scroll_bar_1a65b938243a31116c1b3a29ba51cc644f" prot="private" virt="non-virtual"><scope>TransitionScrollBar</scope><name>FadeTo</name></member>
+      <member refid="class_transition_scroll_bar_1acd4bcf22fe3a37402fc0e0a41414cab7" prot="private" virt="non-virtual"><scope>TransitionScrollBar</scope><name>handleCanvasGroup</name></member>
+      <member refid="class_transition_scroll_bar_1aca0356175fbef0121e526f054c226a3f" prot="public" virt="non-virtual"><scope>TransitionScrollBar</scope><name>OnPointerEnter</name></member>
+      <member refid="class_transition_scroll_bar_1a27afe41d6394a6d948f68f01bb206f32" prot="public" virt="non-virtual"><scope>TransitionScrollBar</scope><name>OnPointerExit</name></member>
+      <member refid="class_transition_scroll_bar_1aee9b59f37f1369e4c54e5c3f69502c40" prot="public" virt="non-virtual"><scope>TransitionScrollBar</scope><name>scrollbar</name></member>
+      <member refid="class_transition_scroll_bar_1a5b659a87bfe6b554f80741adfa6cbbec" prot="private" virt="non-virtual"><scope>TransitionScrollBar</scope><name>Start</name></member>
+      <member refid="class_transition_scroll_bar_1ad223f15276f15c05e69e2e05fc866810" prot="private" virt="non-virtual"><scope>TransitionScrollBar</scope><name>StartFade</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

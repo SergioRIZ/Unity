@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_t_m_p___link_opener" kind="class" language="C#" prot="public">
+    <compoundname>TMP_LinkOpener</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerClickHandler</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_t_m_p___link_opener_1a9f7eba5ee41192344cd75341a174e3af" prot="private" static="no" mutable="no">
+        <type>TMP_Text</type>
+        <definition>TMP_Text TMP_LinkOpener.tmpText</definition>
+        <argsstring></argsstring>
+        <name>tmpText</name>
+        <qualifiedname>TMP_LinkOpener.tmpText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Creditos/TMP_LinkOpener.cs" line="10" column="22" bodyfile="Assets/Scripts/Scripts Creditos/TMP_LinkOpener.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_t_m_p___link_opener_1a8f240e865ce5ae9ecb1b5e35adacf224" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TMP_LinkOpener.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>TMP_LinkOpener.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Creditos/TMP_LinkOpener.cs" line="13" column="10" bodyfile="Assets/Scripts/Scripts Creditos/TMP_LinkOpener.cs" bodystart="13" bodyend="17"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_t_m_p___link_opener_1af5f70836d7621e246fae95464d67f495" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TMP_LinkOpener.OnPointerClick</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerClick</name>
+        <qualifiedname>TMP_LinkOpener.OnPointerClick</qualifiedname>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+<para>Método llamado automáticamente cuando se hace clic sobre el objeto UI asociado. Detecta si el clic fue sobre un enlace en el texto y, si es así, abre la URL correspondiente en el navegador predeterminado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eventData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Datos del evento de clic, incluyendo la posición y la cámara del evento.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Creditos/TMP_LinkOpener.cs" line="24" column="17" bodyfile="Assets/Scripts/Scripts Creditos/TMP_LinkOpener.cs" bodystart="24" bodyend="41"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>IPointerClickHandler</label>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TMP_LinkOpener</label>
+        <link refid="class_t_m_p___link_opener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>IPointerClickHandler</label>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TMP_LinkOpener</label>
+        <link refid="class_t_m_p___link_opener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/Scripts Creditos/TMP_LinkOpener.cs" line="7" column="7" bodyfile="Assets/Scripts/Scripts Creditos/TMP_LinkOpener.cs" bodystart="8" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_t_m_p___link_opener_1a8f240e865ce5ae9ecb1b5e35adacf224" prot="private" virt="non-virtual"><scope>TMP_LinkOpener</scope><name>Awake</name></member>
+      <member refid="class_t_m_p___link_opener_1af5f70836d7621e246fae95464d67f495" prot="public" virt="non-virtual"><scope>TMP_LinkOpener</scope><name>OnPointerClick</name></member>
+      <member refid="class_t_m_p___link_opener_1a9f7eba5ee41192344cd75341a174e3af" prot="private" virt="non-virtual"><scope>TMP_LinkOpener</scope><name>tmpText</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

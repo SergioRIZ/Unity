@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_simple_button_hover" kind="class" language="C#" prot="public">
+    <compoundname>SimpleButtonHover</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerEnterHandler</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerExitHandler</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_simple_button_hover_1a25497a5f973faf3df35a729236972983" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button SimpleButtonHover.button</definition>
+        <argsstring></argsstring>
+        <name>button</name>
+        <qualifiedname>SimpleButtonHover.button</qualifiedname>
+        <briefdescription>
+<para>Referencia al componente Button asociado. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/SimpleButtonHover.cs" line="13" column="20" bodyfile="Assets/Scripts/Scripts Flechas/SimpleButtonHover.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_button_hover_1a6604b5a9966395a1c83c871ef37e6e60" prot="private" static="no" mutable="no">
+        <type>ColorBlock</type>
+        <definition>ColorBlock SimpleButtonHover.originalColors</definition>
+        <argsstring></argsstring>
+        <name>originalColors</name>
+        <qualifiedname>SimpleButtonHover.originalColors</qualifiedname>
+        <briefdescription>
+<para>Almacena los colores originales del botón para restaurarlos al salir el puntero. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/SimpleButtonHover.cs" line="18" column="24" bodyfile="Assets/Scripts/Scripts Flechas/SimpleButtonHover.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_button_hover_1a3bdf8bfcf872934f8634ed6e1a78f090" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color SimpleButtonHover.hoverColor</definition>
+        <argsstring></argsstring>
+        <name>hoverColor</name>
+        <qualifiedname>SimpleButtonHover.hoverColor</qualifiedname>
+        <initializer>= new Color(173f / 255f, 216f / 255f, 230f / 255f, 1f)</initializer>
+        <briefdescription>
+<para>Color que se aplica al botón cuando el puntero está sobre él. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/SimpleButtonHover.cs" line="23" column="19" bodyfile="Assets/Scripts/Scripts Flechas/SimpleButtonHover.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_simple_button_hover_1a6ada1dcb47fbebfe3ef8428344d50c35" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleButtonHover.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>SimpleButtonHover.Start</qualifiedname>
+        <briefdescription>
+<para>Inicializa la referencia al botón y almacena sus colores originales. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/SimpleButtonHover.cs" line="28" column="18" bodyfile="Assets/Scripts/Scripts Flechas/SimpleButtonHover.cs" bodystart="28" bodyend="35"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_simple_button_hover_1a09699f584fa891a67c9cec35944ff437" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleButtonHover.OnPointerEnter</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerEnter</name>
+        <qualifiedname>SimpleButtonHover.OnPointerEnter</qualifiedname>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+<para>Cambia el color del botón al color de hover cuando el puntero entra en el área del botón. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eventData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Datos del evento de puntero.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/SimpleButtonHover.cs" line="41" column="17" bodyfile="Assets/Scripts/Scripts Flechas/SimpleButtonHover.cs" bodystart="41" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_button_hover_1acd6e456cd40baa5ca4cbcf968b930113" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleButtonHover.OnPointerExit</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerExit</name>
+        <qualifiedname>SimpleButtonHover.OnPointerExit</qualifiedname>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+<para>Restaura los colores originales del botón cuando el puntero sale del área del botón. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eventData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Datos del evento de puntero.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/SimpleButtonHover.cs" line="56" column="17" bodyfile="Assets/Scripts/Scripts Flechas/SimpleButtonHover.cs" bodystart="56" bodyend="62"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Cambia el color del botón cuando el puntero entra o sale del área del botón. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>IPointerEnterHandler</label>
+      </node>
+      <node id="4">
+        <label>IPointerExitHandler</label>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SimpleButtonHover</label>
+        <link refid="class_simple_button_hover"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>IPointerEnterHandler</label>
+      </node>
+      <node id="4">
+        <label>IPointerExitHandler</label>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SimpleButtonHover</label>
+        <link refid="class_simple_button_hover"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/Scripts Flechas/SimpleButtonHover.cs" line="8" column="7" bodyfile="Assets/Scripts/Scripts Flechas/SimpleButtonHover.cs" bodystart="9" bodyend="63"/>
+    <listofallmembers>
+      <member refid="class_simple_button_hover_1a25497a5f973faf3df35a729236972983" prot="private" virt="non-virtual"><scope>SimpleButtonHover</scope><name>button</name></member>
+      <member refid="class_simple_button_hover_1a3bdf8bfcf872934f8634ed6e1a78f090" prot="private" virt="non-virtual"><scope>SimpleButtonHover</scope><name>hoverColor</name></member>
+      <member refid="class_simple_button_hover_1a09699f584fa891a67c9cec35944ff437" prot="public" virt="non-virtual"><scope>SimpleButtonHover</scope><name>OnPointerEnter</name></member>
+      <member refid="class_simple_button_hover_1acd6e456cd40baa5ca4cbcf968b930113" prot="public" virt="non-virtual"><scope>SimpleButtonHover</scope><name>OnPointerExit</name></member>
+      <member refid="class_simple_button_hover_1a6604b5a9966395a1c83c871ef37e6e60" prot="private" virt="non-virtual"><scope>SimpleButtonHover</scope><name>originalColors</name></member>
+      <member refid="class_simple_button_hover_1a6ada1dcb47fbebfe3ef8428344d50c35" prot="private" virt="non-virtual"><scope>SimpleButtonHover</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

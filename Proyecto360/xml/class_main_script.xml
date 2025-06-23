@@ -1,0 +1,590 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_main_script" kind="class" language="C#" prot="public">
+    <compoundname>MainScript</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_main_script_1a4322d5b2856578313bbbcdbc1a0dcd8f" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject MainScript.androidCanvas</definition>
+        <argsstring></argsstring>
+        <name>androidCanvas</name>
+        <qualifiedname>MainScript.androidCanvas</qualifiedname>
+        <briefdescription>
+<para>Referencia al Canvas para Android. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/MainScript.cs" line="22" column="25" bodyfile="Assets/Scripts/MenuPrincipal/MainScript.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_script_1a2b23c3c45fd3d5dc41cd1c11381abbb2" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject MainScript.pcCanvas</definition>
+        <argsstring></argsstring>
+        <name>pcCanvas</name>
+        <qualifiedname>MainScript.pcCanvas</qualifiedname>
+        <briefdescription>
+<para>Referencia al Canvas para PC. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/MainScript.cs" line="26" column="25" bodyfile="Assets/Scripts/MenuPrincipal/MainScript.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_script_1a295d3aacdeca37518058cf488d2fb916" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject MainScript.botonPrefab</definition>
+        <argsstring></argsstring>
+        <name>botonPrefab</name>
+        <qualifiedname>MainScript.botonPrefab</qualifiedname>
+        <briefdescription>
+<para>Prefab del botón que se instancia para cada imagen. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/MainScript.cs" line="30" column="25" bodyfile="Assets/Scripts/MenuPrincipal/MainScript.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_script_1a89c5488184b4ab809422280d2a17ba8c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_swipe_menu" kindref="compound">SwipeMenu</ref></type>
+        <definition>SwipeMenu MainScript.swipeMenu</definition>
+        <argsstring></argsstring>
+        <name>swipeMenu</name>
+        <qualifiedname>MainScript.swipeMenu</qualifiedname>
+        <briefdescription>
+<para>Referencia al componente <ref refid="class_swipe_menu" kindref="compound">SwipeMenu</ref> para gestionar el carrusel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/MainScript.cs" line="34" column="24" bodyfile="Assets/Scripts/MenuPrincipal/MainScript.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_script_1ac269180ea95774a9ff4b18642b477e22" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MainScript.cornerRadius</definition>
+        <argsstring></argsstring>
+        <name>cornerRadius</name>
+        <qualifiedname>MainScript.cornerRadius</qualifiedname>
+        <initializer>= 20f</initializer>
+        <briefdescription>
+<para>Radio de los bordes redondeados para las imágenes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/MainScript.cs" line="38" column="20" bodyfile="Assets/Scripts/MenuPrincipal/MainScript.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_script_1a0a36a3ab98ef3986b7a64fb9dd85c323" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string MainScript.imagesFolder</definition>
+        <argsstring></argsstring>
+        <name>imagesFolder</name>
+        <qualifiedname>MainScript.imagesFolder</qualifiedname>
+        <initializer>= &quot;Images/Main&quot;</initializer>
+        <briefdescription>
+<para>Carpeta donde se encuentran las imágenes a cargar. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/MainScript.cs" line="49" column="20" bodyfile="Assets/Scripts/MenuPrincipal/MainScript.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_script_1a92be310f83db04f71aa12356d633451e" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject MainScript.contentView</definition>
+        <argsstring></argsstring>
+        <name>contentView</name>
+        <qualifiedname>MainScript.contentView</qualifiedname>
+        <briefdescription>
+<para>Referencia al contenedor de los botones generados. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/MainScript.cs" line="53" column="24" bodyfile="Assets/Scripts/MenuPrincipal/MainScript.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_script_1ad3673922e26b1395f79ce271f46e90e6" prot="private" static="no" mutable="no">
+        <type>ScreenOrientation</type>
+        <definition>ScreenOrientation MainScript.lastOrientation</definition>
+        <argsstring></argsstring>
+        <name>lastOrientation</name>
+        <qualifiedname>MainScript.lastOrientation</qualifiedname>
+        <briefdescription>
+<para>Última orientación de pantalla detectada. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/MainScript.cs" line="57" column="31" bodyfile="Assets/Scripts/MenuPrincipal/MainScript.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_main_script_1a70712b0f45d1bf6fbc98873cf89b9fe4" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainScript.simularAndroid</definition>
+        <argsstring></argsstring>
+        <name>simularAndroid</name>
+        <qualifiedname>MainScript.simularAndroid</qualifiedname>
+        <briefdescription>
+<para>Si es true, simula el comportamiento de Android en el editor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/MainScript.cs" line="44" column="17" bodyfile="Assets/Scripts/MenuPrincipal/MainScript.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_main_script_1ad3e0bca7c7251e5cfa7a8cf17bbde5a2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainScript.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>MainScript.Awake</qualifiedname>
+        <briefdescription>
+<para>Inicializa el menú principal, configurando la UI y cargando imágenes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/MainScript.cs" line="62" column="10" bodyfile="Assets/Scripts/MenuPrincipal/MainScript.cs" bodystart="62" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_script_1aabe405614aaff1bbf72d135c14ff9d8f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainScript.SetupUI</definition>
+        <argsstring>()</argsstring>
+        <name>SetupUI</name>
+        <qualifiedname>MainScript.SetupUI</qualifiedname>
+        <briefdescription>
+<para>Configura la interfaz de usuario según la plataforma. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/MainScript.cs" line="86" column="18" bodyfile="Assets/Scripts/MenuPrincipal/MainScript.cs" bodystart="86" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_script_1a682b90fe26d4d5592be484dfd0669cab" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainScript.SetupForAndroid</definition>
+        <argsstring>()</argsstring>
+        <name>SetupForAndroid</name>
+        <qualifiedname>MainScript.SetupForAndroid</qualifiedname>
+        <briefdescription>
+<para>Configura ajustes específicos para Android, como la orientación y el layout. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/MainScript.cs" line="107" column="18" bodyfile="Assets/Scripts/MenuPrincipal/MainScript.cs" bodystart="107" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_script_1a2d00b6b99fb5a48b7a39ba749f742c0a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainScript.LoadImagesAndCreateButtons</definition>
+        <argsstring>()</argsstring>
+        <name>LoadImagesAndCreateButtons</name>
+        <qualifiedname>MainScript.LoadImagesAndCreateButtons</qualifiedname>
+        <briefdescription>
+<para>Carga imágenes y crea botones para cada una. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/MainScript.cs" line="122" column="18" bodyfile="Assets/Scripts/MenuPrincipal/MainScript.cs" bodystart="122" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_script_1a18efd7b0fa64ca2db8cead73ebb18742" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainScript.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>MainScript.Update</qualifiedname>
+        <briefdescription>
+<para>Actualiza cada frame para detectar cambios de orientación en Android. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/MainScript.cs" line="205" column="10" bodyfile="Assets/Scripts/MenuPrincipal/MainScript.cs" bodystart="205" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_script_1a269d1b10b8fca96e2b32ec3af12881b6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainScript.HandleOrientationChange</definition>
+        <argsstring>()</argsstring>
+        <name>HandleOrientationChange</name>
+        <qualifiedname>MainScript.HandleOrientationChange</qualifiedname>
+        <briefdescription>
+<para>Maneja el cambio de orientación de pantalla, ajustando la UI y el layout. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/MainScript.cs" line="218" column="18" bodyfile="Assets/Scripts/MenuPrincipal/MainScript.cs" bodystart="218" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_script_1a7a4132f99f01a938dce1f3dda8beaead" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainScript.AdjustCanvasScalerForOrientation</definition>
+        <argsstring>()</argsstring>
+        <name>AdjustCanvasScalerForOrientation</name>
+        <qualifiedname>MainScript.AdjustCanvasScalerForOrientation</qualifiedname>
+        <briefdescription>
+<para>Ajusta el CanvasScaler de todos los Canvas según la orientación de la pantalla. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/MainScript.cs" line="233" column="10" bodyfile="Assets/Scripts/MenuPrincipal/MainScript.cs" bodystart="233" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_script_1a176d77caa6f3e452004f58d9cc6df17f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainScript.UpdateCarouselLayout</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateCarouselLayout</name>
+        <qualifiedname>MainScript.UpdateCarouselLayout</qualifiedname>
+        <briefdescription>
+<para>Actualiza el layout del carrusel de botones según la orientación. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/MainScript.cs" line="251" column="10" bodyfile="Assets/Scripts/MenuPrincipal/MainScript.cs" bodystart="251" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_script_1a899fd39f3d2c053a60d3a489d9258ac9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainScript.UpdateGridLayout</definition>
+        <argsstring>(GridLayoutGroup grid, bool isLandscape)</argsstring>
+        <name>UpdateGridLayout</name>
+        <qualifiedname>MainScript.UpdateGridLayout</qualifiedname>
+        <param>
+          <type>GridLayoutGroup</type>
+          <declname>grid</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isLandscape</declname>
+        </param>
+        <briefdescription>
+<para>Actualiza la configuración del GridLayoutGroup según la orientación. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>grid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>GridLayoutGroup a actualizar.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>isLandscape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Indica si la orientación es horizontal.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/MainScript.cs" line="285" column="18" bodyfile="Assets/Scripts/MenuPrincipal/MainScript.cs" bodystart="285" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_script_1a03115c3044148b8156b938d17dba8756" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainScript.CreateImageButton</definition>
+        <argsstring>(string fileName, Texture2D texture)</argsstring>
+        <name>CreateImageButton</name>
+        <qualifiedname>MainScript.CreateImageButton</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type>Texture2D</type>
+          <declname>texture</declname>
+        </param>
+        <briefdescription>
+<para>Crea un botón con una imagen y lo añade al contenedor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nombre de la imagen y del botón.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>texture</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Textura de la imagen a mostrar.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/MainScript.cs" line="312" column="10" bodyfile="Assets/Scripts/MenuPrincipal/MainScript.cs" bodystart="312" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_script_1a45cc411c81e09ff7270ccf29a82a743f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Sprite</type>
+        <definition>Sprite MainScript.CreateSpriteFromTexture</definition>
+        <argsstring>(Texture2D texture)</argsstring>
+        <name>CreateSpriteFromTexture</name>
+        <qualifiedname>MainScript.CreateSpriteFromTexture</qualifiedname>
+        <param>
+          <type>Texture2D</type>
+          <declname>texture</declname>
+        </param>
+        <briefdescription>
+<para>Crea un sprite a partir de una textura dada. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>texture</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Textura de origen.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Sprite generado a partir de la textura.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/MainScript.cs" line="375" column="20" bodyfile="Assets/Scripts/MenuPrincipal/MainScript.cs" bodystart="375" bodyend="385"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_script_1af556322a6552e3e99b21034a69ada9e4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Texture2D</type>
+        <definition>Texture2D MainScript.CreateRoundedTexture</definition>
+        <argsstring>(Texture2D originalTexture, float radius)</argsstring>
+        <name>CreateRoundedTexture</name>
+        <qualifiedname>MainScript.CreateRoundedTexture</qualifiedname>
+        <param>
+          <type>Texture2D</type>
+          <declname>originalTexture</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+<para>Crea una textura con bordes redondeados a partir de la original. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>originalTexture</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Textura original.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>radius</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Radio de los bordes redondeados.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Textura con esquinas redondeadas.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/MainScript.cs" line="393" column="15" bodyfile="Assets/Scripts/MenuPrincipal/MainScript.cs" bodystart="393" bodyend="452"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_script_1ab3681bc8b1a733ad23926e8bda062f22" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Texture2D</type>
+        <definition>Texture2D MainScript.MakeTextureReadable</definition>
+        <argsstring>(Texture2D texture)</argsstring>
+        <name>MakeTextureReadable</name>
+        <qualifiedname>MainScript.MakeTextureReadable</qualifiedname>
+        <param>
+          <type>Texture2D</type>
+          <declname>texture</declname>
+        </param>
+        <briefdescription>
+<para>Convierte una textura de solo lectura en una textura legible por CPU. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>texture</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Textura de origen.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Textura legible.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/MainScript.cs" line="459" column="15" bodyfile="Assets/Scripts/MenuPrincipal/MainScript.cs" bodystart="459" bodyend="476"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_script_1a9e09cc1e6f0c1b14323da96fa383beea" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainScript.OnButtonClicked</definition>
+        <argsstring>(string fileName)</argsstring>
+        <name>OnButtonClicked</name>
+        <qualifiedname>MainScript.OnButtonClicked</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+<para>Método que se ejecuta al hacer clic en un botón de imagen. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nombre del botón/escena asociado.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/MainScript.cs" line="482" column="10" bodyfile="Assets/Scripts/MenuPrincipal/MainScript.cs" bodystart="482" bodyend="511"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_script_1abc8f092af7ac2292aa435126eed9325a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MainScript.FindButtonIndex</definition>
+        <argsstring>(string buttonName)</argsstring>
+        <name>FindButtonIndex</name>
+        <qualifiedname>MainScript.FindButtonIndex</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>buttonName</declname>
+        </param>
+        <briefdescription>
+<para>Encuentra el índice de un botón por su nombre. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>buttonName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nombre del botón a buscar.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Índice del botón, o -1 si no se encuentra.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/MainScript.cs" line="518" column="17" bodyfile="Assets/Scripts/MenuPrincipal/MainScript.cs" bodystart="518" bodyend="529"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_script_1a368d7859a2298ce3d83a873cc9f792cd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MainScript.IsLandscapeOrientation</definition>
+        <argsstring>()</argsstring>
+        <name>IsLandscapeOrientation</name>
+        <qualifiedname>MainScript.IsLandscapeOrientation</qualifiedname>
+        <briefdescription>
+<para>Comprueba si la orientación actual de la pantalla es horizontal. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True si la orientación es horizontal, false si es vertical.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/MainScript.cs" line="535" column="18" bodyfile="Assets/Scripts/MenuPrincipal/MainScript.cs" bodystart="535" bodyend="539"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Clase principal que gestiona el menú principal de la aplicación. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MainScript</label>
+        <link refid="class_main_script"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MainScript</label>
+        <link refid="class_main_script"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/MenuPrincipal/MainScript.cs" line="16" column="7" bodyfile="Assets/Scripts/MenuPrincipal/MainScript.cs" bodystart="17" bodyend="540"/>
+    <listofallmembers>
+      <member refid="class_main_script_1a7a4132f99f01a938dce1f3dda8beaead" prot="private" virt="non-virtual"><scope>MainScript</scope><name>AdjustCanvasScalerForOrientation</name></member>
+      <member refid="class_main_script_1a4322d5b2856578313bbbcdbc1a0dcd8f" prot="private" virt="non-virtual"><scope>MainScript</scope><name>androidCanvas</name></member>
+      <member refid="class_main_script_1ad3e0bca7c7251e5cfa7a8cf17bbde5a2" prot="private" virt="non-virtual"><scope>MainScript</scope><name>Awake</name></member>
+      <member refid="class_main_script_1a295d3aacdeca37518058cf488d2fb916" prot="private" virt="non-virtual"><scope>MainScript</scope><name>botonPrefab</name></member>
+      <member refid="class_main_script_1a92be310f83db04f71aa12356d633451e" prot="private" virt="non-virtual"><scope>MainScript</scope><name>contentView</name></member>
+      <member refid="class_main_script_1ac269180ea95774a9ff4b18642b477e22" prot="private" virt="non-virtual"><scope>MainScript</scope><name>cornerRadius</name></member>
+      <member refid="class_main_script_1a03115c3044148b8156b938d17dba8756" prot="private" virt="non-virtual"><scope>MainScript</scope><name>CreateImageButton</name></member>
+      <member refid="class_main_script_1af556322a6552e3e99b21034a69ada9e4" prot="private" virt="non-virtual"><scope>MainScript</scope><name>CreateRoundedTexture</name></member>
+      <member refid="class_main_script_1a45cc411c81e09ff7270ccf29a82a743f" prot="private" virt="non-virtual"><scope>MainScript</scope><name>CreateSpriteFromTexture</name></member>
+      <member refid="class_main_script_1abc8f092af7ac2292aa435126eed9325a" prot="private" virt="non-virtual"><scope>MainScript</scope><name>FindButtonIndex</name></member>
+      <member refid="class_main_script_1a269d1b10b8fca96e2b32ec3af12881b6" prot="private" virt="non-virtual"><scope>MainScript</scope><name>HandleOrientationChange</name></member>
+      <member refid="class_main_script_1a0a36a3ab98ef3986b7a64fb9dd85c323" prot="private" virt="non-virtual"><scope>MainScript</scope><name>imagesFolder</name></member>
+      <member refid="class_main_script_1a368d7859a2298ce3d83a873cc9f792cd" prot="private" virt="non-virtual"><scope>MainScript</scope><name>IsLandscapeOrientation</name></member>
+      <member refid="class_main_script_1ad3673922e26b1395f79ce271f46e90e6" prot="private" virt="non-virtual"><scope>MainScript</scope><name>lastOrientation</name></member>
+      <member refid="class_main_script_1a2d00b6b99fb5a48b7a39ba749f742c0a" prot="private" virt="non-virtual"><scope>MainScript</scope><name>LoadImagesAndCreateButtons</name></member>
+      <member refid="class_main_script_1ab3681bc8b1a733ad23926e8bda062f22" prot="private" virt="non-virtual"><scope>MainScript</scope><name>MakeTextureReadable</name></member>
+      <member refid="class_main_script_1a9e09cc1e6f0c1b14323da96fa383beea" prot="private" virt="non-virtual"><scope>MainScript</scope><name>OnButtonClicked</name></member>
+      <member refid="class_main_script_1a2b23c3c45fd3d5dc41cd1c11381abbb2" prot="private" virt="non-virtual"><scope>MainScript</scope><name>pcCanvas</name></member>
+      <member refid="class_main_script_1a682b90fe26d4d5592be484dfd0669cab" prot="private" virt="non-virtual"><scope>MainScript</scope><name>SetupForAndroid</name></member>
+      <member refid="class_main_script_1aabe405614aaff1bbf72d135c14ff9d8f" prot="private" virt="non-virtual"><scope>MainScript</scope><name>SetupUI</name></member>
+      <member refid="class_main_script_1a70712b0f45d1bf6fbc98873cf89b9fe4" prot="public" virt="non-virtual"><scope>MainScript</scope><name>simularAndroid</name></member>
+      <member refid="class_main_script_1a89c5488184b4ab809422280d2a17ba8c" prot="private" virt="non-virtual"><scope>MainScript</scope><name>swipeMenu</name></member>
+      <member refid="class_main_script_1a18efd7b0fa64ca2db8cead73ebb18742" prot="private" virt="non-virtual"><scope>MainScript</scope><name>Update</name></member>
+      <member refid="class_main_script_1a176d77caa6f3e452004f58d9cc6df17f" prot="private" virt="non-virtual"><scope>MainScript</scope><name>UpdateCarouselLayout</name></member>
+      <member refid="class_main_script_1a899fd39f3d2c053a60d3a489d9258ac9" prot="private" virt="non-virtual"><scope>MainScript</scope><name>UpdateGridLayout</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

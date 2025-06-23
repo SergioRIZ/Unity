@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_ayuda" kind="class" language="C#" prot="public">
+    <compoundname>Ayuda</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ayuda_1a0448b2e29bfbd902ca134673805dcbe0" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Ayuda.fullScreenPanel</definition>
+        <argsstring></argsstring>
+        <name>fullScreenPanel</name>
+        <qualifiedname>Ayuda.fullScreenPanel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/Ayuda.cs" line="7" column="25" bodyfile="Assets/Scripts/Scripts Flechas/Ayuda.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ayuda_1a55a11a7281cf5648b777fc4ae419730c" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button Ayuda.openPanelButton</definition>
+        <argsstring></argsstring>
+        <name>openPanelButton</name>
+        <qualifiedname>Ayuda.openPanelButton</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/Ayuda.cs" line="10" column="21" bodyfile="Assets/Scripts/Scripts Flechas/Ayuda.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ayuda_1a70daf552d336cd02e7fa08f1c2d45570" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button Ayuda.closeButton</definition>
+        <argsstring></argsstring>
+        <name>closeButton</name>
+        <qualifiedname>Ayuda.closeButton</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/Ayuda.cs" line="13" column="21" bodyfile="Assets/Scripts/Scripts Flechas/Ayuda.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ayuda_1a6c83e441efcef0106636a2df495bc258" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ayuda.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>Ayuda.Start</qualifiedname>
+        <briefdescription>
+<para>Inicializa el estado del panel de ayuda y configura los eventos de los botones. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Al iniciar la escena, el panel de ayuda se oculta. El botón <computeroutput>openPanelButton</computeroutput> alterna la visibilidad del panel. Si existe <computeroutput>closeButton</computeroutput>, este cierra el panel al hacer clic. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/Ayuda.cs" line="22" column="10" bodyfile="Assets/Scripts/Scripts Flechas/Ayuda.cs" bodystart="22" bodyend="41"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ayuda</label>
+        <link refid="class_ayuda"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Ayuda</label>
+        <link refid="class_ayuda"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/Scripts Flechas/Ayuda.cs" line="4" column="7" bodyfile="Assets/Scripts/Scripts Flechas/Ayuda.cs" bodystart="5" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_ayuda_1a70daf552d336cd02e7fa08f1c2d45570" prot="private" virt="non-virtual"><scope>Ayuda</scope><name>closeButton</name></member>
+      <member refid="class_ayuda_1a0448b2e29bfbd902ca134673805dcbe0" prot="private" virt="non-virtual"><scope>Ayuda</scope><name>fullScreenPanel</name></member>
+      <member refid="class_ayuda_1a55a11a7281cf5648b777fc4ae419730c" prot="private" virt="non-virtual"><scope>Ayuda</scope><name>openPanelButton</name></member>
+      <member refid="class_ayuda_1a6c83e441efcef0106636a2df495bc258" prot="private" virt="non-virtual"><scope>Ayuda</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

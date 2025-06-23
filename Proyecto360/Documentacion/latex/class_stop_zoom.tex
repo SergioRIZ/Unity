@@ -1,0 +1,97 @@
+\doxysection{Stop\+Zoom Class Reference}
+\hypertarget{class_stop_zoom}{}\label{class_stop_zoom}\index{StopZoom@{StopZoom}}
+
+
+Clase que controla el comportamiento del zoom dependiendo de si el puntero del ratón está sobre un Scroll\+View. Implementa las interfaces IPointer\+Enter\+Handler y IPointer\+Exit\+Handler para detectar eventos del puntero.  
+
+
+
+
+Inheritance diagram for Stop\+Zoom\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_stop_zoom__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Stop\+Zoom\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_stop_zoom__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_stop_zoom_a707b05053efce485655a78a476785c7a}{On\+Pointer\+Enter}} (Pointer\+Event\+Data event\+Data)
+\begin{DoxyCompactList}\small\item\em Método llamado cuando el puntero del ratón entra en el área del Scroll\+View. Cambia el valor de \doxylink{class_stop_zoom_aeb06c055b9029c889875347717ad1195}{Is\+Pointer\+Over\+Scroll\+View} a {\ttfamily true}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_stop_zoom_a30a4388d64becde01d74d3e0aba282e9}{On\+Pointer\+Exit}} (Pointer\+Event\+Data event\+Data)
+\begin{DoxyCompactList}\small\item\em Método llamado cuando el puntero del ratón sale del área del Scroll\+View. Cambia el valor de \doxylink{class_stop_zoom_aeb06c055b9029c889875347717ad1195}{Is\+Pointer\+Over\+Scroll\+View} a {\ttfamily false}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_stop_zoom_aeb06c055b9029c889875347717ad1195}{Is\+Pointer\+Over\+Scroll\+View}} = false
+\begin{DoxyCompactList}\small\item\em Indica si el puntero del ratón está actualmente sobre el Scroll\+View. Este valor es utilizado por otras clases, como {\ttfamily \doxylink{class_zoom_controller}{Zoom\+Controller}}, para habilitar o deshabilitar el zoom. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clase que controla el comportamiento del zoom dependiendo de si el puntero del ratón está sobre un Scroll\+View. Implementa las interfaces IPointer\+Enter\+Handler y IPointer\+Exit\+Handler para detectar eventos del puntero. 
+
+\label{doc-func-members}
+\Hypertarget{class_stop_zoom_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_stop_zoom_a707b05053efce485655a78a476785c7a}\index{StopZoom@{StopZoom}!OnPointerEnter@{OnPointerEnter}}
+\index{OnPointerEnter@{OnPointerEnter}!StopZoom@{StopZoom}}
+\doxysubsubsection{\texorpdfstring{OnPointerEnter()}{OnPointerEnter()}}
+{\footnotesize\ttfamily \label{class_stop_zoom_a707b05053efce485655a78a476785c7a} 
+void Stop\+Zoom.\+On\+Pointer\+Enter (\begin{DoxyParamCaption}\item[{Pointer\+Event\+Data}]{event\+Data}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Método llamado cuando el puntero del ratón entra en el área del Scroll\+View. Cambia el valor de \doxylink{class_stop_zoom_aeb06c055b9029c889875347717ad1195}{Is\+Pointer\+Over\+Scroll\+View} a {\ttfamily true}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event\+Data} & Datos del evento del puntero.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_stop_zoom_a30a4388d64becde01d74d3e0aba282e9}\index{StopZoom@{StopZoom}!OnPointerExit@{OnPointerExit}}
+\index{OnPointerExit@{OnPointerExit}!StopZoom@{StopZoom}}
+\doxysubsubsection{\texorpdfstring{OnPointerExit()}{OnPointerExit()}}
+{\footnotesize\ttfamily \label{class_stop_zoom_a30a4388d64becde01d74d3e0aba282e9} 
+void Stop\+Zoom.\+On\+Pointer\+Exit (\begin{DoxyParamCaption}\item[{Pointer\+Event\+Data}]{event\+Data}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Método llamado cuando el puntero del ratón sale del área del Scroll\+View. Cambia el valor de \doxylink{class_stop_zoom_aeb06c055b9029c889875347717ad1195}{Is\+Pointer\+Over\+Scroll\+View} a {\ttfamily false}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event\+Data} & Datos del evento del puntero.\\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-variable-members}
+\Hypertarget{class_stop_zoom_doc-variable-members}
+\doxysubsection{Field Documentation}
+\Hypertarget{class_stop_zoom_aeb06c055b9029c889875347717ad1195}\index{StopZoom@{StopZoom}!IsPointerOverScrollView@{IsPointerOverScrollView}}
+\index{IsPointerOverScrollView@{IsPointerOverScrollView}!StopZoom@{StopZoom}}
+\doxysubsubsection{\texorpdfstring{IsPointerOverScrollView}{IsPointerOverScrollView}}
+{\footnotesize\ttfamily \label{class_stop_zoom_aeb06c055b9029c889875347717ad1195} 
+bool Stop\+Zoom.\+Is\+Pointer\+Over\+Scroll\+View = false\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Indica si el puntero del ratón está actualmente sobre el Scroll\+View. Este valor es utilizado por otras clases, como {\ttfamily \doxylink{class_zoom_controller}{Zoom\+Controller}}, para habilitar o deshabilitar el zoom. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+Camera/\mbox{\hyperlink{_stop_zoom_8cs}{Stop\+Zoom.\+cs}}\end{DoxyCompactItemize}

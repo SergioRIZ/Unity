@@ -1,0 +1,5 @@
+<map id="DelayedFadeInButtons" name="DelayedFadeInButtons">
+<area shape="rect" id="Node000001" title="Clase que gestiona la activación de botones con un efecto de fade&#45;in y un retraso configurable." alt="" coords="5,80,160,107"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="27,5,138,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,48,85,80,80,80,80,48"/>
+</map>

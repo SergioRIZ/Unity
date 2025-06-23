@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_hover_text_display" kind="class" language="C#" prot="public">
+    <compoundname>HoverTextDisplay</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerEnterHandler</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerExitHandler</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_hover_text_display_1a11b962715edfadea5eb14531d4dc5780" prot="private" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI HoverTextDisplay.textDisplayElement</definition>
+        <argsstring></argsstring>
+        <name>textDisplayElement</name>
+        <qualifiedname>HoverTextDisplay.textDisplayElement</qualifiedname>
+        <briefdescription>
+<para>Elemento de texto UI que se mostrará al hacer hover. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/HoverTextDisplay.cs" line="14" column="30" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/HoverTextDisplay.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hover_text_display_1afb68bda989b9c7f460aaa1827470f21f" prot="private" static="no" mutable="no">
+        <type>RectTransform</type>
+        <definition>RectTransform HoverTextDisplay.canvasRectTransform</definition>
+        <argsstring></argsstring>
+        <name>canvasRectTransform</name>
+        <qualifiedname>HoverTextDisplay.canvasRectTransform</qualifiedname>
+        <briefdescription>
+<para>RectTransform del Canvas que se usará para calcular la posición del texto. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/HoverTextDisplay.cs" line="19" column="28" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/HoverTextDisplay.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hover_text_display_1ad0edc0689737d91dd3a4066d14897cab" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 HoverTextDisplay.textOffset</definition>
+        <argsstring></argsstring>
+        <name>textOffset</name>
+        <qualifiedname>HoverTextDisplay.textOffset</qualifiedname>
+        <initializer>= new Vector2(5f, -5f)</initializer>
+        <briefdescription>
+<para>Desplazamiento del texto respecto a la posición del ratón. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/HoverTextDisplay.cs" line="24" column="21" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/HoverTextDisplay.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hover_text_display_1aab4029e508ec1b0731b4ac51c0618366" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool HoverTextDisplay.isHovering</definition>
+        <argsstring></argsstring>
+        <name>isHovering</name>
+        <qualifiedname>HoverTextDisplay.isHovering</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Indica si el puntero está actualmente sobre el objeto. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/HoverTextDisplay.cs" line="29" column="18" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/HoverTextDisplay.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_hover_text_display_1af83eeb3fe09af14ee026ecc12a91a61e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HoverTextDisplay.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>HoverTextDisplay.Awake</qualifiedname>
+        <briefdescription>
+<para>Inicializa el componente. Desactiva el script si falta el elemento de texto. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/HoverTextDisplay.cs" line="34" column="10" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/HoverTextDisplay.cs" bodystart="34" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hover_text_display_1a8bb8c56d7026e92be212e54b9a6fa82a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HoverTextDisplay.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>HoverTextDisplay.Update</qualifiedname>
+        <briefdescription>
+<para>Actualiza la posición del texto si el puntero está sobre el objeto. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/HoverTextDisplay.cs" line="48" column="10" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/HoverTextDisplay.cs" bodystart="48" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hover_text_display_1a1bc94819f29690a612118d1c312b1f9a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HoverTextDisplay.UpdateHoverTextPosition</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateHoverTextPosition</name>
+        <qualifiedname>HoverTextDisplay.UpdateHoverTextPosition</qualifiedname>
+        <briefdescription>
+<para>Actualiza la posición del texto en función de la posición del ratón. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/HoverTextDisplay.cs" line="91" column="18" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/HoverTextDisplay.cs" bodystart="91" bodyend="108"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_hover_text_display_1a109904a87c82796dad0a1c3c22ab57d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HoverTextDisplay.OnPointerEnter</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerEnter</name>
+        <qualifiedname>HoverTextDisplay.OnPointerEnter</qualifiedname>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+<para>Evento que se dispara al entrar el puntero sobre el objeto. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eventData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Datos del evento del puntero.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/HoverTextDisplay.cs" line="61" column="17" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/HoverTextDisplay.cs" bodystart="61" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hover_text_display_1a3309f16243334097b33e6101808fffa5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HoverTextDisplay.OnPointerExit</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerExit</name>
+        <qualifiedname>HoverTextDisplay.OnPointerExit</qualifiedname>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+<para>Evento que se dispara al salir el puntero del objeto. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eventData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Datos del evento del puntero.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/HoverTextDisplay.cs" line="80" column="17" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/HoverTextDisplay.cs" bodystart="80" bodyend="86"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Controla la visualización y movimiento de un texto UI al pasar el ratón por encima. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>HoverTextDisplay</label>
+        <link refid="class_hover_text_display"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IPointerEnterHandler</label>
+      </node>
+      <node id="4">
+        <label>IPointerExitHandler</label>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>HoverTextDisplay</label>
+        <link refid="class_hover_text_display"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IPointerEnterHandler</label>
+      </node>
+      <node id="4">
+        <label>IPointerExitHandler</label>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/ScriptsPuntosDeInteres/HoverTextDisplay.cs" line="9" column="7" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/HoverTextDisplay.cs" bodystart="10" bodyend="109"/>
+    <listofallmembers>
+      <member refid="class_hover_text_display_1af83eeb3fe09af14ee026ecc12a91a61e" prot="private" virt="non-virtual"><scope>HoverTextDisplay</scope><name>Awake</name></member>
+      <member refid="class_hover_text_display_1afb68bda989b9c7f460aaa1827470f21f" prot="private" virt="non-virtual"><scope>HoverTextDisplay</scope><name>canvasRectTransform</name></member>
+      <member refid="class_hover_text_display_1aab4029e508ec1b0731b4ac51c0618366" prot="private" virt="non-virtual"><scope>HoverTextDisplay</scope><name>isHovering</name></member>
+      <member refid="class_hover_text_display_1a109904a87c82796dad0a1c3c22ab57d5" prot="public" virt="non-virtual"><scope>HoverTextDisplay</scope><name>OnPointerEnter</name></member>
+      <member refid="class_hover_text_display_1a3309f16243334097b33e6101808fffa5" prot="public" virt="non-virtual"><scope>HoverTextDisplay</scope><name>OnPointerExit</name></member>
+      <member refid="class_hover_text_display_1a11b962715edfadea5eb14531d4dc5780" prot="private" virt="non-virtual"><scope>HoverTextDisplay</scope><name>textDisplayElement</name></member>
+      <member refid="class_hover_text_display_1ad0edc0689737d91dd3a4066d14897cab" prot="private" virt="non-virtual"><scope>HoverTextDisplay</scope><name>textOffset</name></member>
+      <member refid="class_hover_text_display_1a8bb8c56d7026e92be212e54b9a6fa82a" prot="private" virt="non-virtual"><scope>HoverTextDisplay</scope><name>Update</name></member>
+      <member refid="class_hover_text_display_1a1bc94819f29690a612118d1c312b1f9a" prot="private" virt="non-virtual"><scope>HoverTextDisplay</scope><name>UpdateHoverTextPosition</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="dir_4551a513239c569e354280dc49bfc55a" kind="dir">
+    <compoundname>Assets/Scripts/Scripts Flechas</compoundname>
+    <innerfile refid="_animated_button_8cs">AnimatedButton.cs</innerfile>
+    <innerfile refid="_animated_button_menu_8cs">AnimatedButtonMenu.cs</innerfile>
+    <innerfile refid="_ayuda_8cs">Ayuda.cs</innerfile>
+    <innerfile refid="_delayed_buttons_activator_8cs">DelayedButtonsActivator.cs</innerfile>
+    <innerfile refid="_navigation_button_8cs">NavigationButton.cs</innerfile>
+    <innerfile refid="_simple_button_hover_8cs">SimpleButtonHover.cs</innerfile>
+    <innerfile refid="_start_controller_8cs">StartController.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Assets/Scripts/Scripts Flechas/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,956 @@
+\begin{theindex}
+
+  \item {ActivateMatchingCanvasOnly}
+    \subitem {SkyBoxButtonSelected}, \hyperpage{109}
+  \item {AdelantarVideo}
+    \subitem {PanelVideoControllerConSubtitulos}, \hyperpage{92}
+  \item {allowZoom}
+    \subitem {ZoomController}, \hyperpage{130}
+  \item {AlternarMusica}
+    \subitem {MostrarSliderSonido}, \hyperpage{78}
+  \item {AnimatedButton}, \hyperpage{12}
+    \subitem {blinkSettings}, \hyperpage{14}
+    \subitem {colorSettings}, \hyperpage{14}
+    \subitem {floatSettings}, \hyperpage{14}
+    \subitem {OnPointerEnter}, \hyperpage{13}
+    \subitem {OnPointerExit}, \hyperpage{13}
+    \subitem {vibrationSettings}, \hyperpage{14}
+  \item {AnimatedButton.BlinkSettings}, \hyperpage{24}
+    \subitem {blinkSpeed}, \hyperpage{25}
+    \subitem {enableBlinking}, \hyperpage{25}
+  \item {AnimatedButton.ColorSettings}, \hyperpage{39}
+    \subitem {hoverColor}, \hyperpage{40}
+    \subitem {normalColor}, \hyperpage{40}
+  \item {AnimatedButton.FloatSettings}, \hyperpage{51}
+    \subitem {enableFloating}, \hyperpage{51}
+    \subitem {enableLateralFloat}, \hyperpage{51}
+    \subitem {floatHeight}, \hyperpage{51}
+    \subitem {floatSpeed}, \hyperpage{51}
+    \subitem {lateralFloatAmount}, \hyperpage{52}
+    \subitem {lateralFloatSpeed}, \hyperpage{52}
+  \item {AnimatedButton.VibrationSettings}, \hyperpage{125}
+    \subitem {enableVibration}, \hyperpage{126}
+    \subitem {vibrationAmount}, \hyperpage{126}
+    \subitem {vibrationSpeed}, \hyperpage{126}
+  \item {AnimatedButtonMenu}, \hyperpage{14}
+    \subitem {OnPointerEnter}, \hyperpage{15}
+    \subitem {OnPointerExit}, \hyperpage{16}
+  \item {ApagarImagen}
+    \subitem {PanelImagenController}, \hyperpage{89}
+  \item {ApagarPanel}
+    \subitem {PanelVideoControllerConSubtitulos}, \hyperpage{92}
+  \item {ApagarTodosLosPaneles}
+    \subitem {MaterialTransition}, \hyperpage{71}
+  \item {Assets/Scripts/Camera/AutoCameraToggleController.cs}, 
+		\hyperpage{131}
+  \item {Assets/Scripts/Camera/AutomaticMovementController.cs}, 
+		\hyperpage{132}
+  \item {Assets/Scripts/Camera/CameraView.cs}, \hyperpage{132}
+  \item {Assets/Scripts/Camera/InputControllers.cs}, \hyperpage{132}
+  \item {Assets/Scripts/Camera/KeyboardController.cs}, \hyperpage{132}
+  \item {Assets/Scripts/Camera/MobileController.cs}, \hyperpage{133}
+  \item {Assets/Scripts/Camera/MouseController.cs}, \hyperpage{133}
+  \item {Assets/Scripts/Camera/RotationNotifier.cs}, \hyperpage{133}
+  \item {Assets/Scripts/Camera/StopMovementPanel.cs}, \hyperpage{133}
+  \item {Assets/Scripts/Camera/StopZoom.cs}, \hyperpage{134}
+  \item {Assets/Scripts/Camera/ZoomController.cs}, \hyperpage{134}
+  \item {Assets/Scripts/CarouselScript/BtnScrollHide.cs}, 
+		\hyperpage{134}
+  \item {Assets/Scripts/CarouselScript/ButtonHoverEffect.cs}, 
+		\hyperpage{134}
+  \item {Assets/Scripts/CarouselScript/CanvasTextSelected.cs}, 
+		\hyperpage{135}
+  \item {Assets/Scripts/CarouselScript/MainTextSelected.cs}, 
+		\hyperpage{135}
+  \item {Assets/Scripts/CarouselScript/MaterialTransition.cs}, 
+		\hyperpage{135}
+  \item {Assets/Scripts/CarouselScript/SceneControllers.cs}, 
+		\hyperpage{135}
+  \item {Assets/Scripts/CarouselScript/ShowGaleryAndroid.cs}, 
+		\hyperpage{136}
+  \item {Assets/Scripts/CarouselScript/ShowHandle.cs}, \hyperpage{136}
+  \item {Assets/Scripts/CarouselScript/ShowSelectedPosition.cs}, 
+		\hyperpage{136}
+  \item {Assets/Scripts/CarouselScript/SkyBoxButtonSelected.cs}, 
+		\hyperpage{136}
+  \item {Assets/Scripts/CarouselScript/TransitionScrollBar.cs}, 
+		\hyperpage{137}
+  \item {Assets/Scripts/Cursor/CursorChanger.cs}, \hyperpage{137}
+  \item {Assets/Scripts/Cursor/CursorChangerMenu.cs}, \hyperpage{137}
+  \item {Assets/Scripts/Cursor/DefaultCursorSetter.cs}, \hyperpage{137}
+  \item {Assets/Scripts/Editor/AñadirPunto.cs}, \hyperpage{137}
+  \item {Assets/Scripts/Editor/BottonNavigationAsignerCont.cs}, 
+		\hyperpage{138}
+  \item {Assets/Scripts/Editor/CursorChangerAsignerContent.cs}, 
+		\hyperpage{138}
+  \item {Assets/Scripts/Editor/GeneradorDeBotonesDesdeImg.cs}, 
+		\hyperpage{138}
+  \item {Assets/Scripts/MenuPrincipal/GradientBackground.cs}, 
+		\hyperpage{138}
+  \item {Assets/Scripts/MenuPrincipal/MainScript.cs}, \hyperpage{138}
+  \item {Assets/Scripts/MenuPrincipal/OrientationAdapter.cs}, 
+		\hyperpage{139}
+  \item {Assets/Scripts/MenuPrincipal/PatternOverlay.cs}, 
+		\hyperpage{139}
+  \item {Assets/Scripts/MenuPrincipal/SwipeMenu.cs}, \hyperpage{139}
+  \item {Assets/Scripts/Scripts Creditos/FastScrollRect.cs}, 
+		\hyperpage{140}
+  \item {Assets/Scripts/Scripts Creditos/LinkOpener.cs}, 
+		\hyperpage{140}
+  \item {Assets/Scripts/Scripts Creditos/SceneLoader.cs}, 
+		\hyperpage{140}
+  \item {Assets/Scripts/Scripts Creditos/TMP\_LinkOpener.cs}, 
+		\hyperpage{140}
+  \item {Assets/Scripts/Scripts Creditos/TypewriterEffect.cs}, 
+		\hyperpage{141}
+  \item {Assets/Scripts/Scripts Flechas/AnimatedButton.cs}, 
+		\hyperpage{141}
+  \item {Assets/Scripts/Scripts Flechas/AnimatedButtonMenu.cs}, 
+		\hyperpage{141}
+  \item {Assets/Scripts/Scripts Flechas/Ayuda.cs}, \hyperpage{142}
+  \item {Assets/Scripts/Scripts Flechas/DelayedButtonsActivator.cs}, 
+		\hyperpage{142}
+  \item {Assets/Scripts/Scripts Flechas/NavigationButton.cs}, 
+		\hyperpage{142}
+  \item {Assets/Scripts/Scripts Flechas/SimpleButtonHover.cs}, 
+		\hyperpage{142}
+  \item {Assets/Scripts/Scripts Flechas/StartController.cs}, 
+		\hyperpage{142}
+  \item {Assets/Scripts/ScriptsPuntosDeInteres/BotonInicio.cs}, 
+		\hyperpage{143}
+  \item {Assets/Scripts/ScriptsPuntosDeInteres/Editor/ImagenImportProcessor.cs}, 
+		\hyperpage{143}
+  \item {Assets/Scripts/ScriptsPuntosDeInteres/HoverTextDisplay.cs}, 
+		\hyperpage{143}
+  \item {Assets/Scripts/ScriptsPuntosDeInteres/LinkHandler.cs}, 
+		\hyperpage{143}
+  \item {Assets/Scripts/ScriptsPuntosDeInteres/MostrarImagenDesdeBoton.cs}, 
+		\hyperpage{143}
+  \item {Assets/Scripts/ScriptsPuntosDeInteres/MostrarTextoDesdeBoton .cs}, 
+		\hyperpage{144}
+  \item {Assets/Scripts/ScriptsPuntosDeInteres/MostrarVideoDesdeBotonConSubtitulos.cs}, 
+		\hyperpage{144}
+  \item {Assets/Scripts/ScriptsPuntosDeInteres/MotrarSliderSonido.cs}, 
+		\hyperpage{144}
+  \item {Assets/Scripts/ScriptsPuntosDeInteres/PanelImagenController.cs}, 
+		\hyperpage{144}
+  \item {Assets/Scripts/ScriptsPuntosDeInteres/PanelTextoController.cs}, 
+		\hyperpage{145}
+  \item {Assets/Scripts/ScriptsPuntosDeInteres/PanelVideoControllerConSubtitulos.cs}, 
+		\hyperpage{145}
+  \item {Assets/Scripts/ScriptsPuntosDeInteres/Rotator.cs}, 
+		\hyperpage{145}
+  \item {Assets/Scripts/ScriptsPuntosDeInteres/SoundController.cs}, 
+		\hyperpage{145}
+  \item {Assets/Scripts/ScriptsPuntosDeInteres/TextoCreditos.cs}, 
+		\hyperpage{146}
+  \item {audioAmbiente}
+    \subitem {MostrarSliderSonido}, \hyperpage{79}
+  \item {audioSource}
+    \subitem {TypewriterEffect}, \hyperpage{124}
+  \item {AutoCameraToggleController}, \hyperpage{16}
+    \subitem {autoFindReferences}, \hyperpage{18}
+    \subitem {automaticMovement}, \hyperpage{18}
+    \subitem {DisableAutomaticMovement}, \hyperpage{18}
+    \subitem {disabledColor}, \hyperpage{18}
+    \subitem {disabledText}, \hyperpage{19}
+    \subitem {EnableAutomaticMovement}, \hyperpage{18}
+    \subitem {enabledColor}, \hyperpage{19}
+    \subitem {enabledText}, \hyperpage{19}
+    \subitem {forceToggleOffAtStart}, \hyperpage{19}
+    \subitem {IsAutoCameraEnabled}, \hyperpage{18}
+    \subitem {statusText}, \hyperpage{19}
+    \subitem {SyncToggleWithAutoMovement}, \hyperpage{18}
+    \subitem {toggleControl}, \hyperpage{19}
+  \item {autoDetectPlatform}
+    \subitem {CameraView}, \hyperpage{35}
+  \item {autoFindReferences}
+    \subitem {AutoCameraToggleController}, \hyperpage{18}
+  \item {automaticMovement}
+    \subitem {AutoCameraToggleController}, \hyperpage{18}
+  \item {AutomaticMovementController}, \hyperpage{19}
+    \subitem {autoRotationSpeed}, \hyperpage{22}
+    \subitem {clockwiseRotation}, \hyperpage{22}
+    \subitem {continueFromUserPosition}, \hyperpage{22}
+    \subitem {debugMode}, \hyperpage{22}
+    \subitem {disableDuringPOI}, \hyperpage{22}
+    \subitem {ForceStartTour}, \hyperpage{21}
+    \subitem {ForceStopTour}, \hyperpage{21}
+    \subitem {inactivityThreshold}, \hyperpage{23}
+    \subitem {Initialize}, \hyperpage{21}
+    \subitem {mouseSensitivity}, \hyperpage{23}
+    \subitem {OnPointOfInterestClosed}, \hyperpage{22}
+    \subitem {OnPointOfInterestOpened}, \hyperpage{22}
+    \subitem {smoothStartDuration}, \hyperpage{23}
+    \subitem {smoothVerticalStart}, \hyperpage{23}
+    \subitem {startDisabled}, \hyperpage{23}
+    \subitem {timeFor360Tour}, \hyperpage{23}
+    \subitem {useVerticalWave}, \hyperpage{23}
+    \subitem {verticalWaveAmplitude}, \hyperpage{23}
+    \subitem {verticalWaveFrequency}, \hyperpage{23}
+  \item {autoRotationSpeed}
+    \subitem {AutomaticMovementController}, \hyperpage{22}
+  \item {Awake}
+    \subitem {InputController}, \hyperpage{59}
+    \subitem {MouseController}, \hyperpage{85}
+  \item {Ayuda}, \hyperpage{24}
+  \item {AñadirPunto}, \hyperpage{11}
+    \subitem {ShowWindow}, \hyperpage{11}
+
+  \indexspace
+
+  \item {Bandera}
+    \subitem {SkyBoxButtonSelected}, \hyperpage{109}
+  \item {blinkSettings}
+    \subitem {AnimatedButton}, \hyperpage{14}
+  \item {blinkSpeed}
+    \subitem {AnimatedButton.BlinkSettings}, \hyperpage{25}
+  \item {BotonNavegacion}, \hyperpage{25}
+    \subitem {Inicializar}, \hyperpage{26}
+    \subitem {OnPointerEnter}, \hyperpage{26}
+    \subitem {OnPointerExit}, \hyperpage{27}
+  \item {BottonNavigationAsignerCont}, \hyperpage{27}
+    \subitem {ShowWindow}, \hyperpage{28}
+  \item {BtnScrollHide}, \hyperpage{28}
+    \subitem {fadeDuration}, \hyperpage{30}
+    \subitem {ToggleGameObject}, \hyperpage{29}
+  \item {ButtonHoverEffect}, \hyperpage{30}
+    \subitem {delayTime}, \hyperpage{32}
+    \subitem {hoverColor}, \hyperpage{32}
+    \subitem {normalColor}, \hyperpage{32}
+    \subitem {OnPointerEnter}, \hyperpage{31}
+    \subitem {OnPointerExit}, \hyperpage{31}
+    \subitem {panelObject}, \hyperpage{32}
+    \subitem {textObject}, \hyperpage{32}
+
+  \indexspace
+
+  \item {CameraView}, \hyperpage{32}
+    \subitem {autoDetectPlatform}, \hyperpage{35}
+    \subitem {FindPunto}, \hyperpage{34}
+    \subitem {forceMobileMode}, \hyperpage{35}
+    \subitem {hideCursorWhileNavigating}, \hyperpage{35}
+    \subitem {horizontalSpeed}, \hyperpage{35}
+    \subitem {isCentered}, \hyperpage{35}
+    \subitem {IsMobilePlatform}, \hyperpage{36}
+    \subitem {IsTransitioning}, \hyperpage{36}
+    \subitem {MainCamera}, \hyperpage{36}
+    \subitem {OnRotationChanged}, \hyperpage{37}
+    \subitem {ResetView}, \hyperpage{35}
+    \subitem {RotateCameraToLookAt}, \hyperpage{35}
+    \subitem {smoothSpeed}, \hyperpage{35}
+    \subitem {TargetRotation}, \hyperpage{36}
+    \subitem {verticalLimit}, \hyperpage{36}
+    \subitem {verticalSpeed}, \hyperpage{36}
+    \subitem {XRotation}, \hyperpage{36}
+    \subitem {YRotation}, \hyperpage{36}
+  \item {CanvasTextSelected}, \hyperpage{37}
+    \subitem {IsPermanentlyUnderlined}, \hyperpage{38}
+    \subitem {isPermanentlyUnderlined}, \hyperpage{39}
+    \subitem {OnPointerEnter}, \hyperpage{38}
+    \subitem {OnPointerExit}, \hyperpage{38}
+    \subitem {SetPermanentUnderline}, \hyperpage{39}
+  \item {carruselListo}
+    \subitem {SkyBoxButtonSelected}, \hyperpage{109}
+  \item {CenterButton}
+    \subitem {SwipeMenu}, \hyperpage{118}
+  \item {CenterOnButton}
+    \subitem {ShowSelectedPosition}, \hyperpage{105}
+  \item {CerrarPanel}
+    \subitem {PanelImagenController}, \hyperpage{89}
+    \subitem {PanelTextoController}, \hyperpage{91}
+    \subitem {PanelVideoControllerConSubtitulos}, \hyperpage{93}
+  \item {CheckInitialization}
+    \subitem {InputController}, \hyperpage{59}
+  \item {clockwiseRotation}
+    \subitem {AutomaticMovementController}, \hyperpage{22}
+  \item {CloseCorouselOnClick}
+    \subitem {ShowGaleryAndroid}, \hyperpage{102}
+  \item {Collections}
+    \subitem {SwipeMenu.cs}, \hyperpage{140}
+  \item {colorAcento}
+    \subitem {DotsPattern}, \hyperpage{48}
+  \item {colorBorde}
+    \subitem {GradientBackground}, \hyperpage{54}
+  \item {colorCentro}
+    \subitem {GradientBackground}, \hyperpage{54}
+  \item {colorFondo}
+    \subitem {DotsPattern}, \hyperpage{48}
+  \item {colorSettings}
+    \subitem {AnimatedButton}, \hyperpage{14}
+  \item {continueFromUserPosition}
+    \subitem {AutomaticMovementController}, \hyperpage{22}
+  \item {controlButton}
+    \subitem {MouseController}, \hyperpage{86}
+  \item {CursorChanger}, \hyperpage{40}
+    \subitem {Initialize}, \hyperpage{41}
+    \subitem {OnPointerClick}, \hyperpage{41}
+    \subitem {OnPointerEnter}, \hyperpage{42}
+    \subitem {OnPointerExit}, \hyperpage{42}
+  \item {CursorChangerAsignerContent}, \hyperpage{43}
+    \subitem {ShowWindow}, \hyperpage{43}
+  \item {CursorChangerMenu}, \hyperpage{44}
+    \subitem {OnPointerClick}, \hyperpage{44}
+    \subitem {OnPointerEnter}, \hyperpage{44}
+    \subitem {OnPointerExit}, \hyperpage{44}
+
+  \indexspace
+
+  \item {debugMode}
+    \subitem {AutomaticMovementController}, \hyperpage{22}
+  \item {DefaultCursorSetter}, \hyperpage{45}
+  \item {delay}
+    \subitem {TypewriterEffect}, \hyperpage{124}
+  \item {DelayedFadeInButtons}, \hyperpage{46}
+  \item {delayTime}
+    \subitem {ButtonHoverEffect}, \hyperpage{32}
+  \item {DisableAutomaticMovement}
+    \subitem {AutoCameraToggleController}, \hyperpage{18}
+  \item {disabledColor}
+    \subitem {AutoCameraToggleController}, \hyperpage{18}
+  \item {disabledText}
+    \subitem {AutoCameraToggleController}, \hyperpage{19}
+  \item {disableDuringPOI}
+    \subitem {AutomaticMovementController}, \hyperpage{22}
+  \item {DotsPattern}, \hyperpage{46}
+    \subitem {colorAcento}, \hyperpage{48}
+    \subitem {colorFondo}, \hyperpage{48}
+    \subitem {espaciadoPatron}, \hyperpage{48}
+    \subitem {opacidadPunto}, \hyperpage{48}
+    \subitem {RegenerarPatron}, \hyperpage{48}
+    \subitem {tamañoPunto}, \hyperpage{48}
+    \subitem {variacionSuave}, \hyperpage{49}
+
+  \indexspace
+
+  \item {EnableAutomaticMovement}
+    \subitem {AutoCameraToggleController}, \hyperpage{18}
+  \item {enableBlinking}
+    \subitem {AnimatedButton.BlinkSettings}, \hyperpage{25}
+  \item {enabledColor}
+    \subitem {AutoCameraToggleController}, \hyperpage{19}
+  \item {enabledText}
+    \subitem {AutoCameraToggleController}, \hyperpage{19}
+  \item {enableFloating}
+    \subitem {AnimatedButton.FloatSettings}, \hyperpage{51}
+  \item {enableKeyboardControls}
+    \subitem {KeyboardController}, \hyperpage{63}
+  \item {enableLateralFloat}
+    \subitem {AnimatedButton.FloatSettings}, \hyperpage{51}
+  \item {enableVibration}
+    \subitem {AnimatedButton.VibrationSettings}, \hyperpage{126}
+  \item {espaciadoPatron}
+    \subitem {DotsPattern}, \hyperpage{48}
+
+  \indexspace
+
+  \item {fadeDuration}
+    \subitem {BtnScrollHide}, \hyperpage{30}
+    \subitem {MaterialTransition}, \hyperpage{73}
+    \subitem {TransitionScrollBar}, \hyperpage{122}
+  \item {fadeDurationWithZoom}
+    \subitem {MaterialTransition}, \hyperpage{73}
+  \item {FadeTo}
+    \subitem {MaterialTransition}, \hyperpage{71}
+  \item {FastScrollRect}, \hyperpage{49}
+    \subitem {OnScroll}, \hyperpage{50}
+    \subitem {scrollRect}, \hyperpage{50}
+    \subitem {scrollSpeed}, \hyperpage{50}
+  \item {FindAllImagePanels}
+    \subitem {MaterialTransition}, \hyperpage{72}
+  \item {FindAllVideoPanels}
+    \subitem {MaterialTransition}, \hyperpage{72}
+  \item {FindPunto}
+    \subitem {CameraView}, \hyperpage{34}
+  \item {flagBtnCarousel}
+    \subitem {MaterialTransition}, \hyperpage{73}
+  \item {floatHeight}
+    \subitem {AnimatedButton.FloatSettings}, \hyperpage{51}
+  \item {floatSettings}
+    \subitem {AnimatedButton}, \hyperpage{14}
+  \item {floatSpeed}
+    \subitem {AnimatedButton.FloatSettings}, \hyperpage{51}
+  \item {forceEnableTouchControls}
+    \subitem {MobileController}, \hyperpage{75}
+  \item {forceMobileMode}
+    \subitem {CameraView}, \hyperpage{35}
+  \item {ForceOrientationUpdate}
+    \subitem {OrientationAdapter}, \hyperpage{87}
+  \item {ForceStartTour}
+    \subitem {AutomaticMovementController}, \hyperpage{21}
+  \item {ForceStopTour}
+    \subitem {AutomaticMovementController}, \hyperpage{21}
+  \item {forceToggleOffAtStart}
+    \subitem {AutoCameraToggleController}, \hyperpage{19}
+  \item {fullText}
+    \subitem {TypewriterEffect}, \hyperpage{124}
+
+  \indexspace
+
+  \item {GenerarFondoSuave}
+    \subitem {GradientBackground}, \hyperpage{54}
+  \item {Generic}
+    \subitem {MainScript.cs}, \hyperpage{139}
+  \item {GradientBackground}, \hyperpage{52}
+    \subitem {colorBorde}, \hyperpage{54}
+    \subitem {colorCentro}, \hyperpage{54}
+    \subitem {GenerarFondoSuave}, \hyperpage{54}
+    \subitem {intensidadGradiente}, \hyperpage{54}
+    \subitem {intensidadRuido}, \hyperpage{54}
+    \subitem {tamañoTextura}, \hyperpage{54}
+
+  \indexspace
+
+  \item {hideCursorWhileNavigating}
+    \subitem {CameraView}, \hyperpage{35}
+    \subitem {MouseController}, \hyperpage{86}
+  \item {HighlightCurrentSkyboxButton}
+    \subitem {SkyBoxButtonSelected}, \hyperpage{109}
+  \item {horizontalSpeed}
+    \subitem {CameraView}, \hyperpage{35}
+  \item {hoverColor}
+    \subitem {AnimatedButton.ColorSettings}, \hyperpage{40}
+    \subitem {ButtonHoverEffect}, \hyperpage{32}
+  \item {HoverTextDisplay}, \hyperpage{54}
+    \subitem {OnPointerEnter}, \hyperpage{55}
+    \subitem {OnPointerExit}, \hyperpage{56}
+
+  \indexspace
+
+  \item {iconoConSonido}
+    \subitem {MostrarSliderSonido}, \hyperpage{79}
+  \item {iconoSinSonido}
+    \subitem {MostrarSliderSonido}, \hyperpage{79}
+  \item {iconoSonido}
+    \subitem {MostrarSliderSonido}, \hyperpage{79}
+  \item {IgnoreNextMouseDelta}
+    \subitem {MouseController}, \hyperpage{85}
+  \item {ImagenImportProcessor}, \hyperpage{56}
+  \item {inactivityThreshold}
+    \subitem {AutomaticMovementController}, \hyperpage{23}
+  \item {Inicializar}
+    \subitem {BotonNavegacion}, \hyperpage{26}
+  \item {Initialize}
+    \subitem {AutomaticMovementController}, \hyperpage{21}
+    \subitem {CursorChanger}, \hyperpage{41}
+    \subitem {InputController}, \hyperpage{59}
+    \subitem {KeyboardController}, \hyperpage{62}
+    \subitem {MobileController}, \hyperpage{75}
+    \subitem {MouseController}, \hyperpage{85}
+    \subitem {RotationNotifier}, \hyperpage{95}
+    \subitem {ZoomController}, \hyperpage{129}
+  \item {InitializeCarouselRender}
+    \subitem {SkyBoxButtonSelected}, \hyperpage{109}
+  \item {InputController}, \hyperpage{57}
+    \subitem {Awake}, \hyperpage{59}
+    \subitem {CheckInitialization}, \hyperpage{59}
+    \subitem {Initialize}, \hyperpage{59}
+    \subitem {isInitialized}, \hyperpage{61}
+    \subitem {OnDisable}, \hyperpage{60}
+    \subitem {OnEnable}, \hyperpage{60}
+    \subitem {parentController}, \hyperpage{61}
+    \subitem {SetEnabled}, \hyperpage{60}
+    \subitem {Start}, \hyperpage{60}
+    \subitem {Update}, \hyperpage{60}
+  \item {intensidadGradiente}
+    \subitem {GradientBackground}, \hyperpage{54}
+  \item {intensidadRuido}
+    \subitem {GradientBackground}, \hyperpage{54}
+  \item {IrAMain360}
+    \subitem {VolverAMain360}, \hyperpage{127}
+  \item {IsAutoCameraEnabled}
+    \subitem {AutoCameraToggleController}, \hyperpage{18}
+  \item {IsButtonCentered}
+    \subitem {SwipeMenu}, \hyperpage{118}
+  \item {isCentered}
+    \subitem {CameraView}, \hyperpage{35}
+  \item {isFading}
+    \subitem {MaterialTransition}, \hyperpage{73}
+  \item {isInitialized}
+    \subitem {InputController}, \hyperpage{61}
+  \item {IsMobilePlatform}
+    \subitem {CameraView}, \hyperpage{36}
+  \item {IsPermanentlyUnderlined}
+    \subitem {CanvasTextSelected}, \hyperpage{38}
+  \item {isPermanentlyUnderlined}
+    \subitem {CanvasTextSelected}, \hyperpage{39}
+    \subitem {MainTextSelected}, \hyperpage{69}
+  \item {IsPointerOverPanel}
+    \subitem {StopMovementPanel}, \hyperpage{114}
+  \item {IsPointerOverScrollView}
+    \subitem {StopZoom}, \hyperpage{116}
+  \item {IsTransitioning}
+    \subitem {CameraView}, \hyperpage{36}
+
+  \indexspace
+
+  \item {KeyboardController}, \hyperpage{61}
+    \subitem {enableKeyboardControls}, \hyperpage{63}
+    \subitem {Initialize}, \hyperpage{62}
+    \subitem {keyboardRotationSpeed}, \hyperpage{63}
+    \subitem {useArrowKeys}, \hyperpage{63}
+  \item {keyboardRotationSpeed}
+    \subitem {KeyboardController}, \hyperpage{63}
+  \item {keySound}
+    \subitem {TypewriterEffect}, \hyperpage{124}
+  \item {keyZoomSpeed}
+    \subitem {ZoomController}, \hyperpage{130}
+
+  \indexspace
+
+  \item {lateralFloatAmount}
+    \subitem {AnimatedButton.FloatSettings}, \hyperpage{52}
+  \item {lateralFloatSpeed}
+    \subitem {AnimatedButton.FloatSettings}, \hyperpage{52}
+  \item {lineDelay}
+    \subitem {TypewriterEffect}, \hyperpage{124}
+  \item {LinkHandler}, \hyperpage{63}
+    \subitem {OpenURL}, \hyperpage{64}
+  \item {LinkOpener}, \hyperpage{64}
+    \subitem {OnPointerClick}, \hyperpage{66}
+    \subitem {textMeshPro}, \hyperpage{66}
+  \item {LoadScene}
+    \subitem {SceneLoader}, \hyperpage{99}
+  \item {lockCursorToCenter}
+    \subitem {MouseController}, \hyperpage{86}
+
+  \indexspace
+
+  \item {MainCamera}
+    \subitem {CameraView}, \hyperpage{36}
+  \item {MainScript}, \hyperpage{66}
+    \subitem {simularAndroid}, \hyperpage{67}
+  \item {MainScript.cs}
+    \subitem {Generic}, \hyperpage{139}
+  \item {MainTextSelected}, \hyperpage{67}
+    \subitem {isPermanentlyUnderlined}, \hyperpage{69}
+    \subitem {OnPointerEnter}, \hyperpage{69}
+    \subitem {OnPointerExit}, \hyperpage{69}
+  \item {MaterialTransition}, \hyperpage{70}
+    \subitem {ApagarTodosLosPaneles}, \hyperpage{71}
+    \subitem {fadeDuration}, \hyperpage{73}
+    \subitem {fadeDurationWithZoom}, \hyperpage{73}
+    \subitem {FadeTo}, \hyperpage{71}
+    \subitem {FindAllImagePanels}, \hyperpage{72}
+    \subitem {FindAllVideoPanels}, \hyperpage{72}
+    \subitem {flagBtnCarousel}, \hyperpage{73}
+    \subitem {isFading}, \hyperpage{73}
+    \subitem {StartTransition}, \hyperpage{72}
+    \subitem {zoomDistance}, \hyperpage{73}
+    \subitem {zoomDuration}, \hyperpage{73}
+    \subitem {zoomFOV}, \hyperpage{73}
+    \subitem {zoomSpeed}, \hyperpage{73}
+  \item {maxFOV}
+    \subitem {ZoomController}, \hyperpage{130}
+  \item {minFOV}
+    \subitem {ZoomController}, \hyperpage{130}
+  \item {MobileController}, \hyperpage{74}
+    \subitem {forceEnableTouchControls}, \hyperpage{75}
+    \subitem {Initialize}, \hyperpage{75}
+    \subitem {touchSensitivity}, \hyperpage{75}
+  \item {MostrarImagen}
+    \subitem {MostrarImagenDesdeBoton}, \hyperpage{76}
+  \item {MostrarImagenDesdeBoton}, \hyperpage{75}
+    \subitem {MostrarImagen}, \hyperpage{76}
+  \item {MostrarPanel}
+    \subitem {PanelImagenController}, \hyperpage{89}
+    \subitem {PanelTextoController}, \hyperpage{91}
+  \item {MostrarPanelDesdeRuta}
+    \subitem {PanelVideoControllerConSubtitulos}, \hyperpage{93}
+  \item {MostrarSliderSonido}, \hyperpage{77}
+    \subitem {AlternarMusica}, \hyperpage{78}
+    \subitem {audioAmbiente}, \hyperpage{79}
+    \subitem {iconoConSonido}, \hyperpage{79}
+    \subitem {iconoSinSonido}, \hyperpage{79}
+    \subitem {iconoSonido}, \hyperpage{79}
+    \subitem {OnPointerEnter}, \hyperpage{78}
+    \subitem {OnPointerExit}, \hyperpage{78}
+    \subitem {SilenciarAmbiente}, \hyperpage{78}
+    \subitem {sliderVolumen}, \hyperpage{79}
+  \item {MostrarTextoDesdeBoton}, \hyperpage{79}
+    \subitem {OcultarPanelTexto}, \hyperpage{80}
+  \item {MostrarVideo}
+    \subitem {MostrarVideoDesdeBotonConSubtitulos}, \hyperpage{81}
+  \item {MostrarVideoDesdeBotonConSubtitulos}, \hyperpage{81}
+    \subitem {MostrarVideo}, \hyperpage{81}
+  \item {MouseController}, \hyperpage{82}
+    \subitem {Awake}, \hyperpage{85}
+    \subitem {controlButton}, \hyperpage{86}
+    \subitem {hideCursorWhileNavigating}, \hyperpage{86}
+    \subitem {IgnoreNextMouseDelta}, \hyperpage{85}
+    \subitem {Initialize}, \hyperpage{85}
+    \subitem {lockCursorToCenter}, \hyperpage{86}
+    \subitem {OnDisable}, \hyperpage{85}
+    \subitem {OnEnable}, \hyperpage{85}
+    \subitem {screenEdgeMargin}, \hyperpage{86}
+    \subitem {Update}, \hyperpage{86}
+  \item {mouseSensitivity}
+    \subitem {AutomaticMovementController}, \hyperpage{23}
+  \item {MoveLeft}
+    \subitem {SwipeMenu}, \hyperpage{118}
+  \item {MoveRight}
+    \subitem {SwipeMenu}, \hyperpage{118}
+
+  \indexspace
+
+  \item {normalColor}
+    \subitem {AnimatedButton.ColorSettings}, \hyperpage{40}
+    \subitem {ButtonHoverEffect}, \hyperpage{32}
+  \item {notificationThrottleTime}
+    \subitem {RotationNotifier}, \hyperpage{95}
+
+  \indexspace
+
+  \item {OcultarPanelTexto}
+    \subitem {MostrarTextoDesdeBoton}, \hyperpage{80}
+  \item {OnDisable}
+    \subitem {InputController}, \hyperpage{60}
+    \subitem {MouseController}, \hyperpage{85}
+  \item {OnEnable}
+    \subitem {InputController}, \hyperpage{60}
+    \subitem {MouseController}, \hyperpage{85}
+  \item {OnPointerClick}
+    \subitem {CursorChanger}, \hyperpage{41}
+    \subitem {CursorChangerMenu}, \hyperpage{44}
+    \subitem {LinkOpener}, \hyperpage{66}
+    \subitem {TMP\_LinkOpener}, \hyperpage{120}
+  \item {OnPointerEnter}
+    \subitem {AnimatedButton}, \hyperpage{13}
+    \subitem {AnimatedButtonMenu}, \hyperpage{15}
+    \subitem {BotonNavegacion}, \hyperpage{26}
+    \subitem {ButtonHoverEffect}, \hyperpage{31}
+    \subitem {CanvasTextSelected}, \hyperpage{38}
+    \subitem {CursorChanger}, \hyperpage{42}
+    \subitem {CursorChangerMenu}, \hyperpage{44}
+    \subitem {HoverTextDisplay}, \hyperpage{55}
+    \subitem {MainTextSelected}, \hyperpage{69}
+    \subitem {MostrarSliderSonido}, \hyperpage{78}
+    \subitem {ShowHandle}, \hyperpage{103}
+    \subitem {SimpleButtonHover}, \hyperpage{107}
+    \subitem {StopMovementPanel}, \hyperpage{114}
+    \subitem {StopZoom}, \hyperpage{116}
+    \subitem {TransitionScrollBar}, \hyperpage{122}
+  \item {OnPointerExit}
+    \subitem {AnimatedButton}, \hyperpage{13}
+    \subitem {AnimatedButtonMenu}, \hyperpage{16}
+    \subitem {BotonNavegacion}, \hyperpage{27}
+    \subitem {ButtonHoverEffect}, \hyperpage{31}
+    \subitem {CanvasTextSelected}, \hyperpage{38}
+    \subitem {CursorChanger}, \hyperpage{42}
+    \subitem {CursorChangerMenu}, \hyperpage{44}
+    \subitem {HoverTextDisplay}, \hyperpage{56}
+    \subitem {MainTextSelected}, \hyperpage{69}
+    \subitem {MostrarSliderSonido}, \hyperpage{78}
+    \subitem {ShowHandle}, \hyperpage{104}
+    \subitem {SimpleButtonHover}, \hyperpage{107}
+    \subitem {StopMovementPanel}, \hyperpage{114}
+    \subitem {StopZoom}, \hyperpage{116}
+    \subitem {TransitionScrollBar}, \hyperpage{122}
+  \item {OnPointOfInterestClosed}
+    \subitem {AutomaticMovementController}, \hyperpage{22}
+  \item {OnPointOfInterestOpened}
+    \subitem {AutomaticMovementController}, \hyperpage{22}
+  \item {OnRotationChanged}
+    \subitem {CameraView}, \hyperpage{37}
+    \subitem {RotationNotifier}, \hyperpage{95}
+  \item {OnScroll}
+    \subitem {FastScrollRect}, \hyperpage{50}
+  \item {OnSkyboxChanged}
+    \subitem {SkyBoxButtonSelected}, \hyperpage{109}
+  \item {opacidadPunto}
+    \subitem {DotsPattern}, \hyperpage{48}
+  \item {OpenURL}
+    \subitem {LinkHandler}, \hyperpage{64}
+  \item {OrientationAdapter}, \hyperpage{86}
+    \subitem {ForceOrientationUpdate}, \hyperpage{87}
+
+  \indexspace
+
+  \item {PanelImagenController}, \hyperpage{88}
+    \subitem {ApagarImagen}, \hyperpage{89}
+    \subitem {CerrarPanel}, \hyperpage{89}
+    \subitem {MostrarPanel}, \hyperpage{89}
+  \item {panelObject}
+    \subitem {ButtonHoverEffect}, \hyperpage{32}
+  \item {PanelTextoController}, \hyperpage{89}
+    \subitem {CerrarPanel}, \hyperpage{91}
+    \subitem {MostrarPanel}, \hyperpage{91}
+    \subitem {SetColorFondo}, \hyperpage{91}
+    \subitem {SetMargenBotonCerrar}, \hyperpage{91}
+  \item {PanelVideoControllerConSubtitulos}, \hyperpage{92}
+    \subitem {AdelantarVideo}, \hyperpage{92}
+    \subitem {ApagarPanel}, \hyperpage{92}
+    \subitem {CerrarPanel}, \hyperpage{93}
+    \subitem {MostrarPanelDesdeRuta}, \hyperpage{93}
+    \subitem {RetrocederVideo}, \hyperpage{93}
+    \subitem {ToggleSubtitulos}, \hyperpage{93}
+  \item {parentController}
+    \subitem {InputController}, \hyperpage{61}
+  \item {PauseAmbientSound}
+    \subitem {SoundController}, \hyperpage{111}
+  \item {pressEnterText}
+    \subitem {TypewriterEffect}, \hyperpage{124}
+
+  \indexspace
+
+  \item {RegenerarPatron}
+    \subitem {DotsPattern}, \hyperpage{48}
+  \item {ResetView}
+    \subitem {CameraView}, \hyperpage{35}
+  \item {ResetZoom}
+    \subitem {ZoomController}, \hyperpage{129}
+  \item {ResumeAmbientSound}
+    \subitem {SoundController}, \hyperpage{111}
+  \item {RetrocederVideo}
+    \subitem {PanelVideoControllerConSubtitulos}, \hyperpage{93}
+  \item {RotateCameraToLookAt}
+    \subitem {CameraView}, \hyperpage{35}
+  \item {rotationAxis}
+    \subitem {Rotator}, \hyperpage{97}
+  \item {RotationNotifier}, \hyperpage{93}
+    \subitem {Initialize}, \hyperpage{95}
+    \subitem {notificationThrottleTime}, \hyperpage{95}
+    \subitem {OnRotationChanged}, \hyperpage{95}
+    \subitem {significantChangeThreshold}, \hyperpage{95}
+  \item {rotationSpeed}
+    \subitem {Rotator}, \hyperpage{97}
+  \item {Rotator}, \hyperpage{95}
+    \subitem {rotationAxis}, \hyperpage{97}
+    \subitem {rotationSpeed}, \hyperpage{97}
+
+  \indexspace
+
+  \item {SceneControllers}, \hyperpage{97}
+    \subitem {views}, \hyperpage{98}
+  \item {SceneLoader}, \hyperpage{99}
+    \subitem {LoadScene}, \hyperpage{99}
+    \subitem {sceneName}, \hyperpage{100}
+  \item {sceneName}
+    \subitem {SceneLoader}, \hyperpage{100}
+  \item {sceneToLoad}
+    \subitem {TypewriterEffect}, \hyperpage{125}
+  \item {screenEdgeMargin}
+    \subitem {MouseController}, \hyperpage{86}
+    \subitem {ZoomController}, \hyperpage{130}
+  \item {scrollbar}
+    \subitem {ShowHandle}, \hyperpage{104}
+    \subitem {SwipeMenu}, \hyperpage{119}
+    \subitem {TransitionScrollBar}, \hyperpage{122}
+  \item {ScrollCreditos}, \hyperpage{100}
+    \subitem {velocidad}, \hyperpage{101}
+  \item {scrollRect}
+    \subitem {FastScrollRect}, \hyperpage{50}
+  \item {scrollSpeed}
+    \subitem {FastScrollRect}, \hyperpage{50}
+  \item {SetColorFondo}
+    \subitem {PanelTextoController}, \hyperpage{91}
+  \item {SetControlledAudioSource}
+    \subitem {SoundController}, \hyperpage{111}
+  \item {SetEnabled}
+    \subitem {InputController}, \hyperpage{60}
+  \item {SetMargenBotonCerrar}
+    \subitem {PanelTextoController}, \hyperpage{91}
+  \item {SetPermanentUnderline}
+    \subitem {CanvasTextSelected}, \hyperpage{39}
+  \item {ShowGaleryAndroid}, \hyperpage{101}
+    \subitem {CloseCorouselOnClick}, \hyperpage{102}
+    \subitem {Toggle}, \hyperpage{102}
+  \item {ShowHandle}, \hyperpage{102}
+    \subitem {OnPointerEnter}, \hyperpage{103}
+    \subitem {OnPointerExit}, \hyperpage{104}
+    \subitem {scrollbar}, \hyperpage{104}
+  \item {ShowSelectedPosition}, \hyperpage{104}
+    \subitem {CenterOnButton}, \hyperpage{105}
+  \item {ShowWindow}
+    \subitem {AñadirPunto}, \hyperpage{11}
+    \subitem {BottonNavigationAsignerCont}, \hyperpage{28}
+    \subitem {CursorChangerAsignerContent}, \hyperpage{43}
+  \item {significantChangeThreshold}
+    \subitem {RotationNotifier}, \hyperpage{95}
+  \item {SilenciarAmbiente}
+    \subitem {MostrarSliderSonido}, \hyperpage{78}
+  \item {SimpleButtonHover}, \hyperpage{106}
+    \subitem {OnPointerEnter}, \hyperpage{107}
+    \subitem {OnPointerExit}, \hyperpage{107}
+  \item {simularAndroid}
+    \subitem {MainScript}, \hyperpage{67}
+  \item {SkyBoxButtonSelected}, \hyperpage{107}
+    \subitem {ActivateMatchingCanvasOnly}, \hyperpage{109}
+    \subitem {Bandera}, \hyperpage{109}
+    \subitem {carruselListo}, \hyperpage{109}
+    \subitem {HighlightCurrentSkyboxButton}, \hyperpage{109}
+    \subitem {InitializeCarouselRender}, \hyperpage{109}
+    \subitem {OnSkyboxChanged}, \hyperpage{109}
+  \item {sliderVolumen}
+    \subitem {MostrarSliderSonido}, \hyperpage{79}
+  \item {smoothSpeed}
+    \subitem {CameraView}, \hyperpage{35}
+    \subitem {ZoomController}, \hyperpage{130}
+  \item {smoothStartDuration}
+    \subitem {AutomaticMovementController}, \hyperpage{23}
+  \item {smoothVerticalStart}
+    \subitem {AutomaticMovementController}, \hyperpage{23}
+  \item {SoundController}, \hyperpage{110}
+    \subitem {PauseAmbientSound}, \hyperpage{111}
+    \subitem {ResumeAmbientSound}, \hyperpage{111}
+    \subitem {SetControlledAudioSource}, \hyperpage{111}
+  \item {soundCooldown}
+    \subitem {TypewriterEffect}, \hyperpage{125}
+  \item {Start}
+    \subitem {InputController}, \hyperpage{60}
+  \item {StartController}, \hyperpage{112}
+  \item {startDisabled}
+    \subitem {AutomaticMovementController}, \hyperpage{23}
+  \item {StartTransition}
+    \subitem {MaterialTransition}, \hyperpage{72}
+  \item {statusText}
+    \subitem {AutoCameraToggleController}, \hyperpage{19}
+  \item {StopMovementPanel}, \hyperpage{112}
+    \subitem {IsPointerOverPanel}, \hyperpage{114}
+    \subitem {OnPointerEnter}, \hyperpage{114}
+    \subitem {OnPointerExit}, \hyperpage{114}
+  \item {StopZoom}, \hyperpage{114}
+    \subitem {IsPointerOverScrollView}, \hyperpage{116}
+    \subitem {OnPointerEnter}, \hyperpage{116}
+    \subitem {OnPointerExit}, \hyperpage{116}
+  \item {SwipeMenu}, \hyperpage{116}
+    \subitem {CenterButton}, \hyperpage{118}
+    \subitem {IsButtonCentered}, \hyperpage{118}
+    \subitem {MoveLeft}, \hyperpage{118}
+    \subitem {MoveRight}, \hyperpage{118}
+    \subitem {scrollbar}, \hyperpage{119}
+    \subitem {UpdateLayoutForOrientation}, \hyperpage{119}
+  \item {SwipeMenu.cs}
+    \subitem {Collections}, \hyperpage{140}
+  \item {SyncToggleWithAutoMovement}
+    \subitem {AutoCameraToggleController}, \hyperpage{18}
+
+  \indexspace
+
+  \item {tamañoPunto}
+    \subitem {DotsPattern}, \hyperpage{48}
+  \item {tamañoTextura}
+    \subitem {GradientBackground}, \hyperpage{54}
+  \item {TargetRotation}
+    \subitem {CameraView}, \hyperpage{36}
+  \item {textComponent}
+    \subitem {TypewriterEffect}, \hyperpage{125}
+  \item {textMeshPro}
+    \subitem {LinkOpener}, \hyperpage{66}
+  \item {textObject}
+    \subitem {ButtonHoverEffect}, \hyperpage{32}
+  \item {timeFor360Tour}
+    \subitem {AutomaticMovementController}, \hyperpage{23}
+  \item {TMP\_LinkOpener}, \hyperpage{119}
+    \subitem {OnPointerClick}, \hyperpage{120}
+  \item {Toggle}
+    \subitem {ShowGaleryAndroid}, \hyperpage{102}
+  \item {toggleControl}
+    \subitem {AutoCameraToggleController}, \hyperpage{19}
+  \item {ToggleGameObject}
+    \subitem {BtnScrollHide}, \hyperpage{29}
+  \item {ToggleSubtitulos}
+    \subitem {PanelVideoControllerConSubtitulos}, \hyperpage{93}
+  \item {touchSensitivity}
+    \subitem {MobileController}, \hyperpage{75}
+  \item {TransitionScrollBar}, \hyperpage{120}
+    \subitem {fadeDuration}, \hyperpage{122}
+    \subitem {OnPointerEnter}, \hyperpage{122}
+    \subitem {OnPointerExit}, \hyperpage{122}
+    \subitem {scrollbar}, \hyperpage{122}
+  \item {TypewriterEffect}, \hyperpage{122}
+    \subitem {audioSource}, \hyperpage{124}
+    \subitem {delay}, \hyperpage{124}
+    \subitem {fullText}, \hyperpage{124}
+    \subitem {keySound}, \hyperpage{124}
+    \subitem {lineDelay}, \hyperpage{124}
+    \subitem {pressEnterText}, \hyperpage{124}
+    \subitem {sceneToLoad}, \hyperpage{125}
+    \subitem {soundCooldown}, \hyperpage{125}
+    \subitem {textComponent}, \hyperpage{125}
+
+  \indexspace
+
+  \item {Update}
+    \subitem {InputController}, \hyperpage{60}
+    \subitem {MouseController}, \hyperpage{86}
+  \item {UpdateLayoutForOrientation}
+    \subitem {SwipeMenu}, \hyperpage{119}
+  \item {useArrowKeys}
+    \subitem {KeyboardController}, \hyperpage{63}
+  \item {usePageKeys}
+    \subitem {ZoomController}, \hyperpage{130}
+  \item {useVerticalWave}
+    \subitem {AutomaticMovementController}, \hyperpage{23}
+
+  \indexspace
+
+  \item {variacionSuave}
+    \subitem {DotsPattern}, \hyperpage{49}
+  \item {velocidad}
+    \subitem {ScrollCreditos}, \hyperpage{101}
+  \item {verticalLimit}
+    \subitem {CameraView}, \hyperpage{36}
+  \item {verticalSpeed}
+    \subitem {CameraView}, \hyperpage{36}
+  \item {verticalWaveAmplitude}
+    \subitem {AutomaticMovementController}, \hyperpage{23}
+  \item {verticalWaveFrequency}
+    \subitem {AutomaticMovementController}, \hyperpage{23}
+  \item {vibrationAmount}
+    \subitem {AnimatedButton.VibrationSettings}, \hyperpage{126}
+  \item {vibrationSettings}
+    \subitem {AnimatedButton}, \hyperpage{14}
+  \item {vibrationSpeed}
+    \subitem {AnimatedButton.VibrationSettings}, \hyperpage{126}
+  \item {views}
+    \subitem {SceneControllers}, \hyperpage{98}
+  \item {VolverAMain360}, \hyperpage{126}
+    \subitem {IrAMain360}, \hyperpage{127}
+
+  \indexspace
+
+  \item {XRotation}
+    \subitem {CameraView}, \hyperpage{36}
+
+  \indexspace
+
+  \item {YRotation}
+    \subitem {CameraView}, \hyperpage{36}
+
+  \indexspace
+
+  \item {ZoomController}, \hyperpage{127}
+    \subitem {allowZoom}, \hyperpage{130}
+    \subitem {Initialize}, \hyperpage{129}
+    \subitem {keyZoomSpeed}, \hyperpage{130}
+    \subitem {maxFOV}, \hyperpage{130}
+    \subitem {minFOV}, \hyperpage{130}
+    \subitem {ResetZoom}, \hyperpage{129}
+    \subitem {screenEdgeMargin}, \hyperpage{130}
+    \subitem {smoothSpeed}, \hyperpage{130}
+    \subitem {usePageKeys}, \hyperpage{130}
+    \subitem {zoomInKey}, \hyperpage{130}
+    \subitem {zoomInKeyAlt}, \hyperpage{131}
+    \subitem {zoomOutKey}, \hyperpage{131}
+    \subitem {zoomOutKeyAlt}, \hyperpage{131}
+    \subitem {zoomSpeed}, \hyperpage{131}
+  \item {zoomDistance}
+    \subitem {MaterialTransition}, \hyperpage{73}
+  \item {zoomDuration}
+    \subitem {MaterialTransition}, \hyperpage{73}
+  \item {zoomFOV}
+    \subitem {MaterialTransition}, \hyperpage{73}
+  \item {zoomInKey}
+    \subitem {ZoomController}, \hyperpage{130}
+  \item {zoomInKeyAlt}
+    \subitem {ZoomController}, \hyperpage{131}
+  \item {zoomOutKey}
+    \subitem {ZoomController}, \hyperpage{131}
+  \item {zoomOutKeyAlt}
+    \subitem {ZoomController}, \hyperpage{131}
+  \item {zoomSpeed}
+    \subitem {MaterialTransition}, \hyperpage{73}
+    \subitem {ZoomController}, \hyperpage{131}
+
+\end{theindex}

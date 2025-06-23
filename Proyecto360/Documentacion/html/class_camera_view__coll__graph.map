@@ -1,0 +1,5 @@
+<map id="CameraView" name="CameraView">
+<area shape="rect" id="Node000001" title="Controlador principal de la cámara que coordina los distintos tipos de entradas para la navegación pa..." alt="" coords="13,80,109,107"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,117,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="64,48,64,80,58,80,58,48"/>
+</map>

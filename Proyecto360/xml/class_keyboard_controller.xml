@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_keyboard_controller" kind="class" language="C#" prot="public">
+    <compoundname>KeyboardController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_keyboard_controller_1a3eb5ba9feaa775711c18f42993b8b74f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool KeyboardController.enableKeyboardControls</definition>
+        <argsstring></argsstring>
+        <name>enableKeyboardControls</name>
+        <qualifiedname>KeyboardController.enableKeyboardControls</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>Habilitar controles de teclado (WASD/Flechas). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/KeyboardController.cs" line="13" column="17" bodyfile="Assets/Scripts/Camera/KeyboardController.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_keyboard_controller_1aff2e249d70b72950d092d010d8a995fe" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float KeyboardController.keyboardRotationSpeed</definition>
+        <argsstring></argsstring>
+        <name>keyboardRotationSpeed</name>
+        <qualifiedname>KeyboardController.keyboardRotationSpeed</qualifiedname>
+        <initializer>= 30.0f</initializer>
+        <briefdescription>
+<para>Velocidad de rotación con teclado. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/KeyboardController.cs" line="19" column="18" bodyfile="Assets/Scripts/Camera/KeyboardController.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_keyboard_controller_1aa3bdec3bfad3570f624e059700edc617" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool KeyboardController.useArrowKeys</definition>
+        <argsstring></argsstring>
+        <name>useArrowKeys</name>
+        <qualifiedname>KeyboardController.useArrowKeys</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>Usar también teclas de dirección. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/KeyboardController.cs" line="25" column="17" bodyfile="Assets/Scripts/Camera/KeyboardController.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_keyboard_controller_1a272a216f2a580dea599a21c9634bfb97" prot="private" static="no" mutable="no">
+        <type><ref refid="class_camera_view" kindref="compound">CameraView</ref></type>
+        <definition>CameraView KeyboardController.parentController</definition>
+        <argsstring></argsstring>
+        <name>parentController</name>
+        <qualifiedname>KeyboardController.parentController</qualifiedname>
+        <briefdescription>
+<para>Referencia al controlador principal de la cámara. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/KeyboardController.cs" line="30" column="24" bodyfile="Assets/Scripts/Camera/KeyboardController.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_keyboard_controller_1a8ceeeaf641813f381a60940d89a8b65a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool KeyboardController.initialized</definition>
+        <argsstring></argsstring>
+        <name>initialized</name>
+        <qualifiedname>KeyboardController.initialized</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Indica si el controlador ha sido inicializado. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/KeyboardController.cs" line="35" column="18" bodyfile="Assets/Scripts/Camera/KeyboardController.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_keyboard_controller_1ae291f4285cc22b3f4d1cb732565fcc6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KeyboardController.Initialize</definition>
+        <argsstring>(CameraView controller)</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>KeyboardController.Initialize</qualifiedname>
+        <param>
+          <type><ref refid="class_camera_view" kindref="compound">CameraView</ref></type>
+          <declname>controller</declname>
+        </param>
+        <briefdescription>
+<para>Inicializa el controlador con una referencia al controlador principal. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controller</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>El controlador de cámara principal.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/KeyboardController.cs" line="41" column="17" bodyfile="Assets/Scripts/Camera/KeyboardController.cs" bodystart="41" bodyend="45"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_keyboard_controller_1af76b2f3fcf5876597cdf58e5cbe18fe3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KeyboardController.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>KeyboardController.Update</qualifiedname>
+        <briefdescription>
+<para>Actualiza el estado del controlador cada frame. Procesa la entrada de teclado si está habilitado y no hay gestos táctiles activos. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/KeyboardController.cs" line="51" column="10" bodyfile="Assets/Scripts/Camera/KeyboardController.cs" bodystart="51" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_keyboard_controller_1a6d40863180c4c6429a9dc3cec2606efc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KeyboardController.KeyboardControl</definition>
+        <argsstring>()</argsstring>
+        <name>KeyboardControl</name>
+        <qualifiedname>KeyboardController.KeyboardControl</qualifiedname>
+        <briefdescription>
+<para>Procesa la entrada de teclado para la navegación panorámica. Permite rotar la cámara usando WASD y/o flechas, normalizando el movimiento diagonal. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/KeyboardController.cs" line="70" column="18" bodyfile="Assets/Scripts/Camera/KeyboardController.cs" bodystart="70" bodyend="118"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Controlador que maneja la entrada de teclado para la navegación panorámica. Permite controlar la rotación de la cámara usando teclas WASD y/o flechas. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>KeyboardController</label>
+        <link refid="class_keyboard_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>KeyboardController</label>
+        <link refid="class_keyboard_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/Camera/KeyboardController.cs" line="7" column="7" bodyfile="Assets/Scripts/Camera/KeyboardController.cs" bodystart="8" bodyend="119"/>
+    <listofallmembers>
+      <member refid="class_keyboard_controller_1a3eb5ba9feaa775711c18f42993b8b74f" prot="public" virt="non-virtual"><scope>KeyboardController</scope><name>enableKeyboardControls</name></member>
+      <member refid="class_keyboard_controller_1ae291f4285cc22b3f4d1cb732565fcc6b" prot="public" virt="non-virtual"><scope>KeyboardController</scope><name>Initialize</name></member>
+      <member refid="class_keyboard_controller_1a8ceeeaf641813f381a60940d89a8b65a" prot="private" virt="non-virtual"><scope>KeyboardController</scope><name>initialized</name></member>
+      <member refid="class_keyboard_controller_1a6d40863180c4c6429a9dc3cec2606efc" prot="private" virt="non-virtual"><scope>KeyboardController</scope><name>KeyboardControl</name></member>
+      <member refid="class_keyboard_controller_1aff2e249d70b72950d092d010d8a995fe" prot="public" virt="non-virtual"><scope>KeyboardController</scope><name>keyboardRotationSpeed</name></member>
+      <member refid="class_keyboard_controller_1a272a216f2a580dea599a21c9634bfb97" prot="private" virt="non-virtual"><scope>KeyboardController</scope><name>parentController</name></member>
+      <member refid="class_keyboard_controller_1af76b2f3fcf5876597cdf58e5cbe18fe3" prot="private" virt="non-virtual"><scope>KeyboardController</scope><name>Update</name></member>
+      <member refid="class_keyboard_controller_1aa3bdec3bfad3570f624e059700edc617" prot="public" virt="non-virtual"><scope>KeyboardController</scope><name>useArrowKeys</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

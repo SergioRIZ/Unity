@@ -1,0 +1,112 @@
+\doxysection{Rotation\+Notifier Class Reference}
+\hypertarget{class_rotation_notifier}{}\label{class_rotation_notifier}\index{RotationNotifier@{RotationNotifier}}
+
+
+Componente que notifica los cambios de rotación a otros sistemas. Permite suscribirse a eventos de cambio de rotación, aplicando un umbral de cambio significativo y un intervalo mínimo entre notificaciones para evitar sobrecarga.  
+
+
+
+
+Inheritance diagram for Rotation\+Notifier\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{class_rotation_notifier__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Rotation\+Notifier\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{class_rotation_notifier__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_rotation_notifier_a0788581f089914b8eac1e6aa57072723}{Initialize}} (\mbox{\hyperlink{class_camera_view}{Camera\+View}} controller)
+\begin{DoxyCompactList}\small\item\em Inicializa el notificador con una referencia al controlador principal. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{class_rotation_notifier_adb874b613039ff4e81fb78b00b5fb277}{notification\+Throttle\+Time}} = 0.\+05f
+\begin{DoxyCompactList}\small\item\em Intervalo mínimo entre notificaciones de cambio de rotación, en segundos. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_rotation_notifier_a7203ef956ab226eead8f03f6abc7b0a9}{significant\+Change\+Threshold}} = 0.\+1f
+\begin{DoxyCompactList}\small\item\em Distancia mínima (en grados) para considerar un cambio de rotación como significativo. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+Action$<$ Vector3 $>$ \mbox{\hyperlink{class_rotation_notifier_ab0964c552adc89aebb736a1de06b7a08}{On\+Rotation\+Changed}}
+\begin{DoxyCompactList}\small\item\em Evento que notifica a los suscriptores cuando la rotación cambia significativamente. El evento se dispara con throttling según \doxylink{class_rotation_notifier_adb874b613039ff4e81fb78b00b5fb277}{notification\+Throttle\+Time}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Componente que notifica los cambios de rotación a otros sistemas. Permite suscribirse a eventos de cambio de rotación, aplicando un umbral de cambio significativo y un intervalo mínimo entre notificaciones para evitar sobrecarga. 
+
+\label{doc-func-members}
+\Hypertarget{class_rotation_notifier_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_rotation_notifier_a0788581f089914b8eac1e6aa57072723}\index{RotationNotifier@{RotationNotifier}!Initialize@{Initialize}}
+\index{Initialize@{Initialize}!RotationNotifier@{RotationNotifier}}
+\doxysubsubsection{\texorpdfstring{Initialize()}{Initialize()}}
+{\footnotesize\ttfamily \label{class_rotation_notifier_a0788581f089914b8eac1e6aa57072723} 
+void Rotation\+Notifier.\+Initialize (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_camera_view}{Camera\+View}}}]{controller}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Inicializa el notificador con una referencia al controlador principal. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em controller} & El controlador de cámara principal.\\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-variable-members}
+\Hypertarget{class_rotation_notifier_doc-variable-members}
+\doxysubsection{Field Documentation}
+\Hypertarget{class_rotation_notifier_adb874b613039ff4e81fb78b00b5fb277}\index{RotationNotifier@{RotationNotifier}!notificationThrottleTime@{notificationThrottleTime}}
+\index{notificationThrottleTime@{notificationThrottleTime}!RotationNotifier@{RotationNotifier}}
+\doxysubsubsection{\texorpdfstring{notificationThrottleTime}{notificationThrottleTime}}
+{\footnotesize\ttfamily \label{class_rotation_notifier_adb874b613039ff4e81fb78b00b5fb277} 
+float Rotation\+Notifier.\+notification\+Throttle\+Time = 0.\+05f}
+
+
+
+Intervalo mínimo entre notificaciones de cambio de rotación, en segundos. 
+
+\Hypertarget{class_rotation_notifier_a7203ef956ab226eead8f03f6abc7b0a9}\index{RotationNotifier@{RotationNotifier}!significantChangeThreshold@{significantChangeThreshold}}
+\index{significantChangeThreshold@{significantChangeThreshold}!RotationNotifier@{RotationNotifier}}
+\doxysubsubsection{\texorpdfstring{significantChangeThreshold}{significantChangeThreshold}}
+{\footnotesize\ttfamily \label{class_rotation_notifier_a7203ef956ab226eead8f03f6abc7b0a9} 
+float Rotation\+Notifier.\+significant\+Change\+Threshold = 0.\+1f}
+
+
+
+Distancia mínima (en grados) para considerar un cambio de rotación como significativo. 
+
+
+
+\label{doc-event-members}
+\Hypertarget{class_rotation_notifier_doc-event-members}
+\doxysubsection{Event Documentation}
+\Hypertarget{class_rotation_notifier_ab0964c552adc89aebb736a1de06b7a08}\index{RotationNotifier@{RotationNotifier}!OnRotationChanged@{OnRotationChanged}}
+\index{OnRotationChanged@{OnRotationChanged}!RotationNotifier@{RotationNotifier}}
+\doxysubsubsection{\texorpdfstring{OnRotationChanged}{OnRotationChanged}}
+{\footnotesize\ttfamily \label{class_rotation_notifier_ab0964c552adc89aebb736a1de06b7a08} 
+Action$<$Vector3$>$ Rotation\+Notifier.\+On\+Rotation\+Changed}
+
+
+
+Evento que notifica a los suscriptores cuando la rotación cambia significativamente. El evento se dispara con throttling según \doxylink{class_rotation_notifier_adb874b613039ff4e81fb78b00b5fb277}{notification\+Throttle\+Time}. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+Camera/\mbox{\hyperlink{_rotation_notifier_8cs}{Rotation\+Notifier.\+cs}}\end{DoxyCompactItemize}

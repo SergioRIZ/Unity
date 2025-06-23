@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_link_handler" kind="class" language="C#" prot="public">
+    <compoundname>LinkHandler</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_link_handler_1ad5c8ce1419c8869ed674f4e2f5bb19a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LinkHandler.OpenURL</definition>
+        <argsstring>(string url)</argsstring>
+        <name>OpenURL</name>
+        <qualifiedname>LinkHandler.OpenURL</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+<para>Abre la URL especificada en el navegador predeterminado del sistema. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>url</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>La URL que se desea abrir.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/LinkHandler.cs" line="12" column="17" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/LinkHandler.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Proporciona funcionalidad para abrir URLs desde la aplicación. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>LinkHandler</label>
+        <link refid="class_link_handler"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>LinkHandler</label>
+        <link refid="class_link_handler"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/ScriptsPuntosDeInteres/LinkHandler.cs" line="6" column="7" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/LinkHandler.cs" bodystart="7" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_link_handler_1ad5c8ce1419c8869ed674f4e2f5bb19a9" prot="public" virt="non-virtual"><scope>LinkHandler</scope><name>OpenURL</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

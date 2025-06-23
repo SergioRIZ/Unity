@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_mostrar_video_desde_boton_con_subtitulos" kind="class" language="C#" prot="public">
+    <compoundname>MostrarVideoDesdeBotonConSubtitulos</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_mostrar_video_desde_boton_con_subtitulos_1a6eb5488ad111aadfe63eaed64eebe9b9" prot="private" static="no" mutable="no">
+        <type><ref refid="class_panel_video_controller_con_subtitulos" kindref="compound">PanelVideoControllerConSubtitulos</ref></type>
+        <definition>PanelVideoControllerConSubtitulos MostrarVideoDesdeBotonConSubtitulos.panelVideoController</definition>
+        <argsstring></argsstring>
+        <name>panelVideoController</name>
+        <qualifiedname>MostrarVideoDesdeBotonConSubtitulos.panelVideoController</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/MostrarVideoDesdeBotonConSubtitulos.cs" line="7" column="48" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/MostrarVideoDesdeBotonConSubtitulos.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mostrar_video_desde_boton_con_subtitulos_1a276dadc8a9738b01d8a2570ddabf2462" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string MostrarVideoDesdeBotonConSubtitulos.videoFileName</definition>
+        <argsstring></argsstring>
+        <name>videoFileName</name>
+        <qualifiedname>MostrarVideoDesdeBotonConSubtitulos.videoFileName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/MostrarVideoDesdeBotonConSubtitulos.cs" line="8" column="21" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/MostrarVideoDesdeBotonConSubtitulos.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_mostrar_video_desde_boton_con_subtitulos_1a19d1dfefa89b8e1820e3fc15512689b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MostrarVideoDesdeBotonConSubtitulos.MostrarVideo</definition>
+        <argsstring>()</argsstring>
+        <name>MostrarVideo</name>
+        <qualifiedname>MostrarVideoDesdeBotonConSubtitulos.MostrarVideo</qualifiedname>
+        <briefdescription>
+<para>Muestra el video especificado en el panel de video con subtítulos. Construye la ruta del video desde la carpeta StreamingAssets/Videos y solicita al panel que lo muestre. Si faltan referencias necesarias, muestra una advertencia en la consola. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/MostrarVideoDesdeBotonConSubtitulos.cs" line="15" column="17" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/MostrarVideoDesdeBotonConSubtitulos.cs" bodystart="15" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>MostrarVideoDesdeBotonConSubtitulos</label>
+        <link refid="class_mostrar_video_desde_boton_con_subtitulos"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>MostrarVideoDesdeBotonConSubtitulos</label>
+        <link refid="class_mostrar_video_desde_boton_con_subtitulos"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/ScriptsPuntosDeInteres/MostrarVideoDesdeBotonConSubtitulos.cs" line="5" column="7" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/MostrarVideoDesdeBotonConSubtitulos.cs" bodystart="6" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_mostrar_video_desde_boton_con_subtitulos_1a19d1dfefa89b8e1820e3fc15512689b0" prot="public" virt="non-virtual"><scope>MostrarVideoDesdeBotonConSubtitulos</scope><name>MostrarVideo</name></member>
+      <member refid="class_mostrar_video_desde_boton_con_subtitulos_1a6eb5488ad111aadfe63eaed64eebe9b9" prot="private" virt="non-virtual"><scope>MostrarVideoDesdeBotonConSubtitulos</scope><name>panelVideoController</name></member>
+      <member refid="class_mostrar_video_desde_boton_con_subtitulos_1a276dadc8a9738b01d8a2570ddabf2462" prot="private" virt="non-virtual"><scope>MostrarVideoDesdeBotonConSubtitulos</scope><name>videoFileName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

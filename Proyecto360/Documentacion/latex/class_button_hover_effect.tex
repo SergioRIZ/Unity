@@ -1,0 +1,145 @@
+\doxysection{Button\+Hover\+Effect Class Reference}
+\hypertarget{class_button_hover_effect}{}\label{class_button_hover_effect}\index{ButtonHoverEffect@{ButtonHoverEffect}}
+
+
+Clase que gestiona los efectos de hover sobre un botón, incluyendo cambios de color y activación de objetos tras un retraso.  
+
+
+
+
+Inheritance diagram for Button\+Hover\+Effect\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_button_hover_effect__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Button\+Hover\+Effect\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_button_hover_effect__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_button_hover_effect_ac8ebc1e1e644137b37bbd2eb5fb29e6b}{On\+Pointer\+Enter}} (Pointer\+Event\+Data event\+Data)
+\begin{DoxyCompactList}\small\item\em Método llamado cuando el ratón entra en el área del botón. Cambia el color del botón y comienza una Coroutine para activar los objetos tras un retraso. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_button_hover_effect_a69c4ea0b8046a66176805f5f44ff133b}{On\+Pointer\+Exit}} (Pointer\+Event\+Data event\+Data)
+\begin{DoxyCompactList}\small\item\em Método llamado cuando el ratón sale del área del botón. Restaura el color original del botón y desactiva los objetos inmediatamente. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object \mbox{\hyperlink{class_button_hover_effect_ad2d69f8c94cb0fc6de11afda2468b35e}{text\+Object}}
+\begin{DoxyCompactList}\small\item\em El objeto de texto dentro del botón. \end{DoxyCompactList}\item 
+Game\+Object \mbox{\hyperlink{class_button_hover_effect_a1ea4ea9b0f59fa6862b4f516933b8dec}{panel\+Object}}
+\begin{DoxyCompactList}\small\item\em El panel que actúa como fondo del texto. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_button_hover_effect_a99f875dab1263ab0d77c1a051fd61c5e}{delay\+Time}} = 1f
+\begin{DoxyCompactList}\small\item\em Tiempo en segundos para activar los objetos después de que el ratón entre en el botón. \end{DoxyCompactList}\item 
+Color \mbox{\hyperlink{class_button_hover_effect_a391d210ec3725ef86588307778d80439}{normal\+Color}} = Color.\+white
+\begin{DoxyCompactList}\small\item\em Color original del botón. \end{DoxyCompactList}\item 
+Color \mbox{\hyperlink{class_button_hover_effect_ac56b29ee2c554b97c66da347a131719c}{hover\+Color}} = Color.\+blue
+\begin{DoxyCompactList}\small\item\em Color del botón cuando el ratón está encima. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clase que gestiona los efectos de hover sobre un botón, incluyendo cambios de color y activación de objetos tras un retraso. 
+
+\label{doc-func-members}
+\Hypertarget{class_button_hover_effect_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_button_hover_effect_ac8ebc1e1e644137b37bbd2eb5fb29e6b}\index{ButtonHoverEffect@{ButtonHoverEffect}!OnPointerEnter@{OnPointerEnter}}
+\index{OnPointerEnter@{OnPointerEnter}!ButtonHoverEffect@{ButtonHoverEffect}}
+\doxysubsubsection{\texorpdfstring{OnPointerEnter()}{OnPointerEnter()}}
+{\footnotesize\ttfamily \label{class_button_hover_effect_ac8ebc1e1e644137b37bbd2eb5fb29e6b} 
+void Button\+Hover\+Effect.\+On\+Pointer\+Enter (\begin{DoxyParamCaption}\item[{Pointer\+Event\+Data}]{event\+Data}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Método llamado cuando el ratón entra en el área del botón. Cambia el color del botón y comienza una Coroutine para activar los objetos tras un retraso. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event\+Data} & Datos del evento del puntero.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_button_hover_effect_a69c4ea0b8046a66176805f5f44ff133b}\index{ButtonHoverEffect@{ButtonHoverEffect}!OnPointerExit@{OnPointerExit}}
+\index{OnPointerExit@{OnPointerExit}!ButtonHoverEffect@{ButtonHoverEffect}}
+\doxysubsubsection{\texorpdfstring{OnPointerExit()}{OnPointerExit()}}
+{\footnotesize\ttfamily \label{class_button_hover_effect_a69c4ea0b8046a66176805f5f44ff133b} 
+void Button\+Hover\+Effect.\+On\+Pointer\+Exit (\begin{DoxyParamCaption}\item[{Pointer\+Event\+Data}]{event\+Data}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Método llamado cuando el ratón sale del área del botón. Restaura el color original del botón y desactiva los objetos inmediatamente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event\+Data} & Datos del evento del puntero.\\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-variable-members}
+\Hypertarget{class_button_hover_effect_doc-variable-members}
+\doxysubsection{Field Documentation}
+\Hypertarget{class_button_hover_effect_a99f875dab1263ab0d77c1a051fd61c5e}\index{ButtonHoverEffect@{ButtonHoverEffect}!delayTime@{delayTime}}
+\index{delayTime@{delayTime}!ButtonHoverEffect@{ButtonHoverEffect}}
+\doxysubsubsection{\texorpdfstring{delayTime}{delayTime}}
+{\footnotesize\ttfamily \label{class_button_hover_effect_a99f875dab1263ab0d77c1a051fd61c5e} 
+float Button\+Hover\+Effect.\+delay\+Time = 1f}
+
+
+
+Tiempo en segundos para activar los objetos después de que el ratón entre en el botón. 
+
+\Hypertarget{class_button_hover_effect_ac56b29ee2c554b97c66da347a131719c}\index{ButtonHoverEffect@{ButtonHoverEffect}!hoverColor@{hoverColor}}
+\index{hoverColor@{hoverColor}!ButtonHoverEffect@{ButtonHoverEffect}}
+\doxysubsubsection{\texorpdfstring{hoverColor}{hoverColor}}
+{\footnotesize\ttfamily \label{class_button_hover_effect_ac56b29ee2c554b97c66da347a131719c} 
+Color Button\+Hover\+Effect.\+hover\+Color = Color.\+blue}
+
+
+
+Color del botón cuando el ratón está encima. 
+
+\Hypertarget{class_button_hover_effect_a391d210ec3725ef86588307778d80439}\index{ButtonHoverEffect@{ButtonHoverEffect}!normalColor@{normalColor}}
+\index{normalColor@{normalColor}!ButtonHoverEffect@{ButtonHoverEffect}}
+\doxysubsubsection{\texorpdfstring{normalColor}{normalColor}}
+{\footnotesize\ttfamily \label{class_button_hover_effect_a391d210ec3725ef86588307778d80439} 
+Color Button\+Hover\+Effect.\+normal\+Color = Color.\+white}
+
+
+
+Color original del botón. 
+
+\Hypertarget{class_button_hover_effect_a1ea4ea9b0f59fa6862b4f516933b8dec}\index{ButtonHoverEffect@{ButtonHoverEffect}!panelObject@{panelObject}}
+\index{panelObject@{panelObject}!ButtonHoverEffect@{ButtonHoverEffect}}
+\doxysubsubsection{\texorpdfstring{panelObject}{panelObject}}
+{\footnotesize\ttfamily \label{class_button_hover_effect_a1ea4ea9b0f59fa6862b4f516933b8dec} 
+Game\+Object Button\+Hover\+Effect.\+panel\+Object}
+
+
+
+El panel que actúa como fondo del texto. 
+
+\Hypertarget{class_button_hover_effect_ad2d69f8c94cb0fc6de11afda2468b35e}\index{ButtonHoverEffect@{ButtonHoverEffect}!textObject@{textObject}}
+\index{textObject@{textObject}!ButtonHoverEffect@{ButtonHoverEffect}}
+\doxysubsubsection{\texorpdfstring{textObject}{textObject}}
+{\footnotesize\ttfamily \label{class_button_hover_effect_ad2d69f8c94cb0fc6de11afda2468b35e} 
+Game\+Object Button\+Hover\+Effect.\+text\+Object}
+
+
+
+El objeto de texto dentro del botón. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+Carousel\+Script/\mbox{\hyperlink{_button_hover_effect_8cs}{Button\+Hover\+Effect.\+cs}}\end{DoxyCompactItemize}

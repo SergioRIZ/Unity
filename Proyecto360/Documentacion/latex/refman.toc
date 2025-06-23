@@ -1,0 +1,529 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {section}{\numberline {1}Class Hierarchy}{1}{section.1}%
+\contentsline {section}{\numberline {2}Data Structures}{4}{section.2}%
+\contentsline {section}{\numberline {3}File List}{9}{section.3}%
+\contentsline {section}{\numberline {4}Añadir\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Punto Class Reference}{11}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Member Function Documentation}{11}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}ShowWindow()}{11}{subsubsection.4.1.1}%
+\contentsline {section}{\numberline {5}Animated\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Button Class Reference}{12}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Detailed Description}{13}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Member Function Documentation}{13}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}OnPointerEnter()}{13}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}OnPointerExit()}{14}{subsubsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.3}Field Documentation}{14}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}blinkSettings}{14}{subsubsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.2}colorSettings}{14}{subsubsection.5.3.2}%
+\contentsline {subsubsection}{\numberline {5.3.3}floatSettings}{14}{subsubsection.5.3.3}%
+\contentsline {subsubsection}{\numberline {5.3.4}vibrationSettings}{14}{subsubsection.5.3.4}%
+\contentsline {section}{\numberline {6}Animated\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Button\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Menu Class Reference}{14}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Detailed Description}{15}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Member Function Documentation}{15}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}OnPointerEnter()}{15}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}OnPointerExit()}{16}{subsubsection.6.2.2}%
+\contentsline {section}{\numberline {7}Auto\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Camera\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Toggle\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controller Class Reference}{16}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Detailed Description}{18}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Member Function Documentation}{18}{subsection.7.2}%
+\contentsline {subsubsection}{\numberline {7.2.1}DisableAutomaticMovement()}{18}{subsubsection.7.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.2}EnableAutomaticMovement()}{18}{subsubsection.7.2.2}%
+\contentsline {subsubsection}{\numberline {7.2.3}IsAutoCameraEnabled()}{18}{subsubsection.7.2.3}%
+\contentsline {subsubsection}{\numberline {7.2.4}SyncToggleWithAutoMovement()}{18}{subsubsection.7.2.4}%
+\contentsline {subsection}{\numberline {7.3}Field Documentation}{18}{subsection.7.3}%
+\contentsline {subsubsection}{\numberline {7.3.1}autoFindReferences}{18}{subsubsection.7.3.1}%
+\contentsline {subsubsection}{\numberline {7.3.2}automaticMovement}{18}{subsubsection.7.3.2}%
+\contentsline {subsubsection}{\numberline {7.3.3}disabledColor}{19}{subsubsection.7.3.3}%
+\contentsline {subsubsection}{\numberline {7.3.4}disabledText}{19}{subsubsection.7.3.4}%
+\contentsline {subsubsection}{\numberline {7.3.5}enabledColor}{19}{subsubsection.7.3.5}%
+\contentsline {subsubsection}{\numberline {7.3.6}enabledText}{19}{subsubsection.7.3.6}%
+\contentsline {subsubsection}{\numberline {7.3.7}forceToggleOffAtStart}{19}{subsubsection.7.3.7}%
+\contentsline {subsubsection}{\numberline {7.3.8}statusText}{19}{subsubsection.7.3.8}%
+\contentsline {subsubsection}{\numberline {7.3.9}toggleControl}{19}{subsubsection.7.3.9}%
+\contentsline {section}{\numberline {8}Automatic\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Movement\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controller Class Reference}{19}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Detailed Description}{21}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Member Function Documentation}{21}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}ForceStartTour()}{21}{subsubsection.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.2}ForceStopTour()}{21}{subsubsection.8.2.2}%
+\contentsline {subsubsection}{\numberline {8.2.3}Initialize()}{22}{subsubsection.8.2.3}%
+\contentsline {subsubsection}{\numberline {8.2.4}OnPointOfInterestClosed()}{22}{subsubsection.8.2.4}%
+\contentsline {subsubsection}{\numberline {8.2.5}OnPointOfInterestOpened()}{22}{subsubsection.8.2.5}%
+\contentsline {subsection}{\numberline {8.3}Field Documentation}{22}{subsection.8.3}%
+\contentsline {subsubsection}{\numberline {8.3.1}autoRotationSpeed}{22}{subsubsection.8.3.1}%
+\contentsline {subsubsection}{\numberline {8.3.2}clockwiseRotation}{22}{subsubsection.8.3.2}%
+\contentsline {subsubsection}{\numberline {8.3.3}continueFromUserPosition}{22}{subsubsection.8.3.3}%
+\contentsline {subsubsection}{\numberline {8.3.4}debugMode}{22}{subsubsection.8.3.4}%
+\contentsline {subsubsection}{\numberline {8.3.5}disableDuringPOI}{23}{subsubsection.8.3.5}%
+\contentsline {subsubsection}{\numberline {8.3.6}inactivityThreshold}{23}{subsubsection.8.3.6}%
+\contentsline {subsubsection}{\numberline {8.3.7}mouseSensitivity}{23}{subsubsection.8.3.7}%
+\contentsline {subsubsection}{\numberline {8.3.8}smoothStartDuration}{23}{subsubsection.8.3.8}%
+\contentsline {subsubsection}{\numberline {8.3.9}smoothVerticalStart}{23}{subsubsection.8.3.9}%
+\contentsline {subsubsection}{\numberline {8.3.10}startDisabled}{23}{subsubsection.8.3.10}%
+\contentsline {subsubsection}{\numberline {8.3.11}timeFor360Tour}{23}{subsubsection.8.3.11}%
+\contentsline {subsubsection}{\numberline {8.3.12}useVerticalWave}{23}{subsubsection.8.3.12}%
+\contentsline {subsubsection}{\numberline {8.3.13}verticalWaveAmplitude}{23}{subsubsection.8.3.13}%
+\contentsline {subsubsection}{\numberline {8.3.14}verticalWaveFrequency}{23}{subsubsection.8.3.14}%
+\contentsline {section}{\numberline {9}Ayuda Class Reference}{24}{section.9}%
+\contentsline {section}{\numberline {10}Animated\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Button.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Blink\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Settings Class Reference}{24}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Detailed Description}{25}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Field Documentation}{25}{subsection.10.2}%
+\contentsline {subsubsection}{\numberline {10.2.1}blinkSpeed}{25}{subsubsection.10.2.1}%
+\contentsline {subsubsection}{\numberline {10.2.2}enableBlinking}{25}{subsubsection.10.2.2}%
+\contentsline {section}{\numberline {11}Boton\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Navegacion Class Reference}{25}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Detailed Description}{26}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Member Function Documentation}{26}{subsection.11.2}%
+\contentsline {subsubsection}{\numberline {11.2.1}Inicializar()}{26}{subsubsection.11.2.1}%
+\contentsline {subsubsection}{\numberline {11.2.2}OnPointerEnter()}{27}{subsubsection.11.2.2}%
+\contentsline {subsubsection}{\numberline {11.2.3}OnPointerExit()}{27}{subsubsection.11.2.3}%
+\contentsline {section}{\numberline {12}Botton\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Navigation\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Asigner\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cont Class Reference}{27}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Member Function Documentation}{28}{subsection.12.1}%
+\contentsline {subsubsection}{\numberline {12.1.1}ShowWindow()}{28}{subsubsection.12.1.1}%
+\contentsline {section}{\numberline {13}Btn\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scroll\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hide Class Reference}{28}{section.13}%
+\contentsline {subsection}{\numberline {13.1}Detailed Description}{29}{subsection.13.1}%
+\contentsline {subsection}{\numberline {13.2}Member Function Documentation}{29}{subsection.13.2}%
+\contentsline {subsubsection}{\numberline {13.2.1}ToggleGameObject()}{29}{subsubsection.13.2.1}%
+\contentsline {subsection}{\numberline {13.3}Field Documentation}{30}{subsection.13.3}%
+\contentsline {subsubsection}{\numberline {13.3.1}fadeDuration}{30}{subsubsection.13.3.1}%
+\contentsline {section}{\numberline {14}Button\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hover\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Effect Class Reference}{30}{section.14}%
+\contentsline {subsection}{\numberline {14.1}Detailed Description}{31}{subsection.14.1}%
+\contentsline {subsection}{\numberline {14.2}Member Function Documentation}{31}{subsection.14.2}%
+\contentsline {subsubsection}{\numberline {14.2.1}OnPointerEnter()}{31}{subsubsection.14.2.1}%
+\contentsline {subsubsection}{\numberline {14.2.2}OnPointerExit()}{31}{subsubsection.14.2.2}%
+\contentsline {subsection}{\numberline {14.3}Field Documentation}{32}{subsection.14.3}%
+\contentsline {subsubsection}{\numberline {14.3.1}delayTime}{32}{subsubsection.14.3.1}%
+\contentsline {subsubsection}{\numberline {14.3.2}hoverColor}{32}{subsubsection.14.3.2}%
+\contentsline {subsubsection}{\numberline {14.3.3}normalColor}{32}{subsubsection.14.3.3}%
+\contentsline {subsubsection}{\numberline {14.3.4}panelObject}{32}{subsubsection.14.3.4}%
+\contentsline {subsubsection}{\numberline {14.3.5}textObject}{32}{subsubsection.14.3.5}%
+\contentsline {section}{\numberline {15}Camera\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}View Class Reference}{32}{section.15}%
+\contentsline {subsection}{\numberline {15.1}Detailed Description}{34}{subsection.15.1}%
+\contentsline {subsection}{\numberline {15.2}Member Function Documentation}{34}{subsection.15.2}%
+\contentsline {subsubsection}{\numberline {15.2.1}FindPunto()}{34}{subsubsection.15.2.1}%
+\contentsline {subsubsection}{\numberline {15.2.2}ResetView()}{35}{subsubsection.15.2.2}%
+\contentsline {subsubsection}{\numberline {15.2.3}RotateCameraToLookAt()}{35}{subsubsection.15.2.3}%
+\contentsline {subsection}{\numberline {15.3}Field Documentation}{35}{subsection.15.3}%
+\contentsline {subsubsection}{\numberline {15.3.1}autoDetectPlatform}{35}{subsubsection.15.3.1}%
+\contentsline {subsubsection}{\numberline {15.3.2}forceMobileMode}{35}{subsubsection.15.3.2}%
+\contentsline {subsubsection}{\numberline {15.3.3}hideCursorWhileNavigating}{35}{subsubsection.15.3.3}%
+\contentsline {subsubsection}{\numberline {15.3.4}horizontalSpeed}{35}{subsubsection.15.3.4}%
+\contentsline {subsubsection}{\numberline {15.3.5}isCentered}{35}{subsubsection.15.3.5}%
+\contentsline {subsubsection}{\numberline {15.3.6}smoothSpeed}{36}{subsubsection.15.3.6}%
+\contentsline {subsubsection}{\numberline {15.3.7}verticalLimit}{36}{subsubsection.15.3.7}%
+\contentsline {subsubsection}{\numberline {15.3.8}verticalSpeed}{36}{subsubsection.15.3.8}%
+\contentsline {subsection}{\numberline {15.4}Property Documentation}{36}{subsection.15.4}%
+\contentsline {subsubsection}{\numberline {15.4.1}IsMobilePlatform}{36}{subsubsection.15.4.1}%
+\contentsline {subsubsection}{\numberline {15.4.2}IsTransitioning}{36}{subsubsection.15.4.2}%
+\contentsline {subsubsection}{\numberline {15.4.3}MainCamera}{36}{subsubsection.15.4.3}%
+\contentsline {subsubsection}{\numberline {15.4.4}TargetRotation}{36}{subsubsection.15.4.4}%
+\contentsline {subsubsection}{\numberline {15.4.5}XRotation}{36}{subsubsection.15.4.5}%
+\contentsline {subsubsection}{\numberline {15.4.6}YRotation}{36}{subsubsection.15.4.6}%
+\contentsline {subsection}{\numberline {15.5}Event Documentation}{37}{subsection.15.5}%
+\contentsline {subsubsection}{\numberline {15.5.1}OnRotationChanged}{37}{subsubsection.15.5.1}%
+\contentsline {section}{\numberline {16}Canvas\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Text\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Selected Class Reference}{37}{section.16}%
+\contentsline {subsection}{\numberline {16.1}Detailed Description}{38}{subsection.16.1}%
+\contentsline {subsection}{\numberline {16.2}Member Function Documentation}{38}{subsection.16.2}%
+\contentsline {subsubsection}{\numberline {16.2.1}IsPermanentlyUnderlined()}{38}{subsubsection.16.2.1}%
+\contentsline {subsubsection}{\numberline {16.2.2}OnPointerEnter()}{38}{subsubsection.16.2.2}%
+\contentsline {subsubsection}{\numberline {16.2.3}OnPointerExit()}{39}{subsubsection.16.2.3}%
+\contentsline {subsubsection}{\numberline {16.2.4}SetPermanentUnderline()}{39}{subsubsection.16.2.4}%
+\contentsline {subsection}{\numberline {16.3}Field Documentation}{39}{subsection.16.3}%
+\contentsline {subsubsection}{\numberline {16.3.1}isPermanentlyUnderlined}{39}{subsubsection.16.3.1}%
+\contentsline {section}{\numberline {17}Animated\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Button.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Color\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Settings Class Reference}{39}{section.17}%
+\contentsline {subsection}{\numberline {17.1}Detailed Description}{40}{subsection.17.1}%
+\contentsline {subsection}{\numberline {17.2}Field Documentation}{40}{subsection.17.2}%
+\contentsline {subsubsection}{\numberline {17.2.1}hoverColor}{40}{subsubsection.17.2.1}%
+\contentsline {subsubsection}{\numberline {17.2.2}normalColor}{40}{subsubsection.17.2.2}%
+\contentsline {section}{\numberline {18}Cursor\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Changer Class Reference}{40}{section.18}%
+\contentsline {subsection}{\numberline {18.1}Detailed Description}{41}{subsection.18.1}%
+\contentsline {subsection}{\numberline {18.2}Member Function Documentation}{41}{subsection.18.2}%
+\contentsline {subsubsection}{\numberline {18.2.1}Initialize()}{41}{subsubsection.18.2.1}%
+\contentsline {subsubsection}{\numberline {18.2.2}OnPointerClick()}{41}{subsubsection.18.2.2}%
+\contentsline {subsubsection}{\numberline {18.2.3}OnPointerEnter()}{42}{subsubsection.18.2.3}%
+\contentsline {subsubsection}{\numberline {18.2.4}OnPointerExit()}{42}{subsubsection.18.2.4}%
+\contentsline {section}{\numberline {19}Cursor\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Changer\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Asigner\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Content Class Reference}{43}{section.19}%
+\contentsline {subsection}{\numberline {19.1}Member Function Documentation}{43}{subsection.19.1}%
+\contentsline {subsubsection}{\numberline {19.1.1}ShowWindow()}{43}{subsubsection.19.1.1}%
+\contentsline {section}{\numberline {20}Cursor\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Changer\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Menu Class Reference}{44}{section.20}%
+\contentsline {subsection}{\numberline {20.1}Member Function Documentation}{44}{subsection.20.1}%
+\contentsline {subsubsection}{\numberline {20.1.1}OnPointerClick()}{44}{subsubsection.20.1.1}%
+\contentsline {subsubsection}{\numberline {20.1.2}OnPointerEnter()}{44}{subsubsection.20.1.2}%
+\contentsline {subsubsection}{\numberline {20.1.3}OnPointerExit()}{45}{subsubsection.20.1.3}%
+\contentsline {section}{\numberline {21}Default\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cursor\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Setter Class Reference}{45}{section.21}%
+\contentsline {subsection}{\numberline {21.1}Detailed Description}{45}{subsection.21.1}%
+\contentsline {section}{\numberline {22}Delayed\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Fade\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}In\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Buttons Class Reference}{46}{section.22}%
+\contentsline {subsection}{\numberline {22.1}Detailed Description}{46}{subsection.22.1}%
+\contentsline {section}{\numberline {23}Dots\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Pattern Class Reference}{46}{section.23}%
+\contentsline {subsection}{\numberline {23.1}Detailed Description}{48}{subsection.23.1}%
+\contentsline {subsection}{\numberline {23.2}Member Function Documentation}{48}{subsection.23.2}%
+\contentsline {subsubsection}{\numberline {23.2.1}RegenerarPatron()}{48}{subsubsection.23.2.1}%
+\contentsline {subsection}{\numberline {23.3}Field Documentation}{48}{subsection.23.3}%
+\contentsline {subsubsection}{\numberline {23.3.1}colorAcento}{48}{subsubsection.23.3.1}%
+\contentsline {subsubsection}{\numberline {23.3.2}colorFondo}{48}{subsubsection.23.3.2}%
+\contentsline {subsubsection}{\numberline {23.3.3}espaciadoPatron}{48}{subsubsection.23.3.3}%
+\contentsline {subsubsection}{\numberline {23.3.4}opacidadPunto}{48}{subsubsection.23.3.4}%
+\contentsline {subsubsection}{\numberline {23.3.5}tamañoPunto}{49}{subsubsection.23.3.5}%
+\contentsline {subsubsection}{\numberline {23.3.6}variacionSuave}{49}{subsubsection.23.3.6}%
+\contentsline {section}{\numberline {24}Fast\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scroll\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Rect Class Reference}{49}{section.24}%
+\contentsline {subsection}{\numberline {24.1}Detailed Description}{50}{subsection.24.1}%
+\contentsline {subsection}{\numberline {24.2}Member Function Documentation}{50}{subsection.24.2}%
+\contentsline {subsubsection}{\numberline {24.2.1}OnScroll()}{50}{subsubsection.24.2.1}%
+\contentsline {subsection}{\numberline {24.3}Field Documentation}{50}{subsection.24.3}%
+\contentsline {subsubsection}{\numberline {24.3.1}scrollRect}{50}{subsubsection.24.3.1}%
+\contentsline {subsubsection}{\numberline {24.3.2}scrollSpeed}{50}{subsubsection.24.3.2}%
+\contentsline {section}{\numberline {25}Animated\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Button.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Float\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Settings Class Reference}{51}{section.25}%
+\contentsline {subsection}{\numberline {25.1}Detailed Description}{51}{subsection.25.1}%
+\contentsline {subsection}{\numberline {25.2}Field Documentation}{51}{subsection.25.2}%
+\contentsline {subsubsection}{\numberline {25.2.1}enableFloating}{51}{subsubsection.25.2.1}%
+\contentsline {subsubsection}{\numberline {25.2.2}enableLateralFloat}{51}{subsubsection.25.2.2}%
+\contentsline {subsubsection}{\numberline {25.2.3}floatHeight}{51}{subsubsection.25.2.3}%
+\contentsline {subsubsection}{\numberline {25.2.4}floatSpeed}{52}{subsubsection.25.2.4}%
+\contentsline {subsubsection}{\numberline {25.2.5}lateralFloatAmount}{52}{subsubsection.25.2.5}%
+\contentsline {subsubsection}{\numberline {25.2.6}lateralFloatSpeed}{52}{subsubsection.25.2.6}%
+\contentsline {section}{\numberline {26}Gradient\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Background Class Reference}{52}{section.26}%
+\contentsline {subsection}{\numberline {26.1}Detailed Description}{53}{subsection.26.1}%
+\contentsline {subsection}{\numberline {26.2}Member Function Documentation}{54}{subsection.26.2}%
+\contentsline {subsubsection}{\numberline {26.2.1}GenerarFondoSuave()}{54}{subsubsection.26.2.1}%
+\contentsline {subsection}{\numberline {26.3}Field Documentation}{54}{subsection.26.3}%
+\contentsline {subsubsection}{\numberline {26.3.1}colorBorde}{54}{subsubsection.26.3.1}%
+\contentsline {subsubsection}{\numberline {26.3.2}colorCentro}{54}{subsubsection.26.3.2}%
+\contentsline {subsubsection}{\numberline {26.3.3}intensidadGradiente}{54}{subsubsection.26.3.3}%
+\contentsline {subsubsection}{\numberline {26.3.4}intensidadRuido}{54}{subsubsection.26.3.4}%
+\contentsline {subsubsection}{\numberline {26.3.5}tamañoTextura}{54}{subsubsection.26.3.5}%
+\contentsline {section}{\numberline {27}Hover\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Text\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Display Class Reference}{54}{section.27}%
+\contentsline {subsection}{\numberline {27.1}Detailed Description}{55}{subsection.27.1}%
+\contentsline {subsection}{\numberline {27.2}Member Function Documentation}{55}{subsection.27.2}%
+\contentsline {subsubsection}{\numberline {27.2.1}OnPointerEnter()}{55}{subsubsection.27.2.1}%
+\contentsline {subsubsection}{\numberline {27.2.2}OnPointerExit()}{56}{subsubsection.27.2.2}%
+\contentsline {section}{\numberline {28}Imagen\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Import\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Processor Class Reference}{56}{section.28}%
+\contentsline {section}{\numberline {29}Input\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controller Class Reference}{57}{section.29}%
+\contentsline {subsection}{\numberline {29.1}Detailed Description}{59}{subsection.29.1}%
+\contentsline {subsection}{\numberline {29.2}Member Function Documentation}{59}{subsection.29.2}%
+\contentsline {subsubsection}{\numberline {29.2.1}Awake()}{59}{subsubsection.29.2.1}%
+\contentsline {subsubsection}{\numberline {29.2.2}CheckInitialization()}{59}{subsubsection.29.2.2}%
+\contentsline {subsubsection}{\numberline {29.2.3}Initialize()}{60}{subsubsection.29.2.3}%
+\contentsline {subsubsection}{\numberline {29.2.4}OnDisable()}{60}{subsubsection.29.2.4}%
+\contentsline {subsubsection}{\numberline {29.2.5}OnEnable()}{60}{subsubsection.29.2.5}%
+\contentsline {subsubsection}{\numberline {29.2.6}SetEnabled()}{60}{subsubsection.29.2.6}%
+\contentsline {subsubsection}{\numberline {29.2.7}Start()}{60}{subsubsection.29.2.7}%
+\contentsline {subsubsection}{\numberline {29.2.8}Update()}{61}{subsubsection.29.2.8}%
+\contentsline {subsection}{\numberline {29.3}Field Documentation}{61}{subsection.29.3}%
+\contentsline {subsubsection}{\numberline {29.3.1}isInitialized}{61}{subsubsection.29.3.1}%
+\contentsline {subsubsection}{\numberline {29.3.2}parentController}{61}{subsubsection.29.3.2}%
+\contentsline {section}{\numberline {30}Keyboard\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controller Class Reference}{61}{section.30}%
+\contentsline {subsection}{\numberline {30.1}Detailed Description}{62}{subsection.30.1}%
+\contentsline {subsection}{\numberline {30.2}Member Function Documentation}{62}{subsection.30.2}%
+\contentsline {subsubsection}{\numberline {30.2.1}Initialize()}{62}{subsubsection.30.2.1}%
+\contentsline {subsection}{\numberline {30.3}Field Documentation}{63}{subsection.30.3}%
+\contentsline {subsubsection}{\numberline {30.3.1}enableKeyboardControls}{63}{subsubsection.30.3.1}%
+\contentsline {subsubsection}{\numberline {30.3.2}keyboardRotationSpeed}{63}{subsubsection.30.3.2}%
+\contentsline {subsubsection}{\numberline {30.3.3}useArrowKeys}{63}{subsubsection.30.3.3}%
+\contentsline {section}{\numberline {31}Link\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Handler Class Reference}{63}{section.31}%
+\contentsline {subsection}{\numberline {31.1}Detailed Description}{64}{subsection.31.1}%
+\contentsline {subsection}{\numberline {31.2}Member Function Documentation}{64}{subsection.31.2}%
+\contentsline {subsubsection}{\numberline {31.2.1}OpenURL()}{64}{subsubsection.31.2.1}%
+\contentsline {section}{\numberline {32}Link\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Opener Class Reference}{64}{section.32}%
+\contentsline {subsection}{\numberline {32.1}Detailed Description}{65}{subsection.32.1}%
+\contentsline {subsection}{\numberline {32.2}Member Function Documentation}{66}{subsection.32.2}%
+\contentsline {subsubsection}{\numberline {32.2.1}OnPointerClick()}{66}{subsubsection.32.2.1}%
+\contentsline {subsection}{\numberline {32.3}Field Documentation}{66}{subsection.32.3}%
+\contentsline {subsubsection}{\numberline {32.3.1}textMeshPro}{66}{subsubsection.32.3.1}%
+\contentsline {section}{\numberline {33}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Script Class Reference}{66}{section.33}%
+\contentsline {subsection}{\numberline {33.1}Detailed Description}{67}{subsection.33.1}%
+\contentsline {subsection}{\numberline {33.2}Field Documentation}{67}{subsection.33.2}%
+\contentsline {subsubsection}{\numberline {33.2.1}simularAndroid}{67}{subsubsection.33.2.1}%
+\contentsline {section}{\numberline {34}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Text\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Selected Class Reference}{67}{section.34}%
+\contentsline {subsection}{\numberline {34.1}Detailed Description}{68}{subsection.34.1}%
+\contentsline {subsection}{\numberline {34.2}Member Function Documentation}{69}{subsection.34.2}%
+\contentsline {subsubsection}{\numberline {34.2.1}OnPointerEnter()}{69}{subsubsection.34.2.1}%
+\contentsline {subsubsection}{\numberline {34.2.2}OnPointerExit()}{69}{subsubsection.34.2.2}%
+\contentsline {subsection}{\numberline {34.3}Field Documentation}{69}{subsection.34.3}%
+\contentsline {subsubsection}{\numberline {34.3.1}isPermanentlyUnderlined}{69}{subsubsection.34.3.1}%
+\contentsline {section}{\numberline {35}Material\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Transition Class Reference}{70}{section.35}%
+\contentsline {subsection}{\numberline {35.1}Detailed Description}{71}{subsection.35.1}%
+\contentsline {subsection}{\numberline {35.2}Member Function Documentation}{71}{subsection.35.2}%
+\contentsline {subsubsection}{\numberline {35.2.1}ApagarTodosLosPaneles()}{71}{subsubsection.35.2.1}%
+\contentsline {subsubsection}{\numberline {35.2.2}FadeTo()}{72}{subsubsection.35.2.2}%
+\contentsline {subsubsection}{\numberline {35.2.3}FindAllImagePanels()}{72}{subsubsection.35.2.3}%
+\contentsline {subsubsection}{\numberline {35.2.4}FindAllVideoPanels()}{72}{subsubsection.35.2.4}%
+\contentsline {subsubsection}{\numberline {35.2.5}StartTransition()}{72}{subsubsection.35.2.5}%
+\contentsline {subsection}{\numberline {35.3}Field Documentation}{73}{subsection.35.3}%
+\contentsline {subsubsection}{\numberline {35.3.1}fadeDuration}{73}{subsubsection.35.3.1}%
+\contentsline {subsubsection}{\numberline {35.3.2}fadeDurationWithZoom}{73}{subsubsection.35.3.2}%
+\contentsline {subsubsection}{\numberline {35.3.3}flagBtnCarousel}{73}{subsubsection.35.3.3}%
+\contentsline {subsubsection}{\numberline {35.3.4}isFading}{73}{subsubsection.35.3.4}%
+\contentsline {subsubsection}{\numberline {35.3.5}zoomDistance}{73}{subsubsection.35.3.5}%
+\contentsline {subsubsection}{\numberline {35.3.6}zoomDuration}{73}{subsubsection.35.3.6}%
+\contentsline {subsubsection}{\numberline {35.3.7}zoomFOV}{73}{subsubsection.35.3.7}%
+\contentsline {subsubsection}{\numberline {35.3.8}zoomSpeed}{73}{subsubsection.35.3.8}%
+\contentsline {section}{\numberline {36}Mobile\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controller Class Reference}{74}{section.36}%
+\contentsline {subsection}{\numberline {36.1}Detailed Description}{75}{subsection.36.1}%
+\contentsline {subsection}{\numberline {36.2}Member Function Documentation}{75}{subsection.36.2}%
+\contentsline {subsubsection}{\numberline {36.2.1}Initialize()}{75}{subsubsection.36.2.1}%
+\contentsline {subsection}{\numberline {36.3}Field Documentation}{75}{subsection.36.3}%
+\contentsline {subsubsection}{\numberline {36.3.1}forceEnableTouchControls}{75}{subsubsection.36.3.1}%
+\contentsline {subsubsection}{\numberline {36.3.2}touchSensitivity}{75}{subsubsection.36.3.2}%
+\contentsline {section}{\numberline {37}Mostrar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Imagen\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desde\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Boton Class Reference}{75}{section.37}%
+\contentsline {subsection}{\numberline {37.1}Detailed Description}{76}{subsection.37.1}%
+\contentsline {subsection}{\numberline {37.2}Member Function Documentation}{76}{subsection.37.2}%
+\contentsline {subsubsection}{\numberline {37.2.1}MostrarImagen()}{76}{subsubsection.37.2.1}%
+\contentsline {section}{\numberline {38}Mostrar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Slider\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sonido Class Reference}{77}{section.38}%
+\contentsline {subsection}{\numberline {38.1}Member Function Documentation}{78}{subsection.38.1}%
+\contentsline {subsubsection}{\numberline {38.1.1}AlternarMusica()}{78}{subsubsection.38.1.1}%
+\contentsline {subsubsection}{\numberline {38.1.2}OnPointerEnter()}{78}{subsubsection.38.1.2}%
+\contentsline {subsubsection}{\numberline {38.1.3}OnPointerExit()}{78}{subsubsection.38.1.3}%
+\contentsline {subsubsection}{\numberline {38.1.4}SilenciarAmbiente()}{78}{subsubsection.38.1.4}%
+\contentsline {subsection}{\numberline {38.2}Field Documentation}{79}{subsection.38.2}%
+\contentsline {subsubsection}{\numberline {38.2.1}audioAmbiente}{79}{subsubsection.38.2.1}%
+\contentsline {subsubsection}{\numberline {38.2.2}iconoConSonido}{79}{subsubsection.38.2.2}%
+\contentsline {subsubsection}{\numberline {38.2.3}iconoSinSonido}{79}{subsubsection.38.2.3}%
+\contentsline {subsubsection}{\numberline {38.2.4}iconoSonido}{79}{subsubsection.38.2.4}%
+\contentsline {subsubsection}{\numberline {38.2.5}sliderVolumen}{79}{subsubsection.38.2.5}%
+\contentsline {section}{\numberline {39}Mostrar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Texto\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desde\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Boton Class Reference}{79}{section.39}%
+\contentsline {subsection}{\numberline {39.1}Detailed Description}{80}{subsection.39.1}%
+\contentsline {subsection}{\numberline {39.2}Member Function Documentation}{80}{subsection.39.2}%
+\contentsline {subsubsection}{\numberline {39.2.1}OcultarPanelTexto()}{80}{subsubsection.39.2.1}%
+\contentsline {section}{\numberline {40}Mostrar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Video\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desde\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Boton\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Con\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Subtitulos Class Reference}{81}{section.40}%
+\contentsline {subsection}{\numberline {40.1}Member Function Documentation}{81}{subsection.40.1}%
+\contentsline {subsubsection}{\numberline {40.1.1}MostrarVideo()}{81}{subsubsection.40.1.1}%
+\contentsline {section}{\numberline {41}Mouse\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controller Class Reference}{82}{section.41}%
+\contentsline {subsection}{\numberline {41.1}Detailed Description}{85}{subsection.41.1}%
+\contentsline {subsection}{\numberline {41.2}Member Function Documentation}{85}{subsection.41.2}%
+\contentsline {subsubsection}{\numberline {41.2.1}Awake()}{85}{subsubsection.41.2.1}%
+\contentsline {subsubsection}{\numberline {41.2.2}IgnoreNextMouseDelta()}{85}{subsubsection.41.2.2}%
+\contentsline {subsubsection}{\numberline {41.2.3}Initialize()}{85}{subsubsection.41.2.3}%
+\contentsline {subsubsection}{\numberline {41.2.4}OnDisable()}{85}{subsubsection.41.2.4}%
+\contentsline {subsubsection}{\numberline {41.2.5}OnEnable()}{85}{subsubsection.41.2.5}%
+\contentsline {subsubsection}{\numberline {41.2.6}Update()}{86}{subsubsection.41.2.6}%
+\contentsline {subsection}{\numberline {41.3}Field Documentation}{86}{subsection.41.3}%
+\contentsline {subsubsection}{\numberline {41.3.1}controlButton}{86}{subsubsection.41.3.1}%
+\contentsline {subsubsection}{\numberline {41.3.2}hideCursorWhileNavigating}{86}{subsubsection.41.3.2}%
+\contentsline {subsubsection}{\numberline {41.3.3}lockCursorToCenter}{86}{subsubsection.41.3.3}%
+\contentsline {subsubsection}{\numberline {41.3.4}screenEdgeMargin}{86}{subsubsection.41.3.4}%
+\contentsline {section}{\numberline {42}Orientation\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Adapter Class Reference}{86}{section.42}%
+\contentsline {subsection}{\numberline {42.1}Detailed Description}{87}{subsection.42.1}%
+\contentsline {subsection}{\numberline {42.2}Member Function Documentation}{87}{subsection.42.2}%
+\contentsline {subsubsection}{\numberline {42.2.1}ForceOrientationUpdate()}{87}{subsubsection.42.2.1}%
+\contentsline {section}{\numberline {43}Panel\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Imagen\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controller Class Reference}{88}{section.43}%
+\contentsline {subsection}{\numberline {43.1}Detailed Description}{89}{subsection.43.1}%
+\contentsline {subsection}{\numberline {43.2}Member Function Documentation}{89}{subsection.43.2}%
+\contentsline {subsubsection}{\numberline {43.2.1}ApagarImagen()}{89}{subsubsection.43.2.1}%
+\contentsline {subsubsection}{\numberline {43.2.2}CerrarPanel()}{89}{subsubsection.43.2.2}%
+\contentsline {subsubsection}{\numberline {43.2.3}MostrarPanel()}{89}{subsubsection.43.2.3}%
+\contentsline {section}{\numberline {44}Panel\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Texto\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controller Class Reference}{89}{section.44}%
+\contentsline {subsection}{\numberline {44.1}Detailed Description}{90}{subsection.44.1}%
+\contentsline {subsection}{\numberline {44.2}Member Function Documentation}{91}{subsection.44.2}%
+\contentsline {subsubsection}{\numberline {44.2.1}CerrarPanel()}{91}{subsubsection.44.2.1}%
+\contentsline {subsubsection}{\numberline {44.2.2}MostrarPanel()}{91}{subsubsection.44.2.2}%
+\contentsline {subsubsection}{\numberline {44.2.3}SetColorFondo()}{91}{subsubsection.44.2.3}%
+\contentsline {subsubsection}{\numberline {44.2.4}SetMargenBotonCerrar()}{91}{subsubsection.44.2.4}%
+\contentsline {section}{\numberline {45}Panel\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Video\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controller\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Con\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Subtitulos Class Reference}{92}{section.45}%
+\contentsline {subsection}{\numberline {45.1}Member Function Documentation}{92}{subsection.45.1}%
+\contentsline {subsubsection}{\numberline {45.1.1}AdelantarVideo()}{92}{subsubsection.45.1.1}%
+\contentsline {subsubsection}{\numberline {45.1.2}ApagarPanel()}{93}{subsubsection.45.1.2}%
+\contentsline {subsubsection}{\numberline {45.1.3}CerrarPanel()}{93}{subsubsection.45.1.3}%
+\contentsline {subsubsection}{\numberline {45.1.4}MostrarPanelDesdeRuta()}{93}{subsubsection.45.1.4}%
+\contentsline {subsubsection}{\numberline {45.1.5}RetrocederVideo()}{93}{subsubsection.45.1.5}%
+\contentsline {subsubsection}{\numberline {45.1.6}ToggleSubtitulos()}{93}{subsubsection.45.1.6}%
+\contentsline {section}{\numberline {46}Rotation\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Notifier Class Reference}{93}{section.46}%
+\contentsline {subsection}{\numberline {46.1}Detailed Description}{94}{subsection.46.1}%
+\contentsline {subsection}{\numberline {46.2}Member Function Documentation}{95}{subsection.46.2}%
+\contentsline {subsubsection}{\numberline {46.2.1}Initialize()}{95}{subsubsection.46.2.1}%
+\contentsline {subsection}{\numberline {46.3}Field Documentation}{95}{subsection.46.3}%
+\contentsline {subsubsection}{\numberline {46.3.1}notificationThrottleTime}{95}{subsubsection.46.3.1}%
+\contentsline {subsubsection}{\numberline {46.3.2}significantChangeThreshold}{95}{subsubsection.46.3.2}%
+\contentsline {subsection}{\numberline {46.4}Event Documentation}{95}{subsection.46.4}%
+\contentsline {subsubsection}{\numberline {46.4.1}OnRotationChanged}{95}{subsubsection.46.4.1}%
+\contentsline {section}{\numberline {47}Rotator Class Reference}{95}{section.47}%
+\contentsline {subsection}{\numberline {47.1}Detailed Description}{96}{subsection.47.1}%
+\contentsline {subsection}{\numberline {47.2}Field Documentation}{97}{subsection.47.2}%
+\contentsline {subsubsection}{\numberline {47.2.1}rotationAxis}{97}{subsubsection.47.2.1}%
+\contentsline {subsubsection}{\numberline {47.2.2}rotationSpeed}{97}{subsubsection.47.2.2}%
+\contentsline {section}{\numberline {48}Scene\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controllers Class Reference}{97}{section.48}%
+\contentsline {subsection}{\numberline {48.1}Detailed Description}{98}{subsection.48.1}%
+\contentsline {subsection}{\numberline {48.2}Field Documentation}{98}{subsection.48.2}%
+\contentsline {subsubsection}{\numberline {48.2.1}views}{98}{subsubsection.48.2.1}%
+\contentsline {section}{\numberline {49}Scene\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Loader Class Reference}{99}{section.49}%
+\contentsline {subsection}{\numberline {49.1}Member Function Documentation}{99}{subsection.49.1}%
+\contentsline {subsubsection}{\numberline {49.1.1}LoadScene()}{99}{subsubsection.49.1.1}%
+\contentsline {subsection}{\numberline {49.2}Field Documentation}{100}{subsection.49.2}%
+\contentsline {subsubsection}{\numberline {49.2.1}sceneName}{100}{subsubsection.49.2.1}%
+\contentsline {section}{\numberline {50}Scroll\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Creditos Class Reference}{100}{section.50}%
+\contentsline {subsection}{\numberline {50.1}Detailed Description}{101}{subsection.50.1}%
+\contentsline {subsection}{\numberline {50.2}Field Documentation}{101}{subsection.50.2}%
+\contentsline {subsubsection}{\numberline {50.2.1}velocidad}{101}{subsubsection.50.2.1}%
+\contentsline {section}{\numberline {51}Show\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Galery\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Android Class Reference}{101}{section.51}%
+\contentsline {subsection}{\numberline {51.1}Detailed Description}{102}{subsection.51.1}%
+\contentsline {subsection}{\numberline {51.2}Member Function Documentation}{102}{subsection.51.2}%
+\contentsline {subsubsection}{\numberline {51.2.1}CloseCorouselOnClick()}{102}{subsubsection.51.2.1}%
+\contentsline {subsubsection}{\numberline {51.2.2}Toggle()}{102}{subsubsection.51.2.2}%
+\contentsline {section}{\numberline {52}Show\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Handle Class Reference}{102}{section.52}%
+\contentsline {subsection}{\numberline {52.1}Detailed Description}{103}{subsection.52.1}%
+\contentsline {subsection}{\numberline {52.2}Member Function Documentation}{103}{subsection.52.2}%
+\contentsline {subsubsection}{\numberline {52.2.1}OnPointerEnter()}{103}{subsubsection.52.2.1}%
+\contentsline {subsubsection}{\numberline {52.2.2}OnPointerExit()}{104}{subsubsection.52.2.2}%
+\contentsline {subsection}{\numberline {52.3}Field Documentation}{104}{subsection.52.3}%
+\contentsline {subsubsection}{\numberline {52.3.1}scrollbar}{104}{subsubsection.52.3.1}%
+\contentsline {section}{\numberline {53}Show\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Selected\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Position Class Reference}{104}{section.53}%
+\contentsline {subsection}{\numberline {53.1}Detailed Description}{105}{subsection.53.1}%
+\contentsline {subsection}{\numberline {53.2}Member Function Documentation}{105}{subsection.53.2}%
+\contentsline {subsubsection}{\numberline {53.2.1}CenterOnButton()}{105}{subsubsection.53.2.1}%
+\contentsline {section}{\numberline {54}Simple\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Button\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hover Class Reference}{106}{section.54}%
+\contentsline {subsection}{\numberline {54.1}Detailed Description}{106}{subsection.54.1}%
+\contentsline {subsection}{\numberline {54.2}Member Function Documentation}{107}{subsection.54.2}%
+\contentsline {subsubsection}{\numberline {54.2.1}OnPointerEnter()}{107}{subsubsection.54.2.1}%
+\contentsline {subsubsection}{\numberline {54.2.2}OnPointerExit()}{107}{subsubsection.54.2.2}%
+\contentsline {section}{\numberline {55}Sky\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Box\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Button\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Selected Class Reference}{107}{section.55}%
+\contentsline {subsection}{\numberline {55.1}Detailed Description}{108}{subsection.55.1}%
+\contentsline {subsection}{\numberline {55.2}Member Function Documentation}{109}{subsection.55.2}%
+\contentsline {subsubsection}{\numberline {55.2.1}ActivateMatchingCanvasOnly()}{109}{subsubsection.55.2.1}%
+\contentsline {subsubsection}{\numberline {55.2.2}Bandera()}{109}{subsubsection.55.2.2}%
+\contentsline {subsubsection}{\numberline {55.2.3}HighlightCurrentSkyboxButton()}{109}{subsubsection.55.2.3}%
+\contentsline {subsubsection}{\numberline {55.2.4}InitializeCarouselRender()}{109}{subsubsection.55.2.4}%
+\contentsline {subsubsection}{\numberline {55.2.5}OnSkyboxChanged()}{109}{subsubsection.55.2.5}%
+\contentsline {subsection}{\numberline {55.3}Field Documentation}{109}{subsection.55.3}%
+\contentsline {subsubsection}{\numberline {55.3.1}carruselListo}{109}{subsubsection.55.3.1}%
+\contentsline {section}{\numberline {56}Sound\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controller Class Reference}{110}{section.56}%
+\contentsline {subsection}{\numberline {56.1}Detailed Description}{111}{subsection.56.1}%
+\contentsline {subsection}{\numberline {56.2}Member Function Documentation}{111}{subsection.56.2}%
+\contentsline {subsubsection}{\numberline {56.2.1}PauseAmbientSound()}{111}{subsubsection.56.2.1}%
+\contentsline {subsubsection}{\numberline {56.2.2}ResumeAmbientSound()}{111}{subsubsection.56.2.2}%
+\contentsline {subsubsection}{\numberline {56.2.3}SetControlledAudioSource()}{111}{subsubsection.56.2.3}%
+\contentsline {section}{\numberline {57}Start\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controller Class Reference}{112}{section.57}%
+\contentsline {subsection}{\numberline {57.1}Detailed Description}{112}{subsection.57.1}%
+\contentsline {section}{\numberline {58}Stop\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Movement\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Panel Class Reference}{112}{section.58}%
+\contentsline {subsection}{\numberline {58.1}Detailed Description}{113}{subsection.58.1}%
+\contentsline {subsection}{\numberline {58.2}Member Function Documentation}{114}{subsection.58.2}%
+\contentsline {subsubsection}{\numberline {58.2.1}OnPointerEnter()}{114}{subsubsection.58.2.1}%
+\contentsline {subsubsection}{\numberline {58.2.2}OnPointerExit()}{114}{subsubsection.58.2.2}%
+\contentsline {subsection}{\numberline {58.3}Field Documentation}{114}{subsection.58.3}%
+\contentsline {subsubsection}{\numberline {58.3.1}IsPointerOverPanel}{114}{subsubsection.58.3.1}%
+\contentsline {section}{\numberline {59}Stop\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Zoom Class Reference}{114}{section.59}%
+\contentsline {subsection}{\numberline {59.1}Detailed Description}{115}{subsection.59.1}%
+\contentsline {subsection}{\numberline {59.2}Member Function Documentation}{116}{subsection.59.2}%
+\contentsline {subsubsection}{\numberline {59.2.1}OnPointerEnter()}{116}{subsubsection.59.2.1}%
+\contentsline {subsubsection}{\numberline {59.2.2}OnPointerExit()}{116}{subsubsection.59.2.2}%
+\contentsline {subsection}{\numberline {59.3}Field Documentation}{116}{subsection.59.3}%
+\contentsline {subsubsection}{\numberline {59.3.1}IsPointerOverScrollView}{116}{subsubsection.59.3.1}%
+\contentsline {section}{\numberline {60}Swipe\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Menu Class Reference}{116}{section.60}%
+\contentsline {subsection}{\numberline {60.1}Detailed Description}{118}{subsection.60.1}%
+\contentsline {subsection}{\numberline {60.2}Member Function Documentation}{118}{subsection.60.2}%
+\contentsline {subsubsection}{\numberline {60.2.1}CenterButton()}{118}{subsubsection.60.2.1}%
+\contentsline {subsubsection}{\numberline {60.2.2}IsButtonCentered()}{118}{subsubsection.60.2.2}%
+\contentsline {subsubsection}{\numberline {60.2.3}MoveLeft()}{118}{subsubsection.60.2.3}%
+\contentsline {subsubsection}{\numberline {60.2.4}MoveRight()}{119}{subsubsection.60.2.4}%
+\contentsline {subsubsection}{\numberline {60.2.5}UpdateLayoutForOrientation()}{119}{subsubsection.60.2.5}%
+\contentsline {subsection}{\numberline {60.3}Field Documentation}{119}{subsection.60.3}%
+\contentsline {subsubsection}{\numberline {60.3.1}scrollbar}{119}{subsubsection.60.3.1}%
+\contentsline {section}{\numberline {61}TMP\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Link\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Opener Class Reference}{119}{section.61}%
+\contentsline {subsection}{\numberline {61.1}Member Function Documentation}{120}{subsection.61.1}%
+\contentsline {subsubsection}{\numberline {61.1.1}OnPointerClick()}{120}{subsubsection.61.1.1}%
+\contentsline {section}{\numberline {62}Transition\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scroll\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bar Class Reference}{120}{section.62}%
+\contentsline {subsection}{\numberline {62.1}Detailed Description}{121}{subsection.62.1}%
+\contentsline {subsection}{\numberline {62.2}Member Function Documentation}{122}{subsection.62.2}%
+\contentsline {subsubsection}{\numberline {62.2.1}OnPointerEnter()}{122}{subsubsection.62.2.1}%
+\contentsline {subsubsection}{\numberline {62.2.2}OnPointerExit()}{122}{subsubsection.62.2.2}%
+\contentsline {subsection}{\numberline {62.3}Field Documentation}{122}{subsection.62.3}%
+\contentsline {subsubsection}{\numberline {62.3.1}fadeDuration}{122}{subsubsection.62.3.1}%
+\contentsline {subsubsection}{\numberline {62.3.2}scrollbar}{122}{subsubsection.62.3.2}%
+\contentsline {section}{\numberline {63}Typewriter\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Effect Class Reference}{122}{section.63}%
+\contentsline {subsection}{\numberline {63.1}Detailed Description}{124}{subsection.63.1}%
+\contentsline {subsection}{\numberline {63.2}Field Documentation}{124}{subsection.63.2}%
+\contentsline {subsubsection}{\numberline {63.2.1}audioSource}{124}{subsubsection.63.2.1}%
+\contentsline {subsubsection}{\numberline {63.2.2}delay}{124}{subsubsection.63.2.2}%
+\contentsline {subsubsection}{\numberline {63.2.3}fullText}{124}{subsubsection.63.2.3}%
+\contentsline {subsubsection}{\numberline {63.2.4}keySound}{124}{subsubsection.63.2.4}%
+\contentsline {subsubsection}{\numberline {63.2.5}lineDelay}{124}{subsubsection.63.2.5}%
+\contentsline {subsubsection}{\numberline {63.2.6}pressEnterText}{125}{subsubsection.63.2.6}%
+\contentsline {subsubsection}{\numberline {63.2.7}sceneToLoad}{125}{subsubsection.63.2.7}%
+\contentsline {subsubsection}{\numberline {63.2.8}soundCooldown}{125}{subsubsection.63.2.8}%
+\contentsline {subsubsection}{\numberline {63.2.9}textComponent}{125}{subsubsection.63.2.9}%
+\contentsline {section}{\numberline {64}Animated\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Button.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Vibration\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Settings Class Reference}{125}{section.64}%
+\contentsline {subsection}{\numberline {64.1}Detailed Description}{125}{subsection.64.1}%
+\contentsline {subsection}{\numberline {64.2}Field Documentation}{126}{subsection.64.2}%
+\contentsline {subsubsection}{\numberline {64.2.1}enableVibration}{126}{subsubsection.64.2.1}%
+\contentsline {subsubsection}{\numberline {64.2.2}vibrationAmount}{126}{subsubsection.64.2.2}%
+\contentsline {subsubsection}{\numberline {64.2.3}vibrationSpeed}{126}{subsubsection.64.2.3}%
+\contentsline {section}{\numberline {65}Volver\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}AMain360 Class Reference}{126}{section.65}%
+\contentsline {subsection}{\numberline {65.1}Detailed Description}{127}{subsection.65.1}%
+\contentsline {subsection}{\numberline {65.2}Member Function Documentation}{127}{subsection.65.2}%
+\contentsline {subsubsection}{\numberline {65.2.1}IrAMain360()}{127}{subsubsection.65.2.1}%
+\contentsline {section}{\numberline {66}Zoom\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controller Class Reference}{127}{section.66}%
+\contentsline {subsection}{\numberline {66.1}Detailed Description}{129}{subsection.66.1}%
+\contentsline {subsection}{\numberline {66.2}Member Function Documentation}{129}{subsection.66.2}%
+\contentsline {subsubsection}{\numberline {66.2.1}Initialize()}{129}{subsubsection.66.2.1}%
+\contentsline {subsubsection}{\numberline {66.2.2}ResetZoom()}{130}{subsubsection.66.2.2}%
+\contentsline {subsection}{\numberline {66.3}Field Documentation}{130}{subsection.66.3}%
+\contentsline {subsubsection}{\numberline {66.3.1}allowZoom}{130}{subsubsection.66.3.1}%
+\contentsline {subsubsection}{\numberline {66.3.2}keyZoomSpeed}{130}{subsubsection.66.3.2}%
+\contentsline {subsubsection}{\numberline {66.3.3}maxFOV}{130}{subsubsection.66.3.3}%
+\contentsline {subsubsection}{\numberline {66.3.4}minFOV}{130}{subsubsection.66.3.4}%
+\contentsline {subsubsection}{\numberline {66.3.5}screenEdgeMargin}{130}{subsubsection.66.3.5}%
+\contentsline {subsubsection}{\numberline {66.3.6}smoothSpeed}{130}{subsubsection.66.3.6}%
+\contentsline {subsubsection}{\numberline {66.3.7}usePageKeys}{130}{subsubsection.66.3.7}%
+\contentsline {subsubsection}{\numberline {66.3.8}zoomInKey}{131}{subsubsection.66.3.8}%
+\contentsline {subsubsection}{\numberline {66.3.9}zoomInKeyAlt}{131}{subsubsection.66.3.9}%
+\contentsline {subsubsection}{\numberline {66.3.10}zoomOutKey}{131}{subsubsection.66.3.10}%
+\contentsline {subsubsection}{\numberline {66.3.11}zoomOutKeyAlt}{131}{subsubsection.66.3.11}%
+\contentsline {subsubsection}{\numberline {66.3.12}zoomSpeed}{131}{subsubsection.66.3.12}%
+\contentsline {section}{\numberline {67}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Camera/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Auto\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Camera\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Toggle\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controller.cs File Reference}{131}{section.67}%
+\contentsline {section}{\numberline {68}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Camera/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Automatic\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Movement\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controller.cs File Reference}{132}{section.68}%
+\contentsline {section}{\numberline {69}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Camera/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Camera\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}View.cs File Reference}{132}{section.69}%
+\contentsline {section}{\numberline {70}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Camera/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Input\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controllers.cs File Reference}{132}{section.70}%
+\contentsline {section}{\numberline {71}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Camera/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Keyboard\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controller.cs File Reference}{132}{section.71}%
+\contentsline {section}{\numberline {72}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Camera/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Mobile\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controller.cs File Reference}{133}{section.72}%
+\contentsline {section}{\numberline {73}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Camera/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Mouse\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controller.cs File Reference}{133}{section.73}%
+\contentsline {section}{\numberline {74}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Camera/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Rotation\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Notifier.cs File Reference}{133}{section.74}%
+\contentsline {section}{\numberline {75}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Camera/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Stop\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Movement\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Panel.cs File Reference}{133}{section.75}%
+\contentsline {section}{\numberline {76}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Camera/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Stop\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Zoom.cs File Reference}{134}{section.76}%
+\contentsline {section}{\numberline {77}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Camera/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Zoom\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controller.cs File Reference}{134}{section.77}%
+\contentsline {section}{\numberline {78}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Carousel\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Script/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Btn\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scroll\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hide.cs File Reference}{134}{section.78}%
+\contentsline {section}{\numberline {79}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Carousel\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Script/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Button\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hover\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Effect.cs File Reference}{134}{section.79}%
+\contentsline {section}{\numberline {80}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Carousel\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Script/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Canvas\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Text\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Selected.cs File Reference}{135}{section.80}%
+\contentsline {section}{\numberline {81}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Carousel\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Script/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Text\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Selected.cs File Reference}{135}{section.81}%
+\contentsline {section}{\numberline {82}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Carousel\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Script/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Material\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Transition.cs File Reference}{135}{section.82}%
+\contentsline {section}{\numberline {83}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Carousel\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Script/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scene\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controllers.cs File Reference}{135}{section.83}%
+\contentsline {section}{\numberline {84}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Carousel\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Script/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Show\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Galery\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Android.cs File Reference}{136}{section.84}%
+\contentsline {section}{\numberline {85}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Carousel\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Script/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Show\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Handle.cs File Reference}{136}{section.85}%
+\contentsline {section}{\numberline {86}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Carousel\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Script/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Show\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Selected\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Position.cs File Reference}{136}{section.86}%
+\contentsline {section}{\numberline {87}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Carousel\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Script/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sky\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Box\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Button\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Selected.cs File Reference}{136}{section.87}%
+\contentsline {section}{\numberline {88}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Carousel\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Script/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Transition\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scroll\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bar.cs File Reference}{137}{section.88}%
+\contentsline {section}{\numberline {89}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cursor/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cursor\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Changer.cs File Reference}{137}{section.89}%
+\contentsline {section}{\numberline {90}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cursor/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cursor\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Changer\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Menu.cs File Reference}{137}{section.90}%
+\contentsline {section}{\numberline {91}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cursor/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Default\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cursor\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Setter.cs File Reference}{137}{section.91}%
+\contentsline {section}{\numberline {92}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Añadir\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Punto.cs File Reference}{137}{section.92}%
+\contentsline {section}{\numberline {93}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Botton\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Navigation\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Asigner\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cont.cs File Reference}{138}{section.93}%
+\contentsline {section}{\numberline {94}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cursor\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Changer\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Asigner\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Content.cs File Reference}{138}{section.94}%
+\contentsline {section}{\numberline {95}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Generador\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}De\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Botones\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desde\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Img.cs File Reference}{138}{section.95}%
+\contentsline {section}{\numberline {96}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Menu\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Principal/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Gradient\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Background.cs File Reference}{138}{section.96}%
+\contentsline {section}{\numberline {97}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Menu\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Principal/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Script.cs File Reference}{138}{section.97}%
+\contentsline {subsection}{\numberline {97.1}Variable Documentation}{139}{subsection.97.1}%
+\contentsline {subsubsection}{\numberline {97.1.1}Generic}{139}{subsubsection.97.1.1}%
+\contentsline {section}{\numberline {98}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Menu\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Principal/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Orientation\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Adapter.cs File Reference}{139}{section.98}%
+\contentsline {section}{\numberline {99}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Menu\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Principal/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Pattern\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Overlay.cs File Reference}{139}{section.99}%
+\contentsline {section}{\numberline {100}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Menu\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Principal/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Swipe\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Menu.cs File Reference}{139}{section.100}%
+\contentsline {subsection}{\numberline {100.1}Variable Documentation}{140}{subsection.100.1}%
+\contentsline {subsubsection}{\numberline {100.1.1}Collections}{140}{subsubsection.100.1.1}%
+\contentsline {section}{\numberline {101}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts Creditos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Fast\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scroll\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Rect.cs File Reference}{140}{section.101}%
+\contentsline {section}{\numberline {102}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts Creditos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Link\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Opener.cs File Reference}{140}{section.102}%
+\contentsline {section}{\numberline {103}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts Creditos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scene\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Loader.cs File Reference}{140}{section.103}%
+\contentsline {section}{\numberline {104}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts Creditos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}TMP\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Link\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Opener.cs File Reference}{140}{section.104}%
+\contentsline {section}{\numberline {105}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts Creditos/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Typewriter\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Effect.cs File Reference}{141}{section.105}%
+\contentsline {section}{\numberline {106}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts Flechas/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Animated\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Button.cs File Reference}{141}{section.106}%
+\contentsline {section}{\numberline {107}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts Flechas/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Animated\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Button\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Menu.cs File Reference}{141}{section.107}%
+\contentsline {section}{\numberline {108}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts Flechas/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ayuda.cs File Reference}{142}{section.108}%
+\contentsline {section}{\numberline {109}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts Flechas/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Delayed\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Buttons\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Activator.cs File Reference}{142}{section.109}%
+\contentsline {section}{\numberline {110}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts Flechas/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Navigation\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Button.cs File Reference}{142}{section.110}%
+\contentsline {section}{\numberline {111}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts Flechas/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Simple\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Button\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hover.cs File Reference}{142}{section.111}%
+\contentsline {section}{\numberline {112}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts Flechas/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Start\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controller.cs File Reference}{142}{section.112}%
+\contentsline {section}{\numberline {113}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Puntos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}De\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Interes/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Boton\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inicio.cs File Reference}{143}{section.113}%
+\contentsline {section}{\numberline {114}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Puntos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}De\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Interes/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Editor/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Imagen\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Import\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Processor.cs File Reference}{143}{section.114}%
+\contentsline {section}{\numberline {115}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Puntos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}De\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Interes/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hover\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Text\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Display.cs File Reference}{143}{section.115}%
+\contentsline {section}{\numberline {116}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Puntos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}De\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Interes/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Link\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Handler.cs File Reference}{143}{section.116}%
+\contentsline {section}{\numberline {117}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Puntos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}De\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Interes/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Mostrar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Imagen\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desde\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Boton.cs File Reference}{143}{section.117}%
+\contentsline {section}{\numberline {118}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Puntos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}De\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Interes/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Mostrar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Texto\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desde\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Boton .cs File Reference}{144}{section.118}%
+\contentsline {section}{\numberline {119}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Puntos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}De\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Interes/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Mostrar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Video\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desde\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Boton\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Con\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Subtitulos.cs File Reference}{144}{section.119}%
+\contentsline {section}{\numberline {120}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Puntos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}De\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Interes/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Motrar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Slider\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sonido.cs File Reference}{144}{section.120}%
+\contentsline {section}{\numberline {121}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Puntos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}De\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Interes/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Panel\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Imagen\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controller.cs File Reference}{144}{section.121}%
+\contentsline {section}{\numberline {122}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Puntos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}De\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Interes/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Panel\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Texto\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controller.cs File Reference}{145}{section.122}%
+\contentsline {section}{\numberline {123}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Puntos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}De\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Interes/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Panel\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Video\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controller\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Con\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Subtitulos.cs File Reference}{145}{section.123}%
+\contentsline {section}{\numberline {124}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Puntos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}De\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Interes/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Rotator.cs File Reference}{145}{section.124}%
+\contentsline {section}{\numberline {125}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Puntos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}De\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Interes/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sound\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controller.cs File Reference}{145}{section.125}%
+\contentsline {section}{\numberline {126}Assets/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scripts\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Puntos\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}De\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Interes/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Texto\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Creditos.cs File Reference}{146}{section.126}%
+\contentsline {chapter}{Index}{147}{section*.275}%

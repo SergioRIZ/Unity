@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_cursor_changer" kind="class" language="C#" prot="public">
+    <compoundname>CursorChanger</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerEnterHandler</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerExitHandler</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerClickHandler</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_cursor_changer_1ab2be6d039c826c21ca020e1cc98ca3df" prot="private" static="no" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D CursorChanger.normalCursor</definition>
+        <argsstring></argsstring>
+        <name>normalCursor</name>
+        <qualifiedname>CursorChanger.normalCursor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Cursor/CursorChanger.cs" line="11" column="24" bodyfile="Assets/Scripts/Cursor/CursorChanger.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_cursor_changer_1a4082ead05e9498f46cabd88020f5b70c" prot="private" static="no" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D CursorChanger.handCursor</definition>
+        <argsstring></argsstring>
+        <name>handCursor</name>
+        <qualifiedname>CursorChanger.handCursor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Cursor/CursorChanger.cs" line="12" column="24" bodyfile="Assets/Scripts/Cursor/CursorChanger.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_cursor_changer_1ac56d0cfe1f5c6a84f8cb8719b4c8b4a3" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 CursorChanger.hotSpot</definition>
+        <argsstring></argsstring>
+        <name>hotSpot</name>
+        <qualifiedname>CursorChanger.hotSpot</qualifiedname>
+        <initializer>= Vector2.zero</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Cursor/CursorChanger.cs" line="13" column="22" bodyfile="Assets/Scripts/Cursor/CursorChanger.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_cursor_changer_1a0d745857f2ace3ccce619a04efd85d07" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject CursorChanger.content</definition>
+        <argsstring></argsstring>
+        <name>content</name>
+        <qualifiedname>CursorChanger.content</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Cursor/CursorChanger.cs" line="16" column="25" bodyfile="Assets/Scripts/Cursor/CursorChanger.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_cursor_changer_1a141fa99459fe84a23196161c03602da1" prot="private" static="no" mutable="no">
+        <type><ref refid="class_material_transition" kindref="compound">MaterialTransition</ref></type>
+        <definition>MaterialTransition CursorChanger.skyboxFader</definition>
+        <argsstring></argsstring>
+        <name>skyboxFader</name>
+        <qualifiedname>CursorChanger.skyboxFader</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Cursor/CursorChanger.cs" line="18" column="32" bodyfile="Assets/Scripts/Cursor/CursorChanger.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_cursor_changer_1ab9ed540626362116f2b5aa8448f9c043" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sky_box_button_selected" kindref="compound">SkyBoxButtonSelected</ref></type>
+        <definition>SkyBoxButtonSelected CursorChanger.skyboxButtonHandler</definition>
+        <argsstring></argsstring>
+        <name>skyboxButtonHandler</name>
+        <qualifiedname>CursorChanger.skyboxButtonHandler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Cursor/CursorChanger.cs" line="19" column="34" bodyfile="Assets/Scripts/Cursor/CursorChanger.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_cursor_changer_1a20faa0d1bcf7aedd780c50ab23f6cb1e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CursorChanger.isPointerOver</definition>
+        <argsstring></argsstring>
+        <name>isPointerOver</name>
+        <qualifiedname>CursorChanger.isPointerOver</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Cursor/CursorChanger.cs" line="21" column="18" bodyfile="Assets/Scripts/Cursor/CursorChanger.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_cursor_changer_1a87a5779f0dd977e24a905c0bdab904de" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CursorChanger.currentCursorIsHand</definition>
+        <argsstring></argsstring>
+        <name>currentCursorIsHand</name>
+        <qualifiedname>CursorChanger.currentCursorIsHand</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Cursor/CursorChanger.cs" line="22" column="18" bodyfile="Assets/Scripts/Cursor/CursorChanger.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_cursor_changer_1a36eb530236df7db198dbf6d39e572b90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CursorChanger.Initialize</definition>
+        <argsstring>(GameObject contentObject)</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>CursorChanger.Initialize</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>contentObject</declname>
+        </param>
+        <briefdescription>
+<para>Inicializa el script con una referencia al objeto content. Permite la inicialización desde otro script si se crea dinámicamente. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>contentObject</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Objeto que contiene el componente <ref refid="class_sky_box_button_selected" kindref="compound">SkyBoxButtonSelected</ref>.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Cursor/CursorChanger.cs" line="29" column="17" bodyfile="Assets/Scripts/Cursor/CursorChanger.cs" bodystart="29" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cursor_changer_1a26ccf2f66ac054a05f375cb52762f74f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CursorChanger.OnPointerEnter</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerEnter</name>
+        <qualifiedname>CursorChanger.OnPointerEnter</qualifiedname>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+<para>Evento de Unity que se llama cuando el puntero entra en el área del botón. Marca que el puntero está sobre el botón y fuerza la reevaluación del cursor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eventData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Datos del evento de puntero.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Cursor/CursorChanger.cs" line="90" column="17" bodyfile="Assets/Scripts/Cursor/CursorChanger.cs" bodystart="90" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cursor_changer_1aa40d14fbf17c97b01733ea36f98efc61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CursorChanger.OnPointerExit</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerExit</name>
+        <qualifiedname>CursorChanger.OnPointerExit</qualifiedname>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+<para>Evento de Unity que se llama cuando el puntero sale del área del botón. Restaura el cursor al estado normal y marca que el puntero ya no está sobre el botón. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eventData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Datos del evento de puntero.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Cursor/CursorChanger.cs" line="101" column="17" bodyfile="Assets/Scripts/Cursor/CursorChanger.cs" bodystart="101" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cursor_changer_1a77709cfdc1dc20a4deadbec10a4560da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CursorChanger.OnPointerClick</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerClick</name>
+        <qualifiedname>CursorChanger.OnPointerClick</qualifiedname>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+<para>Evento de Unity que se llama cuando se hace clic en el botón. Restaura el cursor al estado normal y, si corresponde, desactiva el estado de puntero sobre el botón. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eventData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Datos del evento de puntero.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Cursor/CursorChanger.cs" line="113" column="17" bodyfile="Assets/Scripts/Cursor/CursorChanger.cs" bodystart="113" bodyend="126"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_cursor_changer_1a272a96b7d906688443e85fbd857562bd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CursorChanger.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>CursorChanger.Start</qualifiedname>
+        <briefdescription>
+<para>Inicializa el cursor y busca las referencias necesarias al iniciar el componente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Cursor/CursorChanger.cs" line="40" column="18" bodyfile="Assets/Scripts/Cursor/CursorChanger.cs" bodystart="40" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cursor_changer_1a065e9328ccb2153596020f78af9cca69" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CursorChanger.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>CursorChanger.Update</qualifiedname>
+        <briefdescription>
+<para>Actualiza el estado del cursor cada frame si el puntero está sobre el botón. Cambia entre el cursor normal y el de mano según el estado de las transiciones y el carrusel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Cursor/CursorChanger.cs" line="59" column="18" bodyfile="Assets/Scripts/Cursor/CursorChanger.cs" bodystart="59" bodyend="83"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Controlador para cambiar la textura del cursor según el estado del botón y las transiciones del Skybox. Gestiona el cambio entre el cursor normal y el de mano, dependiendo de si el usuario puede interactuar con el carrusel. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CursorChanger</label>
+        <link refid="class_cursor_changer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>IPointerClickHandler</label>
+      </node>
+      <node id="3">
+        <label>IPointerEnterHandler</label>
+      </node>
+      <node id="4">
+        <label>IPointerExitHandler</label>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CursorChanger</label>
+        <link refid="class_cursor_changer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>IPointerClickHandler</label>
+      </node>
+      <node id="3">
+        <label>IPointerEnterHandler</label>
+      </node>
+      <node id="4">
+        <label>IPointerExitHandler</label>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/Cursor/CursorChanger.cs" line="8" column="7" bodyfile="Assets/Scripts/Cursor/CursorChanger.cs" bodystart="9" bodyend="127"/>
+    <listofallmembers>
+      <member refid="class_cursor_changer_1a0d745857f2ace3ccce619a04efd85d07" prot="private" virt="non-virtual"><scope>CursorChanger</scope><name>content</name></member>
+      <member refid="class_cursor_changer_1a87a5779f0dd977e24a905c0bdab904de" prot="private" virt="non-virtual"><scope>CursorChanger</scope><name>currentCursorIsHand</name></member>
+      <member refid="class_cursor_changer_1a4082ead05e9498f46cabd88020f5b70c" prot="private" virt="non-virtual"><scope>CursorChanger</scope><name>handCursor</name></member>
+      <member refid="class_cursor_changer_1ac56d0cfe1f5c6a84f8cb8719b4c8b4a3" prot="private" virt="non-virtual"><scope>CursorChanger</scope><name>hotSpot</name></member>
+      <member refid="class_cursor_changer_1a36eb530236df7db198dbf6d39e572b90" prot="public" virt="non-virtual"><scope>CursorChanger</scope><name>Initialize</name></member>
+      <member refid="class_cursor_changer_1a20faa0d1bcf7aedd780c50ab23f6cb1e" prot="private" virt="non-virtual"><scope>CursorChanger</scope><name>isPointerOver</name></member>
+      <member refid="class_cursor_changer_1ab2be6d039c826c21ca020e1cc98ca3df" prot="private" virt="non-virtual"><scope>CursorChanger</scope><name>normalCursor</name></member>
+      <member refid="class_cursor_changer_1a77709cfdc1dc20a4deadbec10a4560da" prot="public" virt="non-virtual"><scope>CursorChanger</scope><name>OnPointerClick</name></member>
+      <member refid="class_cursor_changer_1a26ccf2f66ac054a05f375cb52762f74f" prot="public" virt="non-virtual"><scope>CursorChanger</scope><name>OnPointerEnter</name></member>
+      <member refid="class_cursor_changer_1aa40d14fbf17c97b01733ea36f98efc61" prot="public" virt="non-virtual"><scope>CursorChanger</scope><name>OnPointerExit</name></member>
+      <member refid="class_cursor_changer_1ab9ed540626362116f2b5aa8448f9c043" prot="private" virt="non-virtual"><scope>CursorChanger</scope><name>skyboxButtonHandler</name></member>
+      <member refid="class_cursor_changer_1a141fa99459fe84a23196161c03602da1" prot="private" virt="non-virtual"><scope>CursorChanger</scope><name>skyboxFader</name></member>
+      <member refid="class_cursor_changer_1a272a96b7d906688443e85fbd857562bd" prot="private" virt="non-virtual"><scope>CursorChanger</scope><name>Start</name></member>
+      <member refid="class_cursor_changer_1a065e9328ccb2153596020f78af9cca69" prot="private" virt="non-virtual"><scope>CursorChanger</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

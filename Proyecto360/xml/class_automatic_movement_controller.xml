@@ -1,0 +1,973 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_automatic_movement_controller" kind="class" language="C#" prot="public">
+    <compoundname>AutomaticMovementController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_automatic_movement_controller_1a818bc7d15671999ab70d8d523d7d7a78" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AutomaticMovementController.startDisabled</definition>
+        <argsstring></argsstring>
+        <name>startDisabled</name>
+        <qualifiedname>AutomaticMovementController.startDisabled</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="14" column="17" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1a2938df54a7f23589fb8f94a671ec9d92" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AutomaticMovementController.inactivityThreshold</definition>
+        <argsstring></argsstring>
+        <name>inactivityThreshold</name>
+        <qualifiedname>AutomaticMovementController.inactivityThreshold</qualifiedname>
+        <initializer>= 3.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="18" column="18" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1a69926544b82e1fda534bc09d3ebf8f9c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AutomaticMovementController.autoRotationSpeed</definition>
+        <argsstring></argsstring>
+        <name>autoRotationSpeed</name>
+        <qualifiedname>AutomaticMovementController.autoRotationSpeed</qualifiedname>
+        <initializer>= 20.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="22" column="18" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1acfbe17a0d47e0230ee5567c92c823329" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AutomaticMovementController.timeFor360Tour</definition>
+        <argsstring></argsstring>
+        <name>timeFor360Tour</name>
+        <qualifiedname>AutomaticMovementController.timeFor360Tour</qualifiedname>
+        <initializer>= 15.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="25" column="18" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1aa39c1ca20d46cae90f3f120146a0fc27" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AutomaticMovementController.useVerticalWave</definition>
+        <argsstring></argsstring>
+        <name>useVerticalWave</name>
+        <qualifiedname>AutomaticMovementController.useVerticalWave</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="28" column="17" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1a188374d03341053a2143d99a0139004c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AutomaticMovementController.verticalWaveAmplitude</definition>
+        <argsstring></argsstring>
+        <name>verticalWaveAmplitude</name>
+        <qualifiedname>AutomaticMovementController.verticalWaveAmplitude</qualifiedname>
+        <initializer>= 5.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="32" column="18" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1a5ecfb366c4a1910505afe4b02c64f351" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AutomaticMovementController.verticalWaveFrequency</definition>
+        <argsstring></argsstring>
+        <name>verticalWaveFrequency</name>
+        <qualifiedname>AutomaticMovementController.verticalWaveFrequency</qualifiedname>
+        <initializer>= 0.2f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="36" column="18" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1a00f2aa145e76b91f870547f9bd565547" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AutomaticMovementController.disableDuringPOI</definition>
+        <argsstring></argsstring>
+        <name>disableDuringPOI</name>
+        <qualifiedname>AutomaticMovementController.disableDuringPOI</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="43" column="17" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1a59273bdcb79c077d89fb3d3589f748bd" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AutomaticMovementController.mouseSensitivity</definition>
+        <argsstring></argsstring>
+        <name>mouseSensitivity</name>
+        <qualifiedname>AutomaticMovementController.mouseSensitivity</qualifiedname>
+        <initializer>= 0.001f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="48" column="18" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1a863a266ea48c469e05bf066bb83ed5c2" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AutomaticMovementController.continueFromUserPosition</definition>
+        <argsstring></argsstring>
+        <name>continueFromUserPosition</name>
+        <qualifiedname>AutomaticMovementController.continueFromUserPosition</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="51" column="17" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1a20c3d4b951eb8a76603543bf16a18932" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AutomaticMovementController.clockwiseRotation</definition>
+        <argsstring></argsstring>
+        <name>clockwiseRotation</name>
+        <qualifiedname>AutomaticMovementController.clockwiseRotation</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="54" column="17" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1a3343c8ab695b04717058d44dd4bbb65a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AutomaticMovementController.smoothStartDuration</definition>
+        <argsstring></argsstring>
+        <name>smoothStartDuration</name>
+        <qualifiedname>AutomaticMovementController.smoothStartDuration</qualifiedname>
+        <initializer>= 2.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="59" column="18" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1ab790699e6a4fc10257c5a9cbb62546ff" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AutomaticMovementController.smoothVerticalStart</definition>
+        <argsstring></argsstring>
+        <name>smoothVerticalStart</name>
+        <qualifiedname>AutomaticMovementController.smoothVerticalStart</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="62" column="17" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1ab14dc67ce567ed7e0e9b796e5d49fb29" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AutomaticMovementController.debugMode</definition>
+        <argsstring></argsstring>
+        <name>debugMode</name>
+        <qualifiedname>AutomaticMovementController.debugMode</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="65" column="17" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_automatic_movement_controller_1a284a6b1f519847be45e963ef806e084c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_camera_view" kindref="compound">CameraView</ref></type>
+        <definition>CameraView AutomaticMovementController.parentController</definition>
+        <argsstring></argsstring>
+        <name>parentController</name>
+        <qualifiedname>AutomaticMovementController.parentController</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="67" column="24" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1a9be7a080049b0ce030f589ee66d3ec2b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_zoom_controller" kindref="compound">ZoomController</ref></type>
+        <definition>ZoomController AutomaticMovementController.zoomController</definition>
+        <argsstring></argsstring>
+        <name>zoomController</name>
+        <qualifiedname>AutomaticMovementController.zoomController</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="68" column="28" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1af191911f166a67307af1e7891d36df71" prot="private" static="no" mutable="no">
+        <type><ref refid="class_mouse_controller" kindref="compound">MouseController</ref></type>
+        <definition>MouseController AutomaticMovementController.mouseController</definition>
+        <argsstring></argsstring>
+        <name>mouseController</name>
+        <qualifiedname>AutomaticMovementController.mouseController</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="69" column="29" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1a0cccbde32aad8d9850cb3cf748cf0358" prot="private" static="no" mutable="no">
+        <type><ref refid="class_keyboard_controller" kindref="compound">KeyboardController</ref></type>
+        <definition>KeyboardController AutomaticMovementController.keyboardController</definition>
+        <argsstring></argsstring>
+        <name>keyboardController</name>
+        <qualifiedname>AutomaticMovementController.keyboardController</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="70" column="32" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1a9192f58b8b6af1d6391a4b6f6d29d231" prot="private" static="no" mutable="no">
+        <type><ref refid="class_mobile_controller" kindref="compound">MobileController</ref></type>
+        <definition>MobileController AutomaticMovementController.touchController</definition>
+        <argsstring></argsstring>
+        <name>touchController</name>
+        <qualifiedname>AutomaticMovementController.touchController</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="71" column="30" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1af80d18b44945fac429a1b089a476e9fb" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AutomaticMovementController.lastInputTime</definition>
+        <argsstring></argsstring>
+        <name>lastInputTime</name>
+        <qualifiedname>AutomaticMovementController.lastInputTime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="73" column="19" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1a930dba41042162f57190677b2d0c7e23" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AutomaticMovementController.isAutoMoving</definition>
+        <argsstring></argsstring>
+        <name>isAutoMoving</name>
+        <qualifiedname>AutomaticMovementController.isAutoMoving</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="74" column="18" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1af7c8351da1b0bf703c8ebe4719dc1520" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AutomaticMovementController.verticalWaveOffset</definition>
+        <argsstring></argsstring>
+        <name>verticalWaveOffset</name>
+        <qualifiedname>AutomaticMovementController.verticalWaveOffset</qualifiedname>
+        <initializer>= 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="75" column="19" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1a73172f3d582eff1140bc623cce76989c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AutomaticMovementController.initialized</definition>
+        <argsstring></argsstring>
+        <name>initialized</name>
+        <qualifiedname>AutomaticMovementController.initialized</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="76" column="18" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1aef119138159d3fcbb36cf04ea8909ab5" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AutomaticMovementController.isPointOfInterestActive</definition>
+        <argsstring></argsstring>
+        <name>isPointOfInterestActive</name>
+        <qualifiedname>AutomaticMovementController.isPointOfInterestActive</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="78" column="18" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1abfdd2aa58b71a4c3e3b79b9d1335c4e3" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AutomaticMovementController.initialFOV</definition>
+        <argsstring></argsstring>
+        <name>initialFOV</name>
+        <qualifiedname>AutomaticMovementController.initialFOV</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="79" column="19" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1af4161f4bc5c58f2004de9b3c020016db" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AutomaticMovementController.currentFOV</definition>
+        <argsstring></argsstring>
+        <name>currentFOV</name>
+        <qualifiedname>AutomaticMovementController.currentFOV</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="80" column="19" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1af2d643851ce1f06e17e4e7c4c0c22f1a" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AutomaticMovementController.tourStartTime</definition>
+        <argsstring></argsstring>
+        <name>tourStartTime</name>
+        <qualifiedname>AutomaticMovementController.tourStartTime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="83" column="19" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1ad8adc2daeeff827a6bba97a2a48a968d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AutomaticMovementController.startingYRotation</definition>
+        <argsstring></argsstring>
+        <name>startingYRotation</name>
+        <qualifiedname>AutomaticMovementController.startingYRotation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="84" column="19" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1a3f7123861ddfec7ce7b23f338224df9c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AutomaticMovementController.transitionStartTime</definition>
+        <argsstring></argsstring>
+        <name>transitionStartTime</name>
+        <qualifiedname>AutomaticMovementController.transitionStartTime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="87" column="19" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1a5728f6341a943051343eee72cb92af4f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AutomaticMovementController.initialXRotation</definition>
+        <argsstring></argsstring>
+        <name>initialXRotation</name>
+        <qualifiedname>AutomaticMovementController.initialXRotation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="88" column="19" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1ae8f6a23ddf1b292d9286f7356ae8e60f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AutomaticMovementController.targetXRotation</definition>
+        <argsstring></argsstring>
+        <name>targetXRotation</name>
+        <qualifiedname>AutomaticMovementController.targetXRotation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="89" column="19" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1a4fbea30b3881422af6907968f7ebf2b6" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AutomaticMovementController.currentSpeedFactor</definition>
+        <argsstring></argsstring>
+        <name>currentSpeedFactor</name>
+        <qualifiedname>AutomaticMovementController.currentSpeedFactor</qualifiedname>
+        <initializer>= 0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="90" column="19" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1ac5eed5bbef9d987bb8ba955923be58e9" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AutomaticMovementController.wasMouseDown</definition>
+        <argsstring></argsstring>
+        <name>wasMouseDown</name>
+        <qualifiedname>AutomaticMovementController.wasMouseDown</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="93" column="18" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1aacb6086f796d62413df6a032871efd1c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AutomaticMovementController.previousTouchCount</definition>
+        <argsstring></argsstring>
+        <name>previousTouchCount</name>
+        <qualifiedname>AutomaticMovementController.previousTouchCount</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="94" column="17" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1a47e887c18bdd17bcf4f354965cd59ced" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 AutomaticMovementController.lastMousePosition</definition>
+        <argsstring></argsstring>
+        <name>lastMousePosition</name>
+        <qualifiedname>AutomaticMovementController.lastMousePosition</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="97" column="21" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1ab8eb161f7de4a8de06f31770113da413" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform AutomaticMovementController.cameraTransform</definition>
+        <argsstring></argsstring>
+        <name>cameraTransform</name>
+        <qualifiedname>AutomaticMovementController.cameraTransform</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="100" column="23" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1a26126cfe58d9ab49b727c4337daa4b01" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AutomaticMovementController.originalSmoothSpeed</definition>
+        <argsstring></argsstring>
+        <name>originalSmoothSpeed</name>
+        <qualifiedname>AutomaticMovementController.originalSmoothSpeed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="103" column="19" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_automatic_movement_controller_1a29b08c33dbcb99d9e3482401217a7cd6" prot="private" static="no" mutable="no">
+        <type><ref refid="class_camera_view" kindref="compound">CameraView</ref></type>
+        <definition>CameraView AutomaticMovementController.cameraView</definition>
+        <argsstring></argsstring>
+        <name>cameraView</name>
+        <qualifiedname>AutomaticMovementController.cameraView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="105" column="24" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="105" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_automatic_movement_controller_1aed3142a3aef9781b4f61ac2f6d22aa0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AutomaticMovementController.Initialize</definition>
+        <argsstring>(CameraView controller)</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>AutomaticMovementController.Initialize</qualifiedname>
+        <param>
+          <type><ref refid="class_camera_view" kindref="compound">CameraView</ref></type>
+          <declname>controller</declname>
+        </param>
+        <briefdescription>
+<para>Inicializa el controlador con una referencia al controlador principal. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controller</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>El controlador de cámara principal.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="111" column="17" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="111" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="class_automatic_movement_controller_1a0e4df1db1866e056ebe889136741a4af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AutomaticMovementController.ForceStartTour</definition>
+        <argsstring>()</argsstring>
+        <name>ForceStartTour</name>
+        <qualifiedname>AutomaticMovementController.ForceStartTour</qualifiedname>
+        <briefdescription>
+<para>Fuerza el inicio del movimiento automático (para llamadas desde otros scripts). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="589" column="17" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="589" bodyend="592"/>
+      </memberdef>
+      <memberdef kind="function" id="class_automatic_movement_controller_1ac95a92ad5127690e6947273ad5cf08a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AutomaticMovementController.ForceStopTour</definition>
+        <argsstring>()</argsstring>
+        <name>ForceStopTour</name>
+        <qualifiedname>AutomaticMovementController.ForceStopTour</qualifiedname>
+        <briefdescription>
+<para>Fuerza la detención del movimiento automático (para llamadas desde otros scripts). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="597" column="17" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="597" bodyend="600"/>
+      </memberdef>
+      <memberdef kind="function" id="class_automatic_movement_controller_1adf602cd0d99eb911e54234adb5a02e4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AutomaticMovementController.OnPointOfInterestOpened</definition>
+        <argsstring>()</argsstring>
+        <name>OnPointOfInterestOpened</name>
+        <qualifiedname>AutomaticMovementController.OnPointOfInterestOpened</qualifiedname>
+        <briefdescription>
+<para>Notifica al controlador que un punto de interés o video se ha activado. Detiene el movimiento automático si está activo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="606" column="17" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="606" bodyend="617"/>
+      </memberdef>
+      <memberdef kind="function" id="class_automatic_movement_controller_1a4232d43bbd675bd4962339de383bb8eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AutomaticMovementController.OnPointOfInterestClosed</definition>
+        <argsstring>()</argsstring>
+        <name>OnPointOfInterestClosed</name>
+        <qualifiedname>AutomaticMovementController.OnPointOfInterestClosed</qualifiedname>
+        <briefdescription>
+<para>Notifica al controlador que un punto de interés o video se ha cerrado. Reinicia el temporizador de inactividad. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="623" column="17" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="623" bodyend="631"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_automatic_movement_controller_1a2f47fd2b85d52e3c41d2af1716c874b6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AutomaticMovementController.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>AutomaticMovementController.Awake</qualifiedname>
+        <briefdescription>
+<para>Se ejecuta al inicializar el componente. Registra el detector de movimiento del ratón antes de cada frame. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="171" column="10" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="171" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_automatic_movement_controller_1a992d9c2219d9eac1d13859f3f527fce1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AutomaticMovementController.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <qualifiedname>AutomaticMovementController.OnDestroy</qualifiedname>
+        <briefdescription>
+<para>Se ejecuta al destruir el componente. Elimina el detector de movimiento del ratón. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="180" column="10" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="180" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="class_automatic_movement_controller_1ad949439d5df2411d44c6b3d864cfb6a2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AutomaticMovementController.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>AutomaticMovementController.OnEnable</qualifiedname>
+        <briefdescription>
+<para>Se ejecuta al habilitar el componente. Resetea el tiempo de inactividad. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="189" column="10" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="189" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="class_automatic_movement_controller_1a2d365c94a4c13f0b06259068b0c8f692" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AutomaticMovementController.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>AutomaticMovementController.OnDisable</qualifiedname>
+        <briefdescription>
+<para>Se ejecuta al deshabilitar el componente. Restaura el control al usuario si estaba en movimiento automático. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="201" column="10" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="201" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="class_automatic_movement_controller_1a22ca0efcef8dbd23546c116d770e23c2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AutomaticMovementController.CheckForMouseMovement</definition>
+        <argsstring>()</argsstring>
+        <name>CheckForMouseMovement</name>
+        <qualifiedname>AutomaticMovementController.CheckForMouseMovement</qualifiedname>
+        <briefdescription>
+<para>Método que se ejecuta antes de cada frame para detectar movimiento del ratón. Si se detecta movimiento, detiene el movimiento automático. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="217" column="18" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="217" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="class_automatic_movement_controller_1acdf9bcaabf3a51c886091ba30f167f4d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AutomaticMovementController.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>AutomaticMovementController.Update</qualifiedname>
+        <briefdescription>
+<para>Actualiza el estado del controlador cada frame. Detecta entrada del usuario, inicia o detiene el movimiento automático según corresponda. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="236" column="10" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="236" bodyend="268"/>
+      </memberdef>
+      <memberdef kind="function" id="class_automatic_movement_controller_1aae03c0a2f19da18484570b256f553bbf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool AutomaticMovementController.DetectUserInput</definition>
+        <argsstring>()</argsstring>
+        <name>DetectUserInput</name>
+        <qualifiedname>AutomaticMovementController.DetectUserInput</qualifiedname>
+        <briefdescription>
+<para>Detecta si el usuario está proporcionando alguna entrada (ratón, teclado, toque o zoom). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True si se detecta entrada del usuario, false en caso contrario.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="274" column="18" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="274" bodyend="352"/>
+      </memberdef>
+      <memberdef kind="function" id="class_automatic_movement_controller_1ad1543824d2dd38d2c405f3cf2eac4f36" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AutomaticMovementController.CheckForAutoMovement</definition>
+        <argsstring>()</argsstring>
+        <name>CheckForAutoMovement</name>
+        <qualifiedname>AutomaticMovementController.CheckForAutoMovement</qualifiedname>
+        <briefdescription>
+<para>Verifica si debe iniciarse o detenerse el movimiento automático según la inactividad y puntos de interés. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="357" column="18" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="357" bodyend="370"/>
+      </memberdef>
+      <memberdef kind="function" id="class_automatic_movement_controller_1acee61c45572bda1c87d26917477b68ac" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AutomaticMovementController.StartAutoMovement</definition>
+        <argsstring>()</argsstring>
+        <name>StartAutoMovement</name>
+        <qualifiedname>AutomaticMovementController.StartAutoMovement</qualifiedname>
+        <briefdescription>
+<para>Inicia el movimiento automático de la cámara con transición suave. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="375" column="18" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="375" bodyend="411"/>
+      </memberdef>
+      <memberdef kind="function" id="class_automatic_movement_controller_1aea195b8a855b22285b7b37312928f8e8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AutomaticMovementController.StopAutoMovementAndRestoreControl</definition>
+        <argsstring>()</argsstring>
+        <name>StopAutoMovementAndRestoreControl</name>
+        <qualifiedname>AutomaticMovementController.StopAutoMovementAndRestoreControl</qualifiedname>
+        <briefdescription>
+<para>Detiene el movimiento automático y restaura el control al usuario. Aplica una detención inmediata y restaura la configuración de suavizado. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="417" column="18" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="417" bodyend="458"/>
+      </memberdef>
+      <memberdef kind="function" id="class_automatic_movement_controller_1a54e33e27b8b4bd106b629a43e4ff0bca" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator AutomaticMovementController.RestoreSmoothSpeed</definition>
+        <argsstring>(float originalValue)</argsstring>
+        <name>RestoreSmoothSpeed</name>
+        <qualifiedname>AutomaticMovementController.RestoreSmoothSpeed</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>originalValue</declname>
+        </param>
+        <briefdescription>
+<para>Restaura el valor original de smoothSpeed después de un breve tiempo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>originalValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Valor original de smoothSpeed a restaurar.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>IEnumerator para la corrutina.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="465" column="25" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="465" bodyend="477"/>
+      </memberdef>
+      <memberdef kind="function" id="class_automatic_movement_controller_1acfd8af457aef0acb24aa6d52ec9584f7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AutomaticMovementController.EnableUserControllers</definition>
+        <argsstring>()</argsstring>
+        <name>EnableUserControllers</name>
+        <qualifiedname>AutomaticMovementController.EnableUserControllers</qualifiedname>
+        <briefdescription>
+<para>Habilita todos los controladores de usuario según la plataforma (PC o móvil). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="482" column="18" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="482" bodyend="499"/>
+      </memberdef>
+      <memberdef kind="function" id="class_automatic_movement_controller_1a6c84bc78a6da6317d34db815630108e1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AutomaticMovementController.ResetInactivityTimer</definition>
+        <argsstring>()</argsstring>
+        <name>ResetInactivityTimer</name>
+        <qualifiedname>AutomaticMovementController.ResetInactivityTimer</qualifiedname>
+        <briefdescription>
+<para>Resetea el temporizador de inactividad y detiene el movimiento automático si está activo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="504" column="18" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="504" bodyend="512"/>
+      </memberdef>
+      <memberdef kind="function" id="class_automatic_movement_controller_1a44b66419ffd9bf24cf4a7ef8865a1326" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AutomaticMovementController.ApplyAutomaticMovement</definition>
+        <argsstring>()</argsstring>
+        <name>ApplyAutomaticMovement</name>
+        <qualifiedname>AutomaticMovementController.ApplyAutomaticMovement</qualifiedname>
+        <briefdescription>
+<para>Aplica el movimiento automático a la cámara para un recorrido completo de 360°. Incluye transición suave y movimiento vertical ondulante si está habilitado. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="518" column="18" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="518" bodyend="582"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Controlador de movimiento automático para la cámara panorámica cuando el usuario está inactivo. Realiza un recorrido completo de 360° a una velocidad personalizable. Se detiene inmediatamente ante cualquier interacción del usuario. MODIFICADO: Inicia desactivado por defecto. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AutomaticMovementController</label>
+        <link refid="class_automatic_movement_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AutomaticMovementController</label>
+        <link refid="class_automatic_movement_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/Camera/AutomaticMovementController.cs" line="10" column="7" bodyfile="Assets/Scripts/Camera/AutomaticMovementController.cs" bodystart="11" bodyend="632"/>
+    <listofallmembers>
+      <member refid="class_automatic_movement_controller_1a44b66419ffd9bf24cf4a7ef8865a1326" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>ApplyAutomaticMovement</name></member>
+      <member refid="class_automatic_movement_controller_1a69926544b82e1fda534bc09d3ebf8f9c" prot="public" virt="non-virtual"><scope>AutomaticMovementController</scope><name>autoRotationSpeed</name></member>
+      <member refid="class_automatic_movement_controller_1a2f47fd2b85d52e3c41d2af1716c874b6" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>Awake</name></member>
+      <member refid="class_automatic_movement_controller_1ab8eb161f7de4a8de06f31770113da413" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>cameraTransform</name></member>
+      <member refid="class_automatic_movement_controller_1a29b08c33dbcb99d9e3482401217a7cd6" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>cameraView</name></member>
+      <member refid="class_automatic_movement_controller_1ad1543824d2dd38d2c405f3cf2eac4f36" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>CheckForAutoMovement</name></member>
+      <member refid="class_automatic_movement_controller_1a22ca0efcef8dbd23546c116d770e23c2" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>CheckForMouseMovement</name></member>
+      <member refid="class_automatic_movement_controller_1a20c3d4b951eb8a76603543bf16a18932" prot="public" virt="non-virtual"><scope>AutomaticMovementController</scope><name>clockwiseRotation</name></member>
+      <member refid="class_automatic_movement_controller_1a863a266ea48c469e05bf066bb83ed5c2" prot="public" virt="non-virtual"><scope>AutomaticMovementController</scope><name>continueFromUserPosition</name></member>
+      <member refid="class_automatic_movement_controller_1af4161f4bc5c58f2004de9b3c020016db" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>currentFOV</name></member>
+      <member refid="class_automatic_movement_controller_1a4fbea30b3881422af6907968f7ebf2b6" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>currentSpeedFactor</name></member>
+      <member refid="class_automatic_movement_controller_1ab14dc67ce567ed7e0e9b796e5d49fb29" prot="public" virt="non-virtual"><scope>AutomaticMovementController</scope><name>debugMode</name></member>
+      <member refid="class_automatic_movement_controller_1aae03c0a2f19da18484570b256f553bbf" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>DetectUserInput</name></member>
+      <member refid="class_automatic_movement_controller_1a00f2aa145e76b91f870547f9bd565547" prot="public" virt="non-virtual"><scope>AutomaticMovementController</scope><name>disableDuringPOI</name></member>
+      <member refid="class_automatic_movement_controller_1acfd8af457aef0acb24aa6d52ec9584f7" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>EnableUserControllers</name></member>
+      <member refid="class_automatic_movement_controller_1a0e4df1db1866e056ebe889136741a4af" prot="public" virt="non-virtual"><scope>AutomaticMovementController</scope><name>ForceStartTour</name></member>
+      <member refid="class_automatic_movement_controller_1ac95a92ad5127690e6947273ad5cf08a4" prot="public" virt="non-virtual"><scope>AutomaticMovementController</scope><name>ForceStopTour</name></member>
+      <member refid="class_automatic_movement_controller_1a2938df54a7f23589fb8f94a671ec9d92" prot="public" virt="non-virtual"><scope>AutomaticMovementController</scope><name>inactivityThreshold</name></member>
+      <member refid="class_automatic_movement_controller_1abfdd2aa58b71a4c3e3b79b9d1335c4e3" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>initialFOV</name></member>
+      <member refid="class_automatic_movement_controller_1aed3142a3aef9781b4f61ac2f6d22aa0d" prot="public" virt="non-virtual"><scope>AutomaticMovementController</scope><name>Initialize</name></member>
+      <member refid="class_automatic_movement_controller_1a73172f3d582eff1140bc623cce76989c" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>initialized</name></member>
+      <member refid="class_automatic_movement_controller_1a5728f6341a943051343eee72cb92af4f" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>initialXRotation</name></member>
+      <member refid="class_automatic_movement_controller_1a930dba41042162f57190677b2d0c7e23" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>isAutoMoving</name></member>
+      <member refid="class_automatic_movement_controller_1aef119138159d3fcbb36cf04ea8909ab5" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>isPointOfInterestActive</name></member>
+      <member refid="class_automatic_movement_controller_1a0cccbde32aad8d9850cb3cf748cf0358" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>keyboardController</name></member>
+      <member refid="class_automatic_movement_controller_1af80d18b44945fac429a1b089a476e9fb" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>lastInputTime</name></member>
+      <member refid="class_automatic_movement_controller_1a47e887c18bdd17bcf4f354965cd59ced" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>lastMousePosition</name></member>
+      <member refid="class_automatic_movement_controller_1af191911f166a67307af1e7891d36df71" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>mouseController</name></member>
+      <member refid="class_automatic_movement_controller_1a59273bdcb79c077d89fb3d3589f748bd" prot="public" virt="non-virtual"><scope>AutomaticMovementController</scope><name>mouseSensitivity</name></member>
+      <member refid="class_automatic_movement_controller_1a992d9c2219d9eac1d13859f3f527fce1" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>OnDestroy</name></member>
+      <member refid="class_automatic_movement_controller_1a2d365c94a4c13f0b06259068b0c8f692" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>OnDisable</name></member>
+      <member refid="class_automatic_movement_controller_1ad949439d5df2411d44c6b3d864cfb6a2" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>OnEnable</name></member>
+      <member refid="class_automatic_movement_controller_1a4232d43bbd675bd4962339de383bb8eb" prot="public" virt="non-virtual"><scope>AutomaticMovementController</scope><name>OnPointOfInterestClosed</name></member>
+      <member refid="class_automatic_movement_controller_1adf602cd0d99eb911e54234adb5a02e4b" prot="public" virt="non-virtual"><scope>AutomaticMovementController</scope><name>OnPointOfInterestOpened</name></member>
+      <member refid="class_automatic_movement_controller_1a26126cfe58d9ab49b727c4337daa4b01" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>originalSmoothSpeed</name></member>
+      <member refid="class_automatic_movement_controller_1a284a6b1f519847be45e963ef806e084c" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>parentController</name></member>
+      <member refid="class_automatic_movement_controller_1aacb6086f796d62413df6a032871efd1c" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>previousTouchCount</name></member>
+      <member refid="class_automatic_movement_controller_1a6c84bc78a6da6317d34db815630108e1" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>ResetInactivityTimer</name></member>
+      <member refid="class_automatic_movement_controller_1a54e33e27b8b4bd106b629a43e4ff0bca" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>RestoreSmoothSpeed</name></member>
+      <member refid="class_automatic_movement_controller_1a3343c8ab695b04717058d44dd4bbb65a" prot="public" virt="non-virtual"><scope>AutomaticMovementController</scope><name>smoothStartDuration</name></member>
+      <member refid="class_automatic_movement_controller_1ab790699e6a4fc10257c5a9cbb62546ff" prot="public" virt="non-virtual"><scope>AutomaticMovementController</scope><name>smoothVerticalStart</name></member>
+      <member refid="class_automatic_movement_controller_1acee61c45572bda1c87d26917477b68ac" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>StartAutoMovement</name></member>
+      <member refid="class_automatic_movement_controller_1a818bc7d15671999ab70d8d523d7d7a78" prot="public" virt="non-virtual"><scope>AutomaticMovementController</scope><name>startDisabled</name></member>
+      <member refid="class_automatic_movement_controller_1ad8adc2daeeff827a6bba97a2a48a968d" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>startingYRotation</name></member>
+      <member refid="class_automatic_movement_controller_1aea195b8a855b22285b7b37312928f8e8" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>StopAutoMovementAndRestoreControl</name></member>
+      <member refid="class_automatic_movement_controller_1ae8f6a23ddf1b292d9286f7356ae8e60f" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>targetXRotation</name></member>
+      <member refid="class_automatic_movement_controller_1acfbe17a0d47e0230ee5567c92c823329" prot="public" virt="non-virtual"><scope>AutomaticMovementController</scope><name>timeFor360Tour</name></member>
+      <member refid="class_automatic_movement_controller_1a9192f58b8b6af1d6391a4b6f6d29d231" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>touchController</name></member>
+      <member refid="class_automatic_movement_controller_1af2d643851ce1f06e17e4e7c4c0c22f1a" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>tourStartTime</name></member>
+      <member refid="class_automatic_movement_controller_1a3f7123861ddfec7ce7b23f338224df9c" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>transitionStartTime</name></member>
+      <member refid="class_automatic_movement_controller_1acdf9bcaabf3a51c886091ba30f167f4d" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>Update</name></member>
+      <member refid="class_automatic_movement_controller_1aa39c1ca20d46cae90f3f120146a0fc27" prot="public" virt="non-virtual"><scope>AutomaticMovementController</scope><name>useVerticalWave</name></member>
+      <member refid="class_automatic_movement_controller_1a188374d03341053a2143d99a0139004c" prot="public" virt="non-virtual"><scope>AutomaticMovementController</scope><name>verticalWaveAmplitude</name></member>
+      <member refid="class_automatic_movement_controller_1a5ecfb366c4a1910505afe4b02c64f351" prot="public" virt="non-virtual"><scope>AutomaticMovementController</scope><name>verticalWaveFrequency</name></member>
+      <member refid="class_automatic_movement_controller_1af7c8351da1b0bf703c8ebe4719dc1520" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>verticalWaveOffset</name></member>
+      <member refid="class_automatic_movement_controller_1ac5eed5bbef9d987bb8ba955923be58e9" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>wasMouseDown</name></member>
+      <member refid="class_automatic_movement_controller_1a9be7a080049b0ce030f589ee66d3ec2b" prot="private" virt="non-virtual"><scope>AutomaticMovementController</scope><name>zoomController</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

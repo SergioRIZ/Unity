@@ -1,0 +1,5 @@
+<map id="MostrarTextoDesdeBoton" name="MostrarTextoDesdeBoton">
+<area shape="rect" id="Node000001" title="Clase que controla la interacción entre un botón y un panel de texto. Permite mostrar y ocultar un pa..." alt="" coords="5,80,175,107"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="34,5,146,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,48,93,80,87,80,87,48"/>
+</map>

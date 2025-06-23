@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_dots_pattern" kind="class" language="C#" prot="public">
+    <compoundname>DotsPattern</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_dots_pattern_1a269f75ae6ee5218469dfbe9d1d728564" prot="public" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color DotsPattern.colorFondo</definition>
+        <argsstring></argsstring>
+        <name>colorFondo</name>
+        <qualifiedname>DotsPattern.colorFondo</qualifiedname>
+        <initializer>= new Color(0.08f, 0.12f, 0.25f)</initializer>
+        <briefdescription>
+<para>Color base del fondo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/PatternOverlay.cs" line="15" column="18" bodyfile="Assets/Scripts/MenuPrincipal/PatternOverlay.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dots_pattern_1a43af96964caaeb551850a9d0b5d5a978" prot="public" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color DotsPattern.colorAcento</definition>
+        <argsstring></argsstring>
+        <name>colorAcento</name>
+        <qualifiedname>DotsPattern.colorAcento</qualifiedname>
+        <initializer>= new Color(0.12f, 0.18f, 0.35f)</initializer>
+        <briefdescription>
+<para>Color de acento utilizado para el gradiente y los puntos. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/PatternOverlay.cs" line="20" column="18" bodyfile="Assets/Scripts/MenuPrincipal/PatternOverlay.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dots_pattern_1a8d246d79c5965e2f018481980d3dc937" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DotsPattern.espaciadoPatron</definition>
+        <argsstring></argsstring>
+        <name>espaciadoPatron</name>
+        <qualifiedname>DotsPattern.espaciadoPatron</qualifiedname>
+        <initializer>= 800</initializer>
+        <briefdescription>
+<para>Espaciado entre los puntos del patrón (en píxeles). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/PatternOverlay.cs" line="27" column="16" bodyfile="Assets/Scripts/MenuPrincipal/PatternOverlay.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dots_pattern_1a4d0966ef21b40d7108584bfbab0214d4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DotsPattern.tamañoPunto</definition>
+        <argsstring></argsstring>
+        <name>tamañoPunto</name>
+        <qualifiedname>DotsPattern.tamañoPunto</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>Radio de los puntos del patrón (en píxeles). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/PatternOverlay.cs" line="33" column="16" bodyfile="Assets/Scripts/MenuPrincipal/PatternOverlay.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dots_pattern_1a9e690a21bc498331f382197cda65c6f2" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float DotsPattern.opacidadPunto</definition>
+        <argsstring></argsstring>
+        <name>opacidadPunto</name>
+        <qualifiedname>DotsPattern.opacidadPunto</qualifiedname>
+        <initializer>= 0.03f</initializer>
+        <briefdescription>
+<para>Opacidad de los puntos del patrón. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/PatternOverlay.cs" line="39" column="18" bodyfile="Assets/Scripts/MenuPrincipal/PatternOverlay.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dots_pattern_1a070f65c3c49badba520c5ff41f1a1c78" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float DotsPattern.variacionSuave</definition>
+        <argsstring></argsstring>
+        <name>variacionSuave</name>
+        <qualifiedname>DotsPattern.variacionSuave</qualifiedname>
+        <initializer>= 0.1f</initializer>
+        <briefdescription>
+<para>Variación máxima de color usando ruido Perlin para el fondo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/PatternOverlay.cs" line="45" column="18" bodyfile="Assets/Scripts/MenuPrincipal/PatternOverlay.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_dots_pattern_1a38564f34e868196557e9d09bb899cd47" prot="private" static="no" mutable="no">
+        <type>Image</type>
+        <definition>Image DotsPattern.image</definition>
+        <argsstring></argsstring>
+        <name>image</name>
+        <qualifiedname>DotsPattern.image</qualifiedname>
+        <briefdescription>
+<para>Referencia al componente Image donde se aplicará la textura generada. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/PatternOverlay.cs" line="50" column="19" bodyfile="Assets/Scripts/MenuPrincipal/PatternOverlay.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dots_pattern_1a2319b06a545241ed7470a372e71ac1f4" prot="private" static="no" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D DotsPattern.texturaFondo</definition>
+        <argsstring></argsstring>
+        <name>texturaFondo</name>
+        <qualifiedname>DotsPattern.texturaFondo</qualifiedname>
+        <briefdescription>
+<para>Textura generada para el fondo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/PatternOverlay.cs" line="55" column="23" bodyfile="Assets/Scripts/MenuPrincipal/PatternOverlay.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_dots_pattern_1a9869017743e7953b2bcc0374696d98af" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DotsPattern.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>DotsPattern.Awake</qualifiedname>
+        <briefdescription>
+<para>Inicializa la referencia al componente Image. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/PatternOverlay.cs" line="60" column="10" bodyfile="Assets/Scripts/MenuPrincipal/PatternOverlay.cs" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dots_pattern_1a05f745f7d39685dfda13bac78879df92" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DotsPattern.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>DotsPattern.Start</qualifiedname>
+        <briefdescription>
+<para>Genera la textura minimalista al iniciar el componente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/PatternOverlay.cs" line="68" column="10" bodyfile="Assets/Scripts/MenuPrincipal/PatternOverlay.cs" bodystart="68" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dots_pattern_1abd73ec4e2f5f5abc87347cec6541db83" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DotsPattern.GenerarTexturaMinimalista</definition>
+        <argsstring>()</argsstring>
+        <name>GenerarTexturaMinimalista</name>
+        <qualifiedname>DotsPattern.GenerarTexturaMinimalista</qualifiedname>
+        <briefdescription>
+<para>Genera una textura minimalista con gradiente, variación de color y puntos sutiles, y la aplica al componente Image. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/PatternOverlay.cs" line="76" column="10" bodyfile="Assets/Scripts/MenuPrincipal/PatternOverlay.cs" bodystart="76" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dots_pattern_1a8faba8d1a07b3bf27f0053a9bb016efe" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DotsPattern.DibujarPuntoSuave</definition>
+        <argsstring>(int centroX, int centroY, int radio, Color color, float opacidad, int tamañoTextura)</argsstring>
+        <name>DibujarPuntoSuave</name>
+        <qualifiedname>DotsPattern.DibujarPuntoSuave</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>centroX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>centroY</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>radio</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>opacidad</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tamañoTextura</declname>
+        </param>
+        <briefdescription>
+<para>Dibuja un punto suave (con bordes difuminados) en la textura en la posición indicada. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>centroX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coordenada X del centro del punto.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>centroY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coordenada Y del centro del punto.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>radio</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Radio del punto.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Color base del punto.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>opacidad</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Opacidad máxima del punto.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tamañoTextura</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tamaño de la textura (ancho y alto).</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/PatternOverlay.cs" line="141" column="10" bodyfile="Assets/Scripts/MenuPrincipal/PatternOverlay.cs" bodystart="141" bodyend="167"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_dots_pattern_1a54ef25f170cc9725126153c557a2a577" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DotsPattern.RegenerarPatron</definition>
+        <argsstring>()</argsstring>
+        <name>RegenerarPatron</name>
+        <qualifiedname>DotsPattern.RegenerarPatron</qualifiedname>
+        <briefdescription>
+<para>Regenera el patrón de fondo. Puede ser llamado desde el editor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/PatternOverlay.cs" line="172" column="17" bodyfile="Assets/Scripts/MenuPrincipal/PatternOverlay.cs" bodystart="172" bodyend="178"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Genera y aplica un fondo minimalista con un patrón de puntos sutiles sobre un componente Image de Unity. Permite configurar colores, espaciado, tamaño y opacidad de los puntos, así como variaciones suaves en el color. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>DotsPattern</label>
+        <link refid="class_dots_pattern"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>DotsPattern</label>
+        <link refid="class_dots_pattern"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/MenuPrincipal/PatternOverlay.cs" line="9" column="7" bodyfile="Assets/Scripts/MenuPrincipal/PatternOverlay.cs" bodystart="10" bodyend="179"/>
+    <listofallmembers>
+      <member refid="class_dots_pattern_1a9869017743e7953b2bcc0374696d98af" prot="private" virt="non-virtual"><scope>DotsPattern</scope><name>Awake</name></member>
+      <member refid="class_dots_pattern_1a43af96964caaeb551850a9d0b5d5a978" prot="public" virt="non-virtual"><scope>DotsPattern</scope><name>colorAcento</name></member>
+      <member refid="class_dots_pattern_1a269f75ae6ee5218469dfbe9d1d728564" prot="public" virt="non-virtual"><scope>DotsPattern</scope><name>colorFondo</name></member>
+      <member refid="class_dots_pattern_1a8faba8d1a07b3bf27f0053a9bb016efe" prot="private" virt="non-virtual"><scope>DotsPattern</scope><name>DibujarPuntoSuave</name></member>
+      <member refid="class_dots_pattern_1a8d246d79c5965e2f018481980d3dc937" prot="public" virt="non-virtual"><scope>DotsPattern</scope><name>espaciadoPatron</name></member>
+      <member refid="class_dots_pattern_1abd73ec4e2f5f5abc87347cec6541db83" prot="private" virt="non-virtual"><scope>DotsPattern</scope><name>GenerarTexturaMinimalista</name></member>
+      <member refid="class_dots_pattern_1a38564f34e868196557e9d09bb899cd47" prot="private" virt="non-virtual"><scope>DotsPattern</scope><name>image</name></member>
+      <member refid="class_dots_pattern_1a9e690a21bc498331f382197cda65c6f2" prot="public" virt="non-virtual"><scope>DotsPattern</scope><name>opacidadPunto</name></member>
+      <member refid="class_dots_pattern_1a54ef25f170cc9725126153c557a2a577" prot="public" virt="non-virtual"><scope>DotsPattern</scope><name>RegenerarPatron</name></member>
+      <member refid="class_dots_pattern_1a05f745f7d39685dfda13bac78879df92" prot="private" virt="non-virtual"><scope>DotsPattern</scope><name>Start</name></member>
+      <member refid="class_dots_pattern_1a4d0966ef21b40d7108584bfbab0214d4" prot="public" virt="non-virtual"><scope>DotsPattern</scope><name>tamañoPunto</name></member>
+      <member refid="class_dots_pattern_1a2319b06a545241ed7470a372e71ac1f4" prot="private" virt="non-virtual"><scope>DotsPattern</scope><name>texturaFondo</name></member>
+      <member refid="class_dots_pattern_1a070f65c3c49badba520c5ff41f1a1c78" prot="public" virt="non-virtual"><scope>DotsPattern</scope><name>variacionSuave</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

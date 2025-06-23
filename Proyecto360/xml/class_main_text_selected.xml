@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_main_text_selected" kind="class" language="C#" prot="public">
+    <compoundname>MainTextSelected</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerEnterHandler</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerExitHandler</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_main_text_selected_1a87108fabf5bf61d2a0ae26278738acbc" prot="private" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI MainTextSelected.tmpText</definition>
+        <argsstring></argsstring>
+        <name>tmpText</name>
+        <qualifiedname>MainTextSelected.tmpText</qualifiedname>
+        <briefdescription>
+<para>Referencia al componente TextMeshProUGUI hijo del botón. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/MainTextSelected.cs" line="18" column="29" bodyfile="Assets/Scripts/CarouselScript/MainTextSelected.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_main_text_selected_1a627ba9521cf8217554df635ed61b0ff4" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainTextSelected.isPermanentlyUnderlined</definition>
+        <argsstring></argsstring>
+        <name>isPermanentlyUnderlined</name>
+        <qualifiedname>MainTextSelected.isPermanentlyUnderlined</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Indica si el texto del botón debe permanecer subrayado de forma permanente. Si es <computeroutput>true</computeroutput>, el subrayado no se modifica al interactuar con el puntero. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/MainTextSelected.cs" line="24" column="17" bodyfile="Assets/Scripts/CarouselScript/MainTextSelected.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_main_text_selected_1a782f2ac919c9653266db91a4698b8ffd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainTextSelected.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>MainTextSelected.Awake</qualifiedname>
+        <briefdescription>
+<para>Inicializa el script obteniendo la referencia al componente TextMeshProUGUI hijo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/MainTextSelected.cs" line="29" column="18" bodyfile="Assets/Scripts/CarouselScript/MainTextSelected.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_main_text_selected_1a72a729cebf325df01e62ef9e951599f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainTextSelected.OnPointerEnter</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerEnter</name>
+        <qualifiedname>MainTextSelected.OnPointerEnter</qualifiedname>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+<para>Se ejecuta cuando el puntero entra en el área del botón. Si el subrayado no es permanente, activa el texto. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eventData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Datos del evento del puntero.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/MainTextSelected.cs" line="39" column="17" bodyfile="Assets/Scripts/CarouselScript/MainTextSelected.cs" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_text_selected_1aaf4cabfebe626d4f6d17d1cd1baf1d6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainTextSelected.OnPointerExit</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerExit</name>
+        <qualifiedname>MainTextSelected.OnPointerExit</qualifiedname>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+<para>Se ejecuta cuando el puntero sale del área del botón. Si el subrayado no es permanente, desactiva el texto. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eventData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Datos del evento del puntero.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/MainTextSelected.cs" line="49" column="17" bodyfile="Assets/Scripts/CarouselScript/MainTextSelected.cs" bodystart="49" bodyend="52"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Clase que gestiona el comportamiento visual del texto principal de un botón en un carrusel, permitiendo subrayar el texto al interactuar con el puntero y controlar si el subrayado es permanente. Implementa las interfaces IPointerEnterHandler y IPointerExitHandler para detectar eventos del puntero. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>IPointerEnterHandler</label>
+      </node>
+      <node id="4">
+        <label>IPointerExitHandler</label>
+      </node>
+      <node id="1">
+        <label>MainTextSelected</label>
+        <link refid="class_main_text_selected"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>IPointerEnterHandler</label>
+      </node>
+      <node id="4">
+        <label>IPointerExitHandler</label>
+      </node>
+      <node id="1">
+        <label>MainTextSelected</label>
+        <link refid="class_main_text_selected"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/CarouselScript/MainTextSelected.cs" line="13" column="7" bodyfile="Assets/Scripts/CarouselScript/MainTextSelected.cs" bodystart="14" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_main_text_selected_1a782f2ac919c9653266db91a4698b8ffd" prot="private" virt="non-virtual"><scope>MainTextSelected</scope><name>Awake</name></member>
+      <member refid="class_main_text_selected_1a627ba9521cf8217554df635ed61b0ff4" prot="public" virt="non-virtual"><scope>MainTextSelected</scope><name>isPermanentlyUnderlined</name></member>
+      <member refid="class_main_text_selected_1a72a729cebf325df01e62ef9e951599f4" prot="public" virt="non-virtual"><scope>MainTextSelected</scope><name>OnPointerEnter</name></member>
+      <member refid="class_main_text_selected_1aaf4cabfebe626d4f6d17d1cd1baf1d6c" prot="public" virt="non-virtual"><scope>MainTextSelected</scope><name>OnPointerExit</name></member>
+      <member refid="class_main_text_selected_1a87108fabf5bf61d2a0ae26278738acbc" prot="private" virt="non-virtual"><scope>MainTextSelected</scope><name>tmpText</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

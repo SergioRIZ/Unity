@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_stop_movement_panel" kind="class" language="C#" prot="public">
+    <compoundname>StopMovementPanel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerEnterHandler</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerExitHandler</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_stop_movement_panel_1a69eb4b11ec1527c04da423056030bc8a" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool StopMovementPanel.IsPointerOverPanel</definition>
+        <argsstring></argsstring>
+        <name>IsPointerOverPanel</name>
+        <qualifiedname>StopMovementPanel.IsPointerOverPanel</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Indica si el puntero del ratón está actualmente sobre el Panel. Este valor es utilizado por otras clases, como mouseController, para habilitar o deshabilitar el zoom. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/StopMovementPanel.cs" line="16" column="24" bodyfile="Assets/Scripts/Camera/StopMovementPanel.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_stop_movement_panel_1a388ff1c648a269b1aa9cd38b44bf3559" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void StopMovementPanel.OnPointerEnter</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerEnter</name>
+        <qualifiedname>StopMovementPanel.OnPointerEnter</qualifiedname>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+<para>Método llamado cuando el puntero del ratón entra en el área del Panel. Cambia el valor de <ref refid="class_stop_movement_panel_1a69eb4b11ec1527c04da423056030bc8a" kindref="member">IsPointerOverPanel</ref> a <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eventData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Datos del evento del puntero.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/StopMovementPanel.cs" line="23" column="17" bodyfile="Assets/Scripts/Camera/StopMovementPanel.cs" bodystart="23" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stop_movement_panel_1aa07894e8d2187b33f49ed417455aa4a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void StopMovementPanel.OnPointerExit</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerExit</name>
+        <qualifiedname>StopMovementPanel.OnPointerExit</qualifiedname>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+<para>Método llamado cuando el puntero del ratón sale del área del Panel. Cambia el valor de <ref refid="class_stop_movement_panel_1a69eb4b11ec1527c04da423056030bc8a" kindref="member">IsPointerOverPanel</ref> a <computeroutput>false</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eventData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Datos del evento del puntero.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/StopMovementPanel.cs" line="34" column="17" bodyfile="Assets/Scripts/Camera/StopMovementPanel.cs" bodystart="34" bodyend="38"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Componente que detecta si el puntero del ratón está sobre el panel asociado. Utilizado para controlar el comportamiento de otros sistemas, como el zoom de la cámara. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>IPointerEnterHandler</label>
+      </node>
+      <node id="4">
+        <label>IPointerExitHandler</label>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>StopMovementPanel</label>
+        <link refid="class_stop_movement_panel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>IPointerEnterHandler</label>
+      </node>
+      <node id="4">
+        <label>IPointerExitHandler</label>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>StopMovementPanel</label>
+        <link refid="class_stop_movement_panel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/Camera/StopMovementPanel.cs" line="10" column="7" bodyfile="Assets/Scripts/Camera/StopMovementPanel.cs" bodystart="11" bodyend="39"/>
+    <listofallmembers>
+      <member refid="class_stop_movement_panel_1a69eb4b11ec1527c04da423056030bc8a" prot="public" virt="non-virtual"><scope>StopMovementPanel</scope><name>IsPointerOverPanel</name></member>
+      <member refid="class_stop_movement_panel_1a388ff1c648a269b1aa9cd38b44bf3559" prot="public" virt="non-virtual"><scope>StopMovementPanel</scope><name>OnPointerEnter</name></member>
+      <member refid="class_stop_movement_panel_1aa07894e8d2187b33f49ed417455aa4a7" prot="public" virt="non-virtual"><scope>StopMovementPanel</scope><name>OnPointerExit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

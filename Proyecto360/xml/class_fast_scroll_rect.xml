@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_fast_scroll_rect" kind="class" language="C#" prot="public">
+    <compoundname>FastScrollRect</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IScrollHandler</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_fast_scroll_rect_1af6d1c507ca14c942fae41bb35717e12c" prot="public" static="no" mutable="no">
+        <type>ScrollRect</type>
+        <definition>ScrollRect FastScrollRect.scrollRect</definition>
+        <argsstring></argsstring>
+        <name>scrollRect</name>
+        <qualifiedname>FastScrollRect.scrollRect</qualifiedname>
+        <briefdescription>
+<para>Referencia al componente ScrollRect que se va a controlar. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Creditos/FastScrollRect.cs" line="13" column="23" bodyfile="Assets/Scripts/Scripts Creditos/FastScrollRect.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fast_scroll_rect_1a55dbbf654ca0d8b23eb2cf6e24d13eb7" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FastScrollRect.scrollSpeed</definition>
+        <argsstring></argsstring>
+        <name>scrollSpeed</name>
+        <qualifiedname>FastScrollRect.scrollSpeed</qualifiedname>
+        <initializer>= 20f</initializer>
+        <briefdescription>
+<para>Velocidad de desplazamiento multiplicada al usar la rueda del ratón. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Creditos/FastScrollRect.cs" line="18" column="18" bodyfile="Assets/Scripts/Scripts Creditos/FastScrollRect.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_fast_scroll_rect_1aeeb9306a319ec516293187bb87829e8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FastScrollRect.OnScroll</definition>
+        <argsstring>(PointerEventData data)</argsstring>
+        <name>OnScroll</name>
+        <qualifiedname>FastScrollRect.OnScroll</qualifiedname>
+        <param>
+          <type>PointerEventData</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>Maneja el evento de desplazamiento del ratón y ajusta la posición vertical del ScrollRect. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Datos del evento de desplazamiento.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Creditos/FastScrollRect.cs" line="24" column="17" bodyfile="Assets/Scripts/Scripts Creditos/FastScrollRect.cs" bodystart="24" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Permite un desplazamiento vertical más rápido en un ScrollRect al usar la rueda del ratón. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FastScrollRect</label>
+        <link refid="class_fast_scroll_rect"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IScrollHandler</label>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FastScrollRect</label>
+        <link refid="class_fast_scroll_rect"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IScrollHandler</label>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/Scripts Creditos/FastScrollRect.cs" line="8" column="7" bodyfile="Assets/Scripts/Scripts Creditos/FastScrollRect.cs" bodystart="9" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_fast_scroll_rect_1aeeb9306a319ec516293187bb87829e8c" prot="public" virt="non-virtual"><scope>FastScrollRect</scope><name>OnScroll</name></member>
+      <member refid="class_fast_scroll_rect_1af6d1c507ca14c942fae41bb35717e12c" prot="public" virt="non-virtual"><scope>FastScrollRect</scope><name>scrollRect</name></member>
+      <member refid="class_fast_scroll_rect_1a55dbbf654ca0d8b23eb2cf6e24d13eb7" prot="public" virt="non-virtual"><scope>FastScrollRect</scope><name>scrollSpeed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

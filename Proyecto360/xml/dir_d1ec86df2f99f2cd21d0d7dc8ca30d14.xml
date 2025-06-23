@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="dir_d1ec86df2f99f2cd21d0d7dc8ca30d14" kind="dir">
+    <compoundname>Assets/Scripts/ScriptsPuntosDeInteres</compoundname>
+    <innerdir refid="dir_63ecb2618c5cdfef5042a0350ab8ea25">Assets/Scripts/ScriptsPuntosDeInteres/Editor</innerdir>
+    <innerfile refid="_boton_inicio_8cs">BotonInicio.cs</innerfile>
+    <innerfile refid="_hover_text_display_8cs">HoverTextDisplay.cs</innerfile>
+    <innerfile refid="_link_handler_8cs">LinkHandler.cs</innerfile>
+    <innerfile refid="_mostrar_imagen_desde_boton_8cs">MostrarImagenDesdeBoton.cs</innerfile>
+    <innerfile refid="_mostrar_texto_desde_boton_01_8cs">MostrarTextoDesdeBoton .cs</innerfile>
+    <innerfile refid="_mostrar_video_desde_boton_con_subtitulos_8cs">MostrarVideoDesdeBotonConSubtitulos.cs</innerfile>
+    <innerfile refid="_motrar_slider_sonido_8cs">MotrarSliderSonido.cs</innerfile>
+    <innerfile refid="_panel_imagen_controller_8cs">PanelImagenController.cs</innerfile>
+    <innerfile refid="_panel_texto_controller_8cs">PanelTextoController.cs</innerfile>
+    <innerfile refid="_panel_video_controller_con_subtitulos_8cs">PanelVideoControllerConSubtitulos.cs</innerfile>
+    <innerfile refid="_rotator_8cs">Rotator.cs</innerfile>
+    <innerfile refid="_sound_controller_8cs">SoundController.cs</innerfile>
+    <innerfile refid="_texto_creditos_8cs">TextoCreditos.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Assets/Scripts/ScriptsPuntosDeInteres/"/>
+  </compounddef>
+</doxygen>

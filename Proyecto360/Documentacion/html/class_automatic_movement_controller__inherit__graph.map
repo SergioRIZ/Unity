@@ -1,0 +1,5 @@
+<map id="AutomaticMovementController" name="AutomaticMovementController">
+<area shape="rect" id="Node000001" title="Controlador de movimiento automático para la cámara panorámica cuando el usuario está inactivo...." alt="" coords="5,80,203,107"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="48,5,160,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,48,107,80,101,80,101,48"/>
+</map>

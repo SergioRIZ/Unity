@@ -1,0 +1,131 @@
+\doxysection{Sky\+Box\+Button\+Selected Class Reference}
+\hypertarget{class_sky_box_button_selected}{}\label{class_sky_box_button_selected}\index{SkyBoxButtonSelected@{SkyBoxButtonSelected}}
+
+
+Clase que gestiona la selección de botones en un carrusel de Skybox, aplicando efectos visuales y activando el canvas correspondiente.  
+
+
+
+
+Inheritance diagram for Sky\+Box\+Button\+Selected\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=197pt]{class_sky_box_button_selected__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Sky\+Box\+Button\+Selected\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=197pt]{class_sky_box_button_selected__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_sky_box_button_selected_adb3cf8647aa0b08e60b0b8bf7a0def20}{Bandera}} ()
+\begin{DoxyCompactList}\small\item\em Devuelve una bandera que indica si el objeto está activo en la jerarquía. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_sky_box_button_selected_a00f2d6c1712a9f8a8627eba21d166231}{Initialize\+Carousel\+Render}} ()
+\begin{DoxyCompactList}\small\item\em Inicializa el renderizado del carrusel y resalta el Skybox actual tras un frame. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_sky_box_button_selected_a7b6a21f47357c0b24bdb3bfeb9efac23}{Highlight\+Current\+Skybox\+Button}} ()
+\begin{DoxyCompactList}\small\item\em Resalta el botón correspondiente al Skybox actual y activa el canvas correspondiente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_sky_box_button_selected_aeecc536eaafc1bac17f2affbf37da75b}{On\+Skybox\+Changed}} (string new\+Texture\+Name)
+\begin{DoxyCompactList}\small\item\em Método que se llama desde el Scene\+Manager para actualizar el nombre de la textura actual. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_sky_box_button_selected_ae9f025fe75419cdbc93c15f251fe3009}{Activate\+Matching\+Canvas\+Only}} ()
+\begin{DoxyCompactList}\small\item\em Activa únicamente el canvas cuyo nombre coincide con la textura actual del Skybox y gestiona la activación de los botones internos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_sky_box_button_selected_a1bc6960daf1a44f922c93ea34008bfc4}{carrusel\+Listo}} = false
+\begin{DoxyCompactList}\small\item\em Indica si el carrusel está listo para interactuar. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clase que gestiona la selección de botones en un carrusel de Skybox, aplicando efectos visuales y activando el canvas correspondiente. 
+
+\label{doc-func-members}
+\Hypertarget{class_sky_box_button_selected_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_sky_box_button_selected_ae9f025fe75419cdbc93c15f251fe3009}\index{SkyBoxButtonSelected@{SkyBoxButtonSelected}!ActivateMatchingCanvasOnly@{ActivateMatchingCanvasOnly}}
+\index{ActivateMatchingCanvasOnly@{ActivateMatchingCanvasOnly}!SkyBoxButtonSelected@{SkyBoxButtonSelected}}
+\doxysubsubsection{\texorpdfstring{ActivateMatchingCanvasOnly()}{ActivateMatchingCanvasOnly()}}
+{\footnotesize\ttfamily \label{class_sky_box_button_selected_ae9f025fe75419cdbc93c15f251fe3009} 
+void Sky\+Box\+Button\+Selected.\+Activate\+Matching\+Canvas\+Only (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Activa únicamente el canvas cuyo nombre coincide con la textura actual del Skybox y gestiona la activación de los botones internos. 
+
+\Hypertarget{class_sky_box_button_selected_adb3cf8647aa0b08e60b0b8bf7a0def20}\index{SkyBoxButtonSelected@{SkyBoxButtonSelected}!Bandera@{Bandera}}
+\index{Bandera@{Bandera}!SkyBoxButtonSelected@{SkyBoxButtonSelected}}
+\doxysubsubsection{\texorpdfstring{Bandera()}{Bandera()}}
+{\footnotesize\ttfamily \label{class_sky_box_button_selected_adb3cf8647aa0b08e60b0b8bf7a0def20} 
+bool Sky\+Box\+Button\+Selected.\+Bandera (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Devuelve una bandera que indica si el objeto está activo en la jerarquía. 
+
+\begin{DoxyReturn}{Returns}
+True si el objeto NO está activo en la jerarquía, false si está activo.
+\end{DoxyReturn}
+\Hypertarget{class_sky_box_button_selected_a7b6a21f47357c0b24bdb3bfeb9efac23}\index{SkyBoxButtonSelected@{SkyBoxButtonSelected}!HighlightCurrentSkyboxButton@{HighlightCurrentSkyboxButton}}
+\index{HighlightCurrentSkyboxButton@{HighlightCurrentSkyboxButton}!SkyBoxButtonSelected@{SkyBoxButtonSelected}}
+\doxysubsubsection{\texorpdfstring{HighlightCurrentSkyboxButton()}{HighlightCurrentSkyboxButton()}}
+{\footnotesize\ttfamily \label{class_sky_box_button_selected_a7b6a21f47357c0b24bdb3bfeb9efac23} 
+void Sky\+Box\+Button\+Selected.\+Highlight\+Current\+Skybox\+Button (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Resalta el botón correspondiente al Skybox actual y activa el canvas correspondiente. 
+
+\Hypertarget{class_sky_box_button_selected_a00f2d6c1712a9f8a8627eba21d166231}\index{SkyBoxButtonSelected@{SkyBoxButtonSelected}!InitializeCarouselRender@{InitializeCarouselRender}}
+\index{InitializeCarouselRender@{InitializeCarouselRender}!SkyBoxButtonSelected@{SkyBoxButtonSelected}}
+\doxysubsubsection{\texorpdfstring{InitializeCarouselRender()}{InitializeCarouselRender()}}
+{\footnotesize\ttfamily \label{class_sky_box_button_selected_a00f2d6c1712a9f8a8627eba21d166231} 
+void Sky\+Box\+Button\+Selected.\+Initialize\+Carousel\+Render (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Inicializa el renderizado del carrusel y resalta el Skybox actual tras un frame. 
+
+\Hypertarget{class_sky_box_button_selected_aeecc536eaafc1bac17f2affbf37da75b}\index{SkyBoxButtonSelected@{SkyBoxButtonSelected}!OnSkyboxChanged@{OnSkyboxChanged}}
+\index{OnSkyboxChanged@{OnSkyboxChanged}!SkyBoxButtonSelected@{SkyBoxButtonSelected}}
+\doxysubsubsection{\texorpdfstring{OnSkyboxChanged()}{OnSkyboxChanged()}}
+{\footnotesize\ttfamily \label{class_sky_box_button_selected_aeecc536eaafc1bac17f2affbf37da75b} 
+void Sky\+Box\+Button\+Selected.\+On\+Skybox\+Changed (\begin{DoxyParamCaption}\item[{string}]{new\+Texture\+Name}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Método que se llama desde el Scene\+Manager para actualizar el nombre de la textura actual. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Texture\+Name} & El nuevo nombre de la textura del Skybox.\\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-variable-members}
+\Hypertarget{class_sky_box_button_selected_doc-variable-members}
+\doxysubsection{Field Documentation}
+\Hypertarget{class_sky_box_button_selected_a1bc6960daf1a44f922c93ea34008bfc4}\index{SkyBoxButtonSelected@{SkyBoxButtonSelected}!carruselListo@{carruselListo}}
+\index{carruselListo@{carruselListo}!SkyBoxButtonSelected@{SkyBoxButtonSelected}}
+\doxysubsubsection{\texorpdfstring{carruselListo}{carruselListo}}
+{\footnotesize\ttfamily \label{class_sky_box_button_selected_a1bc6960daf1a44f922c93ea34008bfc4} 
+bool Sky\+Box\+Button\+Selected.\+carrusel\+Listo = false}
+
+
+
+Indica si el carrusel está listo para interactuar. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+Carousel\+Script/\mbox{\hyperlink{_sky_box_button_selected_8cs}{Sky\+Box\+Button\+Selected.\+cs}}\end{DoxyCompactItemize}

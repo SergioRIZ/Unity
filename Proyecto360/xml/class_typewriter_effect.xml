@@ -1,0 +1,399 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_typewriter_effect" kind="class" language="C#" prot="public">
+    <compoundname>TypewriterEffect</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_typewriter_effect_1ad9f470b2151666588b9929d6462fe336" prot="public" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI TypewriterEffect.textComponent</definition>
+        <argsstring></argsstring>
+        <name>textComponent</name>
+        <qualifiedname>TypewriterEffect.textComponent</qualifiedname>
+        <briefdescription>
+<para>Componente de texto en pantalla donde se mostrará el efecto de máquina de escribir. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" line="15" column="28" bodyfile="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_typewriter_effect_1a1e78f590ce0aab869dedeaa7a10672a9" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string TypewriterEffect.fullText</definition>
+        <argsstring></argsstring>
+        <name>fullText</name>
+        <qualifiedname>TypewriterEffect.fullText</qualifiedname>
+        <briefdescription>
+<para>Texto completo que se va a escribir con el efecto. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" line="20" column="20" bodyfile="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_typewriter_effect_1ad8407cbfa48ac5a2eae268ec120658e7" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TypewriterEffect.delay</definition>
+        <argsstring></argsstring>
+        <name>delay</name>
+        <qualifiedname>TypewriterEffect.delay</qualifiedname>
+        <initializer>= 0.03f</initializer>
+        <briefdescription>
+<para>Retardo en segundos entre la aparición de cada letra. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" line="25" column="18" bodyfile="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_typewriter_effect_1a1910306ba597a487b51caad03064c05d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TypewriterEffect.lineDelay</definition>
+        <argsstring></argsstring>
+        <name>lineDelay</name>
+        <qualifiedname>TypewriterEffect.lineDelay</qualifiedname>
+        <initializer>= 0.4f</initializer>
+        <briefdescription>
+<para>Retardo adicional en segundos al hacer un salto de línea. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" line="30" column="18" bodyfile="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_typewriter_effect_1a38388b5ae69315932b44cede8ff46c5a" prot="public" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource TypewriterEffect.audioSource</definition>
+        <argsstring></argsstring>
+        <name>audioSource</name>
+        <qualifiedname>TypewriterEffect.audioSource</qualifiedname>
+        <briefdescription>
+<para>Fuente de audio para reproducir sonidos de tecla. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" line="36" column="24" bodyfile="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_typewriter_effect_1a1099819e308a1e56573920b698586f52" prot="public" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip TypewriterEffect.keySound</definition>
+        <argsstring></argsstring>
+        <name>keySound</name>
+        <qualifiedname>TypewriterEffect.keySound</qualifiedname>
+        <briefdescription>
+<para>Clip de sonido que se reproduce por cada tecla. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" line="41" column="22" bodyfile="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_typewriter_effect_1a40f0ceefa464ecd6de62545d08ffa5ac" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TypewriterEffect.soundCooldown</definition>
+        <argsstring></argsstring>
+        <name>soundCooldown</name>
+        <qualifiedname>TypewriterEffect.soundCooldown</qualifiedname>
+        <initializer>= 0.05f</initializer>
+        <briefdescription>
+<para>Tiempo mínimo en segundos entre sonidos de tecla. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" line="46" column="18" bodyfile="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_typewriter_effect_1ab480a006ffacf76a695aeb46489a74a0" prot="public" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI TypewriterEffect.pressEnterText</definition>
+        <argsstring></argsstring>
+        <name>pressEnterText</name>
+        <qualifiedname>TypewriterEffect.pressEnterText</qualifiedname>
+        <briefdescription>
+<para>Texto que aparece al final indicando &quot;Presiona ENTER&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" line="52" column="28" bodyfile="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_typewriter_effect_1a9a855165e6ba32e8a92e3213f1566b19" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string TypewriterEffect.sceneToLoad</definition>
+        <argsstring></argsstring>
+        <name>sceneToLoad</name>
+        <qualifiedname>TypewriterEffect.sceneToLoad</qualifiedname>
+        <initializer>= &quot;MainMenu&quot;</initializer>
+        <briefdescription>
+<para>Nombre de la escena que se cargará al presionar ENTER. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" line="57" column="19" bodyfile="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_typewriter_effect_1a05fe43ec8eacb9c80ca1b27d564dd1e2" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string TypewriterEffect.currentText</definition>
+        <argsstring></argsstring>
+        <name>currentText</name>
+        <qualifiedname>TypewriterEffect.currentText</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+<para>Texto que se va formando letra a letra. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" line="63" column="20" bodyfile="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_typewriter_effect_1a39ed47ba893e0936ec302c48186ab732" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TypewriterEffect.typingComplete</definition>
+        <argsstring></argsstring>
+        <name>typingComplete</name>
+        <qualifiedname>TypewriterEffect.typingComplete</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Indica si ya terminó de escribirse el texto. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" line="68" column="18" bodyfile="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_typewriter_effect_1a3a6da899334519f6c18b520373a8d7d3" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TypewriterEffect.lastSoundTime</definition>
+        <argsstring></argsstring>
+        <name>lastSoundTime</name>
+        <qualifiedname>TypewriterEffect.lastSoundTime</qualifiedname>
+        <initializer>= 0f</initializer>
+        <briefdescription>
+<para>Último momento en que se reprodujo un sonido de tecla. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" line="73" column="19" bodyfile="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_typewriter_effect_1aba7f56a6a4bdbe00f56064d803061f06" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TypewriterEffect.isPlayingSound</definition>
+        <argsstring></argsstring>
+        <name>isPlayingSound</name>
+        <qualifiedname>TypewriterEffect.isPlayingSound</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Indica si se está reproduciendo un sonido de tecla. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" line="78" column="18" bodyfile="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_typewriter_effect_1af89ea12e2df2883b209aabda47375938" prot="private" static="no" mutable="no">
+        <type>Coroutine</type>
+        <definition>Coroutine TypewriterEffect.cursorCoroutine</definition>
+        <argsstring></argsstring>
+        <name>cursorCoroutine</name>
+        <qualifiedname>TypewriterEffect.cursorCoroutine</qualifiedname>
+        <briefdescription>
+<para>Corrutina para el parpadeo del cursor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" line="83" column="23" bodyfile="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_typewriter_effect_1ab1814835273d5a5fecdcbf1f5f2a9625" prot="private" static="no" mutable="no">
+        <type>Coroutine</type>
+        <definition>Coroutine TypewriterEffect.enterMessageCoroutine</definition>
+        <argsstring></argsstring>
+        <name>enterMessageCoroutine</name>
+        <qualifiedname>TypewriterEffect.enterMessageCoroutine</qualifiedname>
+        <briefdescription>
+<para>Corrutina para el mensaje de &quot;Presiona ENTER&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" line="88" column="23" bodyfile="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_typewriter_effect_1ac7b244014d3d6a86860708308ee64d3e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TypewriterEffect.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>TypewriterEffect.Start</qualifiedname>
+        <briefdescription>
+<para>Inicializa el efecto de máquina de escribir, limpiando el texto y ocultando el mensaje de ENTER. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" line="93" column="10" bodyfile="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" bodystart="93" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_typewriter_effect_1acbcf1e93d96990ad3135cc39434a7dd1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TypewriterEffect.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>TypewriterEffect.Update</qualifiedname>
+        <briefdescription>
+<para>Detecta la pulsación de ENTER para finalizar el efecto y cargar la siguiente escena. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" line="109" column="10" bodyfile="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" bodystart="109" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_typewriter_effect_1a0d15e88a089558c7d9394324607e46f7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator TypewriterEffect.ShowText</definition>
+        <argsstring>()</argsstring>
+        <name>ShowText</name>
+        <qualifiedname>TypewriterEffect.ShowText</qualifiedname>
+        <briefdescription>
+<para>Corrutina principal que escribe el texto letra por letra, gestionando etiquetas y retardos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>IEnumerator para la corrutina.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" line="140" column="17" bodyfile="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" bodystart="140" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="class_typewriter_effect_1a7ccff43d40611111c3e1ac6edcd9fb37" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator TypewriterEffect.PlayKeySound</definition>
+        <argsstring>()</argsstring>
+        <name>PlayKeySound</name>
+        <qualifiedname>TypewriterEffect.PlayKeySound</qualifiedname>
+        <briefdescription>
+<para>Corrutina para reproducir un sonido breve de tecla. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>IEnumerator para la corrutina.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" line="194" column="17" bodyfile="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" bodystart="194" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="class_typewriter_effect_1a197852af2fe680058cbb4196ab1cb403" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator TypewriterEffect.BlinkCursor</definition>
+        <argsstring>()</argsstring>
+        <name>BlinkCursor</name>
+        <qualifiedname>TypewriterEffect.BlinkCursor</qualifiedname>
+        <briefdescription>
+<para>Corrutina para hacer parpadear un cursor al final del texto. Se simula el cursor más adelante con 3 espacios. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>IEnumerator para la corrutina.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" line="207" column="17" bodyfile="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" bodystart="207" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="class_typewriter_effect_1acddcf94f886bffe4be2cc46288bf7c89" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator TypewriterEffect.BlinkEnterMessage</definition>
+        <argsstring>()</argsstring>
+        <name>BlinkEnterMessage</name>
+        <qualifiedname>TypewriterEffect.BlinkEnterMessage</qualifiedname>
+        <briefdescription>
+<para>Corrutina para hacer parpadear el texto &quot;Presiona ENTER&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>IEnumerator para la corrutina.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" line="222" column="17" bodyfile="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" bodystart="222" bodyend="233"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Efecto de máquina de escribir para mostrar texto letra por letra, con sonido y animaciones. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TypewriterEffect</label>
+        <link refid="class_typewriter_effect"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TypewriterEffect</label>
+        <link refid="class_typewriter_effect"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" line="9" column="7" bodyfile="Assets/Scripts/Scripts Creditos/TypewriterEffect.cs" bodystart="10" bodyend="234"/>
+    <listofallmembers>
+      <member refid="class_typewriter_effect_1a38388b5ae69315932b44cede8ff46c5a" prot="public" virt="non-virtual"><scope>TypewriterEffect</scope><name>audioSource</name></member>
+      <member refid="class_typewriter_effect_1a197852af2fe680058cbb4196ab1cb403" prot="private" virt="non-virtual"><scope>TypewriterEffect</scope><name>BlinkCursor</name></member>
+      <member refid="class_typewriter_effect_1acddcf94f886bffe4be2cc46288bf7c89" prot="private" virt="non-virtual"><scope>TypewriterEffect</scope><name>BlinkEnterMessage</name></member>
+      <member refid="class_typewriter_effect_1a05fe43ec8eacb9c80ca1b27d564dd1e2" prot="private" virt="non-virtual"><scope>TypewriterEffect</scope><name>currentText</name></member>
+      <member refid="class_typewriter_effect_1af89ea12e2df2883b209aabda47375938" prot="private" virt="non-virtual"><scope>TypewriterEffect</scope><name>cursorCoroutine</name></member>
+      <member refid="class_typewriter_effect_1ad8407cbfa48ac5a2eae268ec120658e7" prot="public" virt="non-virtual"><scope>TypewriterEffect</scope><name>delay</name></member>
+      <member refid="class_typewriter_effect_1ab1814835273d5a5fecdcbf1f5f2a9625" prot="private" virt="non-virtual"><scope>TypewriterEffect</scope><name>enterMessageCoroutine</name></member>
+      <member refid="class_typewriter_effect_1a1e78f590ce0aab869dedeaa7a10672a9" prot="public" virt="non-virtual"><scope>TypewriterEffect</scope><name>fullText</name></member>
+      <member refid="class_typewriter_effect_1aba7f56a6a4bdbe00f56064d803061f06" prot="private" virt="non-virtual"><scope>TypewriterEffect</scope><name>isPlayingSound</name></member>
+      <member refid="class_typewriter_effect_1a1099819e308a1e56573920b698586f52" prot="public" virt="non-virtual"><scope>TypewriterEffect</scope><name>keySound</name></member>
+      <member refid="class_typewriter_effect_1a3a6da899334519f6c18b520373a8d7d3" prot="private" virt="non-virtual"><scope>TypewriterEffect</scope><name>lastSoundTime</name></member>
+      <member refid="class_typewriter_effect_1a1910306ba597a487b51caad03064c05d" prot="public" virt="non-virtual"><scope>TypewriterEffect</scope><name>lineDelay</name></member>
+      <member refid="class_typewriter_effect_1a7ccff43d40611111c3e1ac6edcd9fb37" prot="private" virt="non-virtual"><scope>TypewriterEffect</scope><name>PlayKeySound</name></member>
+      <member refid="class_typewriter_effect_1ab480a006ffacf76a695aeb46489a74a0" prot="public" virt="non-virtual"><scope>TypewriterEffect</scope><name>pressEnterText</name></member>
+      <member refid="class_typewriter_effect_1a9a855165e6ba32e8a92e3213f1566b19" prot="public" virt="non-virtual"><scope>TypewriterEffect</scope><name>sceneToLoad</name></member>
+      <member refid="class_typewriter_effect_1a0d15e88a089558c7d9394324607e46f7" prot="private" virt="non-virtual"><scope>TypewriterEffect</scope><name>ShowText</name></member>
+      <member refid="class_typewriter_effect_1a40f0ceefa464ecd6de62545d08ffa5ac" prot="public" virt="non-virtual"><scope>TypewriterEffect</scope><name>soundCooldown</name></member>
+      <member refid="class_typewriter_effect_1ac7b244014d3d6a86860708308ee64d3e" prot="private" virt="non-virtual"><scope>TypewriterEffect</scope><name>Start</name></member>
+      <member refid="class_typewriter_effect_1ad9f470b2151666588b9929d6462fe336" prot="public" virt="non-virtual"><scope>TypewriterEffect</scope><name>textComponent</name></member>
+      <member refid="class_typewriter_effect_1a39ed47ba893e0936ec302c48186ab732" prot="private" virt="non-virtual"><scope>TypewriterEffect</scope><name>typingComplete</name></member>
+      <member refid="class_typewriter_effect_1acbcf1e93d96990ad3135cc39434a7dd1" prot="private" virt="non-virtual"><scope>TypewriterEffect</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

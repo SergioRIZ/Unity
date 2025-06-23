@@ -1,0 +1,224 @@
+\doxysection{Zoom\+Controller Class Reference}
+\hypertarget{class_zoom_controller}{}\label{class_zoom_controller}\index{ZoomController@{ZoomController}}
+
+
+Controlador para manejar el zoom de la cámara mediante rueda del mouse, pinch en dispositivos táctiles y teclas con movimiento fluido.  
+
+
+
+
+Inheritance diagram for Zoom\+Controller\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{class_zoom_controller__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Zoom\+Controller\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{class_zoom_controller__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_zoom_controller_a3a46a83264b8b69db9cb946b47d06dcf}{Initialize}} (\mbox{\hyperlink{class_camera_view}{Camera\+View}} controller)
+\begin{DoxyCompactList}\small\item\em Inicializa el controlador con una referencia al controlador principal. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_zoom_controller_a667d664cd71d992806c2bbd32e6c71d9}{Reset\+Zoom}} ()
+\begin{DoxyCompactList}\small\item\em Restablece el zoom al valor inicial de forma suave. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_zoom_controller_a8eed5bee94ac28f5f18b6979ced8eb8d}{allow\+Zoom}} = true
+\begin{DoxyCompactList}\small\item\em Permitir zoom con la rueda del mouse o pinch. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_zoom_controller_a8aa4fdfdcc3a402176d00c802cdc917b}{zoom\+Speed}} = 30.\+0f
+\begin{DoxyCompactList}\small\item\em Velocidad de zoom. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_zoom_controller_a5e5ebdf53c03cd4a179c69c32f5617f8}{min\+FOV}} = 20.\+0f
+\begin{DoxyCompactList}\small\item\em Rango de campo de visión (FOV) mínimo. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_zoom_controller_ab567b7081d6bb1e00ed914b7234b3b83}{max\+FOV}} = 90.\+0f
+\begin{DoxyCompactList}\small\item\em Rango de campo de visión (FOV) máximo. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_zoom_controller_a4597cde8028a1afdc005ad1a7d87a671}{key\+Zoom\+Speed}} = 60.\+0f
+\begin{DoxyCompactList}\small\item\em Velocidad de zoom con teclado. \end{DoxyCompactList}\item 
+Key\+Code \mbox{\hyperlink{class_zoom_controller_a21a007f429852918b78b34f2ab340721}{zoom\+In\+Key}} = Key\+Code.\+Plus
+\begin{DoxyCompactList}\small\item\em Tecla para acercar. \end{DoxyCompactList}\item 
+Key\+Code \mbox{\hyperlink{class_zoom_controller_aff71babc6d710de54b4c71b95196f3d2}{zoom\+In\+Key\+Alt}} = Key\+Code.\+Keypad\+Plus
+\begin{DoxyCompactList}\small\item\em Tecla alternativa para acercar. \end{DoxyCompactList}\item 
+Key\+Code \mbox{\hyperlink{class_zoom_controller_a04241edda8733be50d344c98ea34ce0c}{zoom\+Out\+Key}} = Key\+Code.\+Minus
+\begin{DoxyCompactList}\small\item\em Tecla para alejar. \end{DoxyCompactList}\item 
+Key\+Code \mbox{\hyperlink{class_zoom_controller_aae227b961820b99f5ddffaa17269f773}{zoom\+Out\+Key\+Alt}} = Key\+Code.\+Keypad\+Minus
+\begin{DoxyCompactList}\small\item\em Tecla alternativa para alejar. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_zoom_controller_add4ad21a4b18c508a864d5236b142830}{use\+Page\+Keys}} = true
+\begin{DoxyCompactList}\small\item\em Usar también las teclas Page\+Up/\+Page\+Down. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_zoom_controller_a97646101a94f5707e0c9e6398516329c}{smooth\+Speed}} = 15.\+0f
+\begin{DoxyCompactList}\small\item\em Velocidad de interpolación para suavizado de zoom. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_zoom_controller_aa8b60c4abe38528faf8befc525bc80a7}{screen\+Edge\+Margin}} = 10f
+\begin{DoxyCompactList}\small\item\em Margen de pantalla para detener el zoom (en píxeles). \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Controlador para manejar el zoom de la cámara mediante rueda del mouse, pinch en dispositivos táctiles y teclas con movimiento fluido. 
+
+\label{doc-func-members}
+\Hypertarget{class_zoom_controller_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_zoom_controller_a3a46a83264b8b69db9cb946b47d06dcf}\index{ZoomController@{ZoomController}!Initialize@{Initialize}}
+\index{Initialize@{Initialize}!ZoomController@{ZoomController}}
+\doxysubsubsection{\texorpdfstring{Initialize()}{Initialize()}}
+{\footnotesize\ttfamily \label{class_zoom_controller_a3a46a83264b8b69db9cb946b47d06dcf} 
+void Zoom\+Controller.\+Initialize (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_camera_view}{Camera\+View}}}]{controller}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Inicializa el controlador con una referencia al controlador principal. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em controller} & El controlador de cámara principal.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_zoom_controller_a667d664cd71d992806c2bbd32e6c71d9}\index{ZoomController@{ZoomController}!ResetZoom@{ResetZoom}}
+\index{ResetZoom@{ResetZoom}!ZoomController@{ZoomController}}
+\doxysubsubsection{\texorpdfstring{ResetZoom()}{ResetZoom()}}
+{\footnotesize\ttfamily \label{class_zoom_controller_a667d664cd71d992806c2bbd32e6c71d9} 
+void Zoom\+Controller.\+Reset\+Zoom (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Restablece el zoom al valor inicial de forma suave. 
+
+
+
+\label{doc-variable-members}
+\Hypertarget{class_zoom_controller_doc-variable-members}
+\doxysubsection{Field Documentation}
+\Hypertarget{class_zoom_controller_a8eed5bee94ac28f5f18b6979ced8eb8d}\index{ZoomController@{ZoomController}!allowZoom@{allowZoom}}
+\index{allowZoom@{allowZoom}!ZoomController@{ZoomController}}
+\doxysubsubsection{\texorpdfstring{allowZoom}{allowZoom}}
+{\footnotesize\ttfamily \label{class_zoom_controller_a8eed5bee94ac28f5f18b6979ced8eb8d} 
+bool Zoom\+Controller.\+allow\+Zoom = true}
+
+
+
+Permitir zoom con la rueda del mouse o pinch. 
+
+\Hypertarget{class_zoom_controller_a4597cde8028a1afdc005ad1a7d87a671}\index{ZoomController@{ZoomController}!keyZoomSpeed@{keyZoomSpeed}}
+\index{keyZoomSpeed@{keyZoomSpeed}!ZoomController@{ZoomController}}
+\doxysubsubsection{\texorpdfstring{keyZoomSpeed}{keyZoomSpeed}}
+{\footnotesize\ttfamily \label{class_zoom_controller_a4597cde8028a1afdc005ad1a7d87a671} 
+float Zoom\+Controller.\+key\+Zoom\+Speed = 60.\+0f}
+
+
+
+Velocidad de zoom con teclado. 
+
+\Hypertarget{class_zoom_controller_ab567b7081d6bb1e00ed914b7234b3b83}\index{ZoomController@{ZoomController}!maxFOV@{maxFOV}}
+\index{maxFOV@{maxFOV}!ZoomController@{ZoomController}}
+\doxysubsubsection{\texorpdfstring{maxFOV}{maxFOV}}
+{\footnotesize\ttfamily \label{class_zoom_controller_ab567b7081d6bb1e00ed914b7234b3b83} 
+float Zoom\+Controller.\+max\+FOV = 90.\+0f}
+
+
+
+Rango de campo de visión (FOV) máximo. 
+
+\Hypertarget{class_zoom_controller_a5e5ebdf53c03cd4a179c69c32f5617f8}\index{ZoomController@{ZoomController}!minFOV@{minFOV}}
+\index{minFOV@{minFOV}!ZoomController@{ZoomController}}
+\doxysubsubsection{\texorpdfstring{minFOV}{minFOV}}
+{\footnotesize\ttfamily \label{class_zoom_controller_a5e5ebdf53c03cd4a179c69c32f5617f8} 
+float Zoom\+Controller.\+min\+FOV = 20.\+0f}
+
+
+
+Rango de campo de visión (FOV) mínimo. 
+
+\Hypertarget{class_zoom_controller_aa8b60c4abe38528faf8befc525bc80a7}\index{ZoomController@{ZoomController}!screenEdgeMargin@{screenEdgeMargin}}
+\index{screenEdgeMargin@{screenEdgeMargin}!ZoomController@{ZoomController}}
+\doxysubsubsection{\texorpdfstring{screenEdgeMargin}{screenEdgeMargin}}
+{\footnotesize\ttfamily \label{class_zoom_controller_aa8b60c4abe38528faf8befc525bc80a7} 
+float Zoom\+Controller.\+screen\+Edge\+Margin = 10f}
+
+
+
+Margen de pantalla para detener el zoom (en píxeles). 
+
+\Hypertarget{class_zoom_controller_a97646101a94f5707e0c9e6398516329c}\index{ZoomController@{ZoomController}!smoothSpeed@{smoothSpeed}}
+\index{smoothSpeed@{smoothSpeed}!ZoomController@{ZoomController}}
+\doxysubsubsection{\texorpdfstring{smoothSpeed}{smoothSpeed}}
+{\footnotesize\ttfamily \label{class_zoom_controller_a97646101a94f5707e0c9e6398516329c} 
+float Zoom\+Controller.\+smooth\+Speed = 15.\+0f}
+
+
+
+Velocidad de interpolación para suavizado de zoom. 
+
+\Hypertarget{class_zoom_controller_add4ad21a4b18c508a864d5236b142830}\index{ZoomController@{ZoomController}!usePageKeys@{usePageKeys}}
+\index{usePageKeys@{usePageKeys}!ZoomController@{ZoomController}}
+\doxysubsubsection{\texorpdfstring{usePageKeys}{usePageKeys}}
+{\footnotesize\ttfamily \label{class_zoom_controller_add4ad21a4b18c508a864d5236b142830} 
+bool Zoom\+Controller.\+use\+Page\+Keys = true}
+
+
+
+Usar también las teclas Page\+Up/\+Page\+Down. 
+
+\Hypertarget{class_zoom_controller_a21a007f429852918b78b34f2ab340721}\index{ZoomController@{ZoomController}!zoomInKey@{zoomInKey}}
+\index{zoomInKey@{zoomInKey}!ZoomController@{ZoomController}}
+\doxysubsubsection{\texorpdfstring{zoomInKey}{zoomInKey}}
+{\footnotesize\ttfamily \label{class_zoom_controller_a21a007f429852918b78b34f2ab340721} 
+Key\+Code Zoom\+Controller.\+zoom\+In\+Key = Key\+Code.\+Plus}
+
+
+
+Tecla para acercar. 
+
+\Hypertarget{class_zoom_controller_aff71babc6d710de54b4c71b95196f3d2}\index{ZoomController@{ZoomController}!zoomInKeyAlt@{zoomInKeyAlt}}
+\index{zoomInKeyAlt@{zoomInKeyAlt}!ZoomController@{ZoomController}}
+\doxysubsubsection{\texorpdfstring{zoomInKeyAlt}{zoomInKeyAlt}}
+{\footnotesize\ttfamily \label{class_zoom_controller_aff71babc6d710de54b4c71b95196f3d2} 
+Key\+Code Zoom\+Controller.\+zoom\+In\+Key\+Alt = Key\+Code.\+Keypad\+Plus}
+
+
+
+Tecla alternativa para acercar. 
+
+\Hypertarget{class_zoom_controller_a04241edda8733be50d344c98ea34ce0c}\index{ZoomController@{ZoomController}!zoomOutKey@{zoomOutKey}}
+\index{zoomOutKey@{zoomOutKey}!ZoomController@{ZoomController}}
+\doxysubsubsection{\texorpdfstring{zoomOutKey}{zoomOutKey}}
+{\footnotesize\ttfamily \label{class_zoom_controller_a04241edda8733be50d344c98ea34ce0c} 
+Key\+Code Zoom\+Controller.\+zoom\+Out\+Key = Key\+Code.\+Minus}
+
+
+
+Tecla para alejar. 
+
+\Hypertarget{class_zoom_controller_aae227b961820b99f5ddffaa17269f773}\index{ZoomController@{ZoomController}!zoomOutKeyAlt@{zoomOutKeyAlt}}
+\index{zoomOutKeyAlt@{zoomOutKeyAlt}!ZoomController@{ZoomController}}
+\doxysubsubsection{\texorpdfstring{zoomOutKeyAlt}{zoomOutKeyAlt}}
+{\footnotesize\ttfamily \label{class_zoom_controller_aae227b961820b99f5ddffaa17269f773} 
+Key\+Code Zoom\+Controller.\+zoom\+Out\+Key\+Alt = Key\+Code.\+Keypad\+Minus}
+
+
+
+Tecla alternativa para alejar. 
+
+\Hypertarget{class_zoom_controller_a8aa4fdfdcc3a402176d00c802cdc917b}\index{ZoomController@{ZoomController}!zoomSpeed@{zoomSpeed}}
+\index{zoomSpeed@{zoomSpeed}!ZoomController@{ZoomController}}
+\doxysubsubsection{\texorpdfstring{zoomSpeed}{zoomSpeed}}
+{\footnotesize\ttfamily \label{class_zoom_controller_a8aa4fdfdcc3a402176d00c802cdc917b} 
+float Zoom\+Controller.\+zoom\+Speed = 30.\+0f}
+
+
+
+Velocidad de zoom. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+Camera/\mbox{\hyperlink{_zoom_controller_8cs}{Zoom\+Controller.\+cs}}\end{DoxyCompactItemize}

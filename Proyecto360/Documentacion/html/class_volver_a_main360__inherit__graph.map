@@ -1,0 +1,5 @@
+<map id="VolverAMain360" name="VolverAMain360">
+<area shape="rect" id="Node000001" title="Clase responsable de gestionar la navegación hacia la escena &quot;Main360&quot;." alt="" coords="5,80,121,107"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="7,5,119,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="66,48,66,80,60,80,60,48"/>
+</map>

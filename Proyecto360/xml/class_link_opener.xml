@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_link_opener" kind="class" language="C#" prot="public">
+    <compoundname>LinkOpener</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerClickHandler</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_link_opener_1af3c20e535a31d30fb4c234fb1dff6abd" prot="public" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI LinkOpener.textMeshPro</definition>
+        <argsstring></argsstring>
+        <name>textMeshPro</name>
+        <qualifiedname>LinkOpener.textMeshPro</qualifiedname>
+        <briefdescription>
+<para>Referencia al componente TextMeshProUGUI que contiene los enlaces. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Creditos/LinkOpener.cs" line="13" column="28" bodyfile="Assets/Scripts/Scripts Creditos/LinkOpener.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_link_opener_1a0ac13496baedb0324d322bca5b032eb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LinkOpener.OnPointerClick</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerClick</name>
+        <qualifiedname>LinkOpener.OnPointerClick</qualifiedname>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+<para>Maneja el evento de clic del puntero sobre el objeto. Si el clic ocurre sobre un enlace, abre la URL asociada en el navegador predeterminado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eventData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Datos del evento de clic del puntero.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Creditos/LinkOpener.cs" line="20" column="17" bodyfile="Assets/Scripts/Scripts Creditos/LinkOpener.cs" bodystart="20" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Componente que permite abrir enlaces incrustados en un TextMeshProUGUI al hacer clic sobre ellos. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>IPointerClickHandler</label>
+      </node>
+      <node id="1">
+        <label>LinkOpener</label>
+        <link refid="class_link_opener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>IPointerClickHandler</label>
+      </node>
+      <node id="1">
+        <label>LinkOpener</label>
+        <link refid="class_link_opener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/Scripts Creditos/LinkOpener.cs" line="8" column="7" bodyfile="Assets/Scripts/Scripts Creditos/LinkOpener.cs" bodystart="9" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_link_opener_1a0ac13496baedb0324d322bca5b032eb3" prot="public" virt="non-virtual"><scope>LinkOpener</scope><name>OnPointerClick</name></member>
+      <member refid="class_link_opener_1af3c20e535a31d30fb4c234fb1dff6abd" prot="public" virt="non-virtual"><scope>LinkOpener</scope><name>textMeshPro</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

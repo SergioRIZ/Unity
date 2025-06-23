@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_default_cursor_setter" kind="class" language="C#" prot="public">
+    <compoundname>DefaultCursorSetter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_default_cursor_setter_1a284ee0d767d5e0ef2404830794f770fa" prot="private" static="no" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D DefaultCursorSetter.defaultCursor</definition>
+        <argsstring></argsstring>
+        <name>defaultCursor</name>
+        <qualifiedname>DefaultCursorSetter.defaultCursor</qualifiedname>
+        <briefdescription>
+<para>Textura que se usará como cursor predeterminado. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Cursor/DefaultCursorSetter.cs" line="11" column="24" bodyfile="Assets/Scripts/Cursor/DefaultCursorSetter.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_default_cursor_setter_1aa7fbe62c841cf957bc54709173168401" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 DefaultCursorSetter.hotSpot</definition>
+        <argsstring></argsstring>
+        <name>hotSpot</name>
+        <qualifiedname>DefaultCursorSetter.hotSpot</qualifiedname>
+        <initializer>= Vector2.zero</initializer>
+        <briefdescription>
+<para>Punto activo del cursor (hotspot). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Cursor/DefaultCursorSetter.cs" line="16" column="22" bodyfile="Assets/Scripts/Cursor/DefaultCursorSetter.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_default_cursor_setter_1aca4f1bd2af6a9c5247f8712dbd559ccb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DefaultCursorSetter.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>DefaultCursorSetter.Start</qualifiedname>
+        <briefdescription>
+<para>Método llamado al iniciar el componente. Establece el cursor predeterminado. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Cursor/DefaultCursorSetter.cs" line="21" column="10" bodyfile="Assets/Scripts/Cursor/DefaultCursorSetter.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Establece el cursor predeterminado al iniciar la escena. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>DefaultCursorSetter</label>
+        <link refid="class_default_cursor_setter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>DefaultCursorSetter</label>
+        <link refid="class_default_cursor_setter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/Cursor/DefaultCursorSetter.cs" line="6" column="7" bodyfile="Assets/Scripts/Cursor/DefaultCursorSetter.cs" bodystart="7" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_default_cursor_setter_1a284ee0d767d5e0ef2404830794f770fa" prot="private" virt="non-virtual"><scope>DefaultCursorSetter</scope><name>defaultCursor</name></member>
+      <member refid="class_default_cursor_setter_1aa7fbe62c841cf957bc54709173168401" prot="private" virt="non-virtual"><scope>DefaultCursorSetter</scope><name>hotSpot</name></member>
+      <member refid="class_default_cursor_setter_1aca4f1bd2af6a9c5247f8712dbd559ccb" prot="private" virt="non-virtual"><scope>DefaultCursorSetter</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,89 @@
+\doxysection{Sound\+Controller Class Reference}
+\hypertarget{class_sound_controller}{}\label{class_sound_controller}\index{SoundController@{SoundController}}
+
+
+Controlador para gestionar el sonido ambiental y de video, así como la interfaz de usuario asociada. Permite silenciar/restaurar el sonido, ajustar el volumen y alternar entre fuentes de audio.  
+
+
+
+
+Inheritance diagram for Sound\+Controller\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=166pt]{class_sound_controller__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Sound\+Controller\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=166pt]{class_sound_controller__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_sound_controller_a3ac0cf275550e81cdb88dfe284d6314a}{Set\+Controlled\+Audio\+Source}} (Audio\+Source audio\+Source)
+\begin{DoxyCompactList}\small\item\em Cambia la fuente de audio controlada (ambiental o video). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_sound_controller_a71c609c10e7b39e1290fa99cdbeeea9c}{Pause\+Ambient\+Sound}} (Audio\+Source video\+Audio\+Source)
+\begin{DoxyCompactList}\small\item\em Pausa el sonido ambiental y activa el del video. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_sound_controller_a7cfb255fe62501834c12969b6a5ff803}{Resume\+Ambient\+Sound}} ()
+\begin{DoxyCompactList}\small\item\em Restaura el audio ambiente como principal. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Controlador para gestionar el sonido ambiental y de video, así como la interfaz de usuario asociada. Permite silenciar/restaurar el sonido, ajustar el volumen y alternar entre fuentes de audio. 
+
+\label{doc-func-members}
+\Hypertarget{class_sound_controller_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_sound_controller_a71c609c10e7b39e1290fa99cdbeeea9c}\index{SoundController@{SoundController}!PauseAmbientSound@{PauseAmbientSound}}
+\index{PauseAmbientSound@{PauseAmbientSound}!SoundController@{SoundController}}
+\doxysubsubsection{\texorpdfstring{PauseAmbientSound()}{PauseAmbientSound()}}
+{\footnotesize\ttfamily \label{class_sound_controller_a71c609c10e7b39e1290fa99cdbeeea9c} 
+void Sound\+Controller.\+Pause\+Ambient\+Sound (\begin{DoxyParamCaption}\item[{Audio\+Source}]{video\+Audio\+Source}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Pausa el sonido ambiental y activa el del video. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em video\+Audio\+Source} & Fuente de audio del video a activar.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_sound_controller_a7cfb255fe62501834c12969b6a5ff803}\index{SoundController@{SoundController}!ResumeAmbientSound@{ResumeAmbientSound}}
+\index{ResumeAmbientSound@{ResumeAmbientSound}!SoundController@{SoundController}}
+\doxysubsubsection{\texorpdfstring{ResumeAmbientSound()}{ResumeAmbientSound()}}
+{\footnotesize\ttfamily \label{class_sound_controller_a7cfb255fe62501834c12969b6a5ff803} 
+void Sound\+Controller.\+Resume\+Ambient\+Sound (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Restaura el audio ambiente como principal. 
+
+\Hypertarget{class_sound_controller_a3ac0cf275550e81cdb88dfe284d6314a}\index{SoundController@{SoundController}!SetControlledAudioSource@{SetControlledAudioSource}}
+\index{SetControlledAudioSource@{SetControlledAudioSource}!SoundController@{SoundController}}
+\doxysubsubsection{\texorpdfstring{SetControlledAudioSource()}{SetControlledAudioSource()}}
+{\footnotesize\ttfamily \label{class_sound_controller_a3ac0cf275550e81cdb88dfe284d6314a} 
+void Sound\+Controller.\+Set\+Controlled\+Audio\+Source (\begin{DoxyParamCaption}\item[{Audio\+Source}]{audio\+Source}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Cambia la fuente de audio controlada (ambiental o video). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em audio\+Source} & La nueva fuente de audio a controlar.\\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+Scripts\+Puntos\+De\+Interes/\mbox{\hyperlink{_sound_controller_8cs}{Sound\+Controller.\+cs}}\end{DoxyCompactItemize}

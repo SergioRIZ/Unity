@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_animated_button_1_1_color_settings" kind="class" language="C#" prot="public">
+    <compoundname>AnimatedButton::ColorSettings</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_animated_button_1_1_color_settings_1a75a7d648d29db01a4cb68e50681470bf" prot="public" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color AnimatedButton.ColorSettings.normalColor</definition>
+        <argsstring></argsstring>
+        <name>normalColor</name>
+        <qualifiedname>AnimatedButton.ColorSettings.normalColor</qualifiedname>
+        <initializer>= Color.white</initializer>
+        <briefdescription>
+<para>Color por defecto del botón. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/AnimatedButton.cs" line="21" column="22" bodyfile="Assets/Scripts/Scripts Flechas/AnimatedButton.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_animated_button_1_1_color_settings_1ae6258d7ef9a3788348bad062909ef5ac" prot="public" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color AnimatedButton.ColorSettings.hoverColor</definition>
+        <argsstring></argsstring>
+        <name>hoverColor</name>
+        <qualifiedname>AnimatedButton.ColorSettings.hoverColor</qualifiedname>
+        <initializer>= Color.gray</initializer>
+        <briefdescription>
+<para>Color al pasar el mouse sobre el botón. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/AnimatedButton.cs" line="26" column="22" bodyfile="Assets/Scripts/Scripts Flechas/AnimatedButton.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Configuración de colores para el botón. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Assets/Scripts/Scripts Flechas/AnimatedButton.cs" line="16" column="11" bodyfile="Assets/Scripts/Scripts Flechas/AnimatedButton.cs" bodystart="17" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_animated_button_1_1_color_settings_1ae6258d7ef9a3788348bad062909ef5ac" prot="public" virt="non-virtual"><scope>AnimatedButton::ColorSettings</scope><name>hoverColor</name></member>
+      <member refid="class_animated_button_1_1_color_settings_1a75a7d648d29db01a4cb68e50681470bf" prot="public" virt="non-virtual"><scope>AnimatedButton::ColorSettings</scope><name>normalColor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

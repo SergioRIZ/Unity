@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_animated_button_1_1_float_settings" kind="class" language="C#" prot="public">
+    <compoundname>AnimatedButton::FloatSettings</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_animated_button_1_1_float_settings_1ad661fcc8dde7d79b9ee84489c6000960" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AnimatedButton.FloatSettings.enableFloating</definition>
+        <argsstring></argsstring>
+        <name>enableFloating</name>
+        <qualifiedname>AnimatedButton.FloatSettings.enableFloating</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Indica si la flotación vertical está activada. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/AnimatedButton.cs" line="65" column="21" bodyfile="Assets/Scripts/Scripts Flechas/AnimatedButton.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_animated_button_1_1_float_settings_1ac5c8fad81b5aea33c854da9ca2034784" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AnimatedButton.FloatSettings.floatHeight</definition>
+        <argsstring></argsstring>
+        <name>floatHeight</name>
+        <qualifiedname>AnimatedButton.FloatSettings.floatHeight</qualifiedname>
+        <initializer>= 5f</initializer>
+        <briefdescription>
+<para>Altura del movimiento vertical. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/AnimatedButton.cs" line="68" column="22" bodyfile="Assets/Scripts/Scripts Flechas/AnimatedButton.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_animated_button_1_1_float_settings_1a3b688a26239cb61afc2252c616bfbe12" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AnimatedButton.FloatSettings.floatSpeed</definition>
+        <argsstring></argsstring>
+        <name>floatSpeed</name>
+        <qualifiedname>AnimatedButton.FloatSettings.floatSpeed</qualifiedname>
+        <initializer>= 2f</initializer>
+        <briefdescription>
+<para>Velocidad del movimiento vertical. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/AnimatedButton.cs" line="71" column="22" bodyfile="Assets/Scripts/Scripts Flechas/AnimatedButton.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_animated_button_1_1_float_settings_1a029d42cb93a046932408ecc712e2f215" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AnimatedButton.FloatSettings.enableLateralFloat</definition>
+        <argsstring></argsstring>
+        <name>enableLateralFloat</name>
+        <qualifiedname>AnimatedButton.FloatSettings.enableLateralFloat</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Indica si la flotación lateral está activada. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/AnimatedButton.cs" line="74" column="21" bodyfile="Assets/Scripts/Scripts Flechas/AnimatedButton.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_animated_button_1_1_float_settings_1ad66f392703fe6557973dedfdc33fbae3" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AnimatedButton.FloatSettings.lateralFloatAmount</definition>
+        <argsstring></argsstring>
+        <name>lateralFloatAmount</name>
+        <qualifiedname>AnimatedButton.FloatSettings.lateralFloatAmount</qualifiedname>
+        <initializer>= 3f</initializer>
+        <briefdescription>
+<para>Rango del movimiento lateral. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/AnimatedButton.cs" line="77" column="22" bodyfile="Assets/Scripts/Scripts Flechas/AnimatedButton.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_animated_button_1_1_float_settings_1a8e769afc0327f295c4e7132acf6d5b10" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AnimatedButton.FloatSettings.lateralFloatSpeed</definition>
+        <argsstring></argsstring>
+        <name>lateralFloatSpeed</name>
+        <qualifiedname>AnimatedButton.FloatSettings.lateralFloatSpeed</qualifiedname>
+        <initializer>= 1.5f</initializer>
+        <briefdescription>
+<para>Velocidad del movimiento lateral. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/AnimatedButton.cs" line="80" column="22" bodyfile="Assets/Scripts/Scripts Flechas/AnimatedButton.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Configuración de flotación. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Assets/Scripts/Scripts Flechas/AnimatedButton.cs" line="62" column="11" bodyfile="Assets/Scripts/Scripts Flechas/AnimatedButton.cs" bodystart="63" bodyend="81"/>
+    <listofallmembers>
+      <member refid="class_animated_button_1_1_float_settings_1ad661fcc8dde7d79b9ee84489c6000960" prot="public" virt="non-virtual"><scope>AnimatedButton::FloatSettings</scope><name>enableFloating</name></member>
+      <member refid="class_animated_button_1_1_float_settings_1a029d42cb93a046932408ecc712e2f215" prot="public" virt="non-virtual"><scope>AnimatedButton::FloatSettings</scope><name>enableLateralFloat</name></member>
+      <member refid="class_animated_button_1_1_float_settings_1ac5c8fad81b5aea33c854da9ca2034784" prot="public" virt="non-virtual"><scope>AnimatedButton::FloatSettings</scope><name>floatHeight</name></member>
+      <member refid="class_animated_button_1_1_float_settings_1a3b688a26239cb61afc2252c616bfbe12" prot="public" virt="non-virtual"><scope>AnimatedButton::FloatSettings</scope><name>floatSpeed</name></member>
+      <member refid="class_animated_button_1_1_float_settings_1ad66f392703fe6557973dedfdc33fbae3" prot="public" virt="non-virtual"><scope>AnimatedButton::FloatSettings</scope><name>lateralFloatAmount</name></member>
+      <member refid="class_animated_button_1_1_float_settings_1a8e769afc0327f295c4e7132acf6d5b10" prot="public" virt="non-virtual"><scope>AnimatedButton::FloatSettings</scope><name>lateralFloatSpeed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

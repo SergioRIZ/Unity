@@ -1,0 +1,1060 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.14.0" xml:lang="en-US">
+  <compound refid="class_a_xC3_xB1adir_punto" kind="class"><name>AñadirPunto</name>
+    <member refid="class_a_xC3_xB1adir_punto_1ad57bef35ba06c1463f4d971cb9bdbabb" kind="variable"><name>parentContainer</name></member>
+    <member refid="class_a_xC3_xB1adir_punto_1ab1da3b7962241f4b220d45b3b71fa5fa" kind="function"><name>ShowWindow</name></member>
+    <member refid="class_a_xC3_xB1adir_punto_1a57d7b4d0c3c78513532960e3d0847c47" kind="function"><name>OnGUI</name></member>
+    <member refid="class_a_xC3_xB1adir_punto_1a1b8d807f075325c501c9ee22dfcbb498" kind="function"><name>AddPuntosToChildren</name></member>
+  </compound>
+  <compound refid="class_animated_button" kind="class"><name>AnimatedButton</name>
+    <member refid="class_animated_button_1add43065a33ada4f6fed64a632536a685" kind="variable"><name>colorSettings</name></member>
+    <member refid="class_animated_button_1a51fad0b46fb3919e15f7adbd7da4923b" kind="variable"><name>blinkSettings</name></member>
+    <member refid="class_animated_button_1a5b690dab8b981547dad77db659012d29" kind="variable"><name>vibrationSettings</name></member>
+    <member refid="class_animated_button_1af6484e8a795e6d94cb723b4802523c98" kind="variable"><name>floatSettings</name></member>
+    <member refid="class_animated_button_1a261288e3f6161b4c00a2da5a20e41374" kind="variable"><name>buttonImage</name></member>
+    <member refid="class_animated_button_1a3541e290d62d9c41ad265708f6d1dc72" kind="variable"><name>rectTransform</name></member>
+    <member refid="class_animated_button_1aad4089375d7de61d3d04e6eed28d4c55" kind="variable"><name>originalPosition</name></member>
+    <member refid="class_animated_button_1a4963f220021cd715eb716c50c19ca923" kind="variable"><name>blinkTimer</name></member>
+    <member refid="class_animated_button_1a78655c634b7de3a83323ff96fd4c126e" kind="variable"><name>isVibrating</name></member>
+    <member refid="class_animated_button_1a542f2dc8bfa8caa600c78dfc8cdb6adf" kind="function"><name>Start</name></member>
+    <member refid="class_animated_button_1a7779fe2a95036fe2f9314fc27b268cbc" kind="function"><name>Update</name></member>
+    <member refid="class_animated_button_1ab6ea92eac3d149be2083932c2119a900" kind="function"><name>BlinkEffect</name></member>
+    <member refid="class_animated_button_1afd0bbbcb4e20ccd6e51ee8628b64947b" kind="function"><name>FloatEffect</name></member>
+    <member refid="class_animated_button_1aa1e9e28b71b54fb607f50be07e554d07" kind="function"><name>LateralFloatEffect</name></member>
+    <member refid="class_animated_button_1a533e586bd669a26cbd2375d407a749a8" kind="function"><name>Vibrate</name></member>
+    <member refid="class_animated_button_1a6f9a53ead0cef364259076b2e845f8a2" kind="function"><name>OnPointerEnter</name></member>
+    <member refid="class_animated_button_1ac59b2a47abf605196f1682f6f1af86c5" kind="function"><name>OnPointerExit</name></member>
+  </compound>
+  <compound refid="class_animated_button_menu" kind="class"><name>AnimatedButtonMenu</name>
+    <member refid="class_animated_button_menu_1a09d688c4cbda7ae1f530c10878d5edf2" kind="variable"><name>colorNormal</name></member>
+    <member refid="class_animated_button_menu_1ad532518ddb8aacc75e5f46600286e659" kind="variable"><name>colorHover</name></member>
+    <member refid="class_animated_button_menu_1a0ac7c831b056b15bd6d65f0bd3e45b53" kind="variable"><name>colorTexto</name></member>
+    <member refid="class_animated_button_menu_1abd38c611f66d3b85e65e1368ccc0754b" kind="function"><name>Start</name></member>
+    <member refid="class_animated_button_menu_1accc74245cb3c15d51436212ed81eb036" kind="function"><name>OnPointerEnter</name></member>
+    <member refid="class_animated_button_menu_1a97f1f558f007a96c556852188e4bda41" kind="function"><name>OnPointerExit</name></member>
+  </compound>
+  <compound refid="class_auto_camera_toggle_controller" kind="class"><name>AutoCameraToggleController</name>
+    <member refid="class_auto_camera_toggle_controller_1a4b8cb7492e263275d62eb3a72a5fc9e2" kind="variable"><name>automaticMovement</name></member>
+    <member refid="class_auto_camera_toggle_controller_1a64fbb078484b8c2686c83ad3039a0179" kind="variable"><name>toggleControl</name></member>
+    <member refid="class_auto_camera_toggle_controller_1a6f5fcdd4fa2de7cdf2fa999f1c985e2d" kind="variable"><name>statusText</name></member>
+    <member refid="class_auto_camera_toggle_controller_1aecb7822fd4ffb8f40e1a54c9912198b7" kind="variable"><name>enabledText</name></member>
+    <member refid="class_auto_camera_toggle_controller_1a29afc8af66873870554467deb7517111" kind="variable"><name>disabledText</name></member>
+    <member refid="class_auto_camera_toggle_controller_1a02e69c075300470c3dd44bb35c13c89d" kind="variable"><name>enabledColor</name></member>
+    <member refid="class_auto_camera_toggle_controller_1ad91ecf5a0c70a2beaa2918ecacf55288" kind="variable"><name>disabledColor</name></member>
+    <member refid="class_auto_camera_toggle_controller_1af31007a3fe273548e0929f667ee974a6" kind="variable"><name>autoFindReferences</name></member>
+    <member refid="class_auto_camera_toggle_controller_1a8a18cd7870bc43bdd1e6af50ec9d06d6" kind="variable"><name>forceToggleOffAtStart</name></member>
+    <member refid="class_auto_camera_toggle_controller_1a8c492a2d8860ba478f38b48c62a12028" kind="function"><name>Awake</name></member>
+    <member refid="class_auto_camera_toggle_controller_1ae8113651b918474a8bf17ed04ce4d648" kind="function"><name>Start</name></member>
+    <member refid="class_auto_camera_toggle_controller_1a1ef4dd47bcc0ec5c2c7588041dbc0b3f" kind="function"><name>InitializeToggleState</name></member>
+    <member refid="class_auto_camera_toggle_controller_1aa323ca7b0437226a294b5d131f4814f1" kind="function"><name>OnToggleValueChanged</name></member>
+    <member refid="class_auto_camera_toggle_controller_1a83b6b0353109903b8af14c141d0f4d53" kind="function"><name>UpdateStatusText</name></member>
+    <member refid="class_auto_camera_toggle_controller_1a6991645f4098d94ecb9eb795be891520" kind="function"><name>SetToggleValue</name></member>
+    <member refid="class_auto_camera_toggle_controller_1ad1e3ec593b1f09ab763c1b647b509912" kind="function"><name>EnableAutomaticMovement</name></member>
+    <member refid="class_auto_camera_toggle_controller_1a8a4c8cfc35c6dc0cac5116f0dc7818a1" kind="function"><name>DisableAutomaticMovement</name></member>
+    <member refid="class_auto_camera_toggle_controller_1a1213e56cce7b033dfaac51e304a2c0ce" kind="function"><name>IsAutoCameraEnabled</name></member>
+    <member refid="class_auto_camera_toggle_controller_1afe8e9e9da7efa873d1cfca0968cb01da" kind="function"><name>SyncToggleWithAutoMovement</name></member>
+  </compound>
+  <compound refid="class_automatic_movement_controller" kind="class"><name>AutomaticMovementController</name>
+    <member refid="class_automatic_movement_controller_1a818bc7d15671999ab70d8d523d7d7a78" kind="variable"><name>startDisabled</name></member>
+    <member refid="class_automatic_movement_controller_1a2938df54a7f23589fb8f94a671ec9d92" kind="variable"><name>inactivityThreshold</name></member>
+    <member refid="class_automatic_movement_controller_1a69926544b82e1fda534bc09d3ebf8f9c" kind="variable"><name>autoRotationSpeed</name></member>
+    <member refid="class_automatic_movement_controller_1acfbe17a0d47e0230ee5567c92c823329" kind="variable"><name>timeFor360Tour</name></member>
+    <member refid="class_automatic_movement_controller_1aa39c1ca20d46cae90f3f120146a0fc27" kind="variable"><name>useVerticalWave</name></member>
+    <member refid="class_automatic_movement_controller_1a188374d03341053a2143d99a0139004c" kind="variable"><name>verticalWaveAmplitude</name></member>
+    <member refid="class_automatic_movement_controller_1a5ecfb366c4a1910505afe4b02c64f351" kind="variable"><name>verticalWaveFrequency</name></member>
+    <member refid="class_automatic_movement_controller_1a00f2aa145e76b91f870547f9bd565547" kind="variable"><name>disableDuringPOI</name></member>
+    <member refid="class_automatic_movement_controller_1a59273bdcb79c077d89fb3d3589f748bd" kind="variable"><name>mouseSensitivity</name></member>
+    <member refid="class_automatic_movement_controller_1a863a266ea48c469e05bf066bb83ed5c2" kind="variable"><name>continueFromUserPosition</name></member>
+    <member refid="class_automatic_movement_controller_1a20c3d4b951eb8a76603543bf16a18932" kind="variable"><name>clockwiseRotation</name></member>
+    <member refid="class_automatic_movement_controller_1a3343c8ab695b04717058d44dd4bbb65a" kind="variable"><name>smoothStartDuration</name></member>
+    <member refid="class_automatic_movement_controller_1ab790699e6a4fc10257c5a9cbb62546ff" kind="variable"><name>smoothVerticalStart</name></member>
+    <member refid="class_automatic_movement_controller_1ab14dc67ce567ed7e0e9b796e5d49fb29" kind="variable"><name>debugMode</name></member>
+    <member refid="class_automatic_movement_controller_1a284a6b1f519847be45e963ef806e084c" kind="variable"><name>parentController</name></member>
+    <member refid="class_automatic_movement_controller_1a9be7a080049b0ce030f589ee66d3ec2b" kind="variable"><name>zoomController</name></member>
+    <member refid="class_automatic_movement_controller_1af191911f166a67307af1e7891d36df71" kind="variable"><name>mouseController</name></member>
+    <member refid="class_automatic_movement_controller_1a0cccbde32aad8d9850cb3cf748cf0358" kind="variable"><name>keyboardController</name></member>
+    <member refid="class_automatic_movement_controller_1a9192f58b8b6af1d6391a4b6f6d29d231" kind="variable"><name>touchController</name></member>
+    <member refid="class_automatic_movement_controller_1af80d18b44945fac429a1b089a476e9fb" kind="variable"><name>lastInputTime</name></member>
+    <member refid="class_automatic_movement_controller_1a930dba41042162f57190677b2d0c7e23" kind="variable"><name>isAutoMoving</name></member>
+    <member refid="class_automatic_movement_controller_1af7c8351da1b0bf703c8ebe4719dc1520" kind="variable"><name>verticalWaveOffset</name></member>
+    <member refid="class_automatic_movement_controller_1a73172f3d582eff1140bc623cce76989c" kind="variable"><name>initialized</name></member>
+    <member refid="class_automatic_movement_controller_1aef119138159d3fcbb36cf04ea8909ab5" kind="variable"><name>isPointOfInterestActive</name></member>
+    <member refid="class_automatic_movement_controller_1abfdd2aa58b71a4c3e3b79b9d1335c4e3" kind="variable"><name>initialFOV</name></member>
+    <member refid="class_automatic_movement_controller_1af4161f4bc5c58f2004de9b3c020016db" kind="variable"><name>currentFOV</name></member>
+    <member refid="class_automatic_movement_controller_1af2d643851ce1f06e17e4e7c4c0c22f1a" kind="variable"><name>tourStartTime</name></member>
+    <member refid="class_automatic_movement_controller_1ad8adc2daeeff827a6bba97a2a48a968d" kind="variable"><name>startingYRotation</name></member>
+    <member refid="class_automatic_movement_controller_1a3f7123861ddfec7ce7b23f338224df9c" kind="variable"><name>transitionStartTime</name></member>
+    <member refid="class_automatic_movement_controller_1a5728f6341a943051343eee72cb92af4f" kind="variable"><name>initialXRotation</name></member>
+    <member refid="class_automatic_movement_controller_1ae8f6a23ddf1b292d9286f7356ae8e60f" kind="variable"><name>targetXRotation</name></member>
+    <member refid="class_automatic_movement_controller_1a4fbea30b3881422af6907968f7ebf2b6" kind="variable"><name>currentSpeedFactor</name></member>
+    <member refid="class_automatic_movement_controller_1ac5eed5bbef9d987bb8ba955923be58e9" kind="variable"><name>wasMouseDown</name></member>
+    <member refid="class_automatic_movement_controller_1aacb6086f796d62413df6a032871efd1c" kind="variable"><name>previousTouchCount</name></member>
+    <member refid="class_automatic_movement_controller_1a47e887c18bdd17bcf4f354965cd59ced" kind="variable"><name>lastMousePosition</name></member>
+    <member refid="class_automatic_movement_controller_1ab8eb161f7de4a8de06f31770113da413" kind="variable"><name>cameraTransform</name></member>
+    <member refid="class_automatic_movement_controller_1a26126cfe58d9ab49b727c4337daa4b01" kind="variable"><name>originalSmoothSpeed</name></member>
+    <member refid="class_automatic_movement_controller_1a29b08c33dbcb99d9e3482401217a7cd6" kind="variable"><name>cameraView</name></member>
+    <member refid="class_automatic_movement_controller_1aed3142a3aef9781b4f61ac2f6d22aa0d" kind="function"><name>Initialize</name></member>
+    <member refid="class_automatic_movement_controller_1a0e4df1db1866e056ebe889136741a4af" kind="function"><name>ForceStartTour</name></member>
+    <member refid="class_automatic_movement_controller_1ac95a92ad5127690e6947273ad5cf08a4" kind="function"><name>ForceStopTour</name></member>
+    <member refid="class_automatic_movement_controller_1adf602cd0d99eb911e54234adb5a02e4b" kind="function"><name>OnPointOfInterestOpened</name></member>
+    <member refid="class_automatic_movement_controller_1a4232d43bbd675bd4962339de383bb8eb" kind="function"><name>OnPointOfInterestClosed</name></member>
+    <member refid="class_automatic_movement_controller_1a2f47fd2b85d52e3c41d2af1716c874b6" kind="function"><name>Awake</name></member>
+    <member refid="class_automatic_movement_controller_1a992d9c2219d9eac1d13859f3f527fce1" kind="function"><name>OnDestroy</name></member>
+    <member refid="class_automatic_movement_controller_1ad949439d5df2411d44c6b3d864cfb6a2" kind="function"><name>OnEnable</name></member>
+    <member refid="class_automatic_movement_controller_1a2d365c94a4c13f0b06259068b0c8f692" kind="function"><name>OnDisable</name></member>
+    <member refid="class_automatic_movement_controller_1a22ca0efcef8dbd23546c116d770e23c2" kind="function"><name>CheckForMouseMovement</name></member>
+    <member refid="class_automatic_movement_controller_1acdf9bcaabf3a51c886091ba30f167f4d" kind="function"><name>Update</name></member>
+    <member refid="class_automatic_movement_controller_1aae03c0a2f19da18484570b256f553bbf" kind="function"><name>DetectUserInput</name></member>
+    <member refid="class_automatic_movement_controller_1ad1543824d2dd38d2c405f3cf2eac4f36" kind="function"><name>CheckForAutoMovement</name></member>
+    <member refid="class_automatic_movement_controller_1acee61c45572bda1c87d26917477b68ac" kind="function"><name>StartAutoMovement</name></member>
+    <member refid="class_automatic_movement_controller_1aea195b8a855b22285b7b37312928f8e8" kind="function"><name>StopAutoMovementAndRestoreControl</name></member>
+    <member refid="class_automatic_movement_controller_1a54e33e27b8b4bd106b629a43e4ff0bca" kind="function"><name>RestoreSmoothSpeed</name></member>
+    <member refid="class_automatic_movement_controller_1acfd8af457aef0acb24aa6d52ec9584f7" kind="function"><name>EnableUserControllers</name></member>
+    <member refid="class_automatic_movement_controller_1a6c84bc78a6da6317d34db815630108e1" kind="function"><name>ResetInactivityTimer</name></member>
+    <member refid="class_automatic_movement_controller_1a44b66419ffd9bf24cf4a7ef8865a1326" kind="function"><name>ApplyAutomaticMovement</name></member>
+  </compound>
+  <compound refid="class_ayuda" kind="class"><name>Ayuda</name>
+    <member refid="class_ayuda_1a0448b2e29bfbd902ca134673805dcbe0" kind="variable"><name>fullScreenPanel</name></member>
+    <member refid="class_ayuda_1a55a11a7281cf5648b777fc4ae419730c" kind="variable"><name>openPanelButton</name></member>
+    <member refid="class_ayuda_1a70daf552d336cd02e7fa08f1c2d45570" kind="variable"><name>closeButton</name></member>
+    <member refid="class_ayuda_1a6c83e441efcef0106636a2df495bc258" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_animated_button_1_1_blink_settings" kind="class"><name>AnimatedButton::BlinkSettings</name>
+    <member refid="class_animated_button_1_1_blink_settings_1a43485913446cc43e35008f45cda9f200" kind="variable"><name>enableBlinking</name></member>
+    <member refid="class_animated_button_1_1_blink_settings_1a3d70afbfa96f577d8286418fb6472793" kind="variable"><name>blinkSpeed</name></member>
+  </compound>
+  <compound refid="class_boton_navegacion" kind="class"><name>BotonNavegacion</name>
+    <member refid="class_boton_navegacion_1ac53328ef2d74be4779ed8e95f93a7846" kind="variable"><name>tooltipText</name></member>
+    <member refid="class_boton_navegacion_1a058168e7099994149f5463ec9b3afe8b" kind="variable"><name>content</name></member>
+    <member refid="class_boton_navegacion_1ab4ec147e6ddda99323d1c160c57184c2" kind="variable"><name>contentAndroid</name></member>
+    <member refid="class_boton_navegacion_1ace0c4a7f66dc104c782cd37d4f6dc063" kind="variable"><name>finalContent</name></member>
+    <member refid="class_boton_navegacion_1a9e81bf63a11dc1072af107b5b5fa0d13" kind="variable"><name>sceneControllers</name></member>
+    <member refid="class_boton_navegacion_1a6a98a6d5e7b8cc25208edfd41c1c65c9" kind="variable"><name>nombreBoton</name></member>
+    <member refid="class_boton_navegacion_1a048efd3dc9cf4d0d9afb09eea413c3a2" kind="function"><name>Start</name></member>
+    <member refid="class_boton_navegacion_1a33f7625413ac81f7659da979d1bd9200" kind="function"><name>CambiarVista</name></member>
+    <member refid="class_boton_navegacion_1aad169643baad18f24b394a0850a65c79" kind="function"><name>NormalizeTextureName</name></member>
+    <member refid="class_boton_navegacion_1adea9513da210eb2c6766281cbceb7ac0" kind="function"><name>OnPointerEnter</name></member>
+    <member refid="class_boton_navegacion_1a8dfb7fad4b4fc166aabfaa33a6fe04d3" kind="function"><name>OnPointerExit</name></member>
+    <member refid="class_boton_navegacion_1ae5b9f21d59ad05fa4aa3b377680daf7a" kind="function"><name>Inicializar</name></member>
+  </compound>
+  <compound refid="class_botton_navigation_asigner_cont" kind="class"><name>BottonNavigationAsignerCont</name>
+    <member refid="class_botton_navigation_asigner_cont_1a2797b36636850dc5fec21fb62245911d" kind="variable"><name>parentContainer</name></member>
+    <member refid="class_botton_navigation_asigner_cont_1ab71927641f207710f51b7b6be8b873a1" kind="variable"><name>contentObject</name></member>
+    <member refid="class_botton_navigation_asigner_cont_1aee96ccb0a7d41e67a05e5bacd6239648" kind="variable"><name>contentAndr</name></member>
+    <member refid="class_botton_navigation_asigner_cont_1aa63112f2901f734a821418374491ddc3" kind="function"><name>ShowWindow</name></member>
+    <member refid="class_botton_navigation_asigner_cont_1ac891153dbb1019ecb48e86a77b6021f6" kind="function"><name>OnGUI</name></member>
+    <member refid="class_botton_navigation_asigner_cont_1a5eb1d04aa4335754ad0083ad4e24bc6a" kind="function"><name>AssignContentToButtons</name></member>
+  </compound>
+  <compound refid="class_btn_scroll_hide" kind="class"><name>BtnScrollHide</name>
+    <member refid="class_btn_scroll_hide_1aec401ad7eb5f57cbf6bfccfbebf77bf7" kind="variable"><name>fadeDuration</name></member>
+    <member refid="class_btn_scroll_hide_1a0caced955f03f3000bc465cd85e1d737" kind="variable"><name>canvasGroup</name></member>
+    <member refid="class_btn_scroll_hide_1acab4554fe954e515b4af0c7d873e737a" kind="variable"><name>buttonImage</name></member>
+    <member refid="class_btn_scroll_hide_1ab8639c02d44d2ea8441dd217cf26d27d" kind="variable"><name>spriteOpenName</name></member>
+    <member refid="class_btn_scroll_hide_1a5a5bb2e1343b0359dfffa2d53a284515" kind="variable"><name>spriteClosedName</name></member>
+    <member refid="class_btn_scroll_hide_1aa57b1a49966eacab618a0ec987a64e25" kind="variable"><name>mySpriteDict</name></member>
+    <member refid="class_btn_scroll_hide_1add1c6b48ea3d68af21e177f364012255" kind="variable"><name>content</name></member>
+    <member refid="class_btn_scroll_hide_1a9b3f5bda3dd90ba90fc7a6fd47501c40" kind="variable"><name>skyBoxButtonSelected</name></member>
+    <member refid="class_btn_scroll_hide_1ae56024e70481bcca7394fda659e8bf7f" kind="variable"><name>skyboxFader</name></member>
+    <member refid="class_btn_scroll_hide_1a964da674488c415ea1c4fc2c2294f3c7" kind="variable"><name>panelToMove</name></member>
+    <member refid="class_btn_scroll_hide_1a073495512b41d31f4b7b07d869052392" kind="variable"><name>hiddenPosition</name></member>
+    <member refid="class_btn_scroll_hide_1a8b3f782b23e02e9f76341c290e8dbf9f" kind="variable"><name>shownPosition</name></member>
+    <member refid="class_btn_scroll_hide_1a8aa4679592be8c7e84de4b1a80c8fc55" kind="variable"><name>moveDuration</name></member>
+    <member refid="class_btn_scroll_hide_1aa79b20e0f28a40898326e627f6faec29" kind="function"><name>Start</name></member>
+    <member refid="class_btn_scroll_hide_1a824c2646b54385e1fdc2f89e071f2715" kind="function"><name>FadeOut</name></member>
+    <member refid="class_btn_scroll_hide_1a2f2de129aef1ff0188bf198939e3ce58" kind="function"><name>FadeIn</name></member>
+    <member refid="class_btn_scroll_hide_1a1c91cd4315a462f4a585da5931d42a67" kind="function"><name>ApplyAlphaToChildren</name></member>
+    <member refid="class_btn_scroll_hide_1a0a52228ff04380742b2282d15395b4e8" kind="function"><name>GetSpriteByName</name></member>
+    <member refid="class_btn_scroll_hide_1a37493467b00e7e39dced991d3a9988c0" kind="function"><name>UpdateButtonSprite</name></member>
+    <member refid="class_btn_scroll_hide_1aecc19b939b8123b3f30cf905eed5d14d" kind="function"><name>LoadPNGToSprites</name></member>
+    <member refid="class_btn_scroll_hide_1a290b0704fc26792112d2fb34b8aea08b" kind="function"><name>ToggleGameObject</name></member>
+  </compound>
+  <compound refid="class_button_hover_effect" kind="class"><name>ButtonHoverEffect</name>
+    <member refid="class_button_hover_effect_1ad2d69f8c94cb0fc6de11afda2468b35e" kind="variable"><name>textObject</name></member>
+    <member refid="class_button_hover_effect_1a1ea4ea9b0f59fa6862b4f516933b8dec" kind="variable"><name>panelObject</name></member>
+    <member refid="class_button_hover_effect_1a99f875dab1263ab0d77c1a051fd61c5e" kind="variable"><name>delayTime</name></member>
+    <member refid="class_button_hover_effect_1a391d210ec3725ef86588307778d80439" kind="variable"><name>normalColor</name></member>
+    <member refid="class_button_hover_effect_1ac56b29ee2c554b97c66da347a131719c" kind="variable"><name>hoverColor</name></member>
+    <member refid="class_button_hover_effect_1a803c6c926ca8299eed2263f90809f0a8" kind="variable"><name>hoverCoroutine</name></member>
+    <member refid="class_button_hover_effect_1a883be8fc8201932347b3c5e39829881f" kind="variable"><name>buttonImage</name></member>
+    <member refid="class_button_hover_effect_1a94f9ed9331982a72f70151c58e74e363" kind="function"><name>Start</name></member>
+    <member refid="class_button_hover_effect_1af92839bdebc6c76c6bc7f35c5ae30a2a" kind="function"><name>ActivateObjectsAfterDelay</name></member>
+    <member refid="class_button_hover_effect_1ac8ebc1e1e644137b37bbd2eb5fb29e6b" kind="function"><name>OnPointerEnter</name></member>
+    <member refid="class_button_hover_effect_1a69c4ea0b8046a66176805f5f44ff133b" kind="function"><name>OnPointerExit</name></member>
+  </compound>
+  <compound refid="class_camera_view" kind="class"><name>CameraView</name>
+    <member refid="class_camera_view_1a86efa30b2d9d29630b2a630c8f3af1c0" kind="variable"><name>mouseController</name></member>
+    <member refid="class_camera_view_1a40b0c9f9b6add752bcb5eeb8c0708329" kind="variable"><name>keyboardController</name></member>
+    <member refid="class_camera_view_1a5ea3ce4a1872e000cbe8334f965cc721" kind="variable"><name>touchController</name></member>
+    <member refid="class_camera_view_1a9f88bd4d343b18bf21affb6a4373fb57" kind="variable"><name>zoomController</name></member>
+    <member refid="class_camera_view_1a0d060bc7296dfbb2da784da3fc6b9b4f" kind="variable"><name>rotationNotifier</name></member>
+    <member refid="class_camera_view_1a3dc92a6eb2b245935f2d1081f74cd177" kind="variable"><name>automaticMovementController</name></member>
+    <member refid="class_camera_view_1a449d12242d4a6c2c14215b2784ff0cd6" kind="variable"><name>xRotation</name></member>
+    <member refid="class_camera_view_1a5e28da2e486d4ee8416eda5fa6262966" kind="variable"><name>yRotation</name></member>
+    <member refid="class_camera_view_1a4b880b1e18be439c684c95b63f81691f" kind="variable"><name>targetRotation</name></member>
+    <member refid="class_camera_view_1aa23334dcda4d1db6092cb73b61e0a3e2" kind="variable"><name>isTransitioning</name></member>
+    <member refid="class_camera_view_1aa18342bad38c78e5d9d98f71f78e4522" kind="variable"><name>mainCamera</name></member>
+    <member refid="class_camera_view_1aedf1b60c668181c74db38fa8349a5eb5" kind="variable"><name>contenedorFlechas</name></member>
+    <member refid="class_camera_view_1ad303989fc5be7ad30a221b607171fe6b" kind="variable"><name>horizontalSpeed</name></member>
+    <member refid="class_camera_view_1a5e6f6f87b96d61c2147cdd6cb5d085a9" kind="variable"><name>verticalSpeed</name></member>
+    <member refid="class_camera_view_1a033900562c8ceb10fce20fd611ee5a20" kind="variable"><name>verticalLimit</name></member>
+    <member refid="class_camera_view_1aef1acf986a1cd5108cc0175136ec91f4" kind="variable"><name>smoothSpeed</name></member>
+    <member refid="class_camera_view_1a5dc210b73a6ea2a7e736d898abc62d87" kind="variable"><name>hideCursorWhileNavigating</name></member>
+    <member refid="class_camera_view_1aaacabab0992c2e85ed28c787a8fafcd0" kind="variable"><name>autoDetectPlatform</name></member>
+    <member refid="class_camera_view_1a5285b6f806e03349bc27fdb9dbcf51c0" kind="variable"><name>forceMobileMode</name></member>
+    <member refid="class_camera_view_1a9ad9e6f2f8eb432ebc075e869430a449" kind="variable"><name>isCentered</name></member>
+    <member refid="class_camera_view_1ac931be44c0c62a6ac14db20361480c7c" kind="property"><name>IsMobilePlatform</name></member>
+    <member refid="class_camera_view_1a885fa8228429155f6f352f5027e9f524" kind="property"><name>XRotation</name></member>
+    <member refid="class_camera_view_1ad828b42767638010de60d6c2328dfe09" kind="property"><name>YRotation</name></member>
+    <member refid="class_camera_view_1af00517411e2975b816c79611929bdefc" kind="property"><name>TargetRotation</name></member>
+    <member refid="class_camera_view_1a374b0dc234bd8e146e64814a830164d8" kind="property"><name>IsTransitioning</name></member>
+    <member refid="class_camera_view_1a8f7540a3bc2423feeaac12d8466dbaf6" kind="property"><name>MainCamera</name></member>
+    <member refid="class_camera_view_1ad20e8e457262f90534039c0cb0456685" kind="event"><name>OnRotationChanged</name></member>
+    <member refid="class_camera_view_1a584b52554c351a3d1fad6e3c6821c4a6" kind="function"><name>Awake</name></member>
+    <member refid="class_camera_view_1a4fa31b566c7a302636db64638f33d03d" kind="function"><name>DetectPlatform</name></member>
+    <member refid="class_camera_view_1af91083a2619dd7876ad8c0c7144cb0f4" kind="function"><name>IsMobileWebGL</name></member>
+    <member refid="class_camera_view_1a7f32110ccc53fac02cb8cfe3823faa34" kind="function"><name>IsMobileUserAgent</name></member>
+    <member refid="class_camera_view_1a1eed9c85b689a1d012c34dfcda6bc7ef" kind="function"><name>InitializeCamera</name></member>
+    <member refid="class_camera_view_1a0d44790c9bab3f8406706d65db46d6e0" kind="function"><name>InitializeRequiredComponents</name></member>
+    <member refid="class_camera_view_1a09b2476adc61f65a04b1bc0d5f5f9f38" kind="function"><name>ConfigureControllersByPlatform</name></member>
+    <member refid="class_camera_view_1a28d2cbcbef60097f1e45982803699f88" kind="function"><name>GetOrAddComponent&lt; T &gt;</name></member>
+    <member refid="class_camera_view_1adf886a249ffa7b522560c8ac6c437d86" kind="function"><name>Start</name></member>
+    <member refid="class_camera_view_1a10fd1898fb3b01a875d2a76bd9ce746f" kind="function"><name>InitializeOrientation</name></member>
+    <member refid="class_camera_view_1a8e3819fb875ee38fcd3d3e4cb2dbc120" kind="function"><name>InitializeControllers</name></member>
+    <member refid="class_camera_view_1a043b4b311aa8e36353bb9df554e3115d" kind="function"><name>HandleRotationChanged</name></member>
+    <member refid="class_camera_view_1a2962c7504688e483b10b6060714f4b90" kind="function"><name>Update</name></member>
+    <member refid="class_camera_view_1a2818ff7e80d39083042f1ea40e19316b" kind="function"><name>FixedUpdate</name></member>
+    <member refid="class_camera_view_1ad90d58a5ef19be17794d26a961c60e97" kind="function"><name>ApplySmoothRotation</name></member>
+    <member refid="class_camera_view_1a7bd83ef4ef81c14fd75c86dccda6f164" kind="function"><name>OnDisable</name></member>
+    <member refid="class_camera_view_1a6d5a03fb5fb4a419176e6947eabcf9c1" kind="function"><name>ResetView</name></member>
+    <member refid="class_camera_view_1a0dd3dfeb41302a8d9d995f65cbdeb525" kind="function"><name>RotateCameraToLookAt</name></member>
+    <member refid="class_camera_view_1a8f92dc7e854c88ce30d675baccc5e723" kind="function"><name>FindPunto</name></member>
+  </compound>
+  <compound refid="class_canvas_text_selected" kind="class"><name>CanvasTextSelected</name>
+    <member refid="class_canvas_text_selected_1a24f00f75d6659b5b14d54313da2d462f" kind="variable"><name>tmpText</name></member>
+    <member refid="class_canvas_text_selected_1a729ddbb3ab29ba44f7ca7054d834d568" kind="variable"><name>isPermanentlyUnderlined</name></member>
+    <member refid="class_canvas_text_selected_1a2f85cc93e089aac91f11c4c3ada8e675" kind="function"><name>Awake</name></member>
+    <member refid="class_canvas_text_selected_1a5aeab33bcc69d92ff350e77be5ec59e9" kind="function"><name>OnPointerEnter</name></member>
+    <member refid="class_canvas_text_selected_1a6be41c4ae54877ad9a18f55e23c4c9fd" kind="function"><name>OnPointerExit</name></member>
+    <member refid="class_canvas_text_selected_1ae9bb6832f5ee76ad63a009cfd7d4822e" kind="function"><name>SetPermanentUnderline</name></member>
+    <member refid="class_canvas_text_selected_1a6dc45fed06e4163e16cfdf91f4b17c6b" kind="function"><name>IsPermanentlyUnderlined</name></member>
+  </compound>
+  <compound refid="class_animated_button_1_1_color_settings" kind="class"><name>AnimatedButton::ColorSettings</name>
+    <member refid="class_animated_button_1_1_color_settings_1a75a7d648d29db01a4cb68e50681470bf" kind="variable"><name>normalColor</name></member>
+    <member refid="class_animated_button_1_1_color_settings_1ae6258d7ef9a3788348bad062909ef5ac" kind="variable"><name>hoverColor</name></member>
+  </compound>
+  <compound refid="class_cursor_changer" kind="class"><name>CursorChanger</name>
+    <member refid="class_cursor_changer_1ab2be6d039c826c21ca020e1cc98ca3df" kind="variable"><name>normalCursor</name></member>
+    <member refid="class_cursor_changer_1a4082ead05e9498f46cabd88020f5b70c" kind="variable"><name>handCursor</name></member>
+    <member refid="class_cursor_changer_1ac56d0cfe1f5c6a84f8cb8719b4c8b4a3" kind="variable"><name>hotSpot</name></member>
+    <member refid="class_cursor_changer_1a0d745857f2ace3ccce619a04efd85d07" kind="variable"><name>content</name></member>
+    <member refid="class_cursor_changer_1a141fa99459fe84a23196161c03602da1" kind="variable"><name>skyboxFader</name></member>
+    <member refid="class_cursor_changer_1ab9ed540626362116f2b5aa8448f9c043" kind="variable"><name>skyboxButtonHandler</name></member>
+    <member refid="class_cursor_changer_1a20faa0d1bcf7aedd780c50ab23f6cb1e" kind="variable"><name>isPointerOver</name></member>
+    <member refid="class_cursor_changer_1a87a5779f0dd977e24a905c0bdab904de" kind="variable"><name>currentCursorIsHand</name></member>
+    <member refid="class_cursor_changer_1a36eb530236df7db198dbf6d39e572b90" kind="function"><name>Initialize</name></member>
+    <member refid="class_cursor_changer_1a26ccf2f66ac054a05f375cb52762f74f" kind="function"><name>OnPointerEnter</name></member>
+    <member refid="class_cursor_changer_1aa40d14fbf17c97b01733ea36f98efc61" kind="function"><name>OnPointerExit</name></member>
+    <member refid="class_cursor_changer_1a77709cfdc1dc20a4deadbec10a4560da" kind="function"><name>OnPointerClick</name></member>
+    <member refid="class_cursor_changer_1a272a96b7d906688443e85fbd857562bd" kind="function"><name>Start</name></member>
+    <member refid="class_cursor_changer_1a065e9328ccb2153596020f78af9cca69" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_cursor_changer_asigner_content" kind="class"><name>CursorChangerAsignerContent</name>
+    <member refid="class_cursor_changer_asigner_content_1afb513503fd179a68b07c773985514b3c" kind="variable"><name>parentContainer</name></member>
+    <member refid="class_cursor_changer_asigner_content_1aab516af589f30a9ab1b94c1a157b7c71" kind="variable"><name>contentObject</name></member>
+    <member refid="class_cursor_changer_asigner_content_1aefea865d917a4c9031b6180d3fe73d7a" kind="function"><name>ShowWindow</name></member>
+    <member refid="class_cursor_changer_asigner_content_1acca677410a53bf1ce4f71f2954eef30f" kind="function"><name>OnGUI</name></member>
+    <member refid="class_cursor_changer_asigner_content_1aea7547dd2f836cd22e20a0cbd8cb579f" kind="function"><name>AssignContentToButtons</name></member>
+  </compound>
+  <compound refid="class_cursor_changer_menu" kind="class"><name>CursorChangerMenu</name>
+    <member refid="class_cursor_changer_menu_1acb03f636c7cc79bf7ee75ac1510f5f36" kind="variable"><name>normalCursor</name></member>
+    <member refid="class_cursor_changer_menu_1af02fd3b14631e3c2c363cd648751c80a" kind="variable"><name>handCursor</name></member>
+    <member refid="class_cursor_changer_menu_1a11a5c5c08bc2d4440d002505af2cdc39" kind="variable"><name>hotSpot</name></member>
+    <member refid="class_cursor_changer_menu_1a070e4828c62688bad28711b7bb597d4f" kind="variable"><name>isMouseOver</name></member>
+    <member refid="class_cursor_changer_menu_1a47ce2dac0e8eb52a8d6e8783bba63b36" kind="function"><name>Start</name></member>
+    <member refid="class_cursor_changer_menu_1a84d60bbdf4c31177625b06a6f97f7070" kind="function"><name>OnPointerEnter</name></member>
+    <member refid="class_cursor_changer_menu_1a1af08b429858d70aa18b12b0e3c61d1c" kind="function"><name>OnPointerExit</name></member>
+    <member refid="class_cursor_changer_menu_1abace0f6428310b589ed8f1cd801c8afb" kind="function"><name>OnPointerClick</name></member>
+  </compound>
+  <compound refid="class_default_cursor_setter" kind="class"><name>DefaultCursorSetter</name>
+    <member refid="class_default_cursor_setter_1a284ee0d767d5e0ef2404830794f770fa" kind="variable"><name>defaultCursor</name></member>
+    <member refid="class_default_cursor_setter_1aa7fbe62c841cf957bc54709173168401" kind="variable"><name>hotSpot</name></member>
+    <member refid="class_default_cursor_setter_1aca4f1bd2af6a9c5247f8712dbd559ccb" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_delayed_fade_in_buttons" kind="class"><name>DelayedFadeInButtons</name>
+    <member refid="class_delayed_fade_in_buttons_1a3628f655906d05fa44df404012d6f6db" kind="variable"><name>initialDelay</name></member>
+    <member refid="class_delayed_fade_in_buttons_1a993fba44bf6374a59a4d4ce69987d879" kind="variable"><name>fadeDuration</name></member>
+    <member refid="class_delayed_fade_in_buttons_1abe4f113d22340c1eb03ca4df9a074c8a" kind="variable"><name>delayBetweenButtons</name></member>
+    <member refid="class_delayed_fade_in_buttons_1abdd0e015437336d7cf4ade9b6eb5eca2" kind="variable"><name>botones</name></member>
+    <member refid="class_delayed_fade_in_buttons_1a12fe6de27377aea087a99c844ad2303c" kind="function"><name>OnEnable</name></member>
+    <member refid="class_delayed_fade_in_buttons_1ab3539d7431c0faa44176c4ac2c053eb0" kind="function"><name>ActivarConFade</name></member>
+  </compound>
+  <compound refid="class_dots_pattern" kind="class"><name>DotsPattern</name>
+    <member refid="class_dots_pattern_1a269f75ae6ee5218469dfbe9d1d728564" kind="variable"><name>colorFondo</name></member>
+    <member refid="class_dots_pattern_1a43af96964caaeb551850a9d0b5d5a978" kind="variable"><name>colorAcento</name></member>
+    <member refid="class_dots_pattern_1a8d246d79c5965e2f018481980d3dc937" kind="variable"><name>espaciadoPatron</name></member>
+    <member refid="class_dots_pattern_1a4d0966ef21b40d7108584bfbab0214d4" kind="variable"><name>tamañoPunto</name></member>
+    <member refid="class_dots_pattern_1a9e690a21bc498331f382197cda65c6f2" kind="variable"><name>opacidadPunto</name></member>
+    <member refid="class_dots_pattern_1a070f65c3c49badba520c5ff41f1a1c78" kind="variable"><name>variacionSuave</name></member>
+    <member refid="class_dots_pattern_1a38564f34e868196557e9d09bb899cd47" kind="variable"><name>image</name></member>
+    <member refid="class_dots_pattern_1a2319b06a545241ed7470a372e71ac1f4" kind="variable"><name>texturaFondo</name></member>
+    <member refid="class_dots_pattern_1a9869017743e7953b2bcc0374696d98af" kind="function"><name>Awake</name></member>
+    <member refid="class_dots_pattern_1a05f745f7d39685dfda13bac78879df92" kind="function"><name>Start</name></member>
+    <member refid="class_dots_pattern_1abd73ec4e2f5f5abc87347cec6541db83" kind="function"><name>GenerarTexturaMinimalista</name></member>
+    <member refid="class_dots_pattern_1a8faba8d1a07b3bf27f0053a9bb016efe" kind="function"><name>DibujarPuntoSuave</name></member>
+    <member refid="class_dots_pattern_1a54ef25f170cc9725126153c557a2a577" kind="function"><name>RegenerarPatron</name></member>
+  </compound>
+  <compound refid="class_fast_scroll_rect" kind="class"><name>FastScrollRect</name>
+    <member refid="class_fast_scroll_rect_1af6d1c507ca14c942fae41bb35717e12c" kind="variable"><name>scrollRect</name></member>
+    <member refid="class_fast_scroll_rect_1a55dbbf654ca0d8b23eb2cf6e24d13eb7" kind="variable"><name>scrollSpeed</name></member>
+    <member refid="class_fast_scroll_rect_1aeeb9306a319ec516293187bb87829e8c" kind="function"><name>OnScroll</name></member>
+  </compound>
+  <compound refid="class_animated_button_1_1_float_settings" kind="class"><name>AnimatedButton::FloatSettings</name>
+    <member refid="class_animated_button_1_1_float_settings_1ad661fcc8dde7d79b9ee84489c6000960" kind="variable"><name>enableFloating</name></member>
+    <member refid="class_animated_button_1_1_float_settings_1ac5c8fad81b5aea33c854da9ca2034784" kind="variable"><name>floatHeight</name></member>
+    <member refid="class_animated_button_1_1_float_settings_1a3b688a26239cb61afc2252c616bfbe12" kind="variable"><name>floatSpeed</name></member>
+    <member refid="class_animated_button_1_1_float_settings_1a029d42cb93a046932408ecc712e2f215" kind="variable"><name>enableLateralFloat</name></member>
+    <member refid="class_animated_button_1_1_float_settings_1ad66f392703fe6557973dedfdc33fbae3" kind="variable"><name>lateralFloatAmount</name></member>
+    <member refid="class_animated_button_1_1_float_settings_1a8e769afc0327f295c4e7132acf6d5b10" kind="variable"><name>lateralFloatSpeed</name></member>
+  </compound>
+  <compound refid="class_gradient_background" kind="class"><name>GradientBackground</name>
+    <member refid="class_gradient_background_1a7840a5c3bcb05ff0baf7a29e3f89cfef" kind="variable"><name>colorCentro</name></member>
+    <member refid="class_gradient_background_1a277849cbd6ee70e26eebb52725f80379" kind="variable"><name>colorBorde</name></member>
+    <member refid="class_gradient_background_1af8aa1ae262dc07bad30c243bff67d994" kind="variable"><name>tamañoTextura</name></member>
+    <member refid="class_gradient_background_1a3ff5bda45f762613bf0440b7f31061a7" kind="variable"><name>intensidadGradiente</name></member>
+    <member refid="class_gradient_background_1a243acbf7c5e0ffe9f583950ce9a1082d" kind="variable"><name>intensidadRuido</name></member>
+    <member refid="class_gradient_background_1a275ecad4eca4c182aaeb227998fcb169" kind="variable"><name>image</name></member>
+    <member refid="class_gradient_background_1af8baa7248ac249e270eea48141b43774" kind="function"><name>Awake</name></member>
+    <member refid="class_gradient_background_1a9f9cf2bf0ae55dd72c9a76fc3c8fbeeb" kind="function"><name>Start</name></member>
+    <member refid="class_gradient_background_1a9b532bc1a192962a01188c01d4e2ba31" kind="function"><name>GenerarFondoSuave</name></member>
+  </compound>
+  <compound refid="class_hover_text_display" kind="class"><name>HoverTextDisplay</name>
+    <member refid="class_hover_text_display_1a11b962715edfadea5eb14531d4dc5780" kind="variable"><name>textDisplayElement</name></member>
+    <member refid="class_hover_text_display_1afb68bda989b9c7f460aaa1827470f21f" kind="variable"><name>canvasRectTransform</name></member>
+    <member refid="class_hover_text_display_1ad0edc0689737d91dd3a4066d14897cab" kind="variable"><name>textOffset</name></member>
+    <member refid="class_hover_text_display_1aab4029e508ec1b0731b4ac51c0618366" kind="variable"><name>isHovering</name></member>
+    <member refid="class_hover_text_display_1af83eeb3fe09af14ee026ecc12a91a61e" kind="function"><name>Awake</name></member>
+    <member refid="class_hover_text_display_1a8bb8c56d7026e92be212e54b9a6fa82a" kind="function"><name>Update</name></member>
+    <member refid="class_hover_text_display_1a1bc94819f29690a612118d1c312b1f9a" kind="function"><name>UpdateHoverTextPosition</name></member>
+    <member refid="class_hover_text_display_1a109904a87c82796dad0a1c3c22ab57d5" kind="function"><name>OnPointerEnter</name></member>
+    <member refid="class_hover_text_display_1a3309f16243334097b33e6101808fffa5" kind="function"><name>OnPointerExit</name></member>
+  </compound>
+  <compound refid="class_imagen_import_processor" kind="class"><name>ImagenImportProcessor</name>
+    <member refid="class_imagen_import_processor_1ad2222bbd0714dab334ee0f8dff0c2863" kind="variable"><name>extensionesPermitidas</name></member>
+    <member refid="class_imagen_import_processor_1aef936a5fa5debdf73b327dc352c3eef0" kind="function"><name>OnPostprocessAllAssets</name></member>
+  </compound>
+  <compound refid="class_input_controller" kind="class"><name>InputController</name>
+    <member refid="class_input_controller_1aa76c145fa15228c6596c0be6a06dd7cc" kind="variable"><name>parentController</name></member>
+    <member refid="class_input_controller_1af6e636754f4469382cc2d31045c8b2e6" kind="variable"><name>isInitialized</name></member>
+    <member refid="class_input_controller_1a6b2a5ac295a9397dbbbe61b2ad03c94a" kind="function"><name>Initialize</name></member>
+    <member refid="class_input_controller_1a54852849a46ab1f2c17838cd46852f1c" kind="function"><name>SetEnabled</name></member>
+    <member refid="class_input_controller_1a8bbd09a74fac8deb62e4f8359cde1412" kind="function"><name>CheckInitialization</name></member>
+    <member refid="class_input_controller_1a511313045ea3715e5204a11c7943af0c" kind="function"><name>Awake</name></member>
+    <member refid="class_input_controller_1a4839ea55de6c2ea6e157f3e53175c514" kind="function"><name>Start</name></member>
+    <member refid="class_input_controller_1adc29d82c94846d7b33e1c2b81296dbef" kind="function"><name>OnEnable</name></member>
+    <member refid="class_input_controller_1abbaab755554d4bc2b17a1fedb38c27ca" kind="function"><name>Update</name></member>
+    <member refid="class_input_controller_1a3f12d6705ab69245aec44511673d873d" kind="function"><name>OnDisable</name></member>
+  </compound>
+  <compound refid="class_keyboard_controller" kind="class"><name>KeyboardController</name>
+    <member refid="class_keyboard_controller_1a3eb5ba9feaa775711c18f42993b8b74f" kind="variable"><name>enableKeyboardControls</name></member>
+    <member refid="class_keyboard_controller_1aff2e249d70b72950d092d010d8a995fe" kind="variable"><name>keyboardRotationSpeed</name></member>
+    <member refid="class_keyboard_controller_1aa3bdec3bfad3570f624e059700edc617" kind="variable"><name>useArrowKeys</name></member>
+    <member refid="class_keyboard_controller_1a272a216f2a580dea599a21c9634bfb97" kind="variable"><name>parentController</name></member>
+    <member refid="class_keyboard_controller_1a8ceeeaf641813f381a60940d89a8b65a" kind="variable"><name>initialized</name></member>
+    <member refid="class_keyboard_controller_1ae291f4285cc22b3f4d1cb732565fcc6b" kind="function"><name>Initialize</name></member>
+    <member refid="class_keyboard_controller_1af76b2f3fcf5876597cdf58e5cbe18fe3" kind="function"><name>Update</name></member>
+    <member refid="class_keyboard_controller_1a6d40863180c4c6429a9dc3cec2606efc" kind="function"><name>KeyboardControl</name></member>
+  </compound>
+  <compound refid="class_link_handler" kind="class"><name>LinkHandler</name>
+    <member refid="class_link_handler_1ad5c8ce1419c8869ed674f4e2f5bb19a9" kind="function"><name>OpenURL</name></member>
+  </compound>
+  <compound refid="class_link_opener" kind="class"><name>LinkOpener</name>
+    <member refid="class_link_opener_1af3c20e535a31d30fb4c234fb1dff6abd" kind="variable"><name>textMeshPro</name></member>
+    <member refid="class_link_opener_1a0ac13496baedb0324d322bca5b032eb3" kind="function"><name>OnPointerClick</name></member>
+  </compound>
+  <compound refid="class_main_script" kind="class"><name>MainScript</name>
+    <member refid="class_main_script_1a4322d5b2856578313bbbcdbc1a0dcd8f" kind="variable"><name>androidCanvas</name></member>
+    <member refid="class_main_script_1a2b23c3c45fd3d5dc41cd1c11381abbb2" kind="variable"><name>pcCanvas</name></member>
+    <member refid="class_main_script_1a295d3aacdeca37518058cf488d2fb916" kind="variable"><name>botonPrefab</name></member>
+    <member refid="class_main_script_1a89c5488184b4ab809422280d2a17ba8c" kind="variable"><name>swipeMenu</name></member>
+    <member refid="class_main_script_1ac269180ea95774a9ff4b18642b477e22" kind="variable"><name>cornerRadius</name></member>
+    <member refid="class_main_script_1a0a36a3ab98ef3986b7a64fb9dd85c323" kind="variable"><name>imagesFolder</name></member>
+    <member refid="class_main_script_1a92be310f83db04f71aa12356d633451e" kind="variable"><name>contentView</name></member>
+    <member refid="class_main_script_1ad3673922e26b1395f79ce271f46e90e6" kind="variable"><name>lastOrientation</name></member>
+    <member refid="class_main_script_1a70712b0f45d1bf6fbc98873cf89b9fe4" kind="variable"><name>simularAndroid</name></member>
+    <member refid="class_main_script_1ad3e0bca7c7251e5cfa7a8cf17bbde5a2" kind="function"><name>Awake</name></member>
+    <member refid="class_main_script_1aabe405614aaff1bbf72d135c14ff9d8f" kind="function"><name>SetupUI</name></member>
+    <member refid="class_main_script_1a682b90fe26d4d5592be484dfd0669cab" kind="function"><name>SetupForAndroid</name></member>
+    <member refid="class_main_script_1a2d00b6b99fb5a48b7a39ba749f742c0a" kind="function"><name>LoadImagesAndCreateButtons</name></member>
+    <member refid="class_main_script_1a18efd7b0fa64ca2db8cead73ebb18742" kind="function"><name>Update</name></member>
+    <member refid="class_main_script_1a269d1b10b8fca96e2b32ec3af12881b6" kind="function"><name>HandleOrientationChange</name></member>
+    <member refid="class_main_script_1a7a4132f99f01a938dce1f3dda8beaead" kind="function"><name>AdjustCanvasScalerForOrientation</name></member>
+    <member refid="class_main_script_1a176d77caa6f3e452004f58d9cc6df17f" kind="function"><name>UpdateCarouselLayout</name></member>
+    <member refid="class_main_script_1a899fd39f3d2c053a60d3a489d9258ac9" kind="function"><name>UpdateGridLayout</name></member>
+    <member refid="class_main_script_1a03115c3044148b8156b938d17dba8756" kind="function"><name>CreateImageButton</name></member>
+    <member refid="class_main_script_1a45cc411c81e09ff7270ccf29a82a743f" kind="function"><name>CreateSpriteFromTexture</name></member>
+    <member refid="class_main_script_1af556322a6552e3e99b21034a69ada9e4" kind="function"><name>CreateRoundedTexture</name></member>
+    <member refid="class_main_script_1ab3681bc8b1a733ad23926e8bda062f22" kind="function"><name>MakeTextureReadable</name></member>
+    <member refid="class_main_script_1a9e09cc1e6f0c1b14323da96fa383beea" kind="function"><name>OnButtonClicked</name></member>
+    <member refid="class_main_script_1abc8f092af7ac2292aa435126eed9325a" kind="function"><name>FindButtonIndex</name></member>
+    <member refid="class_main_script_1a368d7859a2298ce3d83a873cc9f792cd" kind="function"><name>IsLandscapeOrientation</name></member>
+  </compound>
+  <compound refid="class_main_text_selected" kind="class"><name>MainTextSelected</name>
+    <member refid="class_main_text_selected_1a87108fabf5bf61d2a0ae26278738acbc" kind="variable"><name>tmpText</name></member>
+    <member refid="class_main_text_selected_1a627ba9521cf8217554df635ed61b0ff4" kind="variable"><name>isPermanentlyUnderlined</name></member>
+    <member refid="class_main_text_selected_1a782f2ac919c9653266db91a4698b8ffd" kind="function"><name>Awake</name></member>
+    <member refid="class_main_text_selected_1a72a729cebf325df01e62ef9e951599f4" kind="function"><name>OnPointerEnter</name></member>
+    <member refid="class_main_text_selected_1aaf4cabfebe626d4f6d17d1cd1baf1d6c" kind="function"><name>OnPointerExit</name></member>
+  </compound>
+  <compound refid="class_material_transition" kind="class"><name>MaterialTransition</name>
+    <member refid="class_material_transition_1a02598db48fc7e2426c0a338ab2397b61" kind="variable"><name>isFading</name></member>
+    <member refid="class_material_transition_1a8d4b8e507a1b720ff8702d2af8681760" kind="variable"><name>fadeDuration</name></member>
+    <member refid="class_material_transition_1a920e577cb7cafe1e4a1e1d74e549a0a8" kind="variable"><name>zoomDistance</name></member>
+    <member refid="class_material_transition_1aa40ceadda82ae849f4fbfe19696fb8ad" kind="variable"><name>zoomSpeed</name></member>
+    <member refid="class_material_transition_1a6009852cadeccf8a8cf03e6d34644d1c" kind="variable"><name>zoomFOV</name></member>
+    <member refid="class_material_transition_1af04dd6b0657ac26de4cd4e0fe7c7193d" kind="variable"><name>zoomDuration</name></member>
+    <member refid="class_material_transition_1a1e3def44adc06dbd7459ab5063706274" kind="variable"><name>fadeDurationWithZoom</name></member>
+    <member refid="class_material_transition_1a463421dfdb79c02016de8f52d17ac19f" kind="variable"><name>flagBtnCarousel</name></member>
+    <member refid="class_material_transition_1a1bb716699210b63f769ed08ad84e4f26" kind="variable"><name>blendMaterial</name></member>
+    <member refid="class_material_transition_1a675ba685195a2b3a0bfb23859d1f06a0" kind="variable"><name>originalPosition</name></member>
+    <member refid="class_material_transition_1a0292ae6c6b1025b21636963389138072" kind="variable"><name>originalFOV</name></member>
+    <member refid="class_material_transition_1a8206d26455c804ed72406e835a0d8194" kind="variable"><name>cameraView</name></member>
+    <member refid="class_material_transition_1a43ff0eee11bfcdaf3873dbd8d0a37945" kind="variable"><name>contenedorFlechas</name></member>
+    <member refid="class_material_transition_1a5d8e03e9864c7d4cb277ebf7fe66a469" kind="function"><name>Awake</name></member>
+    <member refid="class_material_transition_1ab70f933258f200e3cde56b556d704f4b" kind="function"><name>FadeSkyboxCoroutine</name></member>
+    <member refid="class_material_transition_1ae940b432d6f869e382fdf574a054b094" kind="function"><name>CombinedTransition</name></member>
+    <member refid="class_material_transition_1a6f37588729c2d6f9a3c8b55228e8cd11" kind="function"><name>FadeAndZoomSkybox</name></member>
+    <member refid="class_material_transition_1a99efe4342522d50369feccf47e5a9067" kind="function"><name>ZoomInDirection</name></member>
+    <member refid="class_material_transition_1a83b0292e8b95ec3aaf9b433b60977899" kind="function"><name>FadeTo</name></member>
+    <member refid="class_material_transition_1abd2807e65fec6d3b0e03ae4e832ecabf" kind="function"><name>StartTransition</name></member>
+    <member refid="class_material_transition_1aea238828be154c64c53910e625554f6e" kind="function"><name>FindAllVideoPanels</name></member>
+    <member refid="class_material_transition_1a3cc2d2e446b15713fadadf257864aaa7" kind="function"><name>FindAllImagePanels</name></member>
+    <member refid="class_material_transition_1ae70a745e1ebd147dc19e973b6be34cf8" kind="function"><name>ApagarTodosLosPaneles</name></member>
+  </compound>
+  <compound refid="class_mobile_controller" kind="class"><name>MobileController</name>
+    <member refid="class_mobile_controller_1a5b7d48800f6b2294db876a20be3e86c5" kind="variable"><name>touchSensitivity</name></member>
+    <member refid="class_mobile_controller_1a3ec0c77dec402a10c60c2c83e9ed0759" kind="variable"><name>forceEnableTouchControls</name></member>
+    <member refid="class_mobile_controller_1a6c6aacb696aa784e7c5337e1989c58f0" kind="variable"><name>parentController</name></member>
+    <member refid="class_mobile_controller_1afcb2c08c888d8bf2814c779e00b14852" kind="variable"><name>touchLastPos</name></member>
+    <member refid="class_mobile_controller_1adaedc931835f72252591f23ddf97837c" kind="variable"><name>isTouching</name></member>
+    <member refid="class_mobile_controller_1ad7fd6f43fb36a76fa9d3a9aa05803dbf" kind="variable"><name>initialized</name></member>
+    <member refid="class_mobile_controller_1a2360491d74cab931cdc0f53461694ab3" kind="function"><name>Initialize</name></member>
+    <member refid="class_mobile_controller_1a11ca6da45cc4846603e4089ea38e7517" kind="function"><name>Update</name></member>
+    <member refid="class_mobile_controller_1a739bcfeeb9745966dd026e43363cd83e" kind="function"><name>TouchControl</name></member>
+    <member refid="class_mobile_controller_1a49468ef5c15d8d6e3ce2e7199883586c" kind="function"><name>HandleTouchBegan</name></member>
+    <member refid="class_mobile_controller_1a465a4215b1fc8c2a278cb45a59f8361e" kind="function"><name>HandleTouchMoved</name></member>
+  </compound>
+  <compound refid="class_mostrar_imagen_desde_boton" kind="class"><name>MostrarImagenDesdeBoton</name>
+    <member refid="class_mostrar_imagen_desde_boton_1a1ba7a8e688c57d89ef23382fe4cc1fd3" kind="variable"><name>panelController</name></member>
+    <member refid="class_mostrar_imagen_desde_boton_1abad7f9071d643363846d2215ca841e63" kind="variable"><name>imagen</name></member>
+    <member refid="class_mostrar_imagen_desde_boton_1a93cd8c22bcf68e6e8a9fac8d44039cc7" kind="function"><name>MostrarImagen</name></member>
+  </compound>
+  <compound refid="class_mostrar_slider_sonido" kind="class"><name>MostrarSliderSonido</name>
+    <member refid="class_mostrar_slider_sonido_1a9c4ae4811556335bcd3be20ac66d0a0a" kind="variable"><name>audioAmbiente</name></member>
+    <member refid="class_mostrar_slider_sonido_1ab183703262e8e980a5b67fc6e689263a" kind="variable"><name>sliderVolumen</name></member>
+    <member refid="class_mostrar_slider_sonido_1aa73ea7a902e9cea6d9c4b1cd9ea9bafe" kind="variable"><name>iconoSonido</name></member>
+    <member refid="class_mostrar_slider_sonido_1a992ae9581cc17e3a2d384f38faf51cda" kind="variable"><name>iconoConSonido</name></member>
+    <member refid="class_mostrar_slider_sonido_1af25b0b9d790683781d6e216e84b156e6" kind="variable"><name>iconoSinSonido</name></member>
+    <member refid="class_mostrar_slider_sonido_1a5608a9cba13a62cc1799c35463f1cf15" kind="variable"><name>ocultarSliderCoroutine</name></member>
+    <member refid="class_mostrar_slider_sonido_1ab75a53e6b3e7a2374731134084a2fbc4" kind="variable"><name>musicaPausada</name></member>
+    <member refid="class_mostrar_slider_sonido_1ab69137d6940b0dbbd61a4cde61cdea02" kind="function"><name>Start</name></member>
+    <member refid="class_mostrar_slider_sonido_1a17d55a8f7f50858925dc91859967639a" kind="function"><name>EsperarYOcultarSlider</name></member>
+    <member refid="class_mostrar_slider_sonido_1aa7fb9a62f9b17391517ceeae505e5732" kind="function"><name>CambiarVolumen</name></member>
+    <member refid="class_mostrar_slider_sonido_1aaf921055c419944bdcf8034cc8b29753" kind="function"><name>ActualizarIcono</name></member>
+    <member refid="class_mostrar_slider_sonido_1a22000e1e069b1586c29789f4092ca6f0" kind="function"><name>OnPointerEnter</name></member>
+    <member refid="class_mostrar_slider_sonido_1a006921ec048e2d6773fb61cb2d679db9" kind="function"><name>OnPointerExit</name></member>
+    <member refid="class_mostrar_slider_sonido_1ac9a21e42c66cef808d7de869443ab9ca" kind="function"><name>SilenciarAmbiente</name></member>
+    <member refid="class_mostrar_slider_sonido_1ad275ab38748eb755b9d8d8624d529512" kind="function"><name>AlternarMusica</name></member>
+  </compound>
+  <compound refid="class_mostrar_texto_desde_boton" kind="class"><name>MostrarTextoDesdeBoton</name>
+    <member refid="class_mostrar_texto_desde_boton_1a647b8e07fca509af6fcbd3842a5ef481" kind="variable"><name>panelControllerTexto</name></member>
+    <member refid="class_mostrar_texto_desde_boton_1a7503c7bc9fa227d48d55f8a2c86f2766" kind="variable"><name>thisButton</name></member>
+    <member refid="class_mostrar_texto_desde_boton_1a00bcf10b00f73f0c112e61bca0e3ebed" kind="function"><name>Awake</name></member>
+    <member refid="class_mostrar_texto_desde_boton_1abdce8f4164a238c7fbea213ced4e809c" kind="function"><name>Start</name></member>
+    <member refid="class_mostrar_texto_desde_boton_1a9d8ea732527cb80f5cb9497a535c85d7" kind="function"><name>OcultarPanelTexto</name></member>
+  </compound>
+  <compound refid="class_mostrar_video_desde_boton_con_subtitulos" kind="class"><name>MostrarVideoDesdeBotonConSubtitulos</name>
+    <member refid="class_mostrar_video_desde_boton_con_subtitulos_1a6eb5488ad111aadfe63eaed64eebe9b9" kind="variable"><name>panelVideoController</name></member>
+    <member refid="class_mostrar_video_desde_boton_con_subtitulos_1a276dadc8a9738b01d8a2570ddabf2462" kind="variable"><name>videoFileName</name></member>
+    <member refid="class_mostrar_video_desde_boton_con_subtitulos_1a19d1dfefa89b8e1820e3fc15512689b0" kind="function"><name>MostrarVideo</name></member>
+  </compound>
+  <compound refid="class_mouse_controller" kind="class"><name>MouseController</name>
+    <member refid="class_mouse_controller_1a00d6b167bd414ee1f2afcefaeed3216d" kind="variable"><name>controlButton</name></member>
+    <member refid="class_mouse_controller_1a6cd7a321914d79600050d7b3539fe862" kind="variable"><name>screenEdgeMargin</name></member>
+    <member refid="class_mouse_controller_1ab8274aa00cd159bbe7ca8a82412a868e" kind="variable"><name>hideCursorWhileNavigating</name></member>
+    <member refid="class_mouse_controller_1a31202c79c21e93714e65c4dd59f3adfd" kind="variable"><name>lockCursorToCenter</name></member>
+    <member refid="class_mouse_controller_1a1e94b84d02c163c2974ff884c500396c" kind="variable"><name>sensitivityMultiplier</name></member>
+    <member refid="class_mouse_controller_1ad4bcb82c3cccabe4726ef219163363e4" kind="variable"><name>lastMousePosition</name></member>
+    <member refid="class_mouse_controller_1a440354a087ed643b0ecadd1aab97bd4f" kind="variable"><name>isDragging</name></member>
+    <member refid="class_mouse_controller_1a8d94146c641795b84955390dc841d9ad" kind="variable"><name>avoidCameraRotation</name></member>
+    <member refid="class_mouse_controller_1a2572964ba3ad89a0324a8513b974c2a0" kind="variable"><name>screenRect</name></member>
+    <member refid="class_mouse_controller_1a9f885e28982fd8b469b801e14bd0e210" kind="variable"><name>originalLockMode</name></member>
+    <member refid="class_mouse_controller_1a23513b0896cdf889229338571cc5ddca" kind="variable"><name>originalCursorVisibility</name></member>
+    <member refid="class_mouse_controller_1a1c322880a769562af94cde7dd0486b55" kind="variable"><name>cursorWasHidden</name></member>
+    <member refid="class_mouse_controller_1ae5d05c1123ea8c383e02a11adfa1a8c2" kind="function"><name>Awake</name></member>
+    <member refid="class_mouse_controller_1a0a3db4b903f1cbcb3158142d47039de8" kind="function"><name>Update</name></member>
+    <member refid="class_mouse_controller_1a44d0abc11a8c10e58f6602bcd01b1953" kind="function"><name>OnDisable</name></member>
+    <member refid="class_mouse_controller_1a70e441428b58ae0879d784d81c2d8883" kind="function"><name>OnEnable</name></member>
+    <member refid="class_mouse_controller_1a10ce8e8cecc317386030958d79263343" kind="function"><name>UpdateScreenRect</name></member>
+    <member refid="class_mouse_controller_1a2dd971b559f4563bbeb01209ee852095" kind="function"><name>MouseControl</name></member>
+    <member refid="class_mouse_controller_1af0a656957fd29086603194929319d2f0" kind="function"><name>ClampToScreenEdge</name></member>
+    <member refid="class_mouse_controller_1aec52d43c536927e23802090e03eb3306" kind="function"><name>HandleMouseButtonDown</name></member>
+    <member refid="class_mouse_controller_1a98e35f0d2ccf21aed81248cfdc49ab0d" kind="function"><name>HandleMouseMovement</name></member>
+    <member refid="class_mouse_controller_1a3882e2df6ad28625c31505e282301381" kind="function"><name>HandleMouseButtonUp</name></member>
+    <member refid="class_mouse_controller_1a5ba6ea7377ba3d6fa5cfd4e1e2ba6542" kind="function"><name>UnlockCursor</name></member>
+    <member refid="class_mouse_controller_1a15afc7be946ccc3a9c97bf250aecce33" kind="function"><name>IgnoreNextMouseDelta</name></member>
+    <member refid="class_mouse_controller_1a46ad414f648fe501f93ddf9fe7cd8fc6" kind="function"><name>Initialize</name></member>
+  </compound>
+  <compound refid="class_orientation_adapter" kind="class"><name>OrientationAdapter</name>
+    <member refid="class_orientation_adapter_1a5340be7fc561bca99b0bec76ba42ef83" kind="variable"><name>androidMainContent</name></member>
+    <member refid="class_orientation_adapter_1a0aea28b79361cfda9462a941ed4b2265" kind="variable"><name>imageContainers</name></member>
+    <member refid="class_orientation_adapter_1a061cf81da1892aef78a54ac427a3a123" kind="variable"><name>portraitSize</name></member>
+    <member refid="class_orientation_adapter_1ae5a7f041b509d6a6e75061ca61c02eb8" kind="variable"><name>landscapeSize</name></member>
+    <member refid="class_orientation_adapter_1a9c60aea1a623a6b9e6230051e814effc" kind="variable"><name>portraitSpacing</name></member>
+    <member refid="class_orientation_adapter_1a293b52cc32a8d30b77e85406c1a5e492" kind="variable"><name>landscapeSpacing</name></member>
+    <member refid="class_orientation_adapter_1a7e16169fe2120cb33f076991b74e23aa" kind="variable"><name>titleText</name></member>
+    <member refid="class_orientation_adapter_1a4d4dd81632c00ee2c274cbaf0436a2ae" kind="variable"><name>contentLabel</name></member>
+    <member refid="class_orientation_adapter_1a0b2a9bf1b14bb21b03c25dd22a38f435" kind="variable"><name>portraitTopMargin</name></member>
+    <member refid="class_orientation_adapter_1a69797ab439dcd2859f18696a38064e25" kind="variable"><name>landscapeTopMargin</name></member>
+    <member refid="class_orientation_adapter_1a12ef8d89586cc2d39c8ab46ee4c57a23" kind="variable"><name>currentOrientation</name></member>
+    <member refid="class_orientation_adapter_1a4b1563cecf433cbfd6892127f3fa4d48" kind="variable"><name>gridLayout</name></member>
+    <member refid="class_orientation_adapter_1a2cccc8da7e7196b5ac8b63b4c6924f26" kind="variable"><name>scrollRect</name></member>
+    <member refid="class_orientation_adapter_1a8a34d8249de726214f5c0cbfbb849994" kind="variable"><name>contentSizeFitter</name></member>
+    <member refid="class_orientation_adapter_1af3a92535851710490f9d089758ae7eca" kind="function"><name>Start</name></member>
+    <member refid="class_orientation_adapter_1aaf353e3a50dd565f9f26590888143297" kind="function"><name>Update</name></member>
+    <member refid="class_orientation_adapter_1ab62f9757175f3761dcde40734e6c2db8" kind="function"><name>ApplyOrientationSettings</name></member>
+    <member refid="class_orientation_adapter_1af4a0276bf8598b0c4b404be8e50dfdba" kind="function"><name>AdjustCanvasScaler</name></member>
+    <member refid="class_orientation_adapter_1a5d4d50cd25552ceba3a6cfd79260ef35" kind="function"><name>ResetScrollPosition</name></member>
+    <member refid="class_orientation_adapter_1aae16099667f4a771e3095769066a53b5" kind="function"><name>IsLandscapeOrientation</name></member>
+    <member refid="class_orientation_adapter_1a019853f318d2e44d7d22ef8e1e3c22c4" kind="function"><name>ForceOrientationUpdate</name></member>
+  </compound>
+  <compound refid="class_panel_imagen_controller" kind="class"><name>PanelImagenController</name>
+    <member refid="class_panel_imagen_controller_1a46401e3120fa0e2dee833f113b373f44" kind="variable"><name>panelContenedor</name></member>
+    <member refid="class_panel_imagen_controller_1ab50b6b2f00c69620fd0d98e05c448684" kind="variable"><name>imagenMostrada</name></member>
+    <member refid="class_panel_imagen_controller_1ad7860bb656b1aabfdda57eb903d1769d" kind="variable"><name>botonCerrar</name></member>
+    <member refid="class_panel_imagen_controller_1ac2bd7c93d0ae6b6dd8e067184b88a53c" kind="variable"><name>tamañoImagen</name></member>
+    <member refid="class_panel_imagen_controller_1ad5fffc897982ef1d76478f81625f469d" kind="variable"><name>margenBotonCerrar</name></member>
+    <member refid="class_panel_imagen_controller_1a1c50dab996a2d45fd4eae7252f0f726a" kind="variable"><name>colorFondo</name></member>
+    <member refid="class_panel_imagen_controller_1a92bb5bcbebfffb5c493bc8e32b92bf22" kind="variable"><name>tamañoPanel</name></member>
+    <member refid="class_panel_imagen_controller_1a6d3f5c1ce9a0563ab6abb29bd69d7441" kind="variable"><name>duracionFade</name></member>
+    <member refid="class_panel_imagen_controller_1afc5445bbc126a358b5ae085954aa2019" kind="variable"><name>canvasGroup</name></member>
+    <member refid="class_panel_imagen_controller_1a09b36afd414c76f164a917bcc7701970" kind="variable"><name>fadeCoroutine</name></member>
+    <member refid="class_panel_imagen_controller_1af615c8e846dbf8e36250d6f7d37ea503" kind="variable"><name>panelBackgroundImage</name></member>
+    <member refid="class_panel_imagen_controller_1a5f2b2f32af31a69041ba529a4673f472" kind="variable"><name>panelRectTransform</name></member>
+    <member refid="class_panel_imagen_controller_1a936673b8dbc15a47879ceba3099bfc20" kind="variable"><name>imagenRectTransform</name></member>
+    <member refid="class_panel_imagen_controller_1af0cc714a2758c81d8de4c2a57d0b0dc1" kind="variable"><name>cameraView</name></member>
+    <member refid="class_panel_imagen_controller_1a297a3d127a6fae6a17386a574747f526" kind="variable"><name>autoCamera</name></member>
+    <member refid="class_panel_imagen_controller_1a7a6b0baa616c3dc15935d9fdb96173b5" kind="function"><name>Awake</name></member>
+    <member refid="class_panel_imagen_controller_1ad1fd9b3dccfd0a4b1a4defa0233f7050" kind="function"><name>Start</name></member>
+    <member refid="class_panel_imagen_controller_1a7a8e116f00d2fa5064edc19496065348" kind="function"><name>StartFade</name></member>
+    <member refid="class_panel_imagen_controller_1ac9a57aaf570b603847942d9909d27a04" kind="function"><name>FadePanel</name></member>
+    <member refid="class_panel_imagen_controller_1a926c0be969fc15c90e0ee02cd135508c" kind="function"><name>AjustarPosicionBotonCerrar</name></member>
+    <member refid="class_panel_imagen_controller_1a92c6550338509409cc69aade466b2a89" kind="function"><name>OnDestroy</name></member>
+    <member refid="class_panel_imagen_controller_1ae375068610927402a534540ef81a7d91" kind="function"><name>MostrarPanel</name></member>
+    <member refid="class_panel_imagen_controller_1ab5b277bf3fbb65f32833a6c1c930ad13" kind="function"><name>CerrarPanel</name></member>
+    <member refid="class_panel_imagen_controller_1a5c4d1632269fab581b659fb328970dac" kind="function"><name>ApagarImagen</name></member>
+  </compound>
+  <compound refid="class_panel_texto_controller" kind="class"><name>PanelTextoController</name>
+    <member refid="class_panel_texto_controller_1a07e3a236f3008526561d47809f36a528" kind="variable"><name>panelFondoTextoObjeto</name></member>
+    <member refid="class_panel_texto_controller_1ae3ca33402669c1a927bd03a1a52d2b68" kind="variable"><name>textoMostrado</name></member>
+    <member refid="class_panel_texto_controller_1af3de0bc63b5c0cdab0750b3635275929" kind="variable"><name>botonCerrar</name></member>
+    <member refid="class_panel_texto_controller_1a907837d18694ef6596466b97ff916a59" kind="variable"><name>colorFondo</name></member>
+    <member refid="class_panel_texto_controller_1addb6ceb0a9f88a2d7354cdf1066bb640" kind="variable"><name>margenBotonCerrar</name></member>
+    <member refid="class_panel_texto_controller_1a73c8417378761182f3ac8b76d490a7e1" kind="variable"><name>duracionFade</name></member>
+    <member refid="class_panel_texto_controller_1a0a75109d776de4e8e499e0c6ee3239c0" kind="variable"><name>canvasGroup</name></member>
+    <member refid="class_panel_texto_controller_1ab0d9c99b41029f1c26f620322880aaba" kind="variable"><name>fadeCoroutine</name></member>
+    <member refid="class_panel_texto_controller_1a54af69dc05ab21c393d71f6fc6096375" kind="variable"><name>cameraView</name></member>
+    <member refid="class_panel_texto_controller_1a97fd300caf55c87e9a64443845cfcc50" kind="variable"><name>autoCamera</name></member>
+    <member refid="class_panel_texto_controller_1abeea9bd615c52be6336a725d5194fb6e" kind="function"><name>Awake</name></member>
+    <member refid="class_panel_texto_controller_1a37bc2693015aab4de8383ebd87d877a0" kind="function"><name>OnEnable</name></member>
+    <member refid="class_panel_texto_controller_1a71695b26f27138e10f9d314dd0060bc3" kind="function"><name>OnDisable</name></member>
+    <member refid="class_panel_texto_controller_1a0a08ef42aaa36efc138b5f6a4d33fad0" kind="function"><name>ForceRebuildLayouts</name></member>
+    <member refid="class_panel_texto_controller_1a01a62f35b69baf8c3f8b59cebe144713" kind="function"><name>ConfigurarAparienciaPanel</name></member>
+    <member refid="class_panel_texto_controller_1a334482ba8ddb9d5b8b8a29b21c3b8668" kind="function"><name>AjustarPosicionBotonCerrar</name></member>
+    <member refid="class_panel_texto_controller_1a3af1898f474662df699af97884017f7f" kind="function"><name>StartFade</name></member>
+    <member refid="class_panel_texto_controller_1a257209f2cbd21ea3701ca6cb72510f2a" kind="function"><name>FadePanel</name></member>
+    <member refid="class_panel_texto_controller_1a136a4c933199f43f5d401ca311159878" kind="function"><name>MostrarPanel</name></member>
+    <member refid="class_panel_texto_controller_1a9d843d2d177797c34c812429c6fbe457" kind="function"><name>CerrarPanel</name></member>
+    <member refid="class_panel_texto_controller_1ac327397827fda37df8986b58cefe439f" kind="function"><name>SetColorFondo</name></member>
+    <member refid="class_panel_texto_controller_1aee0f552629bcfa63754d7b7f07d7ef8c" kind="function"><name>SetMargenBotonCerrar</name></member>
+  </compound>
+  <compound refid="class_panel_video_controller_con_subtitulos" kind="class"><name>PanelVideoControllerConSubtitulos</name>
+    <member refid="class_panel_video_controller_con_subtitulos_1ab783d9af3c19a168018d85f3baf0b45c" kind="variable"><name>panelContenedor</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a9bcb1233b2585cf533d6b2e5dec4d01a" kind="variable"><name>videoDisplay</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a68fa1787820f20985745f6aee76d054a" kind="variable"><name>botonCerrar</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a6e8e9f79e9a5a791cb8e5666f1ffd83d" kind="variable"><name>botonPlay</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a5f54c7823a5156dea8b1845196a1f17d" kind="variable"><name>botonPause</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a91d1f2fed1593bf0a18beb67b0792bcb" kind="variable"><name>botonAdelantar</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a5ff7bf8229965b3ea1890c6888081102" kind="variable"><name>botonRetroceder</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a24c0e3878881d8adf25ad486d64ea033" kind="variable"><name>botonSubtitulos</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a76615c1697064139bef8d6ab583ab901" kind="variable"><name>margenBotonCerrar</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a53818d6bb0e4899fa3226d49157fbf36" kind="variable"><name>espacioEntreControles</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a22291ad701287bf267d5273359b90d97" kind="variable"><name>yOffsetControlesInferiores</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1ae1ecf178d9bc133c0c0442d9e549573f" kind="variable"><name>segundosAdelantar</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a9317d146b562146ad0484d87af987cc9" kind="variable"><name>segundosRetroceder</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a3b47fa7cc0284b59bd1c5d3e8efd0e39" kind="variable"><name>duracionFade</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1ab45185348bba4eb197a40c52295ad0d6" kind="variable"><name>subtitulosText</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1afa8eea8140d360593de5d40382db6f8e" kind="variable"><name>colorBotonSubtitulosActivo</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a5a7e9378905a3ff6271c727cf2020afe" kind="variable"><name>colorBotonSubtitulosInactivo</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1aed3169242c9368ad53511ca310926256" kind="variable"><name>soundController</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a008899ac0ab2fa92d5a404a1cd2655f5" kind="variable"><name>videoPlayer</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a32d97b6d9cc4f34186ce4633b32b2d47" kind="variable"><name>audioSource</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1ace2c7932175484141812248be98373f9" kind="variable"><name>forceClosedState</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a1a0e367112cb9ae213bf35ab12ade6af" kind="variable"><name>materialChanged</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1ade0ae1d272b7febbbe4d30a080d96914" kind="variable"><name>videoRenderTexture</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1ab88f545cfc5bd8175d98934c87171f58" kind="variable"><name>canvasGroup</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a5fbae6c1fe9c8e81cfa9f06b2cd6dbba" kind="variable"><name>fadeCoroutine</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a7aee0a5720afa95bd1d39774c2520191" kind="variable"><name>subtitulosActivos</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a63646dd058d881f5ebdc7c7e45a580dc" kind="variable"><name>subtitulos</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a3f0db41b183716266c3167e1e11c8d1c" kind="variable"><name>subtitleCoroutine</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a2ed69aff3a5ea364f527c0398222a258" kind="variable"><name>lastSkybox</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a0581644a64d6efd0dd555109a72505a2" kind="variable"><name>cameraView</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a069541ad6521bdc3cfc717ecea1dcfeb" kind="variable"><name>autoCamera</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a4bb5b0e8b25c332863f2eed42e930055" kind="function"><name>Awake</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a45f276875be49a4954a70dd340b2fda4" kind="function"><name>SetupVideoRenderTexture</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a0898cf5282a238d4f90665a90adf2c38" kind="function"><name>Start</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1ab83d57aa30051ec3d192813aca8ee6fd" kind="function"><name>Update</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a373128ce24fe09f131954ffc9bd66b88" kind="function"><name>EsperarYReproducir</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a9123811c54ee3e9de66d5180abcf7a0a" kind="function"><name>StartFade</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1acc00f7480019fd2063d1f7f672691f6e" kind="function"><name>FadePanel</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a62f357ecb03d0b2f6c948e90cd8e00a3" kind="function"><name>AjustarPosicionControles</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1add2998accab97634e0ebc47067d1cee5" kind="function"><name>ConfigurarBotonSubtitulos</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1ad2b60db68c76a45aca5081350cfc57d9" kind="function"><name>MostrarSubtitulos</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a137ddb5f09cd29748d6ece766cc5f964" kind="function"><name>LoadSubtitleAssetWebGL</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a1dcea17468242e726bcc4ca818673368" kind="function"><name>CargarSubtitulos</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a2467712d0e1beb00721607c48c946fae" kind="function"><name>ParsearArchivoSRT</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a0635bf57bb40fe47841be38bfab5415e" kind="function"><name>TimeToSeconds</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a48efa4fd8155a3ccc14d354659253f42" kind="function"><name>OnVideoPlayerPrepared</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a2f59d22299d35f6ce234834766048971" kind="function"><name>MostrarPanelDesdeRuta</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1ab1914f0ad8ef9f7a9d16ee5e006ea848" kind="function"><name>CerrarPanel</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a847b87eb5f4fd7c0e3049c69552eb358" kind="function"><name>ApagarPanel</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a66c432fa231ba7e1a2cb5540191098c4" kind="function"><name>AdelantarVideo</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a7fa94a6afe628e5a68692eff6c1442fe" kind="function"><name>RetrocederVideo</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1a116d3fe0ba2fe0eeb55207b716e76673" kind="function"><name>ToggleSubtitulos</name></member>
+  </compound>
+  <compound refid="class_rotation_notifier" kind="class"><name>RotationNotifier</name>
+    <member refid="class_rotation_notifier_1adb874b613039ff4e81fb78b00b5fb277" kind="variable"><name>notificationThrottleTime</name></member>
+    <member refid="class_rotation_notifier_1a7203ef956ab226eead8f03f6abc7b0a9" kind="variable"><name>significantChangeThreshold</name></member>
+    <member refid="class_rotation_notifier_1a5932fd087d0231976fced45f8886ab8d" kind="variable"><name>parentController</name></member>
+    <member refid="class_rotation_notifier_1a2eb06d13a8e884122927f3b0869d2f04" kind="variable"><name>lastReportedRotation</name></member>
+    <member refid="class_rotation_notifier_1a8447335fcf027deeeb1cee8f0da31e6b" kind="variable"><name>lastEventTimestamp</name></member>
+    <member refid="class_rotation_notifier_1aae0a5f1566a135fa1e148df8a7e2c3ac" kind="variable"><name>initialized</name></member>
+    <member refid="class_rotation_notifier_1ab0964c552adc89aebb736a1de06b7a08" kind="event"><name>OnRotationChanged</name></member>
+    <member refid="class_rotation_notifier_1a0788581f089914b8eac1e6aa57072723" kind="function"><name>Initialize</name></member>
+    <member refid="class_rotation_notifier_1ae273f8b1596256684906b47ef11ed08b" kind="function"><name>Update</name></member>
+    <member refid="class_rotation_notifier_1a99603377428eece8e8b883bdd472069a" kind="function"><name>NotifyRotationChanges</name></member>
+  </compound>
+  <compound refid="class_rotator" kind="class"><name>Rotator</name>
+    <member refid="class_rotator_1a48d4cc4483562723f80a525772022862" kind="variable"><name>rotationSpeed</name></member>
+    <member refid="class_rotator_1ab4a3a2be406fa1f344a1b5ba294b99ba" kind="variable"><name>rotationAxis</name></member>
+    <member refid="class_rotator_1a5b573a6122b39499ebd67d6db7c905e9" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_scene_controllers" kind="class"><name>SceneControllers</name>
+    <member refid="class_scene_controllers_1a89a8237cbd91ebeddad7ecb776a7f292" kind="variable"><name>imagesFolder</name></member>
+    <member refid="class_scene_controllers_1a431007be3318172ba007a69131d02655" kind="variable"><name>androidCanvas</name></member>
+    <member refid="class_scene_controllers_1a240daa058bfca596847858e760a13def" kind="variable"><name>pcCanvas</name></member>
+    <member refid="class_scene_controllers_1ac78c23d87bfb666e077196f5b140d71b" kind="variable"><name>botonPrefab</name></member>
+    <member refid="class_scene_controllers_1a1435053769d4b0e1e04c01947da39d9d" kind="variable"><name>contentView</name></member>
+    <member refid="class_scene_controllers_1aec663cefd5b881bd3f4944da3c9769df" kind="variable"><name>skyboxFader</name></member>
+    <member refid="class_scene_controllers_1a62798facc5bf145b36bf387fc56fc68f" kind="variable"><name>showGaleryAndroid</name></member>
+    <member refid="class_scene_controllers_1a40f61230ee5d4bd5868ce959a4ae4d1c" kind="variable"><name>cameraView</name></member>
+    <member refid="class_scene_controllers_1a5256f78af337be3d94ed05eec63eddd6" kind="variable"><name>views</name></member>
+    <member refid="class_scene_controllers_1a36dcd02aa57dfb6ee459566e162b3a19" kind="function"><name>Awake</name></member>
+    <member refid="class_scene_controllers_1a188a021acb928867031e2757b819dc91" kind="function"><name>CreateImageButton</name></member>
+    <member refid="class_scene_controllers_1ad371710d23854f3cea528d9d803b26f5" kind="function"><name>OnButtonClicked</name></member>
+    <member refid="class_scene_controllers_1a119a2def8e9d21577609c83db91e557b" kind="function"><name>DelayedFadeToFirstView</name></member>
+    <member refid="class_scene_controllers_1a21e7321a44216a62c3356a784dea109e" kind="function"><name>NormalizeTextureName</name></member>
+  </compound>
+  <compound refid="class_scene_loader" kind="class"><name>SceneLoader</name>
+    <member refid="class_scene_loader_1a1799818820ac703f54b6dfc77ca31b0b" kind="variable"><name>sceneName</name></member>
+    <member refid="class_scene_loader_1aa0eb7826db1ce384418464268b35f920" kind="function"><name>OnValidate</name></member>
+    <member refid="class_scene_loader_1add5a9871987372063e3e533ec073eb4f" kind="function"><name>LoadScene</name></member>
+  </compound>
+  <compound refid="class_scroll_creditos" kind="class"><name>ScrollCreditos</name>
+    <member refid="class_scroll_creditos_1a115c0cc63e8c11d1e1c1a7dc8a129769" kind="variable"><name>velocidad</name></member>
+    <member refid="class_scroll_creditos_1aa9ae68a9b245ec68bced05545d509dc9" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_show_galery_android" kind="class"><name>ShowGaleryAndroid</name>
+    <member refid="class_show_galery_android_1a50dc2307d346196e90530b80dff94273" kind="variable"><name>targetPanel</name></member>
+    <member refid="class_show_galery_android_1aa753848c38b6026c43ec0f530b2e63a3" kind="variable"><name>hiddenPosition</name></member>
+    <member refid="class_show_galery_android_1ab7c278d6d410fe9effcb40d460b93719" kind="variable"><name>shownPosition</name></member>
+    <member refid="class_show_galery_android_1a10b5b4b33eb04ef2e593215690aa4943" kind="variable"><name>animationDuration</name></member>
+    <member refid="class_show_galery_android_1a9d7a047b5793581175496033df85c804" kind="variable"><name>buttonText</name></member>
+    <member refid="class_show_galery_android_1a197d5629921aab28c1ac0cf723e05899" kind="variable"><name>isOpen</name></member>
+    <member refid="class_show_galery_android_1afcf036387114edf79e4ae4e61ce0af37" kind="variable"><name>animationCoroutine</name></member>
+    <member refid="class_show_galery_android_1ac9414f0025a24c6870bd4d7ea2d38b97" kind="variable"><name>canvasGroup</name></member>
+    <member refid="class_show_galery_android_1a0389d0ada43c05a90d173c637e668fcd" kind="variable"><name>skyBoxButtonSelected</name></member>
+    <member refid="class_show_galery_android_1a6363d933d33723a8f797fa8beeaee5a1" kind="variable"><name>carouselRender</name></member>
+    <member refid="class_show_galery_android_1a422618bf1233d9fd376cea46a7b5f0f7" kind="function"><name>Awake</name></member>
+    <member refid="class_show_galery_android_1ac7856b39c3e9031ee2bc502ff0ad02f4" kind="function"><name>AnimatePanel</name></member>
+    <member refid="class_show_galery_android_1a543a79028b73b61815b15a681475df0c" kind="function"><name>ForceInitializeGalleryAtStart</name></member>
+    <member refid="class_show_galery_android_1ac1d31e85a59024a54f8efd8be4756796" kind="function"><name>Toggle</name></member>
+    <member refid="class_show_galery_android_1ab5cda12ce577cfc86fd13d4c33822e72" kind="function"><name>CloseCorouselOnClick</name></member>
+  </compound>
+  <compound refid="class_show_handle" kind="class"><name>ShowHandle</name>
+    <member refid="class_show_handle_1a553f236e2a5605a51296da8b67bedaff" kind="variable"><name>scrollbar</name></member>
+    <member refid="class_show_handle_1af48e0b03bc876ecbe273432b12b9a9c8" kind="variable"><name>handle</name></member>
+    <member refid="class_show_handle_1a873ee21af5bff7d2e8c71923ac2fd488" kind="function"><name>Start</name></member>
+    <member refid="class_show_handle_1a85fe8ca5d5363cdbaf4ff1366b18d879" kind="function"><name>OnPointerEnter</name></member>
+    <member refid="class_show_handle_1ad062dbb1106d447303f23ddb630fc5a3" kind="function"><name>OnPointerExit</name></member>
+  </compound>
+  <compound refid="class_show_selected_position" kind="class"><name>ShowSelectedPosition</name>
+    <member refid="class_show_selected_position_1a11a3640d24c4368be1da1b1b342c76eb" kind="variable"><name>scrollbar</name></member>
+    <member refid="class_show_selected_position_1a6784b048875ad4fad2f5f4c1a5a03a87" kind="variable"><name>buttonNameToIndex</name></member>
+    <member refid="class_show_selected_position_1addb679e86a97838768a20506136e131e" kind="variable"><name>currentScrollCoroutine</name></member>
+    <member refid="class_show_selected_position_1a56307e6190d45a83a130f4497674c5ac" kind="function"><name>Start</name></member>
+    <member refid="class_show_selected_position_1a6e576312bd2f3da7d8d93ddf8654d068" kind="function"><name>SmoothScrollTo</name></member>
+    <member refid="class_show_selected_position_1ad3007b26438e1d17e13da7174cc19937" kind="function"><name>CenterOnButton</name></member>
+  </compound>
+  <compound refid="class_simple_button_hover" kind="class"><name>SimpleButtonHover</name>
+    <member refid="class_simple_button_hover_1a25497a5f973faf3df35a729236972983" kind="variable"><name>button</name></member>
+    <member refid="class_simple_button_hover_1a6604b5a9966395a1c83c871ef37e6e60" kind="variable"><name>originalColors</name></member>
+    <member refid="class_simple_button_hover_1a3bdf8bfcf872934f8634ed6e1a78f090" kind="variable"><name>hoverColor</name></member>
+    <member refid="class_simple_button_hover_1a6ada1dcb47fbebfe3ef8428344d50c35" kind="function"><name>Start</name></member>
+    <member refid="class_simple_button_hover_1a09699f584fa891a67c9cec35944ff437" kind="function"><name>OnPointerEnter</name></member>
+    <member refid="class_simple_button_hover_1acd6e456cd40baa5ca4cbcf968b930113" kind="function"><name>OnPointerExit</name></member>
+  </compound>
+  <compound refid="class_sky_box_button_selected" kind="class"><name>SkyBoxButtonSelected</name>
+    <member refid="class_sky_box_button_selected_1a83762e678e28064698314f34ab7cbf3e" kind="variable"><name>currentTextureName</name></member>
+    <member refid="class_sky_box_button_selected_1a6c3f4824f34f5643ce677efbf319056e" kind="variable"><name>isWaitingForDelay</name></member>
+    <member refid="class_sky_box_button_selected_1a01cfa7762bfa76920ae7c0cde1af7312" kind="variable"><name>canvasGroupParent</name></member>
+    <member refid="class_sky_box_button_selected_1a4261494eb1bcce39a2b3c6b56bb52f48" kind="variable"><name>nombreDavante</name></member>
+    <member refid="class_sky_box_button_selected_1a1bc6960daf1a44f922c93ea34008bfc4" kind="variable"><name>carruselListo</name></member>
+    <member refid="class_sky_box_button_selected_1a089a9e652330706214727083d088b110" kind="function"><name>Start</name></member>
+    <member refid="class_sky_box_button_selected_1afd3b7f5849224de2e45a7923dbb4c084" kind="function"><name>InitializeSkyboxAfterFrame</name></member>
+    <member refid="class_sky_box_button_selected_1aab839267205b2acc9632de901988888c" kind="function"><name>ApplyEffectAndWait</name></member>
+    <member refid="class_sky_box_button_selected_1adb3cf8647aa0b08e60b0b8bf7a0def20" kind="function"><name>Bandera</name></member>
+    <member refid="class_sky_box_button_selected_1a00f2d6c1712a9f8a8627eba21d166231" kind="function"><name>InitializeCarouselRender</name></member>
+    <member refid="class_sky_box_button_selected_1a7b6a21f47357c0b24bdb3bfeb9efac23" kind="function"><name>HighlightCurrentSkyboxButton</name></member>
+    <member refid="class_sky_box_button_selected_1aeecc536eaafc1bac17f2affbf37da75b" kind="function"><name>OnSkyboxChanged</name></member>
+    <member refid="class_sky_box_button_selected_1ae9f025fe75419cdbc93c15f251fe3009" kind="function"><name>ActivateMatchingCanvasOnly</name></member>
+  </compound>
+  <compound refid="class_sound_controller" kind="class"><name>SoundController</name>
+    <member refid="class_sound_controller_1a855efcde1f46370786f3f8b06c734f0c" kind="variable"><name>ambientSound</name></member>
+    <member refid="class_sound_controller_1aa7bf551b1ad2a4868cecd5a4ef53c27d" kind="variable"><name>soundButton</name></member>
+    <member refid="class_sound_controller_1a722c2ef6db3ecfae261368d48696974e" kind="variable"><name>volumeSlider</name></member>
+    <member refid="class_sound_controller_1af8065dbb1905d9b42c9b9ab1f2ae4c31" kind="variable"><name>soundOnSprite</name></member>
+    <member refid="class_sound_controller_1aafb7466186d5596b4ae0df90f8aa1a81" kind="variable"><name>soundOffSprite</name></member>
+    <member refid="class_sound_controller_1a0cb5d8b113c4e633b292222673d9a160" kind="variable"><name>guardarSonido</name></member>
+    <member refid="class_sound_controller_1a3c5724cc75e0296283e701971470bea2" kind="variable"><name>guardarVolumenVideo</name></member>
+    <member refid="class_sound_controller_1a714b0eff178e6d80a62e904f9b191a87" kind="variable"><name>previousAmbientVolume</name></member>
+    <member refid="class_sound_controller_1a5e5231416cd1de26ffd508b008d16e91" kind="variable"><name>previousVideoVolume</name></member>
+    <member refid="class_sound_controller_1ad54f6373d29fa9a4efee0d1f0917acdc" kind="variable"><name>currentControlledAudio</name></member>
+    <member refid="class_sound_controller_1a8b7b43a52c98b6f5918b860d14338bfc" kind="variable"><name>isVideoAudioActive</name></member>
+    <member refid="class_sound_controller_1ae3e580fa00166503b544aacb3a615ccf" kind="variable"><name>isChangingFromCode</name></member>
+    <member refid="class_sound_controller_1a003455dc7a5b714329989a979e89c1b9" kind="variable"><name>MuteKey</name></member>
+    <member refid="class_sound_controller_1a2470ea82de72035f182334b5d5f8486e" kind="function"><name>Start</name></member>
+    <member refid="class_sound_controller_1af29e3ef3a4ebd9292fdcac24d6c3c339" kind="function"><name>ChangeVolume</name></member>
+    <member refid="class_sound_controller_1a2eb0dd13f02905166c1b7fb6f3338dcc" kind="function"><name>ToggleMute</name></member>
+    <member refid="class_sound_controller_1a9bdde5e8c4fedb079d4fd48d9663c8be" kind="function"><name>UpdateButtonIcon</name></member>
+    <member refid="class_sound_controller_1a1683886a27cf0b5cdb7174539f93c8ba" kind="function"><name>OnEnable</name></member>
+    <member refid="class_sound_controller_1ac13cc145dd7a5b1c5e97bc8410a76c7e" kind="function"><name>OnDisable</name></member>
+    <member refid="class_sound_controller_1a3ac0cf275550e81cdb88dfe284d6314a" kind="function"><name>SetControlledAudioSource</name></member>
+    <member refid="class_sound_controller_1a71c609c10e7b39e1290fa99cdbeeea9c" kind="function"><name>PauseAmbientSound</name></member>
+    <member refid="class_sound_controller_1a7cfb255fe62501834c12969b6a5ff803" kind="function"><name>ResumeAmbientSound</name></member>
+  </compound>
+  <compound refid="class_start_controller" kind="class"><name>StartController</name>
+    <member refid="class_start_controller_1a2bdd57dc77b42e122a9770b5aca5dbcf" kind="variable"><name>objetoActivo</name></member>
+    <member refid="class_start_controller_1a7226488284778ea0c4d59d25d7dbab49" kind="variable"><name>arrayCanvas</name></member>
+    <member refid="class_start_controller_1a1cdb5acaa2a0ad55f38b6c133dc52a77" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_stop_movement_panel" kind="class"><name>StopMovementPanel</name>
+    <member refid="class_stop_movement_panel_1a69eb4b11ec1527c04da423056030bc8a" kind="variable"><name>IsPointerOverPanel</name></member>
+    <member refid="class_stop_movement_panel_1a388ff1c648a269b1aa9cd38b44bf3559" kind="function"><name>OnPointerEnter</name></member>
+    <member refid="class_stop_movement_panel_1aa07894e8d2187b33f49ed417455aa4a7" kind="function"><name>OnPointerExit</name></member>
+  </compound>
+  <compound refid="class_stop_zoom" kind="class"><name>StopZoom</name>
+    <member refid="class_stop_zoom_1aeb06c055b9029c889875347717ad1195" kind="variable"><name>IsPointerOverScrollView</name></member>
+    <member refid="class_stop_zoom_1a707b05053efce485655a78a476785c7a" kind="function"><name>OnPointerEnter</name></member>
+    <member refid="class_stop_zoom_1a30a4388d64becde01d74d3e0aba282e9" kind="function"><name>OnPointerExit</name></member>
+  </compound>
+  <compound refid="class_panel_video_controller_con_subtitulos_1_1_subtitle_entry" kind="class"><name>PanelVideoControllerConSubtitulos::SubtitleEntry</name>
+    <member refid="class_panel_video_controller_con_subtitulos_1_1_subtitle_entry_1a0ef2e797f1d13503e1afaa131c0db577" kind="variable"><name>index</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1_1_subtitle_entry_1aef32c1c133ff30d68fad222fc49b066b" kind="variable"><name>startTime</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1_1_subtitle_entry_1ab3f31c739daa33a65fbd48727cc2d06f" kind="variable"><name>endTime</name></member>
+    <member refid="class_panel_video_controller_con_subtitulos_1_1_subtitle_entry_1ad7de0b19492dd56903a4b092a9db65ad" kind="variable"><name>text</name></member>
+  </compound>
+  <compound refid="class_swipe_menu" kind="class"><name>SwipeMenu</name>
+    <member refid="class_swipe_menu_1acf5225289ac9878ab19fd6312a4ebdae" kind="variable"><name>scrollbar</name></member>
+    <member refid="class_swipe_menu_1a7d74997fd2c17c9958fec024bd4368bb" kind="variable"><name>mainScript</name></member>
+    <member refid="class_swipe_menu_1aef36367d732a335cf5d58ae9c873456a" kind="variable"><name>pcScale</name></member>
+    <member refid="class_swipe_menu_1accde17b3e04493989dcc2eaffd52c8a5" kind="variable"><name>pcScaleInactive</name></member>
+    <member refid="class_swipe_menu_1ab87aa329b5bbab31a2ccb8d5f3f832ce" kind="variable"><name>androidScale</name></member>
+    <member refid="class_swipe_menu_1a0375a528f244703cc4215e1e8a645e12" kind="variable"><name>androidScaleInactive</name></member>
+    <member refid="class_swipe_menu_1a213a1247b41393b3e21bf78ba12c971f" kind="variable"><name>androidLandscapeScale</name></member>
+    <member refid="class_swipe_menu_1a3f64f8e6337b1814b6a358899a9c01cd" kind="variable"><name>androidLandscapeScaleInactive</name></member>
+    <member refid="class_swipe_menu_1a759f9d234af37b9bd11debbd9406ff2b" kind="variable"><name>transitionSpeed</name></member>
+    <member refid="class_swipe_menu_1aa4293184581bc7cdb1b8eb7bb47221fb" kind="variable"><name>scroll_pos</name></member>
+    <member refid="class_swipe_menu_1a7861f7ccc63133322b5c66f806abe3c8" kind="variable"><name>pos</name></member>
+    <member refid="class_swipe_menu_1ae8d5410091cc16a9dd39776b613bde55" kind="variable"><name>currentIndex</name></member>
+    <member refid="class_swipe_menu_1aa89c7ab3da1a23025049bbaadfb66b10" kind="variable"><name>scrollCoroutine</name></member>
+    <member refid="class_swipe_menu_1adb69f24e401855e00440e0dd9cf44e3a" kind="variable"><name>isLandscapeMode</name></member>
+    <member refid="class_swipe_menu_1af15c677ea23ef03faeecd3743c48e1b0" kind="function"><name>Update</name></member>
+    <member refid="class_swipe_menu_1abdc5b2960b2e8ec51559f243446bca09" kind="function"><name>UpdatePositions</name></member>
+    <member refid="class_swipe_menu_1abf29152f01bac707af91dbe0c8d1a40b" kind="function"><name>HandleInput</name></member>
+    <member refid="class_swipe_menu_1a3675331c94606bb303f300236724b560" kind="function"><name>ApplyVisualEffects</name></member>
+    <member refid="class_swipe_menu_1a9487bc9047425b81c28031994f4a93d7" kind="function"><name>GetTargetScale</name></member>
+    <member refid="class_swipe_menu_1a908469301b3466a21fc3a6f191343103" kind="function"><name>SmoothScrollTo</name></member>
+    <member refid="class_swipe_menu_1adcb3a3682f2a2d755015ba7e2e7a169c" kind="function"><name>UpdateChildElements</name></member>
+    <member refid="class_swipe_menu_1af588648ec4a028ec1c9d331c725c541b" kind="function"><name>ScaleChildImages</name></member>
+    <member refid="class_swipe_menu_1aa1ac52dfcb5818f3df86bac058d234ff" kind="function"><name>IsLandscapeOrientation</name></member>
+    <member refid="class_swipe_menu_1a8a022b5c2b15c21d8245555a41f33342" kind="function"><name>MoveLeft</name></member>
+    <member refid="class_swipe_menu_1ab53e166b3ac6c8691cd51a4cfc41aedd" kind="function"><name>MoveRight</name></member>
+    <member refid="class_swipe_menu_1a8a282f4b13223184c229d2bc08b91be8" kind="function"><name>IsButtonCentered</name></member>
+    <member refid="class_swipe_menu_1afb38fb1304e9de3ea92861fe1f5a611f" kind="function"><name>CenterButton</name></member>
+    <member refid="class_swipe_menu_1a471a51469b7ee2c133ab6ef2584ebe3d" kind="function"><name>UpdateLayoutForOrientation</name></member>
+  </compound>
+  <compound refid="class_t_m_p___link_opener" kind="class"><name>TMP_LinkOpener</name>
+    <member refid="class_t_m_p___link_opener_1a9f7eba5ee41192344cd75341a174e3af" kind="variable"><name>tmpText</name></member>
+    <member refid="class_t_m_p___link_opener_1a8f240e865ce5ae9ecb1b5e35adacf224" kind="function"><name>Awake</name></member>
+    <member refid="class_t_m_p___link_opener_1af5f70836d7621e246fae95464d67f495" kind="function"><name>OnPointerClick</name></member>
+  </compound>
+  <compound refid="class_transition_scroll_bar" kind="class"><name>TransitionScrollBar</name>
+    <member refid="class_transition_scroll_bar_1aee9b59f37f1369e4c54e5c3f69502c40" kind="variable"><name>scrollbar</name></member>
+    <member refid="class_transition_scroll_bar_1a0de4c24ff7d85aa1fb1cd65c7efa5076" kind="variable"><name>fadeDuration</name></member>
+    <member refid="class_transition_scroll_bar_1acd4bcf22fe3a37402fc0e0a41414cab7" kind="variable"><name>handleCanvasGroup</name></member>
+    <member refid="class_transition_scroll_bar_1a8fe4a7be5e96596da8044eb37a6d2060" kind="variable"><name>fadeCoroutine</name></member>
+    <member refid="class_transition_scroll_bar_1a5b659a87bfe6b554f80741adfa6cbbec" kind="function"><name>Start</name></member>
+    <member refid="class_transition_scroll_bar_1ad223f15276f15c05e69e2e05fc866810" kind="function"><name>StartFade</name></member>
+    <member refid="class_transition_scroll_bar_1a65b938243a31116c1b3a29ba51cc644f" kind="function"><name>FadeTo</name></member>
+    <member refid="class_transition_scroll_bar_1aca0356175fbef0121e526f054c226a3f" kind="function"><name>OnPointerEnter</name></member>
+    <member refid="class_transition_scroll_bar_1a27afe41d6394a6d948f68f01bb206f32" kind="function"><name>OnPointerExit</name></member>
+  </compound>
+  <compound refid="class_typewriter_effect" kind="class"><name>TypewriterEffect</name>
+    <member refid="class_typewriter_effect_1ad9f470b2151666588b9929d6462fe336" kind="variable"><name>textComponent</name></member>
+    <member refid="class_typewriter_effect_1a1e78f590ce0aab869dedeaa7a10672a9" kind="variable"><name>fullText</name></member>
+    <member refid="class_typewriter_effect_1ad8407cbfa48ac5a2eae268ec120658e7" kind="variable"><name>delay</name></member>
+    <member refid="class_typewriter_effect_1a1910306ba597a487b51caad03064c05d" kind="variable"><name>lineDelay</name></member>
+    <member refid="class_typewriter_effect_1a38388b5ae69315932b44cede8ff46c5a" kind="variable"><name>audioSource</name></member>
+    <member refid="class_typewriter_effect_1a1099819e308a1e56573920b698586f52" kind="variable"><name>keySound</name></member>
+    <member refid="class_typewriter_effect_1a40f0ceefa464ecd6de62545d08ffa5ac" kind="variable"><name>soundCooldown</name></member>
+    <member refid="class_typewriter_effect_1ab480a006ffacf76a695aeb46489a74a0" kind="variable"><name>pressEnterText</name></member>
+    <member refid="class_typewriter_effect_1a9a855165e6ba32e8a92e3213f1566b19" kind="variable"><name>sceneToLoad</name></member>
+    <member refid="class_typewriter_effect_1a05fe43ec8eacb9c80ca1b27d564dd1e2" kind="variable"><name>currentText</name></member>
+    <member refid="class_typewriter_effect_1a39ed47ba893e0936ec302c48186ab732" kind="variable"><name>typingComplete</name></member>
+    <member refid="class_typewriter_effect_1a3a6da899334519f6c18b520373a8d7d3" kind="variable"><name>lastSoundTime</name></member>
+    <member refid="class_typewriter_effect_1aba7f56a6a4bdbe00f56064d803061f06" kind="variable"><name>isPlayingSound</name></member>
+    <member refid="class_typewriter_effect_1af89ea12e2df2883b209aabda47375938" kind="variable"><name>cursorCoroutine</name></member>
+    <member refid="class_typewriter_effect_1ab1814835273d5a5fecdcbf1f5f2a9625" kind="variable"><name>enterMessageCoroutine</name></member>
+    <member refid="class_typewriter_effect_1ac7b244014d3d6a86860708308ee64d3e" kind="function"><name>Start</name></member>
+    <member refid="class_typewriter_effect_1acbcf1e93d96990ad3135cc39434a7dd1" kind="function"><name>Update</name></member>
+    <member refid="class_typewriter_effect_1a0d15e88a089558c7d9394324607e46f7" kind="function"><name>ShowText</name></member>
+    <member refid="class_typewriter_effect_1a7ccff43d40611111c3e1ac6edcd9fb37" kind="function"><name>PlayKeySound</name></member>
+    <member refid="class_typewriter_effect_1a197852af2fe680058cbb4196ab1cb403" kind="function"><name>BlinkCursor</name></member>
+    <member refid="class_typewriter_effect_1acddcf94f886bffe4be2cc46288bf7c89" kind="function"><name>BlinkEnterMessage</name></member>
+  </compound>
+  <compound refid="class_animated_button_1_1_vibration_settings" kind="class"><name>AnimatedButton::VibrationSettings</name>
+    <member refid="class_animated_button_1_1_vibration_settings_1ae0eae61716d2f1c6e7d0d200f0600f31" kind="variable"><name>enableVibration</name></member>
+    <member refid="class_animated_button_1_1_vibration_settings_1a66d98434e4a7b222c8954522a813c750" kind="variable"><name>vibrationAmount</name></member>
+    <member refid="class_animated_button_1_1_vibration_settings_1a20761682cbd83767183de24d4f391bb1" kind="variable"><name>vibrationSpeed</name></member>
+  </compound>
+  <compound refid="class_volver_a_main360" kind="class"><name>VolverAMain360</name>
+    <member refid="class_volver_a_main360_1a9791d258fbe61717f4b9251fbfbc5cec" kind="function"><name>IrAMain360</name></member>
+  </compound>
+  <compound refid="class_zoom_controller" kind="class"><name>ZoomController</name>
+    <member refid="class_zoom_controller_1a8eed5bee94ac28f5f18b6979ced8eb8d" kind="variable"><name>allowZoom</name></member>
+    <member refid="class_zoom_controller_1a8aa4fdfdcc3a402176d00c802cdc917b" kind="variable"><name>zoomSpeed</name></member>
+    <member refid="class_zoom_controller_1a5e5ebdf53c03cd4a179c69c32f5617f8" kind="variable"><name>minFOV</name></member>
+    <member refid="class_zoom_controller_1ab567b7081d6bb1e00ed914b7234b3b83" kind="variable"><name>maxFOV</name></member>
+    <member refid="class_zoom_controller_1a4597cde8028a1afdc005ad1a7d87a671" kind="variable"><name>keyZoomSpeed</name></member>
+    <member refid="class_zoom_controller_1a21a007f429852918b78b34f2ab340721" kind="variable"><name>zoomInKey</name></member>
+    <member refid="class_zoom_controller_1aff71babc6d710de54b4c71b95196f3d2" kind="variable"><name>zoomInKeyAlt</name></member>
+    <member refid="class_zoom_controller_1a04241edda8733be50d344c98ea34ce0c" kind="variable"><name>zoomOutKey</name></member>
+    <member refid="class_zoom_controller_1aae227b961820b99f5ddffaa17269f773" kind="variable"><name>zoomOutKeyAlt</name></member>
+    <member refid="class_zoom_controller_1add4ad21a4b18c508a864d5236b142830" kind="variable"><name>usePageKeys</name></member>
+    <member refid="class_zoom_controller_1a97646101a94f5707e0c9e6398516329c" kind="variable"><name>smoothSpeed</name></member>
+    <member refid="class_zoom_controller_1aa8b60c4abe38528faf8befc525bc80a7" kind="variable"><name>screenEdgeMargin</name></member>
+    <member refid="class_zoom_controller_1a1ff1f64266e5ca18f48bb3498fd9c4ec" kind="variable"><name>parentController</name></member>
+    <member refid="class_zoom_controller_1a686320b9c6c3b04733e021fced42aea3" kind="variable"><name>initialFOV</name></member>
+    <member refid="class_zoom_controller_1adde68d8a49ffd66d5012b7cae47838a0" kind="variable"><name>touchZoomLastDistance</name></member>
+    <member refid="class_zoom_controller_1a06ac3bef8c54a35f97b91bfb0ae09b35" kind="variable"><name>initialized</name></member>
+    <member refid="class_zoom_controller_1ab0678aeca879105ea1c7577c6fe212cb" kind="variable"><name>targetFOV</name></member>
+    <member refid="class_zoom_controller_1adf9cd2bd3a15465e257af06224fa4067" kind="variable"><name>currentVelocity</name></member>
+    <member refid="class_zoom_controller_1aa2a925699aa85d954b0a3d367bb35ee1" kind="variable"><name>screenRect</name></member>
+    <member refid="class_zoom_controller_1a94035eb53c738b0e8aa3d6ee44590378" kind="variable"><name>PINCH_SENSITIVITY_FACTOR</name></member>
+    <member refid="class_zoom_controller_1a7e61b8a7c318d0c82f1b4ccc0e22b445" kind="function"><name>Awake</name></member>
+    <member refid="class_zoom_controller_1a2d6923e29c132707c60ca5d51ba4459c" kind="function"><name>Update</name></member>
+    <member refid="class_zoom_controller_1a09505f4471253a98bbad90019d59e3aa" kind="function"><name>UpdateScreenRect</name></member>
+    <member refid="class_zoom_controller_1a425c6f926edfd2429b6e2a4f25995fb8" kind="function"><name>IsMouseWithinScreen</name></member>
+    <member refid="class_zoom_controller_1add48e88faa3b43a7634fc06e33315340" kind="function"><name>HandleMouseWheelZoom</name></member>
+    <member refid="class_zoom_controller_1a5770c4885c491189051c4c3b21d3b9f9" kind="function"><name>HandlePinchZoom</name></member>
+    <member refid="class_zoom_controller_1a4c726289b3d3f8d98766910be13d9c5f" kind="function"><name>HandleKeyboardZoom</name></member>
+    <member refid="class_zoom_controller_1a0f9f1c05cec4dcae33b5ab5ea3d33059" kind="function"><name>SetTargetFOV</name></member>
+    <member refid="class_zoom_controller_1ae0f283950719aaf5f080ace0d9da074b" kind="function"><name>ApplySmoothZoom</name></member>
+    <member refid="class_zoom_controller_1a3a46a83264b8b69db9cb946b47d06dcf" kind="function"><name>Initialize</name></member>
+    <member refid="class_zoom_controller_1a667d664cd71d992806c2bbd32e6c71d9" kind="function"><name>ResetZoom</name></member>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text_1_1_regular_expressions" kind="namespace"><name>System::Text::RegularExpressions</name>
+  </compound>
+  <compound refid="namespace_t_m_pro" kind="namespace"><name>TMPro</name>
+  </compound>
+  <compound refid="namespace_unity_editor" kind="namespace"><name>UnityEditor</name>
+  </compound>
+  <compound refid="namespace_unity_engine" kind="namespace"><name>UnityEngine</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_event_systems" kind="namespace"><name>UnityEngine::EventSystems</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_networking" kind="namespace"><name>UnityEngine::Networking</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_scene_management" kind="namespace"><name>UnityEngine::SceneManagement</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_u_i" kind="namespace"><name>UnityEngine::UI</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_video" kind="namespace"><name>UnityEngine::Video</name>
+  </compound>
+  <compound refid="_auto_camera_toggle_controller_8cs" kind="file"><name>AutoCameraToggleController.cs</name>
+  </compound>
+  <compound refid="_automatic_movement_controller_8cs" kind="file"><name>AutomaticMovementController.cs</name>
+  </compound>
+  <compound refid="_camera_view_8cs" kind="file"><name>CameraView.cs</name>
+  </compound>
+  <compound refid="_input_controllers_8cs" kind="file"><name>InputControllers.cs</name>
+  </compound>
+  <compound refid="_keyboard_controller_8cs" kind="file"><name>KeyboardController.cs</name>
+  </compound>
+  <compound refid="_mobile_controller_8cs" kind="file"><name>MobileController.cs</name>
+  </compound>
+  <compound refid="_mouse_controller_8cs" kind="file"><name>MouseController.cs</name>
+  </compound>
+  <compound refid="_rotation_notifier_8cs" kind="file"><name>RotationNotifier.cs</name>
+  </compound>
+  <compound refid="_stop_movement_panel_8cs" kind="file"><name>StopMovementPanel.cs</name>
+  </compound>
+  <compound refid="_stop_zoom_8cs" kind="file"><name>StopZoom.cs</name>
+  </compound>
+  <compound refid="_zoom_controller_8cs" kind="file"><name>ZoomController.cs</name>
+  </compound>
+  <compound refid="_btn_scroll_hide_8cs" kind="file"><name>BtnScrollHide.cs</name>
+  </compound>
+  <compound refid="_button_hover_effect_8cs" kind="file"><name>ButtonHoverEffect.cs</name>
+  </compound>
+  <compound refid="_canvas_text_selected_8cs" kind="file"><name>CanvasTextSelected.cs</name>
+  </compound>
+  <compound refid="_main_text_selected_8cs" kind="file"><name>MainTextSelected.cs</name>
+  </compound>
+  <compound refid="_material_transition_8cs" kind="file"><name>MaterialTransition.cs</name>
+  </compound>
+  <compound refid="_scene_controllers_8cs" kind="file"><name>SceneControllers.cs</name>
+  </compound>
+  <compound refid="_show_galery_android_8cs" kind="file"><name>ShowGaleryAndroid.cs</name>
+  </compound>
+  <compound refid="_show_handle_8cs" kind="file"><name>ShowHandle.cs</name>
+  </compound>
+  <compound refid="_show_selected_position_8cs" kind="file"><name>ShowSelectedPosition.cs</name>
+  </compound>
+  <compound refid="_sky_box_button_selected_8cs" kind="file"><name>SkyBoxButtonSelected.cs</name>
+  </compound>
+  <compound refid="_transition_scroll_bar_8cs" kind="file"><name>TransitionScrollBar.cs</name>
+  </compound>
+  <compound refid="_cursor_changer_8cs" kind="file"><name>CursorChanger.cs</name>
+  </compound>
+  <compound refid="_cursor_changer_menu_8cs" kind="file"><name>CursorChangerMenu.cs</name>
+  </compound>
+  <compound refid="_default_cursor_setter_8cs" kind="file"><name>DefaultCursorSetter.cs</name>
+  </compound>
+  <compound refid="_a_xC3_xB1adir_punto_8cs" kind="file"><name>AñadirPunto.cs</name>
+  </compound>
+  <compound refid="_botton_navigation_asigner_cont_8cs" kind="file"><name>BottonNavigationAsignerCont.cs</name>
+  </compound>
+  <compound refid="_cursor_changer_asigner_content_8cs" kind="file"><name>CursorChangerAsignerContent.cs</name>
+  </compound>
+  <compound refid="_generador_de_botones_desde_img_8cs" kind="file"><name>GeneradorDeBotonesDesdeImg.cs</name>
+  </compound>
+  <compound refid="_gradient_background_8cs" kind="file"><name>GradientBackground.cs</name>
+  </compound>
+  <compound refid="_main_script_8cs" kind="file"><name>MainScript.cs</name>
+    <member refid="_main_script_8cs_1ae3ba11ab1e427940efa4a8c7ffce23b7" kind="variable"><name>Generic</name></member>
+  </compound>
+  <compound refid="_orientation_adapter_8cs" kind="file"><name>OrientationAdapter.cs</name>
+  </compound>
+  <compound refid="_pattern_overlay_8cs" kind="file"><name>PatternOverlay.cs</name>
+  </compound>
+  <compound refid="_swipe_menu_8cs" kind="file"><name>SwipeMenu.cs</name>
+    <member refid="_swipe_menu_8cs_1ac8d24014d99f6adc5bdd1bae8383f58c" kind="variable"><name>Collections</name></member>
+  </compound>
+  <compound refid="_fast_scroll_rect_8cs" kind="file"><name>FastScrollRect.cs</name>
+  </compound>
+  <compound refid="_link_opener_8cs" kind="file"><name>LinkOpener.cs</name>
+  </compound>
+  <compound refid="_scene_loader_8cs" kind="file"><name>SceneLoader.cs</name>
+  </compound>
+  <compound refid="_t_m_p___link_opener_8cs" kind="file"><name>TMP_LinkOpener.cs</name>
+  </compound>
+  <compound refid="_typewriter_effect_8cs" kind="file"><name>TypewriterEffect.cs</name>
+  </compound>
+  <compound refid="_animated_button_8cs" kind="file"><name>AnimatedButton.cs</name>
+  </compound>
+  <compound refid="_animated_button_menu_8cs" kind="file"><name>AnimatedButtonMenu.cs</name>
+  </compound>
+  <compound refid="_ayuda_8cs" kind="file"><name>Ayuda.cs</name>
+  </compound>
+  <compound refid="_delayed_buttons_activator_8cs" kind="file"><name>DelayedButtonsActivator.cs</name>
+  </compound>
+  <compound refid="_navigation_button_8cs" kind="file"><name>NavigationButton.cs</name>
+  </compound>
+  <compound refid="_simple_button_hover_8cs" kind="file"><name>SimpleButtonHover.cs</name>
+  </compound>
+  <compound refid="_start_controller_8cs" kind="file"><name>StartController.cs</name>
+  </compound>
+  <compound refid="_boton_inicio_8cs" kind="file"><name>BotonInicio.cs</name>
+  </compound>
+  <compound refid="_imagen_import_processor_8cs" kind="file"><name>ImagenImportProcessor.cs</name>
+  </compound>
+  <compound refid="_hover_text_display_8cs" kind="file"><name>HoverTextDisplay.cs</name>
+  </compound>
+  <compound refid="_link_handler_8cs" kind="file"><name>LinkHandler.cs</name>
+  </compound>
+  <compound refid="_mostrar_imagen_desde_boton_8cs" kind="file"><name>MostrarImagenDesdeBoton.cs</name>
+  </compound>
+  <compound refid="_mostrar_texto_desde_boton_01_8cs" kind="file"><name>MostrarTextoDesdeBoton .cs</name>
+  </compound>
+  <compound refid="_mostrar_video_desde_boton_con_subtitulos_8cs" kind="file"><name>MostrarVideoDesdeBotonConSubtitulos.cs</name>
+  </compound>
+  <compound refid="_motrar_slider_sonido_8cs" kind="file"><name>MotrarSliderSonido.cs</name>
+  </compound>
+  <compound refid="_panel_imagen_controller_8cs" kind="file"><name>PanelImagenController.cs</name>
+  </compound>
+  <compound refid="_panel_texto_controller_8cs" kind="file"><name>PanelTextoController.cs</name>
+  </compound>
+  <compound refid="_panel_video_controller_con_subtitulos_8cs" kind="file"><name>PanelVideoControllerConSubtitulos.cs</name>
+  </compound>
+  <compound refid="_rotator_8cs" kind="file"><name>Rotator.cs</name>
+  </compound>
+  <compound refid="_sound_controller_8cs" kind="file"><name>SoundController.cs</name>
+  </compound>
+  <compound refid="_texto_creditos_8cs" kind="file"><name>TextoCreditos.cs</name>
+  </compound>
+  <compound refid="dir_84bbf7b3c7f28a5a18725745e1505219" kind="dir"><name>Assets</name>
+  </compound>
+  <compound refid="dir_0bf270a3dff40e62f0f506b27c955a6e" kind="dir"><name>Assets/Scripts/Camera</name>
+  </compound>
+  <compound refid="dir_fc28fc3b482b6cb241a966e34533f912" kind="dir"><name>Assets/Scripts/CarouselScript</name>
+  </compound>
+  <compound refid="dir_f50b2ee8e33bba503ea0fa6dcf33edfe" kind="dir"><name>Assets/Scripts/Cursor</name>
+  </compound>
+  <compound refid="dir_0261d5286017c38b9af36d6d3ff94a53" kind="dir"><name>Assets/Scripts/Editor</name>
+  </compound>
+  <compound refid="dir_63ecb2618c5cdfef5042a0350ab8ea25" kind="dir"><name>Assets/Scripts/ScriptsPuntosDeInteres/Editor</name>
+  </compound>
+  <compound refid="dir_e2676494dffcb413510315a21517f430" kind="dir"><name>Assets/Scripts/MenuPrincipal</name>
+  </compound>
+  <compound refid="dir_f13b41af88cf68434578284aaf699e39" kind="dir"><name>Assets/Scripts</name>
+  </compound>
+  <compound refid="dir_28b1863bf0495ce07fcf38ab9e3ffd57" kind="dir"><name>Assets/Scripts/Scripts Creditos</name>
+  </compound>
+  <compound refid="dir_4551a513239c569e354280dc49bfc55a" kind="dir"><name>Assets/Scripts/Scripts Flechas</name>
+  </compound>
+  <compound refid="dir_d1ec86df2f99f2cd21d0d7dc8ca30d14" kind="dir"><name>Assets/Scripts/ScriptsPuntosDeInteres</name>
+  </compound>
+</doxygenindex>

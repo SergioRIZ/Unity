@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_mostrar_imagen_desde_boton" kind="class" language="C#" prot="public">
+    <compoundname>MostrarImagenDesdeBoton</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_mostrar_imagen_desde_boton_1a1ba7a8e688c57d89ef23382fe4cc1fd3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_panel_imagen_controller" kindref="compound">PanelImagenController</ref></type>
+        <definition>PanelImagenController MostrarImagenDesdeBoton.panelController</definition>
+        <argsstring></argsstring>
+        <name>panelController</name>
+        <qualifiedname>MostrarImagenDesdeBoton.panelController</qualifiedname>
+        <briefdescription>
+<para>Referencia al controlador del panel de imagen para mostrar la imagen. Debe ser asignado desde el Inspector. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/MostrarImagenDesdeBoton.cs" line="13" column="36" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/MostrarImagenDesdeBoton.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mostrar_imagen_desde_boton_1abad7f9071d643363846d2215ca841e63" prot="private" static="no" mutable="no">
+        <type>Sprite</type>
+        <definition>Sprite MostrarImagenDesdeBoton.imagen</definition>
+        <argsstring></argsstring>
+        <name>imagen</name>
+        <qualifiedname>MostrarImagenDesdeBoton.imagen</qualifiedname>
+        <briefdescription>
+<para>La imagen específica que será mostrada por este botón al hacer clic. Debe ser asignada desde el Inspector. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/MostrarImagenDesdeBoton.cs" line="19" column="21" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/MostrarImagenDesdeBoton.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_mostrar_imagen_desde_boton_1a93cd8c22bcf68e6e8a9fac8d44039cc7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MostrarImagenDesdeBoton.MostrarImagen</definition>
+        <argsstring>()</argsstring>
+        <name>MostrarImagen</name>
+        <qualifiedname>MostrarImagenDesdeBoton.MostrarImagen</qualifiedname>
+        <briefdescription>
+<para>Método público llamado por el evento OnClick del botón. Muestra la imagen en el panel asociado si las referencias están correctamente asignadas. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/MostrarImagenDesdeBoton.cs" line="25" column="17" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/MostrarImagenDesdeBoton.cs" bodystart="25" bodyend="33"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Clase que permite mostrar una imagen específica en un panel al hacer clic en un botón. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>MostrarImagenDesdeBoton</label>
+        <link refid="class_mostrar_imagen_desde_boton"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>MostrarImagenDesdeBoton</label>
+        <link refid="class_mostrar_imagen_desde_boton"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/ScriptsPuntosDeInteres/MostrarImagenDesdeBoton.cs" line="7" column="7" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/MostrarImagenDesdeBoton.cs" bodystart="8" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_mostrar_imagen_desde_boton_1abad7f9071d643363846d2215ca841e63" prot="private" virt="non-virtual"><scope>MostrarImagenDesdeBoton</scope><name>imagen</name></member>
+      <member refid="class_mostrar_imagen_desde_boton_1a93cd8c22bcf68e6e8a9fac8d44039cc7" prot="public" virt="non-virtual"><scope>MostrarImagenDesdeBoton</scope><name>MostrarImagen</name></member>
+      <member refid="class_mostrar_imagen_desde_boton_1a1ba7a8e688c57d89ef23382fe4cc1fd3" prot="private" virt="non-virtual"><scope>MostrarImagenDesdeBoton</scope><name>panelController</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

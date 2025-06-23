@@ -1,0 +1,219 @@
+\doxysection{Mouse\+Controller Class Reference}
+\hypertarget{class_mouse_controller}{}\label{class_mouse_controller}\index{MouseController@{MouseController}}
+
+
+Controlador para la entrada de mouse en vista panorámica 360 con opciones para cursor visible/invisible y detección de límites de pantalla.  
+
+
+
+
+Inheritance diagram for Mouse\+Controller\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=167pt]{class_mouse_controller__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Mouse\+Controller\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=230pt]{class_mouse_controller__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_mouse_controller_a15afc7be946ccc3a9c97bf250aecce33}{Ignore\+Next\+Mouse\+Delta}} ()
+\begin{DoxyCompactList}\small\item\em Ignora el siguiente delta de movimiento del mouse para evitar saltos. \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_mouse_controller_a46ad414f648fe501f93ddf9fe7cd8fc6}{Initialize}} (\mbox{\hyperlink{class_camera_view}{Camera\+View}} controller)
+\begin{DoxyCompactList}\small\item\em Inicializa el controlador con una referencia al controlador principal. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_input_controller}{Input\+Controller}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_input_controller_a54852849a46ab1f2c17838cd46852f1c}{Set\+Enabled}} (bool enabled)
+\begin{DoxyCompactList}\small\item\em Habilita o deshabilita este controlador de entrada. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_mouse_controller_a00d6b167bd414ee1f2afcefaeed3216d}{control\+Button}} = 0
+\begin{DoxyCompactList}\small\item\em Botón del mouse para controlar la cámara (0=izquierdo, 1=derecho, 2=medio). \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_mouse_controller_a6cd7a321914d79600050d7b3539fe862}{screen\+Edge\+Margin}} = 10f
+\begin{DoxyCompactList}\small\item\em Margen de pantalla para detener el movimiento (en píxeles). \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_mouse_controller_ab8274aa00cd159bbe7ca8a82412a868e}{hide\+Cursor\+While\+Navigating}} = false
+\begin{DoxyCompactList}\small\item\em Indica si se debe ocultar el cursor mientras se navega. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_mouse_controller_a31202c79c21e93714e65c4dd59f3adfd}{lock\+Cursor\+To\+Center}} = false
+\begin{DoxyCompactList}\small\item\em Indica si se debe bloquear el cursor en el centro de la pantalla durante la navegación. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_mouse_controller_ae5d05c1123ea8c383e02a11adfa1a8c2}{Awake}} ()
+\begin{DoxyCompactList}\small\item\em Método llamado al inicializar el componente. No realiza ninguna acción por defecto; la inicialización se realiza desde \doxylink{class_camera_view}{Camera\+View}. \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_mouse_controller_a0a3db4b903f1cbcb3158142d47039de8}{Update}} ()
+\begin{DoxyCompactList}\small\item\em Método de actualización llamado en cada frame. Verifica la inicialización antes de ejecutar la lógica de entrada. Las clases derivadas deben sobrescribir este método para implementar el control específico. \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_mouse_controller_a44d0abc11a8c10e58f6602bcd01b1953}{On\+Disable}} ()
+\begin{DoxyCompactList}\small\item\em Método llamado cuando el componente se deshabilita. Proporciona un punto de extensión para limpieza en clases derivadas. \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_mouse_controller_a70e441428b58ae0879d784d81c2d8883}{On\+Enable}} ()
+\begin{DoxyCompactList}\small\item\em Método llamado cuando el componente se habilita. Verifica la inicialización si aún no se ha realizado. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions inherited from \mbox{\hyperlink{class_input_controller}{Input\+Controller}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool \mbox{\hyperlink{class_input_controller_a8bbd09a74fac8deb62e4f8359cde1412}{Check\+Initialization}} ()
+\begin{DoxyCompactList}\small\item\em Método de seguridad para verificar la inicialización del controlador. Si no está inicializado, intenta encontrar y asignar automáticamente un \doxylink{class_camera_view}{Camera\+View} en la escena. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_input_controller_a4839ea55de6c2ea6e157f3e53175c514}{Start}} ()
+\begin{DoxyCompactList}\small\item\em Método llamado al iniciar el componente. Verifica la inicialización en caso de que no se haya llamado a \doxylink{class_input_controller_a6b2a5ac295a9397dbbbe61b2ad03c94a}{Initialize(\+Camera\+View)}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{class_input_controller}{Input\+Controller}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_camera_view}{Camera\+View}} \mbox{\hyperlink{class_input_controller_aa76c145fa15228c6596c0be6a06dd7cc}{parent\+Controller}}
+\begin{DoxyCompactList}\small\item\em Referencia al controlador principal de la cámara. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_input_controller_af6e636754f4469382cc2d31045c8b2e6}{is\+Initialized}} = false
+\begin{DoxyCompactList}\small\item\em Indica si el controlador ha sido inicializado correctamente. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Controlador para la entrada de mouse en vista panorámica 360 con opciones para cursor visible/invisible y detección de límites de pantalla. 
+
+\label{doc-func-members}
+\Hypertarget{class_mouse_controller_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_mouse_controller_ae5d05c1123ea8c383e02a11adfa1a8c2}\index{MouseController@{MouseController}!Awake@{Awake}}
+\index{Awake@{Awake}!MouseController@{MouseController}}
+\doxysubsubsection{\texorpdfstring{Awake()}{Awake()}}
+{\footnotesize\ttfamily \label{class_mouse_controller_ae5d05c1123ea8c383e02a11adfa1a8c2} 
+override void Mouse\+Controller.\+Awake (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Método llamado al inicializar el componente. No realiza ninguna acción por defecto; la inicialización se realiza desde \doxylink{class_camera_view}{Camera\+View}. 
+
+
+
+Reimplemented from \mbox{\hyperlink{class_input_controller_a511313045ea3715e5204a11c7943af0c}{Input\+Controller}}.
+
+\Hypertarget{class_mouse_controller_a15afc7be946ccc3a9c97bf250aecce33}\index{MouseController@{MouseController}!IgnoreNextMouseDelta@{IgnoreNextMouseDelta}}
+\index{IgnoreNextMouseDelta@{IgnoreNextMouseDelta}!MouseController@{MouseController}}
+\doxysubsubsection{\texorpdfstring{IgnoreNextMouseDelta()}{IgnoreNextMouseDelta()}}
+{\footnotesize\ttfamily \label{class_mouse_controller_a15afc7be946ccc3a9c97bf250aecce33} 
+void Mouse\+Controller.\+Ignore\+Next\+Mouse\+Delta (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Ignora el siguiente delta de movimiento del mouse para evitar saltos. 
+
+\Hypertarget{class_mouse_controller_a46ad414f648fe501f93ddf9fe7cd8fc6}\index{MouseController@{MouseController}!Initialize@{Initialize}}
+\index{Initialize@{Initialize}!MouseController@{MouseController}}
+\doxysubsubsection{\texorpdfstring{Initialize()}{Initialize()}}
+{\footnotesize\ttfamily \label{class_mouse_controller_a46ad414f648fe501f93ddf9fe7cd8fc6} 
+override void Mouse\+Controller.\+Initialize (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_camera_view}{Camera\+View}}}]{controller}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Inicializa el controlador con una referencia al controlador principal. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em controller} & El controlador de cámara principal.\\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_input_controller_a6b2a5ac295a9397dbbbe61b2ad03c94a}{Input\+Controller}}.
+
+\Hypertarget{class_mouse_controller_a44d0abc11a8c10e58f6602bcd01b1953}\index{MouseController@{MouseController}!OnDisable@{OnDisable}}
+\index{OnDisable@{OnDisable}!MouseController@{MouseController}}
+\doxysubsubsection{\texorpdfstring{OnDisable()}{OnDisable()}}
+{\footnotesize\ttfamily \label{class_mouse_controller_a44d0abc11a8c10e58f6602bcd01b1953} 
+override void Mouse\+Controller.\+On\+Disable (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Método llamado cuando el componente se deshabilita. Proporciona un punto de extensión para limpieza en clases derivadas. 
+
+
+
+Reimplemented from \mbox{\hyperlink{class_input_controller_a3f12d6705ab69245aec44511673d873d}{Input\+Controller}}.
+
+\Hypertarget{class_mouse_controller_a70e441428b58ae0879d784d81c2d8883}\index{MouseController@{MouseController}!OnEnable@{OnEnable}}
+\index{OnEnable@{OnEnable}!MouseController@{MouseController}}
+\doxysubsubsection{\texorpdfstring{OnEnable()}{OnEnable()}}
+{\footnotesize\ttfamily \label{class_mouse_controller_a70e441428b58ae0879d784d81c2d8883} 
+override void Mouse\+Controller.\+On\+Enable (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Método llamado cuando el componente se habilita. Verifica la inicialización si aún no se ha realizado. 
+
+
+
+Reimplemented from \mbox{\hyperlink{class_input_controller_adc29d82c94846d7b33e1c2b81296dbef}{Input\+Controller}}.
+
+\Hypertarget{class_mouse_controller_a0a3db4b903f1cbcb3158142d47039de8}\index{MouseController@{MouseController}!Update@{Update}}
+\index{Update@{Update}!MouseController@{MouseController}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily \label{class_mouse_controller_a0a3db4b903f1cbcb3158142d47039de8} 
+override void Mouse\+Controller.\+Update (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Método de actualización llamado en cada frame. Verifica la inicialización antes de ejecutar la lógica de entrada. Las clases derivadas deben sobrescribir este método para implementar el control específico. 
+
+
+
+Reimplemented from \mbox{\hyperlink{class_input_controller_abbaab755554d4bc2b17a1fedb38c27ca}{Input\+Controller}}.
+
+
+
+\label{doc-variable-members}
+\Hypertarget{class_mouse_controller_doc-variable-members}
+\doxysubsection{Field Documentation}
+\Hypertarget{class_mouse_controller_a00d6b167bd414ee1f2afcefaeed3216d}\index{MouseController@{MouseController}!controlButton@{controlButton}}
+\index{controlButton@{controlButton}!MouseController@{MouseController}}
+\doxysubsubsection{\texorpdfstring{controlButton}{controlButton}}
+{\footnotesize\ttfamily \label{class_mouse_controller_a00d6b167bd414ee1f2afcefaeed3216d} 
+int Mouse\+Controller.\+control\+Button = 0}
+
+
+
+Botón del mouse para controlar la cámara (0=izquierdo, 1=derecho, 2=medio). 
+
+\Hypertarget{class_mouse_controller_ab8274aa00cd159bbe7ca8a82412a868e}\index{MouseController@{MouseController}!hideCursorWhileNavigating@{hideCursorWhileNavigating}}
+\index{hideCursorWhileNavigating@{hideCursorWhileNavigating}!MouseController@{MouseController}}
+\doxysubsubsection{\texorpdfstring{hideCursorWhileNavigating}{hideCursorWhileNavigating}}
+{\footnotesize\ttfamily \label{class_mouse_controller_ab8274aa00cd159bbe7ca8a82412a868e} 
+bool Mouse\+Controller.\+hide\+Cursor\+While\+Navigating = false}
+
+
+
+Indica si se debe ocultar el cursor mientras se navega. 
+
+\Hypertarget{class_mouse_controller_a31202c79c21e93714e65c4dd59f3adfd}\index{MouseController@{MouseController}!lockCursorToCenter@{lockCursorToCenter}}
+\index{lockCursorToCenter@{lockCursorToCenter}!MouseController@{MouseController}}
+\doxysubsubsection{\texorpdfstring{lockCursorToCenter}{lockCursorToCenter}}
+{\footnotesize\ttfamily \label{class_mouse_controller_a31202c79c21e93714e65c4dd59f3adfd} 
+bool Mouse\+Controller.\+lock\+Cursor\+To\+Center = false}
+
+
+
+Indica si se debe bloquear el cursor en el centro de la pantalla durante la navegación. 
+
+\Hypertarget{class_mouse_controller_a6cd7a321914d79600050d7b3539fe862}\index{MouseController@{MouseController}!screenEdgeMargin@{screenEdgeMargin}}
+\index{screenEdgeMargin@{screenEdgeMargin}!MouseController@{MouseController}}
+\doxysubsubsection{\texorpdfstring{screenEdgeMargin}{screenEdgeMargin}}
+{\footnotesize\ttfamily \label{class_mouse_controller_a6cd7a321914d79600050d7b3539fe862} 
+float Mouse\+Controller.\+screen\+Edge\+Margin = 10f}
+
+
+
+Margen de pantalla para detener el movimiento (en píxeles). 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+Camera/\mbox{\hyperlink{_mouse_controller_8cs}{Mouse\+Controller.\+cs}}\end{DoxyCompactItemize}

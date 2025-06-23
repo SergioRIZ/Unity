@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_mostrar_texto_desde_boton" kind="class" language="C#" prot="public">
+    <compoundname>MostrarTextoDesdeBoton</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_mostrar_texto_desde_boton_1a647b8e07fca509af6fcbd3842a5ef481" prot="private" static="no" mutable="no">
+        <type><ref refid="class_panel_texto_controller" kindref="compound">PanelTextoController</ref></type>
+        <definition>PanelTextoController MostrarTextoDesdeBoton.panelControllerTexto</definition>
+        <argsstring></argsstring>
+        <name>panelControllerTexto</name>
+        <qualifiedname>MostrarTextoDesdeBoton.panelControllerTexto</qualifiedname>
+        <briefdescription>
+<para>Referencia al controlador del panel de texto. Este campo debe ser asignado en el Inspector. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/MostrarTextoDesdeBoton .cs" line="14" column="35" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/MostrarTextoDesdeBoton .cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mostrar_texto_desde_boton_1a7503c7bc9fa227d48d55f8a2c86f2766" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button MostrarTextoDesdeBoton.thisButton</definition>
+        <argsstring></argsstring>
+        <name>thisButton</name>
+        <qualifiedname>MostrarTextoDesdeBoton.thisButton</qualifiedname>
+        <briefdescription>
+<para>Referencia al componente Button asociado a este GameObject. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/MostrarTextoDesdeBoton .cs" line="19" column="20" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/MostrarTextoDesdeBoton .cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_mostrar_texto_desde_boton_1a00bcf10b00f73f0c112e61bca0e3ebed" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MostrarTextoDesdeBoton.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>MostrarTextoDesdeBoton.Awake</qualifiedname>
+        <briefdescription>
+<para>Método llamado al inicializar el script. Obtiene el componente Button de este GameObject. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/MostrarTextoDesdeBoton .cs" line="25" column="10" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/MostrarTextoDesdeBoton .cs" bodystart="25" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mostrar_texto_desde_boton_1abdce8f4164a238c7fbea213ced4e809c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MostrarTextoDesdeBoton.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>MostrarTextoDesdeBoton.Start</qualifiedname>
+        <briefdescription>
+<para>Método llamado al inicio del script. Configura el evento onClick del botón y asegura que el panel esté oculto al inicio. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/MostrarTextoDesdeBoton .cs" line="35" column="10" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/MostrarTextoDesdeBoton .cs" bodystart="35" bodyend="51"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_mostrar_texto_desde_boton_1a9d8ea732527cb80f5cb9497a535c85d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MostrarTextoDesdeBoton.OcultarPanelTexto</definition>
+        <argsstring>()</argsstring>
+        <name>OcultarPanelTexto</name>
+        <qualifiedname>MostrarTextoDesdeBoton.OcultarPanelTexto</qualifiedname>
+        <briefdescription>
+<para>Método público para ocultar el panel de texto. Puede ser llamado por otros scripts o eventos (como un botón &quot;Cerrar&quot; en la UI). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/MostrarTextoDesdeBoton .cs" line="57" column="17" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/MostrarTextoDesdeBoton .cs" bodystart="57" bodyend="63"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Clase que controla la interacción entre un botón y un panel de texto. Permite mostrar y ocultar un panel de texto al interactuar con el botón. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>MostrarTextoDesdeBoton</label>
+        <link refid="class_mostrar_texto_desde_boton"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>MostrarTextoDesdeBoton</label>
+        <link refid="class_mostrar_texto_desde_boton"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/ScriptsPuntosDeInteres/MostrarTextoDesdeBoton .cs" line="8" column="7" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/MostrarTextoDesdeBoton .cs" bodystart="9" bodyend="64"/>
+    <listofallmembers>
+      <member refid="class_mostrar_texto_desde_boton_1a00bcf10b00f73f0c112e61bca0e3ebed" prot="private" virt="non-virtual"><scope>MostrarTextoDesdeBoton</scope><name>Awake</name></member>
+      <member refid="class_mostrar_texto_desde_boton_1a9d8ea732527cb80f5cb9497a535c85d7" prot="public" virt="non-virtual"><scope>MostrarTextoDesdeBoton</scope><name>OcultarPanelTexto</name></member>
+      <member refid="class_mostrar_texto_desde_boton_1a647b8e07fca509af6fcbd3842a5ef481" prot="private" virt="non-virtual"><scope>MostrarTextoDesdeBoton</scope><name>panelControllerTexto</name></member>
+      <member refid="class_mostrar_texto_desde_boton_1abdce8f4164a238c7fbea213ced4e809c" prot="private" virt="non-virtual"><scope>MostrarTextoDesdeBoton</scope><name>Start</name></member>
+      <member refid="class_mostrar_texto_desde_boton_1a7503c7bc9fa227d48d55f8a2c86f2766" prot="private" virt="non-virtual"><scope>MostrarTextoDesdeBoton</scope><name>thisButton</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

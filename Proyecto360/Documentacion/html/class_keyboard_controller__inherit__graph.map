@@ -1,0 +1,5 @@
+<map id="KeyboardController" name="KeyboardController">
+<area shape="rect" id="Node000001" title="Controlador que maneja la entrada de teclado para la navegación panorámica. Permite controlar la rota..." alt="" coords="5,80,138,107"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="16,5,127,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="74,48,74,80,69,80,69,48"/>
+</map>

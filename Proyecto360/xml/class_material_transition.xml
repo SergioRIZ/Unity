@@ -1,0 +1,520 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_material_transition" kind="class" language="C#" prot="public">
+    <compoundname>MaterialTransition</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_material_transition_1a02598db48fc7e2426c0a338ab2397b61" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MaterialTransition.isFading</definition>
+        <argsstring></argsstring>
+        <name>isFading</name>
+        <qualifiedname>MaterialTransition.isFading</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Indica si actualmente se está realizando una transición. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/MaterialTransition.cs" line="14" column="17" bodyfile="Assets/Scripts/CarouselScript/MaterialTransition.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_material_transition_1a8d4b8e507a1b720ff8702d2af8681760" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MaterialTransition.fadeDuration</definition>
+        <argsstring></argsstring>
+        <name>fadeDuration</name>
+        <qualifiedname>MaterialTransition.fadeDuration</qualifiedname>
+        <initializer>= 2f</initializer>
+        <briefdescription>
+<para>Duración de la transición de fade en segundos. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/MaterialTransition.cs" line="20" column="18" bodyfile="Assets/Scripts/CarouselScript/MaterialTransition.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_material_transition_1a920e577cb7cafe1e4a1e1d74e549a0a8" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MaterialTransition.zoomDistance</definition>
+        <argsstring></argsstring>
+        <name>zoomDistance</name>
+        <qualifiedname>MaterialTransition.zoomDistance</qualifiedname>
+        <initializer>= 3f</initializer>
+        <briefdescription>
+<para>Distancia de zoom en unidades. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/MaterialTransition.cs" line="31" column="18" bodyfile="Assets/Scripts/CarouselScript/MaterialTransition.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_material_transition_1aa40ceadda82ae849f4fbfe19696fb8ad" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MaterialTransition.zoomSpeed</definition>
+        <argsstring></argsstring>
+        <name>zoomSpeed</name>
+        <qualifiedname>MaterialTransition.zoomSpeed</qualifiedname>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+<para>Velocidad del zoom. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/MaterialTransition.cs" line="36" column="18" bodyfile="Assets/Scripts/CarouselScript/MaterialTransition.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_material_transition_1a6009852cadeccf8a8cf03e6d34644d1c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MaterialTransition.zoomFOV</definition>
+        <argsstring></argsstring>
+        <name>zoomFOV</name>
+        <qualifiedname>MaterialTransition.zoomFOV</qualifiedname>
+        <initializer>= 30f</initializer>
+        <briefdescription>
+<para>Campo de visión (FOV) durante el zoom. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/MaterialTransition.cs" line="41" column="18" bodyfile="Assets/Scripts/CarouselScript/MaterialTransition.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_material_transition_1af04dd6b0657ac26de4cd4e0fe7c7193d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MaterialTransition.zoomDuration</definition>
+        <argsstring></argsstring>
+        <name>zoomDuration</name>
+        <qualifiedname>MaterialTransition.zoomDuration</qualifiedname>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+<para>Duración del zoom en segundos. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/MaterialTransition.cs" line="46" column="18" bodyfile="Assets/Scripts/CarouselScript/MaterialTransition.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_material_transition_1a1e3def44adc06dbd7459ab5063706274" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MaterialTransition.fadeDurationWithZoom</definition>
+        <argsstring></argsstring>
+        <name>fadeDurationWithZoom</name>
+        <qualifiedname>MaterialTransition.fadeDurationWithZoom</qualifiedname>
+        <initializer>= 1.5f</initializer>
+        <briefdescription>
+<para>Duración del fade combinado con el zoom en segundos. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/MaterialTransition.cs" line="56" column="18" bodyfile="Assets/Scripts/CarouselScript/MaterialTransition.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_material_transition_1a463421dfdb79c02016de8f52d17ac19f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MaterialTransition.flagBtnCarousel</definition>
+        <argsstring></argsstring>
+        <name>flagBtnCarousel</name>
+        <qualifiedname>MaterialTransition.flagBtnCarousel</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>Bandera para habilitar o deshabilitar los botones del carrusel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/MaterialTransition.cs" line="66" column="17" bodyfile="Assets/Scripts/CarouselScript/MaterialTransition.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_material_transition_1a1bb716699210b63f769ed08ad84e4f26" prot="private" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material MaterialTransition.blendMaterial</definition>
+        <argsstring></argsstring>
+        <name>blendMaterial</name>
+        <qualifiedname>MaterialTransition.blendMaterial</qualifiedname>
+        <briefdescription>
+<para>Material utilizado para realizar la transición del Skybox. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/MaterialTransition.cs" line="25" column="22" bodyfile="Assets/Scripts/CarouselScript/MaterialTransition.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_material_transition_1a675ba685195a2b3a0bfb23859d1f06a0" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 MaterialTransition.originalPosition</definition>
+        <argsstring></argsstring>
+        <name>originalPosition</name>
+        <qualifiedname>MaterialTransition.originalPosition</qualifiedname>
+        <briefdescription>
+<para>Posición original de la cámara antes de realizar el zoom. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/MaterialTransition.cs" line="51" column="21" bodyfile="Assets/Scripts/CarouselScript/MaterialTransition.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_material_transition_1a0292ae6c6b1025b21636963389138072" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MaterialTransition.originalFOV</definition>
+        <argsstring></argsstring>
+        <name>originalFOV</name>
+        <qualifiedname>MaterialTransition.originalFOV</qualifiedname>
+        <briefdescription>
+<para>Campo de visión (FOV) original de la cámara antes de realizar el zoom. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/MaterialTransition.cs" line="61" column="19" bodyfile="Assets/Scripts/CarouselScript/MaterialTransition.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_material_transition_1a8206d26455c804ed72406e835a0d8194" prot="private" static="no" mutable="no">
+        <type><ref refid="class_camera_view" kindref="compound">CameraView</ref></type>
+        <definition>CameraView MaterialTransition.cameraView</definition>
+        <argsstring></argsstring>
+        <name>cameraView</name>
+        <qualifiedname>MaterialTransition.cameraView</qualifiedname>
+        <briefdescription>
+<para>Referencia al controlador de la cámara. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/MaterialTransition.cs" line="71" column="24" bodyfile="Assets/Scripts/CarouselScript/MaterialTransition.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_material_transition_1a43ff0eee11bfcdaf3873dbd8d0a37945" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform MaterialTransition.contenedorFlechas</definition>
+        <argsstring></argsstring>
+        <name>contenedorFlechas</name>
+        <qualifiedname>MaterialTransition.contenedorFlechas</qualifiedname>
+        <briefdescription>
+<para>Referencia al contenedor de flechas (grupos de paneles). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/MaterialTransition.cs" line="76" column="24" bodyfile="Assets/Scripts/CarouselScript/MaterialTransition.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_material_transition_1a5d8e03e9864c7d4cb277ebf7fe66a469" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MaterialTransition.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>MaterialTransition.Awake</qualifiedname>
+        <briefdescription>
+<para>Inicializa el material y el shader necesarios para la transición del Skybox. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/MaterialTransition.cs" line="81" column="18" bodyfile="Assets/Scripts/CarouselScript/MaterialTransition.cs" bodystart="81" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_material_transition_1ab70f933258f200e3cde56b556d704f4b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator MaterialTransition.FadeSkyboxCoroutine</definition>
+        <argsstring>(Texture newTexture)</argsstring>
+        <name>FadeSkyboxCoroutine</name>
+        <qualifiedname>MaterialTransition.FadeSkyboxCoroutine</qualifiedname>
+        <param>
+          <type>Texture</type>
+          <declname>newTexture</declname>
+        </param>
+        <briefdescription>
+<para>Corrutina que realiza la transición de fade entre dos texturas del Skybox. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newTexture</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>La nueva textura hacia la que se realizará la transición.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>IEnumerator para la corrutina.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/MaterialTransition.cs" line="127" column="25" bodyfile="Assets/Scripts/CarouselScript/MaterialTransition.cs" bodystart="127" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="class_material_transition_1ae940b432d6f869e382fdf574a054b094" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator MaterialTransition.CombinedTransition</definition>
+        <argsstring>(Texture newSkybox)</argsstring>
+        <name>CombinedTransition</name>
+        <qualifiedname>MaterialTransition.CombinedTransition</qualifiedname>
+        <param>
+          <type>Texture</type>
+          <declname>newSkybox</declname>
+        </param>
+        <briefdescription>
+<para>Corrutina que realiza una transición combinada de zoom y fade. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newSkybox</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>La nueva textura hacia la que se realizará la transición.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>IEnumerator para la corrutina.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/MaterialTransition.cs" line="176" column="25" bodyfile="Assets/Scripts/CarouselScript/MaterialTransition.cs" bodystart="176" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="class_material_transition_1a6f37588729c2d6f9a3c8b55228e8cd11" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator MaterialTransition.FadeAndZoomSkybox</definition>
+        <argsstring>(Texture newTexture)</argsstring>
+        <name>FadeAndZoomSkybox</name>
+        <qualifiedname>MaterialTransition.FadeAndZoomSkybox</qualifiedname>
+        <param>
+          <type>Texture</type>
+          <declname>newTexture</declname>
+        </param>
+        <briefdescription>
+<para>Corrutina que realiza una transición de fade mientras se aplica un zoom. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newTexture</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>La nueva textura hacia la que se realizará la transición.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>IEnumerator para la corrutina.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/MaterialTransition.cs" line="200" column="25" bodyfile="Assets/Scripts/CarouselScript/MaterialTransition.cs" bodystart="200" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="class_material_transition_1a99efe4342522d50369feccf47e5a9067" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator MaterialTransition.ZoomInDirection</definition>
+        <argsstring>(bool reverse=false)</argsstring>
+        <name>ZoomInDirection</name>
+        <qualifiedname>MaterialTransition.ZoomInDirection</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>reverse</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Corrutina que realiza un zoom hacia adelante o hacia atrás. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>reverse</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Indica si el zoom debe ser hacia atrás (true) o hacia adelante (false).</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>IEnumerator para la corrutina.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/MaterialTransition.cs" line="238" column="25" bodyfile="Assets/Scripts/CarouselScript/MaterialTransition.cs" bodystart="238" bodyend="270"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_material_transition_1a83b0292e8b95ec3aaf9b433b60977899" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MaterialTransition.FadeTo</definition>
+        <argsstring>(Texture newTexture)</argsstring>
+        <name>FadeTo</name>
+        <qualifiedname>MaterialTransition.FadeTo</qualifiedname>
+        <param>
+          <type>Texture</type>
+          <declname>newTexture</declname>
+        </param>
+        <briefdescription>
+<para>Inicia una transición de fade hacia una nueva textura de Skybox. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newTexture</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>La nueva textura hacia la que se realizará la transición.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/MaterialTransition.cs" line="103" column="17" bodyfile="Assets/Scripts/CarouselScript/MaterialTransition.cs" bodystart="103" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_material_transition_1abd2807e65fec6d3b0e03ae4e832ecabf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MaterialTransition.StartTransition</definition>
+        <argsstring>(Texture skyboxTexture)</argsstring>
+        <name>StartTransition</name>
+        <qualifiedname>MaterialTransition.StartTransition</qualifiedname>
+        <param>
+          <type>Texture</type>
+          <declname>skyboxTexture</declname>
+        </param>
+        <briefdescription>
+<para>Inicia una transición combinada de zoom y fade hacia una nueva textura de Skybox. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>skyboxTexture</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>La nueva textura hacia la que se realizará la transición.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/MaterialTransition.cs" line="165" column="17" bodyfile="Assets/Scripts/CarouselScript/MaterialTransition.cs" bodystart="165" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="class_material_transition_1aea238828be154c64c53910e625554f6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_panel_video_controller_con_subtitulos" kindref="compound">PanelVideoControllerConSubtitulos</ref> &gt;</type>
+        <definition>List&lt; PanelVideoControllerConSubtitulos &gt; MaterialTransition.FindAllVideoPanels</definition>
+        <argsstring>()</argsstring>
+        <name>FindAllVideoPanels</name>
+        <qualifiedname>MaterialTransition.FindAllVideoPanels</qualifiedname>
+        <briefdescription>
+<para>Busca todas las referencias a scripts <ref refid="class_panel_video_controller_con_subtitulos" kindref="compound">PanelVideoControllerConSubtitulos</ref> en los grupos activos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Lista de referencias a <ref refid="class_panel_video_controller_con_subtitulos" kindref="compound">PanelVideoControllerConSubtitulos</ref>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/MaterialTransition.cs" line="276" column="17" bodyfile="Assets/Scripts/CarouselScript/MaterialTransition.cs" bodystart="276" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="class_material_transition_1a3cc2d2e446b15713fadadf257864aaa7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_panel_imagen_controller" kindref="compound">PanelImagenController</ref> &gt;</type>
+        <definition>List&lt; PanelImagenController &gt; MaterialTransition.FindAllImagePanels</definition>
+        <argsstring>()</argsstring>
+        <name>FindAllImagePanels</name>
+        <qualifiedname>MaterialTransition.FindAllImagePanels</qualifiedname>
+        <briefdescription>
+<para>Busca todas las referencias a scripts <ref refid="class_panel_imagen_controller" kindref="compound">PanelImagenController</ref> en los grupos activos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Lista de referencias a <ref refid="class_panel_imagen_controller" kindref="compound">PanelImagenController</ref>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/MaterialTransition.cs" line="296" column="17" bodyfile="Assets/Scripts/CarouselScript/MaterialTransition.cs" bodystart="296" bodyend="310"/>
+      </memberdef>
+      <memberdef kind="function" id="class_material_transition_1ae70a745e1ebd147dc19e973b6be34cf8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MaterialTransition.ApagarTodosLosPaneles</definition>
+        <argsstring>()</argsstring>
+        <name>ApagarTodosLosPaneles</name>
+        <qualifiedname>MaterialTransition.ApagarTodosLosPaneles</qualifiedname>
+        <briefdescription>
+<para>Apaga todos los paneles de video e imagen antes de realizar la transición. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/MaterialTransition.cs" line="315" column="17" bodyfile="Assets/Scripts/CarouselScript/MaterialTransition.cs" bodystart="315" bodyend="328"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Clase que gestiona las transiciones de materiales del Skybox, incluyendo efectos de fade y zoom. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MaterialTransition</label>
+        <link refid="class_material_transition"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MaterialTransition</label>
+        <link refid="class_material_transition"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/CarouselScript/MaterialTransition.cs" line="9" column="7" bodyfile="Assets/Scripts/CarouselScript/MaterialTransition.cs" bodystart="10" bodyend="329"/>
+    <listofallmembers>
+      <member refid="class_material_transition_1ae70a745e1ebd147dc19e973b6be34cf8" prot="public" virt="non-virtual"><scope>MaterialTransition</scope><name>ApagarTodosLosPaneles</name></member>
+      <member refid="class_material_transition_1a5d8e03e9864c7d4cb277ebf7fe66a469" prot="private" virt="non-virtual"><scope>MaterialTransition</scope><name>Awake</name></member>
+      <member refid="class_material_transition_1a1bb716699210b63f769ed08ad84e4f26" prot="private" virt="non-virtual"><scope>MaterialTransition</scope><name>blendMaterial</name></member>
+      <member refid="class_material_transition_1a8206d26455c804ed72406e835a0d8194" prot="private" virt="non-virtual"><scope>MaterialTransition</scope><name>cameraView</name></member>
+      <member refid="class_material_transition_1ae940b432d6f869e382fdf574a054b094" prot="private" virt="non-virtual"><scope>MaterialTransition</scope><name>CombinedTransition</name></member>
+      <member refid="class_material_transition_1a43ff0eee11bfcdaf3873dbd8d0a37945" prot="private" virt="non-virtual"><scope>MaterialTransition</scope><name>contenedorFlechas</name></member>
+      <member refid="class_material_transition_1a6f37588729c2d6f9a3c8b55228e8cd11" prot="private" virt="non-virtual"><scope>MaterialTransition</scope><name>FadeAndZoomSkybox</name></member>
+      <member refid="class_material_transition_1a8d4b8e507a1b720ff8702d2af8681760" prot="public" virt="non-virtual"><scope>MaterialTransition</scope><name>fadeDuration</name></member>
+      <member refid="class_material_transition_1a1e3def44adc06dbd7459ab5063706274" prot="public" virt="non-virtual"><scope>MaterialTransition</scope><name>fadeDurationWithZoom</name></member>
+      <member refid="class_material_transition_1ab70f933258f200e3cde56b556d704f4b" prot="private" virt="non-virtual"><scope>MaterialTransition</scope><name>FadeSkyboxCoroutine</name></member>
+      <member refid="class_material_transition_1a83b0292e8b95ec3aaf9b433b60977899" prot="public" virt="non-virtual"><scope>MaterialTransition</scope><name>FadeTo</name></member>
+      <member refid="class_material_transition_1a3cc2d2e446b15713fadadf257864aaa7" prot="public" virt="non-virtual"><scope>MaterialTransition</scope><name>FindAllImagePanels</name></member>
+      <member refid="class_material_transition_1aea238828be154c64c53910e625554f6e" prot="public" virt="non-virtual"><scope>MaterialTransition</scope><name>FindAllVideoPanels</name></member>
+      <member refid="class_material_transition_1a463421dfdb79c02016de8f52d17ac19f" prot="public" virt="non-virtual"><scope>MaterialTransition</scope><name>flagBtnCarousel</name></member>
+      <member refid="class_material_transition_1a02598db48fc7e2426c0a338ab2397b61" prot="public" virt="non-virtual"><scope>MaterialTransition</scope><name>isFading</name></member>
+      <member refid="class_material_transition_1a0292ae6c6b1025b21636963389138072" prot="private" virt="non-virtual"><scope>MaterialTransition</scope><name>originalFOV</name></member>
+      <member refid="class_material_transition_1a675ba685195a2b3a0bfb23859d1f06a0" prot="private" virt="non-virtual"><scope>MaterialTransition</scope><name>originalPosition</name></member>
+      <member refid="class_material_transition_1abd2807e65fec6d3b0e03ae4e832ecabf" prot="public" virt="non-virtual"><scope>MaterialTransition</scope><name>StartTransition</name></member>
+      <member refid="class_material_transition_1a920e577cb7cafe1e4a1e1d74e549a0a8" prot="public" virt="non-virtual"><scope>MaterialTransition</scope><name>zoomDistance</name></member>
+      <member refid="class_material_transition_1af04dd6b0657ac26de4cd4e0fe7c7193d" prot="public" virt="non-virtual"><scope>MaterialTransition</scope><name>zoomDuration</name></member>
+      <member refid="class_material_transition_1a6009852cadeccf8a8cf03e6d34644d1c" prot="public" virt="non-virtual"><scope>MaterialTransition</scope><name>zoomFOV</name></member>
+      <member refid="class_material_transition_1a99efe4342522d50369feccf47e5a9067" prot="private" virt="non-virtual"><scope>MaterialTransition</scope><name>ZoomInDirection</name></member>
+      <member refid="class_material_transition_1aa40ceadda82ae849f4fbfe19696fb8ad" prot="public" virt="non-virtual"><scope>MaterialTransition</scope><name>zoomSpeed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

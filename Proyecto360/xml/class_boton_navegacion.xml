@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_boton_navegacion" kind="class" language="C#" prot="public">
+    <compoundname>BotonNavegacion</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerEnterHandler</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPointerExitHandler</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_boton_navegacion_1ac53328ef2d74be4779ed8e95f93a7846" prot="private" static="no" mutable="no">
+        <type>TMP_Text</type>
+        <definition>TMP_Text BotonNavegacion.tooltipText</definition>
+        <argsstring></argsstring>
+        <name>tooltipText</name>
+        <qualifiedname>BotonNavegacion.tooltipText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/NavigationButton.cs" line="16" column="22" bodyfile="Assets/Scripts/Scripts Flechas/NavigationButton.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_boton_navegacion_1a058168e7099994149f5463ec9b3afe8b" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject BotonNavegacion.content</definition>
+        <argsstring></argsstring>
+        <name>content</name>
+        <qualifiedname>BotonNavegacion.content</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/NavigationButton.cs" line="18" column="25" bodyfile="Assets/Scripts/Scripts Flechas/NavigationButton.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_boton_navegacion_1ab4ec147e6ddda99323d1c160c57184c2" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject BotonNavegacion.contentAndroid</definition>
+        <argsstring></argsstring>
+        <name>contentAndroid</name>
+        <qualifiedname>BotonNavegacion.contentAndroid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/NavigationButton.cs" line="19" column="25" bodyfile="Assets/Scripts/Scripts Flechas/NavigationButton.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_boton_navegacion_1ace0c4a7f66dc104c782cd37d4f6dc063" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject BotonNavegacion.finalContent</definition>
+        <argsstring></argsstring>
+        <name>finalContent</name>
+        <qualifiedname>BotonNavegacion.finalContent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/NavigationButton.cs" line="20" column="24" bodyfile="Assets/Scripts/Scripts Flechas/NavigationButton.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_boton_navegacion_1a9e81bf63a11dc1072af107b5b5fa0d13" prot="private" static="no" mutable="no">
+        <type><ref refid="class_scene_controllers" kindref="compound">SceneControllers</ref></type>
+        <definition>SceneControllers BotonNavegacion.sceneControllers</definition>
+        <argsstring></argsstring>
+        <name>sceneControllers</name>
+        <qualifiedname>BotonNavegacion.sceneControllers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/NavigationButton.cs" line="21" column="30" bodyfile="Assets/Scripts/Scripts Flechas/NavigationButton.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_boton_navegacion_1a6a98a6d5e7b8cc25208edfd41c1c65c9" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BotonNavegacion.nombreBoton</definition>
+        <argsstring></argsstring>
+        <name>nombreBoton</name>
+        <qualifiedname>BotonNavegacion.nombreBoton</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/NavigationButton.cs" line="22" column="20" bodyfile="Assets/Scripts/Scripts Flechas/NavigationButton.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_boton_navegacion_1a048efd3dc9cf4d0d9afb09eea413c3a2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BotonNavegacion.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>BotonNavegacion.Start</qualifiedname>
+        <briefdescription>
+<para>Inicializa el componente, asigna el listener al botón y configura el tooltip y el contenedor según la plataforma. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/NavigationButton.cs" line="27" column="18" bodyfile="Assets/Scripts/Scripts Flechas/NavigationButton.cs" bodystart="27" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_boton_navegacion_1a33f7625413ac81f7659da979d1bd9200" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BotonNavegacion.CambiarVista</definition>
+        <argsstring>()</argsstring>
+        <name>CambiarVista</name>
+        <qualifiedname>BotonNavegacion.CambiarVista</qualifiedname>
+        <briefdescription>
+<para>Cambia la vista, actualiza el Skybox, activa/desactiva elementos de UI y oculta el tooltip. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/NavigationButton.cs" line="64" column="18" bodyfile="Assets/Scripts/Scripts Flechas/NavigationButton.cs" bodystart="64" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_boton_navegacion_1aad169643baad18f24b394a0850a65c79" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string BotonNavegacion.NormalizeTextureName</definition>
+        <argsstring>(string name)</argsstring>
+        <name>NormalizeTextureName</name>
+        <qualifiedname>BotonNavegacion.NormalizeTextureName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Normaliza el nombre de la textura eliminando el primer carácter si hay un guion bajo en la posición 2. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nombre original de la textura.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Nombre normalizado de la textura.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/NavigationButton.cs" line="148" column="20" bodyfile="Assets/Scripts/Scripts Flechas/NavigationButton.cs" bodystart="148" bodyend="157"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_boton_navegacion_1adea9513da210eb2c6766281cbceb7ac0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BotonNavegacion.OnPointerEnter</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerEnter</name>
+        <qualifiedname>BotonNavegacion.OnPointerEnter</qualifiedname>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+<para>Muestra el nombre del material en el tooltip al pasar el ratón sobre el botón. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eventData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Datos del evento del puntero.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/NavigationButton.cs" line="109" column="17" bodyfile="Assets/Scripts/Scripts Flechas/NavigationButton.cs" bodystart="109" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_boton_navegacion_1a8dfb7fad4b4fc166aabfaa33a6fe04d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BotonNavegacion.OnPointerExit</definition>
+        <argsstring>(PointerEventData eventData)</argsstring>
+        <name>OnPointerExit</name>
+        <qualifiedname>BotonNavegacion.OnPointerExit</qualifiedname>
+        <param>
+          <type>PointerEventData</type>
+          <declname>eventData</declname>
+        </param>
+        <briefdescription>
+<para>Oculta el tooltip al quitar el ratón del botón. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eventData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Datos del evento del puntero.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/NavigationButton.cs" line="123" column="17" bodyfile="Assets/Scripts/Scripts Flechas/NavigationButton.cs" bodystart="123" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_boton_navegacion_1ae5b9f21d59ad05fa4aa3b377680daf7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BotonNavegacion.Inicializar</definition>
+        <argsstring>(GameObject content, GameObject contentAndroid)</argsstring>
+        <name>Inicializar</name>
+        <qualifiedname>BotonNavegacion.Inicializar</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>content</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>contentAndroid</declname>
+        </param>
+        <briefdescription>
+<para>Inicializa las referencias a los contenedores de contenido para las diferentes plataformas. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>content</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Contenedor para plataformas no Android.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>contentAndroid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Contenedor para Android.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Scripts Flechas/NavigationButton.cs" line="137" column="17" bodyfile="Assets/Scripts/Scripts Flechas/NavigationButton.cs" bodystart="137" bodyend="141"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Componente que gestiona la navegación entre vistas mediante botones, mostrando tooltips y adaptando el comportamiento según la plataforma (Android/WebGL/PC). </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BotonNavegacion</label>
+        <link refid="class_boton_navegacion"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IPointerEnterHandler</label>
+      </node>
+      <node id="4">
+        <label>IPointerExitHandler</label>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BotonNavegacion</label>
+        <link refid="class_boton_navegacion"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IPointerEnterHandler</label>
+      </node>
+      <node id="4">
+        <label>IPointerExitHandler</label>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/Scripts Flechas/NavigationButton.cs" line="12" column="7" bodyfile="Assets/Scripts/Scripts Flechas/NavigationButton.cs" bodystart="13" bodyend="158"/>
+    <listofallmembers>
+      <member refid="class_boton_navegacion_1a33f7625413ac81f7659da979d1bd9200" prot="private" virt="non-virtual"><scope>BotonNavegacion</scope><name>CambiarVista</name></member>
+      <member refid="class_boton_navegacion_1a058168e7099994149f5463ec9b3afe8b" prot="private" virt="non-virtual"><scope>BotonNavegacion</scope><name>content</name></member>
+      <member refid="class_boton_navegacion_1ab4ec147e6ddda99323d1c160c57184c2" prot="private" virt="non-virtual"><scope>BotonNavegacion</scope><name>contentAndroid</name></member>
+      <member refid="class_boton_navegacion_1ace0c4a7f66dc104c782cd37d4f6dc063" prot="private" virt="non-virtual"><scope>BotonNavegacion</scope><name>finalContent</name></member>
+      <member refid="class_boton_navegacion_1ae5b9f21d59ad05fa4aa3b377680daf7a" prot="public" virt="non-virtual"><scope>BotonNavegacion</scope><name>Inicializar</name></member>
+      <member refid="class_boton_navegacion_1a6a98a6d5e7b8cc25208edfd41c1c65c9" prot="private" virt="non-virtual"><scope>BotonNavegacion</scope><name>nombreBoton</name></member>
+      <member refid="class_boton_navegacion_1aad169643baad18f24b394a0850a65c79" prot="private" virt="non-virtual"><scope>BotonNavegacion</scope><name>NormalizeTextureName</name></member>
+      <member refid="class_boton_navegacion_1adea9513da210eb2c6766281cbceb7ac0" prot="public" virt="non-virtual"><scope>BotonNavegacion</scope><name>OnPointerEnter</name></member>
+      <member refid="class_boton_navegacion_1a8dfb7fad4b4fc166aabfaa33a6fe04d3" prot="public" virt="non-virtual"><scope>BotonNavegacion</scope><name>OnPointerExit</name></member>
+      <member refid="class_boton_navegacion_1a9e81bf63a11dc1072af107b5b5fa0d13" prot="private" virt="non-virtual"><scope>BotonNavegacion</scope><name>sceneControllers</name></member>
+      <member refid="class_boton_navegacion_1a048efd3dc9cf4d0d9afb09eea413c3a2" prot="private" virt="non-virtual"><scope>BotonNavegacion</scope><name>Start</name></member>
+      <member refid="class_boton_navegacion_1ac53328ef2d74be4779ed8e95f93a7846" prot="private" virt="non-virtual"><scope>BotonNavegacion</scope><name>tooltipText</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

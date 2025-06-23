@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_input_controller" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>InputController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <derivedcompoundref refid="class_mouse_controller" prot="public" virt="non-virtual">MouseController</derivedcompoundref>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_input_controller_1aa76c145fa15228c6596c0be6a06dd7cc" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_camera_view" kindref="compound">CameraView</ref></type>
+        <definition>CameraView InputController.parentController</definition>
+        <argsstring></argsstring>
+        <name>parentController</name>
+        <qualifiedname>InputController.parentController</qualifiedname>
+        <briefdescription>
+<para>Referencia al controlador principal de la cámara. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/InputControllers.cs" line="13" column="26" bodyfile="Assets/Scripts/Camera/InputControllers.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_input_controller_1af6e636754f4469382cc2d31045c8b2e6" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InputController.isInitialized</definition>
+        <argsstring></argsstring>
+        <name>isInitialized</name>
+        <qualifiedname>InputController.isInitialized</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Indica si el controlador ha sido inicializado correctamente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/InputControllers.cs" line="18" column="20" bodyfile="Assets/Scripts/Camera/InputControllers.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_input_controller_1a6b2a5ac295a9397dbbbe61b2ad03c94a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void InputController.Initialize</definition>
+        <argsstring>(CameraView controller)</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>InputController.Initialize</qualifiedname>
+        <reimplementedby refid="class_mouse_controller_1a46ad414f648fe501f93ddf9fe7cd8fc6">Initialize</reimplementedby>
+        <param>
+          <type><ref refid="class_camera_view" kindref="compound">CameraView</ref></type>
+          <declname>controller</declname>
+        </param>
+        <briefdescription>
+<para>Inicializa el controlador con una referencia al controlador principal. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controller</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>El controlador de cámara principal.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/InputControllers.cs" line="24" column="25" bodyfile="Assets/Scripts/Camera/InputControllers.cs" bodystart="24" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_input_controller_1a54852849a46ab1f2c17838cd46852f1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void InputController.SetEnabled</definition>
+        <argsstring>(bool enabled)</argsstring>
+        <name>SetEnabled</name>
+        <qualifiedname>InputController.SetEnabled</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>enabled</declname>
+        </param>
+        <briefdescription>
+<para>Habilita o deshabilita este controlador de entrada. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>enabled</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Si el controlador debe estar habilitado.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/InputControllers.cs" line="64" column="25" bodyfile="Assets/Scripts/Camera/InputControllers.cs" bodystart="64" bodyend="67"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_input_controller_1a8bbd09a74fac8deb62e4f8359cde1412" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool InputController.CheckInitialization</definition>
+        <argsstring>()</argsstring>
+        <name>CheckInitialization</name>
+        <qualifiedname>InputController.CheckInitialization</qualifiedname>
+        <briefdescription>
+<para>Método de seguridad para verificar la inicialización del controlador. Si no está inicializado, intenta encontrar y asignar automáticamente un <ref refid="class_camera_view" kindref="compound">CameraView</ref> en la escena. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True si la inicialización es correcta o se ha realizado correctamente; false si no se pudo inicializar.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/InputControllers.cs" line="36" column="28" bodyfile="Assets/Scripts/Camera/InputControllers.cs" bodystart="36" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_input_controller_1a511313045ea3715e5204a11c7943af0c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void InputController.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>InputController.Awake</qualifiedname>
+        <reimplementedby refid="class_mouse_controller_1ae5d05c1123ea8c383e02a11adfa1a8c2">Awake</reimplementedby>
+        <briefdescription>
+<para>Método llamado al inicializar el componente. No realiza ninguna acción por defecto; la inicialización se realiza desde <ref refid="class_camera_view" kindref="compound">CameraView</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/InputControllers.cs" line="73" column="28" bodyfile="Assets/Scripts/Camera/InputControllers.cs" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_input_controller_1a4839ea55de6c2ea6e157f3e53175c514" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void InputController.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>InputController.Start</qualifiedname>
+        <briefdescription>
+<para>Método llamado al iniciar el componente. Verifica la inicialización en caso de que no se haya llamado a <ref refid="class_input_controller_1a6b2a5ac295a9397dbbbe61b2ad03c94a" kindref="member">Initialize(CameraView)</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/InputControllers.cs" line="82" column="28" bodyfile="Assets/Scripts/Camera/InputControllers.cs" bodystart="82" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_input_controller_1adc29d82c94846d7b33e1c2b81296dbef" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void InputController.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>InputController.OnEnable</qualifiedname>
+        <reimplementedby refid="class_mouse_controller_1a70e441428b58ae0879d784d81c2d8883">OnEnable</reimplementedby>
+        <briefdescription>
+<para>Método llamado cuando el componente se habilita. Verifica la inicialización si aún no se ha realizado. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/InputControllers.cs" line="95" column="28" bodyfile="Assets/Scripts/Camera/InputControllers.cs" bodystart="95" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_input_controller_1abbaab755554d4bc2b17a1fedb38c27ca" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void InputController.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>InputController.Update</qualifiedname>
+        <reimplementedby refid="class_mouse_controller_1a0a3db4b903f1cbcb3158142d47039de8">Update</reimplementedby>
+        <briefdescription>
+<para>Método de actualización llamado en cada frame. Verifica la inicialización antes de ejecutar la lógica de entrada. Las clases derivadas deben sobrescribir este método para implementar el control específico. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/InputControllers.cs" line="109" column="28" bodyfile="Assets/Scripts/Camera/InputControllers.cs" bodystart="109" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_input_controller_1a3f12d6705ab69245aec44511673d873d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void InputController.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>InputController.OnDisable</qualifiedname>
+        <reimplementedby refid="class_mouse_controller_1a44d0abc11a8c10e58f6602bcd01b1953">OnDisable</reimplementedby>
+        <briefdescription>
+<para>Método llamado cuando el componente se deshabilita. Proporciona un punto de extensión para limpieza en clases derivadas. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/InputControllers.cs" line="124" column="28" bodyfile="Assets/Scripts/Camera/InputControllers.cs" bodystart="124" bodyend="127"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Clase base abstracta para todos los controladores de entrada de cámara. Proporciona lógica común de inicialización, verificación de estado y habilitación/deshabilitación. Las clases derivadas deben sobrescribir los métodos relevantes para implementar el control específico. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>InputController</label>
+        <link refid="class_input_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="3">
+        <label>MouseController</label>
+        <link refid="class_mouse_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>CameraView</label>
+        <link refid="class_camera_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>InputController</label>
+        <link refid="class_input_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>parentController</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/Camera/InputControllers.cs" line="8" column="17" bodyfile="Assets/Scripts/Camera/InputControllers.cs" bodystart="9" bodyend="128"/>
+    <listofallmembers>
+      <member refid="class_input_controller_1a511313045ea3715e5204a11c7943af0c" prot="protected" virt="virtual"><scope>InputController</scope><name>Awake</name></member>
+      <member refid="class_input_controller_1a8bbd09a74fac8deb62e4f8359cde1412" prot="protected" virt="virtual"><scope>InputController</scope><name>CheckInitialization</name></member>
+      <member refid="class_input_controller_1a6b2a5ac295a9397dbbbe61b2ad03c94a" prot="public" virt="virtual"><scope>InputController</scope><name>Initialize</name></member>
+      <member refid="class_input_controller_1af6e636754f4469382cc2d31045c8b2e6" prot="protected" virt="non-virtual"><scope>InputController</scope><name>isInitialized</name></member>
+      <member refid="class_input_controller_1a3f12d6705ab69245aec44511673d873d" prot="protected" virt="virtual"><scope>InputController</scope><name>OnDisable</name></member>
+      <member refid="class_input_controller_1adc29d82c94846d7b33e1c2b81296dbef" prot="protected" virt="virtual"><scope>InputController</scope><name>OnEnable</name></member>
+      <member refid="class_input_controller_1aa76c145fa15228c6596c0be6a06dd7cc" prot="protected" virt="non-virtual"><scope>InputController</scope><name>parentController</name></member>
+      <member refid="class_input_controller_1a54852849a46ab1f2c17838cd46852f1c" prot="public" virt="virtual"><scope>InputController</scope><name>SetEnabled</name></member>
+      <member refid="class_input_controller_1a4839ea55de6c2ea6e157f3e53175c514" prot="protected" virt="virtual"><scope>InputController</scope><name>Start</name></member>
+      <member refid="class_input_controller_1abbaab755554d4bc2b17a1fedb38c27ca" prot="protected" virt="virtual"><scope>InputController</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

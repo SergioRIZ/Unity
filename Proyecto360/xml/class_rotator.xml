@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_rotator" kind="class" language="C#" prot="public">
+    <compoundname>Rotator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_rotator_1a48d4cc4483562723f80a525772022862" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Rotator.rotationSpeed</definition>
+        <argsstring></argsstring>
+        <name>rotationSpeed</name>
+        <qualifiedname>Rotator.rotationSpeed</qualifiedname>
+        <initializer>= 10f</initializer>
+        <briefdescription>
+<para>Velocidad de rotación en grados por segundo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/Rotator.cs" line="12" column="18" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/Rotator.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rotator_1ab4a3a2be406fa1f344a1b5ba294b99ba" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 Rotator.rotationAxis</definition>
+        <argsstring></argsstring>
+        <name>rotationAxis</name>
+        <qualifiedname>Rotator.rotationAxis</qualifiedname>
+        <initializer>= Vector3.up</initializer>
+        <briefdescription>
+<para>Eje alrededor del cual el objeto rotará. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/Rotator.cs" line="18" column="20" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/Rotator.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_rotator_1a5b573a6122b39499ebd67d6db7c905e9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Rotator.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>Rotator.Update</qualifiedname>
+        <briefdescription>
+<para>Llama a Transform.Rotate(Vector3, float) cada frame para rotar el objeto. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/Rotator.cs" line="23" column="10" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/Rotator.cs" bodystart="23" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Componente que rota el GameObject al que está adjunto alrededor de un eje especificado a una velocidad determinada. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Rotator</label>
+        <link refid="class_rotator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Rotator</label>
+        <link refid="class_rotator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/ScriptsPuntosDeInteres/Rotator.cs" line="6" column="7" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/Rotator.cs" bodystart="7" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_rotator_1ab4a3a2be406fa1f344a1b5ba294b99ba" prot="public" virt="non-virtual"><scope>Rotator</scope><name>rotationAxis</name></member>
+      <member refid="class_rotator_1a48d4cc4483562723f80a525772022862" prot="public" virt="non-virtual"><scope>Rotator</scope><name>rotationSpeed</name></member>
+      <member refid="class_rotator_1a5b573a6122b39499ebd67d6db7c905e9" prot="private" virt="non-virtual"><scope>Rotator</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

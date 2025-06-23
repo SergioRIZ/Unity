@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="dir_e2676494dffcb413510315a21517f430" kind="dir">
+    <compoundname>Assets/Scripts/MenuPrincipal</compoundname>
+    <innerfile refid="_gradient_background_8cs">GradientBackground.cs</innerfile>
+    <innerfile refid="_main_script_8cs">MainScript.cs</innerfile>
+    <innerfile refid="_orientation_adapter_8cs">OrientationAdapter.cs</innerfile>
+    <innerfile refid="_pattern_overlay_8cs">PatternOverlay.cs</innerfile>
+    <innerfile refid="_swipe_menu_8cs">SwipeMenu.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Assets/Scripts/MenuPrincipal/"/>
+  </compounddef>
+</doxygen>

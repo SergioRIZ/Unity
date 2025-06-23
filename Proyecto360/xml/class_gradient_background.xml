@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_gradient_background" kind="class" language="C#" prot="public">
+    <compoundname>GradientBackground</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_gradient_background_1a7840a5c3bcb05ff0baf7a29e3f89cfef" prot="public" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color GradientBackground.colorCentro</definition>
+        <argsstring></argsstring>
+        <name>colorCentro</name>
+        <qualifiedname>GradientBackground.colorCentro</qualifiedname>
+        <initializer>= new Color(0.15f, 0.2f, 0.35f)</initializer>
+        <briefdescription>
+<para>Color en el centro del gradiente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/GradientBackground.cs" line="14" column="18" bodyfile="Assets/Scripts/MenuPrincipal/GradientBackground.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gradient_background_1a277849cbd6ee70e26eebb52725f80379" prot="public" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color GradientBackground.colorBorde</definition>
+        <argsstring></argsstring>
+        <name>colorBorde</name>
+        <qualifiedname>GradientBackground.colorBorde</qualifiedname>
+        <initializer>= new Color(0.08f, 0.12f, 0.25f)</initializer>
+        <briefdescription>
+<para>Color en el borde del gradiente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/GradientBackground.cs" line="19" column="18" bodyfile="Assets/Scripts/MenuPrincipal/GradientBackground.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gradient_background_1af8aa1ae262dc07bad30c243bff67d994" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GradientBackground.tamañoTextura</definition>
+        <argsstring></argsstring>
+        <name>tamañoTextura</name>
+        <qualifiedname>GradientBackground.tamañoTextura</qualifiedname>
+        <initializer>= 1024</initializer>
+        <briefdescription>
+<para>Tamaño de la textura generada para el gradiente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/GradientBackground.cs" line="26" column="16" bodyfile="Assets/Scripts/MenuPrincipal/GradientBackground.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gradient_background_1a3ff5bda45f762613bf0440b7f31061a7" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float GradientBackground.intensidadGradiente</definition>
+        <argsstring></argsstring>
+        <name>intensidadGradiente</name>
+        <qualifiedname>GradientBackground.intensidadGradiente</qualifiedname>
+        <initializer>= 1.2f</initializer>
+        <briefdescription>
+<para>Controla la suavidad de la transición del gradiente (exponente de la curva). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/GradientBackground.cs" line="32" column="18" bodyfile="Assets/Scripts/MenuPrincipal/GradientBackground.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gradient_background_1a243acbf7c5e0ffe9f583950ce9a1082d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float GradientBackground.intensidadRuido</definition>
+        <argsstring></argsstring>
+        <name>intensidadRuido</name>
+        <qualifiedname>GradientBackground.intensidadRuido</qualifiedname>
+        <initializer>= 0.015f</initializer>
+        <briefdescription>
+<para>Intensidad del ruido Perlin aplicado para evitar bandas de color. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/GradientBackground.cs" line="38" column="18" bodyfile="Assets/Scripts/MenuPrincipal/GradientBackground.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_gradient_background_1a275ecad4eca4c182aaeb227998fcb169" prot="private" static="no" mutable="no">
+        <type>Image</type>
+        <definition>Image GradientBackground.image</definition>
+        <argsstring></argsstring>
+        <name>image</name>
+        <qualifiedname>GradientBackground.image</qualifiedname>
+        <briefdescription>
+<para>Referencia al componente Image donde se aplicará el gradiente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/GradientBackground.cs" line="43" column="19" bodyfile="Assets/Scripts/MenuPrincipal/GradientBackground.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_gradient_background_1af8baa7248ac249e270eea48141b43774" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GradientBackground.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>GradientBackground.Awake</qualifiedname>
+        <briefdescription>
+<para>Inicializa la referencia al componente Image. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/GradientBackground.cs" line="48" column="10" bodyfile="Assets/Scripts/MenuPrincipal/GradientBackground.cs" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gradient_background_1a9f9cf2bf0ae55dd72c9a76fc3c8fbeeb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GradientBackground.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>GradientBackground.Start</qualifiedname>
+        <briefdescription>
+<para>Genera el fondo de gradiente suave al iniciar el componente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/GradientBackground.cs" line="56" column="10" bodyfile="Assets/Scripts/MenuPrincipal/GradientBackground.cs" bodystart="56" bodyend="59"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_gradient_background_1a9b532bc1a192962a01188c01d4e2ba31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GradientBackground.GenerarFondoSuave</definition>
+        <argsstring>()</argsstring>
+        <name>GenerarFondoSuave</name>
+        <qualifiedname>GradientBackground.GenerarFondoSuave</qualifiedname>
+        <briefdescription>
+<para>Genera una textura de gradiente radial suave con ruido sutil y la aplica como sprite al componente Image. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/MenuPrincipal/GradientBackground.cs" line="64" column="17" bodyfile="Assets/Scripts/MenuPrincipal/GradientBackground.cs" bodystart="64" bodyend="108"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Componente que genera un fondo de gradiente radial suave con ruido sutil para una imagen de UI en Unity. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GradientBackground</label>
+        <link refid="class_gradient_background"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GradientBackground</label>
+        <link refid="class_gradient_background"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/MenuPrincipal/GradientBackground.cs" line="8" column="7" bodyfile="Assets/Scripts/MenuPrincipal/GradientBackground.cs" bodystart="9" bodyend="109"/>
+    <listofallmembers>
+      <member refid="class_gradient_background_1af8baa7248ac249e270eea48141b43774" prot="private" virt="non-virtual"><scope>GradientBackground</scope><name>Awake</name></member>
+      <member refid="class_gradient_background_1a277849cbd6ee70e26eebb52725f80379" prot="public" virt="non-virtual"><scope>GradientBackground</scope><name>colorBorde</name></member>
+      <member refid="class_gradient_background_1a7840a5c3bcb05ff0baf7a29e3f89cfef" prot="public" virt="non-virtual"><scope>GradientBackground</scope><name>colorCentro</name></member>
+      <member refid="class_gradient_background_1a9b532bc1a192962a01188c01d4e2ba31" prot="public" virt="non-virtual"><scope>GradientBackground</scope><name>GenerarFondoSuave</name></member>
+      <member refid="class_gradient_background_1a275ecad4eca4c182aaeb227998fcb169" prot="private" virt="non-virtual"><scope>GradientBackground</scope><name>image</name></member>
+      <member refid="class_gradient_background_1a3ff5bda45f762613bf0440b7f31061a7" prot="public" virt="non-virtual"><scope>GradientBackground</scope><name>intensidadGradiente</name></member>
+      <member refid="class_gradient_background_1a243acbf7c5e0ffe9f583950ce9a1082d" prot="public" virt="non-virtual"><scope>GradientBackground</scope><name>intensidadRuido</name></member>
+      <member refid="class_gradient_background_1a9f9cf2bf0ae55dd72c9a76fc3c8fbeeb" prot="private" virt="non-virtual"><scope>GradientBackground</scope><name>Start</name></member>
+      <member refid="class_gradient_background_1af8aa1ae262dc07bad30c243bff67d994" prot="public" virt="non-virtual"><scope>GradientBackground</scope><name>tamañoTextura</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,839 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_camera_view" kind="class" language="C#" prot="public">
+    <compoundname>CameraView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_camera_view_1a86efa30b2d9d29630b2a630c8f3af1c0" prot="private" static="no" mutable="no">
+        <type><ref refid="class_mouse_controller" kindref="compound">MouseController</ref></type>
+        <definition>MouseController CameraView.mouseController</definition>
+        <argsstring></argsstring>
+        <name>mouseController</name>
+        <qualifiedname>CameraView.mouseController</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="11" column="30" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_view_1a40b0c9f9b6add752bcb5eeb8c0708329" prot="private" static="no" mutable="no">
+        <type><ref refid="class_keyboard_controller" kindref="compound">KeyboardController</ref></type>
+        <definition>KeyboardController CameraView.keyboardController</definition>
+        <argsstring></argsstring>
+        <name>keyboardController</name>
+        <qualifiedname>CameraView.keyboardController</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="12" column="33" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_view_1a5ea3ce4a1872e000cbe8334f965cc721" prot="private" static="no" mutable="no">
+        <type><ref refid="class_mobile_controller" kindref="compound">MobileController</ref></type>
+        <definition>MobileController CameraView.touchController</definition>
+        <argsstring></argsstring>
+        <name>touchController</name>
+        <qualifiedname>CameraView.touchController</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="13" column="31" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_view_1a9f88bd4d343b18bf21affb6a4373fb57" prot="private" static="no" mutable="no">
+        <type><ref refid="class_zoom_controller" kindref="compound">ZoomController</ref></type>
+        <definition>ZoomController CameraView.zoomController</definition>
+        <argsstring></argsstring>
+        <name>zoomController</name>
+        <qualifiedname>CameraView.zoomController</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="14" column="29" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_view_1a0d060bc7296dfbb2da784da3fc6b9b4f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_rotation_notifier" kindref="compound">RotationNotifier</ref></type>
+        <definition>RotationNotifier CameraView.rotationNotifier</definition>
+        <argsstring></argsstring>
+        <name>rotationNotifier</name>
+        <qualifiedname>CameraView.rotationNotifier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="15" column="31" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_view_1a3dc92a6eb2b245935f2d1081f74cd177" prot="private" static="no" mutable="no">
+        <type><ref refid="class_automatic_movement_controller" kindref="compound">AutomaticMovementController</ref></type>
+        <definition>AutomaticMovementController CameraView.automaticMovementController</definition>
+        <argsstring></argsstring>
+        <name>automaticMovementController</name>
+        <qualifiedname>CameraView.automaticMovementController</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="16" column="42" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_view_1a449d12242d4a6c2c14215b2784ff0cd6" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CameraView.xRotation</definition>
+        <argsstring></argsstring>
+        <name>xRotation</name>
+        <qualifiedname>CameraView.xRotation</qualifiedname>
+        <initializer>= 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="49" column="19" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_view_1a5e28da2e486d4ee8416eda5fa6262966" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CameraView.yRotation</definition>
+        <argsstring></argsstring>
+        <name>yRotation</name>
+        <qualifiedname>CameraView.yRotation</qualifiedname>
+        <initializer>= 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="50" column="19" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_view_1a4b880b1e18be439c684c95b63f81691f" prot="private" static="no" mutable="no">
+        <type>Quaternion</type>
+        <definition>Quaternion CameraView.targetRotation</definition>
+        <argsstring></argsstring>
+        <name>targetRotation</name>
+        <qualifiedname>CameraView.targetRotation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="51" column="24" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_view_1aa23334dcda4d1db6092cb73b61e0a3e2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CameraView.isTransitioning</definition>
+        <argsstring></argsstring>
+        <name>isTransitioning</name>
+        <qualifiedname>CameraView.isTransitioning</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="52" column="18" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_view_1aa18342bad38c78e5d9d98f71f78e4522" prot="private" static="no" mutable="no">
+        <type>Camera</type>
+        <definition>Camera CameraView.mainCamera</definition>
+        <argsstring></argsstring>
+        <name>mainCamera</name>
+        <qualifiedname>CameraView.mainCamera</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="57" column="20" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_view_1aedf1b60c668181c74db38fa8349a5eb5" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform CameraView.contenedorFlechas</definition>
+        <argsstring></argsstring>
+        <name>contenedorFlechas</name>
+        <qualifiedname>CameraView.contenedorFlechas</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="79" column="24" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_camera_view_1ad303989fc5be7ad30a221b607171fe6b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CameraView.horizontalSpeed</definition>
+        <argsstring></argsstring>
+        <name>horizontalSpeed</name>
+        <qualifiedname>CameraView.horizontalSpeed</qualifiedname>
+        <initializer>= 2.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="20" column="18" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_view_1a5e6f6f87b96d61c2147cdd6cb5d085a9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CameraView.verticalSpeed</definition>
+        <argsstring></argsstring>
+        <name>verticalSpeed</name>
+        <qualifiedname>CameraView.verticalSpeed</qualifiedname>
+        <initializer>= 2.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="23" column="18" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_view_1a033900562c8ceb10fce20fd611ee5a20" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CameraView.verticalLimit</definition>
+        <argsstring></argsstring>
+        <name>verticalLimit</name>
+        <qualifiedname>CameraView.verticalLimit</qualifiedname>
+        <initializer>= 80.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="26" column="18" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_view_1aef1acf986a1cd5108cc0175136ec91f4" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CameraView.smoothSpeed</definition>
+        <argsstring></argsstring>
+        <name>smoothSpeed</name>
+        <qualifiedname>CameraView.smoothSpeed</qualifiedname>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="30" column="18" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_view_1a5dc210b73a6ea2a7e736d898abc62d87" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CameraView.hideCursorWhileNavigating</definition>
+        <argsstring></argsstring>
+        <name>hideCursorWhileNavigating</name>
+        <qualifiedname>CameraView.hideCursorWhileNavigating</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="34" column="17" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_view_1aaacabab0992c2e85ed28c787a8fafcd0" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CameraView.autoDetectPlatform</definition>
+        <argsstring></argsstring>
+        <name>autoDetectPlatform</name>
+        <qualifiedname>CameraView.autoDetectPlatform</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="38" column="17" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_view_1a5285b6f806e03349bc27fdb9dbcf51c0" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CameraView.forceMobileMode</definition>
+        <argsstring></argsstring>
+        <name>forceMobileMode</name>
+        <qualifiedname>CameraView.forceMobileMode</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="41" column="17" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_view_1a9ad9e6f2f8eb432ebc075e869430a449" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CameraView.isCentered</definition>
+        <argsstring></argsstring>
+        <name>isCentered</name>
+        <qualifiedname>CameraView.isCentered</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Indica si la cámara está centrada en un objetivo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="56" column="17" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_camera_view_1ac931be44c0c62a6ac14db20361480c7c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool CameraView.IsMobilePlatform</definition>
+        <argsstring></argsstring>
+        <name>IsMobilePlatform</name>
+        <qualifiedname>CameraView.IsMobilePlatform</qualifiedname>
+        <briefdescription>
+<para>Indica si la plataforma actual es móvil. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="46" column="17" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="property" id="class_camera_view_1a885fa8228429155f6f352f5027e9f524" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float CameraView.XRotation</definition>
+        <argsstring></argsstring>
+        <name>XRotation</name>
+        <qualifiedname>CameraView.XRotation</qualifiedname>
+        <briefdescription>
+<para>Rotación X actual de la cámara. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="62" column="18" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="property" id="class_camera_view_1ad828b42767638010de60d6c2328dfe09" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float CameraView.YRotation</definition>
+        <argsstring></argsstring>
+        <name>YRotation</name>
+        <qualifiedname>CameraView.YRotation</qualifiedname>
+        <briefdescription>
+<para>Rotación Y actual de la cámara. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="66" column="18" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="66" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="property" id="class_camera_view_1af00517411e2975b816c79611929bdefc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Quaternion</type>
+        <definition>Quaternion CameraView.TargetRotation</definition>
+        <argsstring></argsstring>
+        <name>TargetRotation</name>
+        <qualifiedname>CameraView.TargetRotation</qualifiedname>
+        <briefdescription>
+<para>Rotación objetivo de la cámara. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="70" column="23" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="property" id="class_camera_view_1a374b0dc234bd8e146e64814a830164d8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool CameraView.IsTransitioning</definition>
+        <argsstring></argsstring>
+        <name>IsTransitioning</name>
+        <qualifiedname>CameraView.IsTransitioning</qualifiedname>
+        <briefdescription>
+<para>Indica si la cámara está en transición de rotación. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="74" column="17" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="property" id="class_camera_view_1a8f7540a3bc2423feeaac12d8466dbaf6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Camera</type>
+        <definition>Camera CameraView.MainCamera</definition>
+        <argsstring></argsstring>
+        <name>MainCamera</name>
+        <qualifiedname>CameraView.MainCamera</qualifiedname>
+        <briefdescription>
+<para>Referencia a la cámara principal. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="78" column="19" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="78" bodyend="78"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="event">
+      <memberdef kind="event" id="class_camera_view_1ad20e8e457262f90534039c0cb0456685" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; Vector3 &gt;</type>
+        <definition>Action&lt;Vector3&gt; CameraView.OnRotationChanged</definition>
+        <argsstring></argsstring>
+        <name>OnRotationChanged</name>
+        <qualifiedname>CameraView.OnRotationChanged</qualifiedname>
+        <briefdescription>
+<para>Evento que se dispara cuando la rotación de la cámara cambia. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="84" column="25" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_camera_view_1a584b52554c351a3d1fad6e3c6821c4a6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraView.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>CameraView.Awake</qualifiedname>
+        <briefdescription>
+<para>Inicializa la detección de plataforma, la cámara y los componentes requeridos. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="89" column="18" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="89" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_view_1a4fa31b566c7a302636db64638f33d03d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraView.DetectPlatform</definition>
+        <argsstring>()</argsstring>
+        <name>DetectPlatform</name>
+        <qualifiedname>CameraView.DetectPlatform</qualifiedname>
+        <briefdescription>
+<para>Detecta la plataforma actual (PC o móvil) y ajusta la propiedad IsMobilePlatform. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="99" column="18" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="99" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_view_1af91083a2619dd7876ad8c0c7144cb0f4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CameraView.IsMobileWebGL</definition>
+        <argsstring>()</argsstring>
+        <name>IsMobileWebGL</name>
+        <qualifiedname>CameraView.IsMobileWebGL</qualifiedname>
+        <briefdescription>
+<para>Detecta si la plataforma WebGL es móvil usando JavaScript (solo fuera del editor). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True si es WebGL móvil, false en caso contrario.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="125" column="18" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="125" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_view_1a7f32110ccc53fac02cb8cfe3823faa34" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CameraView.IsMobileUserAgent</definition>
+        <argsstring>()</argsstring>
+        <name>IsMobileUserAgent</name>
+        <qualifiedname>CameraView.IsMobileUserAgent</qualifiedname>
+        <briefdescription>
+<para>Fallback para detectar si el user agent es móvil (siempre false fuera de WebGL). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>False en editor y otras plataformas.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="146" column="18" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="146" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_view_1a1eed9c85b689a1d012c34dfcda6bc7ef" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraView.InitializeCamera</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeCamera</name>
+        <qualifiedname>CameraView.InitializeCamera</qualifiedname>
+        <briefdescription>
+<para>Inicializa la referencia a la cámara principal. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="155" column="18" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="155" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_view_1a0d44790c9bab3f8406706d65db46d6e0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraView.InitializeRequiredComponents</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeRequiredComponents</name>
+        <qualifiedname>CameraView.InitializeRequiredComponents</qualifiedname>
+        <briefdescription>
+<para>Inicializa los componentes requeridos y configura los controladores según la plataforma. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="169" column="18" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="169" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_view_1a09b2476adc61f65a04b1bc0d5f5f9f38" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraView.ConfigureControllersByPlatform</definition>
+        <argsstring>()</argsstring>
+        <name>ConfigureControllersByPlatform</name>
+        <qualifiedname>CameraView.ConfigureControllersByPlatform</qualifiedname>
+        <briefdescription>
+<para>Habilita o deshabilita los controladores de entrada según la plataforma detectada. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="186" column="18" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="186" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_view_1a28d2cbcbef60097f1e45982803699f88" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T CameraView.GetOrAddComponent&lt; T &gt;</definition>
+        <argsstring>(T component)</argsstring>
+        <name>GetOrAddComponent&lt; T &gt;</name>
+        <qualifiedname>CameraView.GetOrAddComponent&lt; T &gt;</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>component</declname>
+        </param>
+        <briefdescription>
+<para>Obtiene el componente especificado o lo añade si no existe. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tipo de componente.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>component</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Componente existente.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Componente existente o recién añadido.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="214" column="13" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="214" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_view_1adf886a249ffa7b522560c8ac6c437d86" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraView.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>CameraView.Start</qualifiedname>
+        <briefdescription>
+<para>Inicializa la orientación de la cámara y los controladores. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="224" column="10" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="224" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_view_1a10fd1898fb3b01a875d2a76bd9ce746f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraView.InitializeOrientation</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeOrientation</name>
+        <qualifiedname>CameraView.InitializeOrientation</qualifiedname>
+        <briefdescription>
+<para>Inicializa la rotación de la cámara a partir de su rotación local actual. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="233" column="18" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="233" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_view_1a8e3819fb875ee38fcd3d3e4cb2dbc120" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraView.InitializeControllers</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeControllers</name>
+        <qualifiedname>CameraView.InitializeControllers</qualifiedname>
+        <briefdescription>
+<para>Inicializa los controladores de entrada y suscribe los eventos necesarios. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="245" column="18" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="245" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_view_1a043b4b311aa8e36353bb9df554e3115d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraView.HandleRotationChanged</definition>
+        <argsstring>(Vector3 rotation)</argsstring>
+        <name>HandleRotationChanged</name>
+        <qualifiedname>CameraView.HandleRotationChanged</qualifiedname>
+        <param>
+          <type>Vector3</type>
+          <declname>rotation</declname>
+        </param>
+        <briefdescription>
+<para>Maneja el evento de cambio de rotación y lo propaga a los suscriptores. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rotation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nueva rotación.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="264" column="18" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="264" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_view_1a2962c7504688e483b10b6060714f4b90" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraView.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>CameraView.Update</qualifiedname>
+        <briefdescription>
+<para>Método de actualización por frame (no utilizado actualmente). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="272" column="10" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="272" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_view_1a2818ff7e80d39083042f1ea40e19316b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraView.FixedUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>FixedUpdate</name>
+        <qualifiedname>CameraView.FixedUpdate</qualifiedname>
+        <briefdescription>
+<para>Actualiza la rotación de la cámara de forma suave o durante transiciones. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="280" column="10" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="280" bodyend="325"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_view_1ad90d58a5ef19be17794d26a961c60e97" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraView.ApplySmoothRotation</definition>
+        <argsstring>()</argsstring>
+        <name>ApplySmoothRotation</name>
+        <qualifiedname>CameraView.ApplySmoothRotation</qualifiedname>
+        <briefdescription>
+<para>Aplica la rotación suave a la cámara usando interpolación esférica. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="330" column="18" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="330" bodyend="333"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_view_1a7bd83ef4ef81c14fd75c86dccda6f164" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraView.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>CameraView.OnDisable</qualifiedname>
+        <briefdescription>
+<para>Restaura la configuración del cursor cuando el script se desactiva. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="356" column="18" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="356" bodyend="361"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_camera_view_1a6d5a03fb5fb4a419176e6947eabcf9c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraView.ResetView</definition>
+        <argsstring>()</argsstring>
+        <name>ResetView</name>
+        <qualifiedname>CameraView.ResetView</qualifiedname>
+        <briefdescription>
+<para>Resetea la rotación de la cámara a su estado inicial y reinicia el zoom. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="338" column="17" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="338" bodyend="351"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_view_1a0dd3dfeb41302a8d9d995f65cbdeb525" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraView.RotateCameraToLookAt</definition>
+        <argsstring>(Vector3 targetPosition)</argsstring>
+        <name>RotateCameraToLookAt</name>
+        <qualifiedname>CameraView.RotateCameraToLookAt</qualifiedname>
+        <param>
+          <type>Vector3</type>
+          <declname>targetPosition</declname>
+        </param>
+        <briefdescription>
+<para>Rota la cámara suavemente para mirar hacia una posición objetivo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>targetPosition</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Posición a la que mirar.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="367" column="17" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="367" bodyend="383"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_view_1a8f92dc7e854c88ce30d675baccc5e723" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 CameraView.FindPunto</definition>
+        <argsstring>()</argsstring>
+        <name>FindPunto</name>
+        <qualifiedname>CameraView.FindPunto</qualifiedname>
+        <briefdescription>
+<para>Busca y devuelve la posición del objeto &quot;Punto&quot; dentro del grupo de flechas activo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Posición del objeto &quot;Punto&quot; en el grupo activo.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/CameraView.cs" line="389" column="20" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="389" bodyend="403"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Controlador principal de la cámara que coordina los distintos tipos de entradas para la navegación panorámica 360. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CameraView</label>
+        <link refid="class_camera_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CameraView</label>
+        <link refid="class_camera_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/Camera/CameraView.cs" line="8" column="7" bodyfile="Assets/Scripts/Camera/CameraView.cs" bodystart="9" bodyend="404"/>
+    <listofallmembers>
+      <member refid="class_camera_view_1ad90d58a5ef19be17794d26a961c60e97" prot="private" virt="non-virtual"><scope>CameraView</scope><name>ApplySmoothRotation</name></member>
+      <member refid="class_camera_view_1aaacabab0992c2e85ed28c787a8fafcd0" prot="public" virt="non-virtual"><scope>CameraView</scope><name>autoDetectPlatform</name></member>
+      <member refid="class_camera_view_1a3dc92a6eb2b245935f2d1081f74cd177" prot="private" virt="non-virtual"><scope>CameraView</scope><name>automaticMovementController</name></member>
+      <member refid="class_camera_view_1a584b52554c351a3d1fad6e3c6821c4a6" prot="private" virt="non-virtual"><scope>CameraView</scope><name>Awake</name></member>
+      <member refid="class_camera_view_1a09b2476adc61f65a04b1bc0d5f5f9f38" prot="private" virt="non-virtual"><scope>CameraView</scope><name>ConfigureControllersByPlatform</name></member>
+      <member refid="class_camera_view_1aedf1b60c668181c74db38fa8349a5eb5" prot="private" virt="non-virtual"><scope>CameraView</scope><name>contenedorFlechas</name></member>
+      <member refid="class_camera_view_1a4fa31b566c7a302636db64638f33d03d" prot="private" virt="non-virtual"><scope>CameraView</scope><name>DetectPlatform</name></member>
+      <member refid="class_camera_view_1a8f92dc7e854c88ce30d675baccc5e723" prot="public" virt="non-virtual"><scope>CameraView</scope><name>FindPunto</name></member>
+      <member refid="class_camera_view_1a2818ff7e80d39083042f1ea40e19316b" prot="private" virt="non-virtual"><scope>CameraView</scope><name>FixedUpdate</name></member>
+      <member refid="class_camera_view_1a5285b6f806e03349bc27fdb9dbcf51c0" prot="public" virt="non-virtual"><scope>CameraView</scope><name>forceMobileMode</name></member>
+      <member refid="class_camera_view_1a28d2cbcbef60097f1e45982803699f88" prot="private" virt="non-virtual"><scope>CameraView</scope><name>GetOrAddComponent&lt; T &gt;</name></member>
+      <member refid="class_camera_view_1a043b4b311aa8e36353bb9df554e3115d" prot="private" virt="non-virtual"><scope>CameraView</scope><name>HandleRotationChanged</name></member>
+      <member refid="class_camera_view_1a5dc210b73a6ea2a7e736d898abc62d87" prot="public" virt="non-virtual"><scope>CameraView</scope><name>hideCursorWhileNavigating</name></member>
+      <member refid="class_camera_view_1ad303989fc5be7ad30a221b607171fe6b" prot="public" virt="non-virtual"><scope>CameraView</scope><name>horizontalSpeed</name></member>
+      <member refid="class_camera_view_1a1eed9c85b689a1d012c34dfcda6bc7ef" prot="private" virt="non-virtual"><scope>CameraView</scope><name>InitializeCamera</name></member>
+      <member refid="class_camera_view_1a8e3819fb875ee38fcd3d3e4cb2dbc120" prot="private" virt="non-virtual"><scope>CameraView</scope><name>InitializeControllers</name></member>
+      <member refid="class_camera_view_1a10fd1898fb3b01a875d2a76bd9ce746f" prot="private" virt="non-virtual"><scope>CameraView</scope><name>InitializeOrientation</name></member>
+      <member refid="class_camera_view_1a0d44790c9bab3f8406706d65db46d6e0" prot="private" virt="non-virtual"><scope>CameraView</scope><name>InitializeRequiredComponents</name></member>
+      <member refid="class_camera_view_1a9ad9e6f2f8eb432ebc075e869430a449" prot="public" virt="non-virtual"><scope>CameraView</scope><name>isCentered</name></member>
+      <member refid="class_camera_view_1ac931be44c0c62a6ac14db20361480c7c" prot="public" virt="non-virtual"><scope>CameraView</scope><name>IsMobilePlatform</name></member>
+      <member refid="class_camera_view_1a7f32110ccc53fac02cb8cfe3823faa34" prot="private" virt="non-virtual"><scope>CameraView</scope><name>IsMobileUserAgent</name></member>
+      <member refid="class_camera_view_1af91083a2619dd7876ad8c0c7144cb0f4" prot="private" virt="non-virtual"><scope>CameraView</scope><name>IsMobileWebGL</name></member>
+      <member refid="class_camera_view_1a374b0dc234bd8e146e64814a830164d8" prot="public" virt="non-virtual"><scope>CameraView</scope><name>IsTransitioning</name></member>
+      <member refid="class_camera_view_1aa23334dcda4d1db6092cb73b61e0a3e2" prot="private" virt="non-virtual"><scope>CameraView</scope><name>isTransitioning</name></member>
+      <member refid="class_camera_view_1a40b0c9f9b6add752bcb5eeb8c0708329" prot="private" virt="non-virtual"><scope>CameraView</scope><name>keyboardController</name></member>
+      <member refid="class_camera_view_1a8f7540a3bc2423feeaac12d8466dbaf6" prot="public" virt="non-virtual"><scope>CameraView</scope><name>MainCamera</name></member>
+      <member refid="class_camera_view_1aa18342bad38c78e5d9d98f71f78e4522" prot="private" virt="non-virtual"><scope>CameraView</scope><name>mainCamera</name></member>
+      <member refid="class_camera_view_1a86efa30b2d9d29630b2a630c8f3af1c0" prot="private" virt="non-virtual"><scope>CameraView</scope><name>mouseController</name></member>
+      <member refid="class_camera_view_1a7bd83ef4ef81c14fd75c86dccda6f164" prot="private" virt="non-virtual"><scope>CameraView</scope><name>OnDisable</name></member>
+      <member refid="class_camera_view_1ad20e8e457262f90534039c0cb0456685" prot="public" virt="non-virtual"><scope>CameraView</scope><name>OnRotationChanged</name></member>
+      <member refid="class_camera_view_1a6d5a03fb5fb4a419176e6947eabcf9c1" prot="public" virt="non-virtual"><scope>CameraView</scope><name>ResetView</name></member>
+      <member refid="class_camera_view_1a0dd3dfeb41302a8d9d995f65cbdeb525" prot="public" virt="non-virtual"><scope>CameraView</scope><name>RotateCameraToLookAt</name></member>
+      <member refid="class_camera_view_1a0d060bc7296dfbb2da784da3fc6b9b4f" prot="private" virt="non-virtual"><scope>CameraView</scope><name>rotationNotifier</name></member>
+      <member refid="class_camera_view_1aef1acf986a1cd5108cc0175136ec91f4" prot="public" virt="non-virtual"><scope>CameraView</scope><name>smoothSpeed</name></member>
+      <member refid="class_camera_view_1adf886a249ffa7b522560c8ac6c437d86" prot="private" virt="non-virtual"><scope>CameraView</scope><name>Start</name></member>
+      <member refid="class_camera_view_1af00517411e2975b816c79611929bdefc" prot="public" virt="non-virtual"><scope>CameraView</scope><name>TargetRotation</name></member>
+      <member refid="class_camera_view_1a4b880b1e18be439c684c95b63f81691f" prot="private" virt="non-virtual"><scope>CameraView</scope><name>targetRotation</name></member>
+      <member refid="class_camera_view_1a5ea3ce4a1872e000cbe8334f965cc721" prot="private" virt="non-virtual"><scope>CameraView</scope><name>touchController</name></member>
+      <member refid="class_camera_view_1a2962c7504688e483b10b6060714f4b90" prot="private" virt="non-virtual"><scope>CameraView</scope><name>Update</name></member>
+      <member refid="class_camera_view_1a033900562c8ceb10fce20fd611ee5a20" prot="public" virt="non-virtual"><scope>CameraView</scope><name>verticalLimit</name></member>
+      <member refid="class_camera_view_1a5e6f6f87b96d61c2147cdd6cb5d085a9" prot="public" virt="non-virtual"><scope>CameraView</scope><name>verticalSpeed</name></member>
+      <member refid="class_camera_view_1a885fa8228429155f6f352f5027e9f524" prot="public" virt="non-virtual"><scope>CameraView</scope><name>XRotation</name></member>
+      <member refid="class_camera_view_1a449d12242d4a6c2c14215b2784ff0cd6" prot="private" virt="non-virtual"><scope>CameraView</scope><name>xRotation</name></member>
+      <member refid="class_camera_view_1ad828b42767638010de60d6c2328dfe09" prot="public" virt="non-virtual"><scope>CameraView</scope><name>YRotation</name></member>
+      <member refid="class_camera_view_1a5e28da2e486d4ee8416eda5fa6262966" prot="private" virt="non-virtual"><scope>CameraView</scope><name>yRotation</name></member>
+      <member refid="class_camera_view_1a9f88bd4d343b18bf21affb6a4373fb57" prot="private" virt="non-virtual"><scope>CameraView</scope><name>zoomController</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

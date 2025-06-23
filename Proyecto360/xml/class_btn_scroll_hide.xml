@@ -1,0 +1,560 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_btn_scroll_hide" kind="class" language="C#" prot="public">
+    <compoundname>BtnScrollHide</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_btn_scroll_hide_1aec401ad7eb5f57cbf6bfccfbebf77bf7" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float BtnScrollHide.fadeDuration</definition>
+        <argsstring></argsstring>
+        <name>fadeDuration</name>
+        <qualifiedname>BtnScrollHide.fadeDuration</qualifiedname>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+<para>Duración del efecto de fade en segundos. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/BtnScrollHide.cs" line="16" column="18" bodyfile="Assets/Scripts/CarouselScript/BtnScrollHide.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_btn_scroll_hide_1a0caced955f03f3000bc465cd85e1d737" prot="private" static="no" mutable="no">
+        <type>CanvasGroup</type>
+        <definition>CanvasGroup BtnScrollHide.canvasGroup</definition>
+        <argsstring></argsstring>
+        <name>canvasGroup</name>
+        <qualifiedname>BtnScrollHide.canvasGroup</qualifiedname>
+        <briefdescription>
+<para>Componente CanvasGroup para controlar la opacidad del GameObject. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/BtnScrollHide.cs" line="21" column="25" bodyfile="Assets/Scripts/CarouselScript/BtnScrollHide.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_btn_scroll_hide_1acab4554fe954e515b4af0c7d873e737a" prot="private" static="no" mutable="no">
+        <type>Image</type>
+        <definition>Image BtnScrollHide.buttonImage</definition>
+        <argsstring></argsstring>
+        <name>buttonImage</name>
+        <qualifiedname>BtnScrollHide.buttonImage</qualifiedname>
+        <briefdescription>
+<para>Componente Image del botón para cambiar su sprite. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/BtnScrollHide.cs" line="26" column="19" bodyfile="Assets/Scripts/CarouselScript/BtnScrollHide.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_btn_scroll_hide_1ab8639c02d44d2ea8441dd217cf26d27d" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BtnScrollHide.spriteOpenName</definition>
+        <argsstring></argsstring>
+        <name>spriteOpenName</name>
+        <qualifiedname>BtnScrollHide.spriteOpenName</qualifiedname>
+        <initializer>= &quot;OpenGallery&quot;</initializer>
+        <briefdescription>
+<para>Nombre del sprite que se usa cuando el estado es &quot;abierto&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/BtnScrollHide.cs" line="31" column="20" bodyfile="Assets/Scripts/CarouselScript/BtnScrollHide.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_btn_scroll_hide_1a5a5bb2e1343b0359dfffa2d53a284515" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BtnScrollHide.spriteClosedName</definition>
+        <argsstring></argsstring>
+        <name>spriteClosedName</name>
+        <qualifiedname>BtnScrollHide.spriteClosedName</qualifiedname>
+        <initializer>= &quot;CloseGallery&quot;</initializer>
+        <briefdescription>
+<para>Nombre del sprite que se usa cuando el estado es &quot;cerrado&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/BtnScrollHide.cs" line="36" column="20" bodyfile="Assets/Scripts/CarouselScript/BtnScrollHide.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_btn_scroll_hide_1aa57b1a49966eacab618a0ec987a64e25" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; string, Sprite &gt;</type>
+        <definition>Dictionary&lt;string, Sprite&gt; BtnScrollHide.mySpriteDict</definition>
+        <argsstring></argsstring>
+        <name>mySpriteDict</name>
+        <qualifiedname>BtnScrollHide.mySpriteDict</qualifiedname>
+        <initializer>= new Dictionary&lt;string, Sprite&gt;()</initializer>
+        <briefdescription>
+<para>Diccionario que almacena los sprites cargados dinámicamente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/BtnScrollHide.cs" line="41" column="24" bodyfile="Assets/Scripts/CarouselScript/BtnScrollHide.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_btn_scroll_hide_1add1c6b48ea3d68af21e177f364012255" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject BtnScrollHide.content</definition>
+        <argsstring></argsstring>
+        <name>content</name>
+        <qualifiedname>BtnScrollHide.content</qualifiedname>
+        <briefdescription>
+<para>Referencia al GameObject que se controla con este script. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/BtnScrollHide.cs" line="46" column="25" bodyfile="Assets/Scripts/CarouselScript/BtnScrollHide.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_btn_scroll_hide_1a9b3f5bda3dd90ba90fc7a6fd47501c40" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sky_box_button_selected" kindref="compound">SkyBoxButtonSelected</ref></type>
+        <definition>SkyBoxButtonSelected BtnScrollHide.skyBoxButtonSelected</definition>
+        <argsstring></argsstring>
+        <name>skyBoxButtonSelected</name>
+        <qualifiedname>BtnScrollHide.skyBoxButtonSelected</qualifiedname>
+        <briefdescription>
+<para>Referencia al componente <ref refid="class_sky_box_button_selected" kindref="compound">SkyBoxButtonSelected</ref> asociado al contenido. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/BtnScrollHide.cs" line="51" column="34" bodyfile="Assets/Scripts/CarouselScript/BtnScrollHide.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_btn_scroll_hide_1ae56024e70481bcca7394fda659e8bf7f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_material_transition" kindref="compound">MaterialTransition</ref></type>
+        <definition>MaterialTransition BtnScrollHide.skyboxFader</definition>
+        <argsstring></argsstring>
+        <name>skyboxFader</name>
+        <qualifiedname>BtnScrollHide.skyboxFader</qualifiedname>
+        <briefdescription>
+<para>Referencia al componente <ref refid="class_material_transition" kindref="compound">MaterialTransition</ref> para controlar transiciones de skybox. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/BtnScrollHide.cs" line="56" column="32" bodyfile="Assets/Scripts/CarouselScript/BtnScrollHide.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_btn_scroll_hide_1a964da674488c415ea1c4fc2c2294f3c7" prot="private" static="no" mutable="no">
+        <type>RectTransform</type>
+        <definition>RectTransform BtnScrollHide.panelToMove</definition>
+        <argsstring></argsstring>
+        <name>panelToMove</name>
+        <qualifiedname>BtnScrollHide.panelToMove</qualifiedname>
+        <briefdescription>
+<para>Referencia al RectTransform del panel que se moverá durante la animación. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/BtnScrollHide.cs" line="62" column="28" bodyfile="Assets/Scripts/CarouselScript/BtnScrollHide.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_btn_scroll_hide_1a073495512b41d31f4b7b07d869052392" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 BtnScrollHide.hiddenPosition</definition>
+        <argsstring></argsstring>
+        <name>hiddenPosition</name>
+        <qualifiedname>BtnScrollHide.hiddenPosition</qualifiedname>
+        <briefdescription>
+<para>Posición del panel cuando está oculto. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/BtnScrollHide.cs" line="67" column="22" bodyfile="Assets/Scripts/CarouselScript/BtnScrollHide.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_btn_scroll_hide_1a8b3f782b23e02e9f76341c290e8dbf9f" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 BtnScrollHide.shownPosition</definition>
+        <argsstring></argsstring>
+        <name>shownPosition</name>
+        <qualifiedname>BtnScrollHide.shownPosition</qualifiedname>
+        <briefdescription>
+<para>Posición del panel cuando está visible. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/BtnScrollHide.cs" line="72" column="22" bodyfile="Assets/Scripts/CarouselScript/BtnScrollHide.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_btn_scroll_hide_1a8aa4679592be8c7e84de4b1a80c8fc55" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float BtnScrollHide.moveDuration</definition>
+        <argsstring></argsstring>
+        <name>moveDuration</name>
+        <qualifiedname>BtnScrollHide.moveDuration</qualifiedname>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+<para>Duración de la animación de movimiento del panel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/BtnScrollHide.cs" line="77" column="20" bodyfile="Assets/Scripts/CarouselScript/BtnScrollHide.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_btn_scroll_hide_1aa79b20e0f28a40898326e627f6faec29" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BtnScrollHide.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>BtnScrollHide.Start</qualifiedname>
+        <briefdescription>
+<para>Inicializa los componentes y carga los sprites necesarios. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/BtnScrollHide.cs" line="82" column="18" bodyfile="Assets/Scripts/CarouselScript/BtnScrollHide.cs" bodystart="82" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_btn_scroll_hide_1a824c2646b54385e1fdc2f89e071f2715" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator BtnScrollHide.FadeOut</definition>
+        <argsstring>(GameObject go, Sprite spriteOpen, Sprite spriteClosed)</argsstring>
+        <name>FadeOut</name>
+        <qualifiedname>BtnScrollHide.FadeOut</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>go</declname>
+        </param>
+        <param>
+          <type>Sprite</type>
+          <declname>spriteOpen</declname>
+        </param>
+        <param>
+          <type>Sprite</type>
+          <declname>spriteClosed</declname>
+        </param>
+        <briefdescription>
+<para>Realiza un efecto de fade out en un GameObject y lo desactiva al finalizar. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>go</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>El GameObject a desactivar.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>spriteOpen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sprite para el estado &quot;abierto&quot;.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>spriteClosed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sprite para el estado &quot;cerrado&quot;.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>IEnumerator para la corrutina de fade out.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/BtnScrollHide.cs" line="131" column="25" bodyfile="Assets/Scripts/CarouselScript/BtnScrollHide.cs" bodystart="131" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="class_btn_scroll_hide_1a2f2de129aef1ff0188bf198939e3ce58" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator BtnScrollHide.FadeIn</definition>
+        <argsstring>(GameObject go, Sprite spriteOpen, Sprite spriteClosed)</argsstring>
+        <name>FadeIn</name>
+        <qualifiedname>BtnScrollHide.FadeIn</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>go</declname>
+        </param>
+        <param>
+          <type>Sprite</type>
+          <declname>spriteOpen</declname>
+        </param>
+        <param>
+          <type>Sprite</type>
+          <declname>spriteClosed</declname>
+        </param>
+        <briefdescription>
+<para>Realiza un efecto de fade in en un GameObject. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>go</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>El GameObject a activar.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>spriteOpen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sprite para el estado &quot;abierto&quot;.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>spriteClosed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sprite para el estado &quot;cerrado&quot;.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>IEnumerator para la corrutina de fade in.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/BtnScrollHide.cs" line="165" column="25" bodyfile="Assets/Scripts/CarouselScript/BtnScrollHide.cs" bodystart="165" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="class_btn_scroll_hide_1a1c91cd4315a462f4a585da5931d42a67" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BtnScrollHide.ApplyAlphaToChildren</definition>
+        <argsstring>(GameObject go, float alpha)</argsstring>
+        <name>ApplyAlphaToChildren</name>
+        <qualifiedname>BtnScrollHide.ApplyAlphaToChildren</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>go</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+<para>Aplica la opacidad a todos los hijos de un GameObject. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>go</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>El GameObject cuyos hijos se modificarán.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>alpha</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>El valor de opacidad a aplicar.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/BtnScrollHide.cs" line="195" column="18" bodyfile="Assets/Scripts/CarouselScript/BtnScrollHide.cs" bodystart="195" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_btn_scroll_hide_1a0a52228ff04380742b2282d15395b4e8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Sprite</type>
+        <definition>Sprite BtnScrollHide.GetSpriteByName</definition>
+        <argsstring>(string name)</argsstring>
+        <name>GetSpriteByName</name>
+        <qualifiedname>BtnScrollHide.GetSpriteByName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Obtiene un sprite del diccionario por su nombre. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>El nombre del sprite a buscar.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>El sprite encontrado o null si no existe.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/BtnScrollHide.cs" line="209" column="20" bodyfile="Assets/Scripts/CarouselScript/BtnScrollHide.cs" bodystart="209" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="class_btn_scroll_hide_1a37493467b00e7e39dced991d3a9988c0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BtnScrollHide.UpdateButtonSprite</definition>
+        <argsstring>(bool isActive, Sprite spriteOpen, Sprite spriteClosed)</argsstring>
+        <name>UpdateButtonSprite</name>
+        <qualifiedname>BtnScrollHide.UpdateButtonSprite</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>isActive</declname>
+        </param>
+        <param>
+          <type>Sprite</type>
+          <declname>spriteOpen</declname>
+        </param>
+        <param>
+          <type>Sprite</type>
+          <declname>spriteClosed</declname>
+        </param>
+        <briefdescription>
+<para>Actualiza el sprite del botón según el estado del ScrollView. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isActive</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Indica si el ScrollView está activo.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>spriteOpen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sprite para el estado &quot;abierto&quot;.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>spriteClosed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sprite para el estado &quot;cerrado&quot;.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/BtnScrollHide.cs" line="228" column="18" bodyfile="Assets/Scripts/CarouselScript/BtnScrollHide.cs" bodystart="228" bodyend="234"/>
+      </memberdef>
+      <memberdef kind="function" id="class_btn_scroll_hide_1aecc19b939b8123b3f30cf905eed5d14d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BtnScrollHide.LoadPNGToSprites</definition>
+        <argsstring>()</argsstring>
+        <name>LoadPNGToSprites</name>
+        <qualifiedname>BtnScrollHide.LoadPNGToSprites</qualifiedname>
+        <briefdescription>
+<para>Carga todos los sprites PNG de la carpeta Resources/Icon y los almacena en el diccionario. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/BtnScrollHide.cs" line="239" column="18" bodyfile="Assets/Scripts/CarouselScript/BtnScrollHide.cs" bodystart="239" bodyend="266"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_btn_scroll_hide_1a290b0704fc26792112d2fb34b8aea08b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BtnScrollHide.ToggleGameObject</definition>
+        <argsstring>(GameObject go)</argsstring>
+        <name>ToggleGameObject</name>
+        <qualifiedname>BtnScrollHide.ToggleGameObject</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>go</declname>
+        </param>
+        <briefdescription>
+<para>Alterna la visibilidad de un GameObject con efectos de fade. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>go</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>El GameObject a alternar.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/BtnScrollHide.cs" line="100" column="17" bodyfile="Assets/Scripts/CarouselScript/BtnScrollHide.cs" bodystart="100" bodyend="122"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Clase que controla la visibilidad de un GameObject con efectos de fade y cambia el sprite de un botón según el estado. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BtnScrollHide</label>
+        <link refid="class_btn_scroll_hide"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BtnScrollHide</label>
+        <link refid="class_btn_scroll_hide"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/CarouselScript/BtnScrollHide.cs" line="11" column="7" bodyfile="Assets/Scripts/CarouselScript/BtnScrollHide.cs" bodystart="12" bodyend="267"/>
+    <listofallmembers>
+      <member refid="class_btn_scroll_hide_1a1c91cd4315a462f4a585da5931d42a67" prot="private" virt="non-virtual"><scope>BtnScrollHide</scope><name>ApplyAlphaToChildren</name></member>
+      <member refid="class_btn_scroll_hide_1acab4554fe954e515b4af0c7d873e737a" prot="private" virt="non-virtual"><scope>BtnScrollHide</scope><name>buttonImage</name></member>
+      <member refid="class_btn_scroll_hide_1a0caced955f03f3000bc465cd85e1d737" prot="private" virt="non-virtual"><scope>BtnScrollHide</scope><name>canvasGroup</name></member>
+      <member refid="class_btn_scroll_hide_1add1c6b48ea3d68af21e177f364012255" prot="private" virt="non-virtual"><scope>BtnScrollHide</scope><name>content</name></member>
+      <member refid="class_btn_scroll_hide_1aec401ad7eb5f57cbf6bfccfbebf77bf7" prot="public" virt="non-virtual"><scope>BtnScrollHide</scope><name>fadeDuration</name></member>
+      <member refid="class_btn_scroll_hide_1a2f2de129aef1ff0188bf198939e3ce58" prot="private" virt="non-virtual"><scope>BtnScrollHide</scope><name>FadeIn</name></member>
+      <member refid="class_btn_scroll_hide_1a824c2646b54385e1fdc2f89e071f2715" prot="private" virt="non-virtual"><scope>BtnScrollHide</scope><name>FadeOut</name></member>
+      <member refid="class_btn_scroll_hide_1a0a52228ff04380742b2282d15395b4e8" prot="private" virt="non-virtual"><scope>BtnScrollHide</scope><name>GetSpriteByName</name></member>
+      <member refid="class_btn_scroll_hide_1a073495512b41d31f4b7b07d869052392" prot="private" virt="non-virtual"><scope>BtnScrollHide</scope><name>hiddenPosition</name></member>
+      <member refid="class_btn_scroll_hide_1aecc19b939b8123b3f30cf905eed5d14d" prot="private" virt="non-virtual"><scope>BtnScrollHide</scope><name>LoadPNGToSprites</name></member>
+      <member refid="class_btn_scroll_hide_1a8aa4679592be8c7e84de4b1a80c8fc55" prot="private" virt="non-virtual"><scope>BtnScrollHide</scope><name>moveDuration</name></member>
+      <member refid="class_btn_scroll_hide_1aa57b1a49966eacab618a0ec987a64e25" prot="private" virt="non-virtual"><scope>BtnScrollHide</scope><name>mySpriteDict</name></member>
+      <member refid="class_btn_scroll_hide_1a964da674488c415ea1c4fc2c2294f3c7" prot="private" virt="non-virtual"><scope>BtnScrollHide</scope><name>panelToMove</name></member>
+      <member refid="class_btn_scroll_hide_1a8b3f782b23e02e9f76341c290e8dbf9f" prot="private" virt="non-virtual"><scope>BtnScrollHide</scope><name>shownPosition</name></member>
+      <member refid="class_btn_scroll_hide_1a9b3f5bda3dd90ba90fc7a6fd47501c40" prot="private" virt="non-virtual"><scope>BtnScrollHide</scope><name>skyBoxButtonSelected</name></member>
+      <member refid="class_btn_scroll_hide_1ae56024e70481bcca7394fda659e8bf7f" prot="private" virt="non-virtual"><scope>BtnScrollHide</scope><name>skyboxFader</name></member>
+      <member refid="class_btn_scroll_hide_1a5a5bb2e1343b0359dfffa2d53a284515" prot="private" virt="non-virtual"><scope>BtnScrollHide</scope><name>spriteClosedName</name></member>
+      <member refid="class_btn_scroll_hide_1ab8639c02d44d2ea8441dd217cf26d27d" prot="private" virt="non-virtual"><scope>BtnScrollHide</scope><name>spriteOpenName</name></member>
+      <member refid="class_btn_scroll_hide_1aa79b20e0f28a40898326e627f6faec29" prot="private" virt="non-virtual"><scope>BtnScrollHide</scope><name>Start</name></member>
+      <member refid="class_btn_scroll_hide_1a290b0704fc26792112d2fb34b8aea08b" prot="public" virt="non-virtual"><scope>BtnScrollHide</scope><name>ToggleGameObject</name></member>
+      <member refid="class_btn_scroll_hide_1a37493467b00e7e39dced991d3a9988c0" prot="private" virt="non-virtual"><scope>BtnScrollHide</scope><name>UpdateButtonSprite</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

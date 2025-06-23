@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_volver_a_main360" kind="class" language="C#" prot="public">
+    <compoundname>VolverAMain360</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_volver_a_main360_1a9791d258fbe61717f4b9251fbfbc5cec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VolverAMain360.IrAMain360</definition>
+        <argsstring>()</argsstring>
+        <name>IrAMain360</name>
+        <qualifiedname>VolverAMain360.IrAMain360</qualifiedname>
+        <briefdescription>
+<para>Carga la escena llamada &quot;Main360&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScriptsPuntosDeInteres/BotonInicio.cs" line="12" column="17" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/BotonInicio.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Clase responsable de gestionar la navegación hacia la escena &quot;Main360&quot;. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>VolverAMain360</label>
+        <link refid="class_volver_a_main360"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>VolverAMain360</label>
+        <link refid="class_volver_a_main360"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/ScriptsPuntosDeInteres/BotonInicio.cs" line="7" column="7" bodyfile="Assets/Scripts/ScriptsPuntosDeInteres/BotonInicio.cs" bodystart="8" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_volver_a_main360_1a9791d258fbe61717f4b9251fbfbc5cec" prot="public" virt="non-virtual"><scope>VolverAMain360</scope><name>IrAMain360</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

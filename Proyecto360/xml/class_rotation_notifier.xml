@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_rotation_notifier" kind="class" language="C#" prot="public">
+    <compoundname>RotationNotifier</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_rotation_notifier_1adb874b613039ff4e81fb78b00b5fb277" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RotationNotifier.notificationThrottleTime</definition>
+        <argsstring></argsstring>
+        <name>notificationThrottleTime</name>
+        <qualifiedname>RotationNotifier.notificationThrottleTime</qualifiedname>
+        <initializer>= 0.05f</initializer>
+        <briefdescription>
+<para>Intervalo mínimo entre notificaciones de cambio de rotación, en segundos. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/RotationNotifier.cs" line="15" column="18" bodyfile="Assets/Scripts/Camera/RotationNotifier.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rotation_notifier_1a7203ef956ab226eead8f03f6abc7b0a9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RotationNotifier.significantChangeThreshold</definition>
+        <argsstring></argsstring>
+        <name>significantChangeThreshold</name>
+        <qualifiedname>RotationNotifier.significantChangeThreshold</qualifiedname>
+        <initializer>= 0.1f</initializer>
+        <briefdescription>
+<para>Distancia mínima (en grados) para considerar un cambio de rotación como significativo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/RotationNotifier.cs" line="21" column="18" bodyfile="Assets/Scripts/Camera/RotationNotifier.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_rotation_notifier_1a5932fd087d0231976fced45f8886ab8d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_camera_view" kindref="compound">CameraView</ref></type>
+        <definition>CameraView RotationNotifier.parentController</definition>
+        <argsstring></argsstring>
+        <name>parentController</name>
+        <qualifiedname>RotationNotifier.parentController</qualifiedname>
+        <briefdescription>
+<para>Referencia al controlador principal de la cámara. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/RotationNotifier.cs" line="26" column="24" bodyfile="Assets/Scripts/Camera/RotationNotifier.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rotation_notifier_1a2eb06d13a8e884122927f3b0869d2f04" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 RotationNotifier.lastReportedRotation</definition>
+        <argsstring></argsstring>
+        <name>lastReportedRotation</name>
+        <qualifiedname>RotationNotifier.lastReportedRotation</qualifiedname>
+        <briefdescription>
+<para>Última rotación reportada a los suscriptores. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/RotationNotifier.cs" line="31" column="21" bodyfile="Assets/Scripts/Camera/RotationNotifier.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rotation_notifier_1a8447335fcf027deeeb1cee8f0da31e6b" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RotationNotifier.lastEventTimestamp</definition>
+        <argsstring></argsstring>
+        <name>lastEventTimestamp</name>
+        <qualifiedname>RotationNotifier.lastEventTimestamp</qualifiedname>
+        <initializer>= 0f</initializer>
+        <briefdescription>
+<para>Marca de tiempo del último evento de notificación. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/RotationNotifier.cs" line="36" column="19" bodyfile="Assets/Scripts/Camera/RotationNotifier.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rotation_notifier_1aae0a5f1566a135fa1e148df8a7e2c3ac" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RotationNotifier.initialized</definition>
+        <argsstring></argsstring>
+        <name>initialized</name>
+        <qualifiedname>RotationNotifier.initialized</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Indica si el notificador ha sido inicializado correctamente. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/RotationNotifier.cs" line="41" column="18" bodyfile="Assets/Scripts/Camera/RotationNotifier.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="event">
+      <memberdef kind="event" id="class_rotation_notifier_1ab0964c552adc89aebb736a1de06b7a08" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; Vector3 &gt;</type>
+        <definition>Action&lt;Vector3&gt; RotationNotifier.OnRotationChanged</definition>
+        <argsstring></argsstring>
+        <name>OnRotationChanged</name>
+        <qualifiedname>RotationNotifier.OnRotationChanged</qualifiedname>
+        <briefdescription>
+<para>Evento que notifica a los suscriptores cuando la rotación cambia significativamente. El evento se dispara con throttling según <ref refid="class_rotation_notifier_1adb874b613039ff4e81fb78b00b5fb277" kindref="member">notificationThrottleTime</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/RotationNotifier.cs" line="47" column="25" bodyfile="Assets/Scripts/Camera/RotationNotifier.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_rotation_notifier_1a0788581f089914b8eac1e6aa57072723" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RotationNotifier.Initialize</definition>
+        <argsstring>(CameraView controller)</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>RotationNotifier.Initialize</qualifiedname>
+        <param>
+          <type><ref refid="class_camera_view" kindref="compound">CameraView</ref></type>
+          <declname>controller</declname>
+        </param>
+        <briefdescription>
+<para>Inicializa el notificador con una referencia al controlador principal. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controller</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>El controlador de cámara principal.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/RotationNotifier.cs" line="53" column="17" bodyfile="Assets/Scripts/Camera/RotationNotifier.cs" bodystart="53" bodyend="58"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_rotation_notifier_1ae273f8b1596256684906b47ef11ed08b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RotationNotifier.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>RotationNotifier.Update</qualifiedname>
+        <briefdescription>
+<para>Llamado una vez por frame. Verifica si debe notificar cambios de rotación. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/RotationNotifier.cs" line="63" column="10" bodyfile="Assets/Scripts/Camera/RotationNotifier.cs" bodystart="63" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rotation_notifier_1a99603377428eece8e8b883bdd472069a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RotationNotifier.NotifyRotationChanges</definition>
+        <argsstring>()</argsstring>
+        <name>NotifyRotationChanges</name>
+        <qualifiedname>RotationNotifier.NotifyRotationChanges</qualifiedname>
+        <briefdescription>
+<para>Verifica los cambios de rotación y notifica a los suscriptores si el cambio es significativo y ha pasado el tiempo mínimo de espera entre notificaciones. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Camera/RotationNotifier.cs" line="75" column="18" bodyfile="Assets/Scripts/Camera/RotationNotifier.cs" bodystart="75" bodyend="97"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Componente que notifica los cambios de rotación a otros sistemas. Permite suscribirse a eventos de cambio de rotación, aplicando un umbral de cambio significativo y un intervalo mínimo entre notificaciones para evitar sobrecarga. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>RotationNotifier</label>
+        <link refid="class_rotation_notifier"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>RotationNotifier</label>
+        <link refid="class_rotation_notifier"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/Camera/RotationNotifier.cs" line="9" column="7" bodyfile="Assets/Scripts/Camera/RotationNotifier.cs" bodystart="10" bodyend="98"/>
+    <listofallmembers>
+      <member refid="class_rotation_notifier_1a0788581f089914b8eac1e6aa57072723" prot="public" virt="non-virtual"><scope>RotationNotifier</scope><name>Initialize</name></member>
+      <member refid="class_rotation_notifier_1aae0a5f1566a135fa1e148df8a7e2c3ac" prot="private" virt="non-virtual"><scope>RotationNotifier</scope><name>initialized</name></member>
+      <member refid="class_rotation_notifier_1a8447335fcf027deeeb1cee8f0da31e6b" prot="private" virt="non-virtual"><scope>RotationNotifier</scope><name>lastEventTimestamp</name></member>
+      <member refid="class_rotation_notifier_1a2eb06d13a8e884122927f3b0869d2f04" prot="private" virt="non-virtual"><scope>RotationNotifier</scope><name>lastReportedRotation</name></member>
+      <member refid="class_rotation_notifier_1adb874b613039ff4e81fb78b00b5fb277" prot="public" virt="non-virtual"><scope>RotationNotifier</scope><name>notificationThrottleTime</name></member>
+      <member refid="class_rotation_notifier_1a99603377428eece8e8b883bdd472069a" prot="private" virt="non-virtual"><scope>RotationNotifier</scope><name>NotifyRotationChanges</name></member>
+      <member refid="class_rotation_notifier_1ab0964c552adc89aebb736a1de06b7a08" prot="public" virt="non-virtual"><scope>RotationNotifier</scope><name>OnRotationChanged</name></member>
+      <member refid="class_rotation_notifier_1a5932fd087d0231976fced45f8886ab8d" prot="private" virt="non-virtual"><scope>RotationNotifier</scope><name>parentController</name></member>
+      <member refid="class_rotation_notifier_1a7203ef956ab226eead8f03f6abc7b0a9" prot="public" virt="non-virtual"><scope>RotationNotifier</scope><name>significantChangeThreshold</name></member>
+      <member refid="class_rotation_notifier_1ae273f8b1596256684906b47ef11ed08b" prot="private" virt="non-virtual"><scope>RotationNotifier</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

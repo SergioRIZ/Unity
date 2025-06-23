@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="class_show_galery_android" kind="class" language="C#" prot="public">
+    <compoundname>ShowGaleryAndroid</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_show_galery_android_1a50dc2307d346196e90530b80dff94273" prot="private" static="no" mutable="no">
+        <type>RectTransform</type>
+        <definition>RectTransform ShowGaleryAndroid.targetPanel</definition>
+        <argsstring></argsstring>
+        <name>targetPanel</name>
+        <qualifiedname>ShowGaleryAndroid.targetPanel</qualifiedname>
+        <briefdescription>
+<para>Panel que se anima (ScrollView). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ShowGaleryAndroid.cs" line="16" column="28" bodyfile="Assets/Scripts/CarouselScript/ShowGaleryAndroid.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_show_galery_android_1aa753848c38b6026c43ec0f530b2e63a3" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 ShowGaleryAndroid.hiddenPosition</definition>
+        <argsstring></argsstring>
+        <name>hiddenPosition</name>
+        <qualifiedname>ShowGaleryAndroid.hiddenPosition</qualifiedname>
+        <briefdescription>
+<para>Posición del panel cuando está oculto. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ShowGaleryAndroid.cs" line="22" column="22" bodyfile="Assets/Scripts/CarouselScript/ShowGaleryAndroid.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_show_galery_android_1ab7c278d6d410fe9effcb40d460b93719" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 ShowGaleryAndroid.shownPosition</definition>
+        <argsstring></argsstring>
+        <name>shownPosition</name>
+        <qualifiedname>ShowGaleryAndroid.shownPosition</qualifiedname>
+        <briefdescription>
+<para>Posición del panel cuando está visible. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ShowGaleryAndroid.cs" line="27" column="22" bodyfile="Assets/Scripts/CarouselScript/ShowGaleryAndroid.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_show_galery_android_1a10b5b4b33eb04ef2e593215690aa4943" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ShowGaleryAndroid.animationDuration</definition>
+        <argsstring></argsstring>
+        <name>animationDuration</name>
+        <qualifiedname>ShowGaleryAndroid.animationDuration</qualifiedname>
+        <initializer>= 0.3f</initializer>
+        <briefdescription>
+<para>Duración de la animación de apertura/cierre del panel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ShowGaleryAndroid.cs" line="33" column="20" bodyfile="Assets/Scripts/CarouselScript/ShowGaleryAndroid.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_show_galery_android_1a9d7a047b5793581175496033df85c804" prot="private" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI ShowGaleryAndroid.buttonText</definition>
+        <argsstring></argsstring>
+        <name>buttonText</name>
+        <qualifiedname>ShowGaleryAndroid.buttonText</qualifiedname>
+        <briefdescription>
+<para>Referencia al texto del botón que alterna la visibilidad del panel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ShowGaleryAndroid.cs" line="39" column="29" bodyfile="Assets/Scripts/CarouselScript/ShowGaleryAndroid.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_show_galery_android_1a197d5629921aab28c1ac0cf723e05899" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ShowGaleryAndroid.isOpen</definition>
+        <argsstring></argsstring>
+        <name>isOpen</name>
+        <qualifiedname>ShowGaleryAndroid.isOpen</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Indica si el panel está abierto o cerrado. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ShowGaleryAndroid.cs" line="44" column="18" bodyfile="Assets/Scripts/CarouselScript/ShowGaleryAndroid.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_show_galery_android_1afcf036387114edf79e4ae4e61ce0af37" prot="private" static="no" mutable="no">
+        <type>Coroutine</type>
+        <definition>Coroutine ShowGaleryAndroid.animationCoroutine</definition>
+        <argsstring></argsstring>
+        <name>animationCoroutine</name>
+        <qualifiedname>ShowGaleryAndroid.animationCoroutine</qualifiedname>
+        <briefdescription>
+<para>Corrutina activa para la animación del panel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ShowGaleryAndroid.cs" line="49" column="23" bodyfile="Assets/Scripts/CarouselScript/ShowGaleryAndroid.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_show_galery_android_1ac9414f0025a24c6870bd4d7ea2d38b97" prot="private" static="no" mutable="no">
+        <type>CanvasGroup</type>
+        <definition>CanvasGroup ShowGaleryAndroid.canvasGroup</definition>
+        <argsstring></argsstring>
+        <name>canvasGroup</name>
+        <qualifiedname>ShowGaleryAndroid.canvasGroup</qualifiedname>
+        <briefdescription>
+<para>Componente CanvasGroup del panel, utilizado para controlar la visibilidad y la interacción. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ShowGaleryAndroid.cs" line="54" column="25" bodyfile="Assets/Scripts/CarouselScript/ShowGaleryAndroid.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_show_galery_android_1a0389d0ada43c05a90d173c637e668fcd" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sky_box_button_selected" kindref="compound">SkyBoxButtonSelected</ref></type>
+        <definition>SkyBoxButtonSelected ShowGaleryAndroid.skyBoxButtonSelected</definition>
+        <argsstring></argsstring>
+        <name>skyBoxButtonSelected</name>
+        <qualifiedname>ShowGaleryAndroid.skyBoxButtonSelected</qualifiedname>
+        <briefdescription>
+<para>Referencia al componente encargado de inicializar el carrusel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ShowGaleryAndroid.cs" line="59" column="34" bodyfile="Assets/Scripts/CarouselScript/ShowGaleryAndroid.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_show_galery_android_1a6363d933d33723a8f797fa8beeaee5a1" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ShowGaleryAndroid.carouselRender</definition>
+        <argsstring></argsstring>
+        <name>carouselRender</name>
+        <qualifiedname>ShowGaleryAndroid.carouselRender</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>Bandera para determinar si el carrusel ya ha sido renderizado. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ShowGaleryAndroid.cs" line="64" column="18" bodyfile="Assets/Scripts/CarouselScript/ShowGaleryAndroid.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_show_galery_android_1a422618bf1233d9fd376cea46a7b5f0f7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShowGaleryAndroid.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>ShowGaleryAndroid.Awake</qualifiedname>
+        <briefdescription>
+<para>Método llamado al inicializar el script. Configura el estado inicial del panel y fuerza la inicialización del carrusel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ShowGaleryAndroid.cs" line="69" column="18" bodyfile="Assets/Scripts/CarouselScript/ShowGaleryAndroid.cs" bodystart="69" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_show_galery_android_1ac7856b39c3e9031ee2bc502ff0ad02f4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator ShowGaleryAndroid.AnimatePanel</definition>
+        <argsstring>(Vector2 fromPos, Vector2 toPos, float fromAlpha, float toAlpha, bool setActiveAtEnd)</argsstring>
+        <name>AnimatePanel</name>
+        <qualifiedname>ShowGaleryAndroid.AnimatePanel</qualifiedname>
+        <param>
+          <type>Vector2</type>
+          <declname>fromPos</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>toPos</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>fromAlpha</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>toAlpha</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>setActiveAtEnd</declname>
+        </param>
+        <briefdescription>
+<para>Corrutina que anima el panel desde una posición y opacidad inicial hasta una posición y opacidad final. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fromPos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Posición inicial del panel.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>toPos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Posición final del panel.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fromAlpha</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Opacidad inicial del panel.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>toAlpha</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Opacidad final del panel.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>setActiveAtEnd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Indica si el panel debe permanecer activo al finalizar la animación.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Corrutina de animación.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ShowGaleryAndroid.cs" line="135" column="25" bodyfile="Assets/Scripts/CarouselScript/ShowGaleryAndroid.cs" bodystart="135" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_show_galery_android_1a543a79028b73b61815b15a681475df0c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator ShowGaleryAndroid.ForceInitializeGalleryAtStart</definition>
+        <argsstring>()</argsstring>
+        <name>ForceInitializeGalleryAtStart</name>
+        <qualifiedname>ShowGaleryAndroid.ForceInitializeGalleryAtStart</qualifiedname>
+        <briefdescription>
+<para>Corrutina que fuerza la inicialización del carrusel al inicio, asegurando que los layouts se actualicen correctamente. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Corrutina de inicialización.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ShowGaleryAndroid.cs" line="161" column="25" bodyfile="Assets/Scripts/CarouselScript/ShowGaleryAndroid.cs" bodystart="161" bodyend="182"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_show_galery_android_1ac1d31e85a59024a54f8efd8be4756796" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShowGaleryAndroid.Toggle</definition>
+        <argsstring>()</argsstring>
+        <name>Toggle</name>
+        <qualifiedname>ShowGaleryAndroid.Toggle</qualifiedname>
+        <briefdescription>
+<para>Alterna la visibilidad del panel, mostrando u ocultando con animación. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ShowGaleryAndroid.cs" line="94" column="17" bodyfile="Assets/Scripts/CarouselScript/ShowGaleryAndroid.cs" bodystart="94" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_show_galery_android_1ab5cda12ce577cfc86fd13d4c33822e72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShowGaleryAndroid.CloseCorouselOnClick</definition>
+        <argsstring>()</argsstring>
+        <name>CloseCorouselOnClick</name>
+        <qualifiedname>ShowGaleryAndroid.CloseCorouselOnClick</qualifiedname>
+        <briefdescription>
+<para>Cierra el carrusel al hacer clic, ocultando el panel con animación. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/CarouselScript/ShowGaleryAndroid.cs" line="187" column="17" bodyfile="Assets/Scripts/CarouselScript/ShowGaleryAndroid.cs" bodystart="187" bodyend="194"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Clase que controla la visualización de una galería en Android, incluyendo la animación de un panel y la inicialización de un carrusel. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ShowGaleryAndroid</label>
+        <link refid="class_show_galery_android"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ShowGaleryAndroid</label>
+        <link refid="class_show_galery_android"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/CarouselScript/ShowGaleryAndroid.cs" line="10" column="7" bodyfile="Assets/Scripts/CarouselScript/ShowGaleryAndroid.cs" bodystart="11" bodyend="195"/>
+    <listofallmembers>
+      <member refid="class_show_galery_android_1ac7856b39c3e9031ee2bc502ff0ad02f4" prot="private" virt="non-virtual"><scope>ShowGaleryAndroid</scope><name>AnimatePanel</name></member>
+      <member refid="class_show_galery_android_1afcf036387114edf79e4ae4e61ce0af37" prot="private" virt="non-virtual"><scope>ShowGaleryAndroid</scope><name>animationCoroutine</name></member>
+      <member refid="class_show_galery_android_1a10b5b4b33eb04ef2e593215690aa4943" prot="private" virt="non-virtual"><scope>ShowGaleryAndroid</scope><name>animationDuration</name></member>
+      <member refid="class_show_galery_android_1a422618bf1233d9fd376cea46a7b5f0f7" prot="private" virt="non-virtual"><scope>ShowGaleryAndroid</scope><name>Awake</name></member>
+      <member refid="class_show_galery_android_1a9d7a047b5793581175496033df85c804" prot="private" virt="non-virtual"><scope>ShowGaleryAndroid</scope><name>buttonText</name></member>
+      <member refid="class_show_galery_android_1ac9414f0025a24c6870bd4d7ea2d38b97" prot="private" virt="non-virtual"><scope>ShowGaleryAndroid</scope><name>canvasGroup</name></member>
+      <member refid="class_show_galery_android_1a6363d933d33723a8f797fa8beeaee5a1" prot="private" virt="non-virtual"><scope>ShowGaleryAndroid</scope><name>carouselRender</name></member>
+      <member refid="class_show_galery_android_1ab5cda12ce577cfc86fd13d4c33822e72" prot="public" virt="non-virtual"><scope>ShowGaleryAndroid</scope><name>CloseCorouselOnClick</name></member>
+      <member refid="class_show_galery_android_1a543a79028b73b61815b15a681475df0c" prot="private" virt="non-virtual"><scope>ShowGaleryAndroid</scope><name>ForceInitializeGalleryAtStart</name></member>
+      <member refid="class_show_galery_android_1aa753848c38b6026c43ec0f530b2e63a3" prot="private" virt="non-virtual"><scope>ShowGaleryAndroid</scope><name>hiddenPosition</name></member>
+      <member refid="class_show_galery_android_1a197d5629921aab28c1ac0cf723e05899" prot="private" virt="non-virtual"><scope>ShowGaleryAndroid</scope><name>isOpen</name></member>
+      <member refid="class_show_galery_android_1ab7c278d6d410fe9effcb40d460b93719" prot="private" virt="non-virtual"><scope>ShowGaleryAndroid</scope><name>shownPosition</name></member>
+      <member refid="class_show_galery_android_1a0389d0ada43c05a90d173c637e668fcd" prot="private" virt="non-virtual"><scope>ShowGaleryAndroid</scope><name>skyBoxButtonSelected</name></member>
+      <member refid="class_show_galery_android_1a50dc2307d346196e90530b80dff94273" prot="private" virt="non-virtual"><scope>ShowGaleryAndroid</scope><name>targetPanel</name></member>
+      <member refid="class_show_galery_android_1ac1d31e85a59024a54f8efd8be4756796" prot="public" virt="non-virtual"><scope>ShowGaleryAndroid</scope><name>Toggle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
